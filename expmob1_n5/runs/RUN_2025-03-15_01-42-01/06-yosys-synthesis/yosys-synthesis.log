@@ -1,0 +1,907 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2024  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)
+Loaded SDC plugin
+
+1. Executing Liberty frontend: /home/fjjf/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+Imported 428 cell types from liberty file.
+[INFO] Using SDC file '/home/fjjf/circuits/expmob1_n5/runs/RUN_2025-03-15_01-42-01/06-yosys-synthesis/synthesis.abc.sdc' for ABC…
+
+2. Executing Verilog-2005 frontend: /home/fjjf/circuits/expmob1_n5/expmob1.v
+Parsing SystemVerilog input from `/home/fjjf/circuits/expmob1_n5/expmob1.v' to AST representation.
+Storing AST representation for module `$abstract\stage'.
+Storing AST representation for module `$abstract\expmob1'.
+Successfully finished Verilog frontend.
+
+3. Executing HIERARCHY pass (managing design hierarchy).
+
+4. Executing AST frontend in derive mode using pre-parsed AST for module `\expmob1'.
+Generating RTLIL representation for module `\expmob1'.
+
+4.1. Analyzing design hierarchy..
+Top module:  \expmob1
+Parameter \N = 32
+Parameter \log2_N = 5
+Parameter \stage_number = 4
+
+4.2. Executing AST frontend in derive mode using pre-parsed AST for module `\stage'.
+Parameter \N = 32
+Parameter \log2_N = 5
+Parameter \stage_number = 4
+Generating RTLIL representation for module `$paramod$ecac8052d34b9a0619e1f81825289ca4a9fd474c\stage'.
+Parameter \N = 32
+Parameter \log2_N = 5
+Parameter \stage_number = 3
+
+4.3. Executing AST frontend in derive mode using pre-parsed AST for module `\stage'.
+Parameter \N = 32
+Parameter \log2_N = 5
+Parameter \stage_number = 3
+Generating RTLIL representation for module `$paramod$1e590169a3ec49c2b992865636f83af7799b3ddf\stage'.
+Parameter \N = 32
+Parameter \log2_N = 5
+Parameter \stage_number = 2
+
+4.4. Executing AST frontend in derive mode using pre-parsed AST for module `\stage'.
+Parameter \N = 32
+Parameter \log2_N = 5
+Parameter \stage_number = 2
+Generating RTLIL representation for module `$paramod$4c3c7cf1848a41e4ce96250cdfc90f80306b5261\stage'.
+Parameter \N = 32
+Parameter \log2_N = 5
+Parameter \stage_number = 1
+
+4.5. Executing AST frontend in derive mode using pre-parsed AST for module `\stage'.
+Parameter \N = 32
+Parameter \log2_N = 5
+Parameter \stage_number = 1
+Generating RTLIL representation for module `$paramod$9c68dbcb30712f72124752ba7ab2b546c36b9d1c\stage'.
+Parameter \N = 32
+Parameter \log2_N = 5
+Parameter \stage_number = 0
+
+4.6. Executing AST frontend in derive mode using pre-parsed AST for module `\stage'.
+Parameter \N = 32
+Parameter \log2_N = 5
+Parameter \stage_number = 0
+Generating RTLIL representation for module `$paramod$44967110a0bc8211fa934698af6532d97b922860\stage'.
+Reprocessing module expmob1 because instantiated module $paramod$ecac8052d34b9a0619e1f81825289ca4a9fd474c\stage has become available.
+Generating RTLIL representation for module `\expmob1'.
+
+4.7. Analyzing design hierarchy..
+Top module:  \expmob1
+Parameter \N = 32
+Parameter \log2_N = 5
+Parameter \stage_number = 4
+Found cached RTLIL representation for module `$paramod$ecac8052d34b9a0619e1f81825289ca4a9fd474c\stage'.
+Parameter \N = 32
+Parameter \log2_N = 5
+Parameter \stage_number = 3
+Found cached RTLIL representation for module `$paramod$1e590169a3ec49c2b992865636f83af7799b3ddf\stage'.
+Parameter \N = 32
+Parameter \log2_N = 5
+Parameter \stage_number = 2
+Found cached RTLIL representation for module `$paramod$4c3c7cf1848a41e4ce96250cdfc90f80306b5261\stage'.
+Parameter \N = 32
+Parameter \log2_N = 5
+Parameter \stage_number = 1
+Found cached RTLIL representation for module `$paramod$9c68dbcb30712f72124752ba7ab2b546c36b9d1c\stage'.
+Parameter \N = 32
+Parameter \log2_N = 5
+Parameter \stage_number = 0
+Found cached RTLIL representation for module `$paramod$44967110a0bc8211fa934698af6532d97b922860\stage'.
+
+4.8. Analyzing design hierarchy..
+Top module:  \expmob1
+Used module:     $paramod$ecac8052d34b9a0619e1f81825289ca4a9fd474c\stage
+Used module:     $paramod$1e590169a3ec49c2b992865636f83af7799b3ddf\stage
+Used module:     $paramod$4c3c7cf1848a41e4ce96250cdfc90f80306b5261\stage
+Used module:     $paramod$9c68dbcb30712f72124752ba7ab2b546c36b9d1c\stage
+Used module:     $paramod$44967110a0bc8211fa934698af6532d97b922860\stage
+
+4.9. Analyzing design hierarchy..
+Top module:  \expmob1
+Used module:     $paramod$ecac8052d34b9a0619e1f81825289ca4a9fd474c\stage
+Used module:     $paramod$1e590169a3ec49c2b992865636f83af7799b3ddf\stage
+Used module:     $paramod$4c3c7cf1848a41e4ce96250cdfc90f80306b5261\stage
+Used module:     $paramod$9c68dbcb30712f72124752ba7ab2b546c36b9d1c\stage
+Used module:     $paramod$44967110a0bc8211fa934698af6532d97b922860\stage
+Removing unused module `$abstract\expmob1'.
+Removing unused module `$abstract\stage'.
+Removed 2 unused modules.
+Renaming module expmob1 to expmob1.
+
+5. Generating Graphviz representation of design.
+Writing dot description to `/home/fjjf/circuits/expmob1_n5/runs/RUN_2025-03-15_01-42-01/06-yosys-synthesis/hierarchy.dot'.
+Dumping module expmob1 to page 1.
+
+6. Executing TRIBUF pass.
+
+7. Executing HIERARCHY pass (managing design hierarchy).
+
+7.1. Analyzing design hierarchy..
+Top module:  \expmob1
+Used module:     $paramod$ecac8052d34b9a0619e1f81825289ca4a9fd474c\stage
+Used module:     $paramod$1e590169a3ec49c2b992865636f83af7799b3ddf\stage
+Used module:     $paramod$4c3c7cf1848a41e4ce96250cdfc90f80306b5261\stage
+Used module:     $paramod$9c68dbcb30712f72124752ba7ab2b546c36b9d1c\stage
+Used module:     $paramod$44967110a0bc8211fa934698af6532d97b922860\stage
+
+7.2. Analyzing design hierarchy..
+Top module:  \expmob1
+Used module:     $paramod$ecac8052d34b9a0619e1f81825289ca4a9fd474c\stage
+Used module:     $paramod$1e590169a3ec49c2b992865636f83af7799b3ddf\stage
+Used module:     $paramod$4c3c7cf1848a41e4ce96250cdfc90f80306b5261\stage
+Used module:     $paramod$9c68dbcb30712f72124752ba7ab2b546c36b9d1c\stage
+Used module:     $paramod$44967110a0bc8211fa934698af6532d97b922860\stage
+Removed 0 unused modules.
+
+8. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+9. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed a total of 0 dead cases.
+
+10. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 5 assignments to connections.
+
+11. Executing PROC_INIT pass (extract init attributes).
+
+12. Executing PROC_ARST pass (detect async resets in processes).
+
+13. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+
+14. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\expmob1.$proc$/home/fjjf/circuits/expmob1_n5/expmob1.v:0$90'.
+
+15. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\expmob1.\middle[0]' from process `\expmob1.$proc$/home/fjjf/circuits/expmob1_n5/expmob1.v:0$90'.
+No latch inferred for signal `\expmob1.\middle[1]' from process `\expmob1.$proc$/home/fjjf/circuits/expmob1_n5/expmob1.v:0$90'.
+No latch inferred for signal `\expmob1.\middle[2]' from process `\expmob1.$proc$/home/fjjf/circuits/expmob1_n5/expmob1.v:0$90'.
+No latch inferred for signal `\expmob1.\middle[3]' from process `\expmob1.$proc$/home/fjjf/circuits/expmob1_n5/expmob1.v:0$90'.
+No latch inferred for signal `\expmob1.\middle[4]' from process `\expmob1.$proc$/home/fjjf/circuits/expmob1_n5/expmob1.v:0$90'.
+
+16. Executing PROC_DFF pass (convert process syncs to FFs).
+
+17. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+18. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Removing empty process `expmob1.$proc$/home/fjjf/circuits/expmob1_n5/expmob1.v:0$90'.
+Cleaned up 0 empty switches.
+
+19. Executing CHECK pass (checking for obvious problems).
+Checking module expmob1...
+Checking module $paramod$1e590169a3ec49c2b992865636f83af7799b3ddf\stage...
+Checking module $paramod$ecac8052d34b9a0619e1f81825289ca4a9fd474c\stage...
+Checking module $paramod$44967110a0bc8211fa934698af6532d97b922860\stage...
+Checking module $paramod$4c3c7cf1848a41e4ce96250cdfc90f80306b5261\stage...
+Checking module $paramod$9c68dbcb30712f72124752ba7ab2b546c36b9d1c\stage...
+Found and reported 0 problems.
+
+20. Executing OPT_EXPR pass (perform const folding).
+Optimizing module expmob1.
+Optimizing module $paramod$1e590169a3ec49c2b992865636f83af7799b3ddf\stage.
+Optimizing module $paramod$ecac8052d34b9a0619e1f81825289ca4a9fd474c\stage.
+Optimizing module $paramod$44967110a0bc8211fa934698af6532d97b922860\stage.
+Optimizing module $paramod$4c3c7cf1848a41e4ce96250cdfc90f80306b5261\stage.
+Optimizing module $paramod$9c68dbcb30712f72124752ba7ab2b546c36b9d1c\stage.
+
+21. Executing FLATTEN pass (flatten design).
+Deleting now unused module $paramod$1e590169a3ec49c2b992865636f83af7799b3ddf\stage.
+Deleting now unused module $paramod$ecac8052d34b9a0619e1f81825289ca4a9fd474c\stage.
+Deleting now unused module $paramod$44967110a0bc8211fa934698af6532d97b922860\stage.
+Deleting now unused module $paramod$4c3c7cf1848a41e4ce96250cdfc90f80306b5261\stage.
+Deleting now unused module $paramod$9c68dbcb30712f72124752ba7ab2b546c36b9d1c\stage.
+<suppressed ~5 debug messages>
+
+22. Executing OPT_EXPR pass (perform const folding).
+Optimizing module expmob1.
+
+23. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \expmob1..
+Removed 0 unused cells and 95 unused wires.
+<suppressed ~2 debug messages>
+
+24. Executing OPT_EXPR pass (perform const folding).
+Optimizing module expmob1.
+
+25. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\expmob1'.
+Removed a total of 0 cells.
+
+26. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \expmob1..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+27. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \expmob1.
+Performed a total of 0 changes.
+
+28. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\expmob1'.
+Removed a total of 0 cells.
+
+29. Executing OPT_DFF pass (perform DFF optimizations).
+
+30. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \expmob1..
+
+31. Executing OPT_EXPR pass (perform const folding).
+Optimizing module expmob1.
+
+32. Executing FSM pass (extract and optimize FSM).
+
+32.1. Executing FSM_DETECT pass (finding FSMs in design).
+
+32.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+
+32.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+32.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \expmob1..
+
+32.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+32.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+
+32.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+
+32.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+
+33. Executing OPT_EXPR pass (perform const folding).
+Optimizing module expmob1.
+
+34. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\expmob1'.
+Removed a total of 0 cells.
+
+35. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \expmob1..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+36. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \expmob1.
+Performed a total of 0 changes.
+
+37. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\expmob1'.
+Removed a total of 0 cells.
+
+38. Executing OPT_DFF pass (perform DFF optimizations).
+
+39. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \expmob1..
+
+40. Executing OPT_EXPR pass (perform const folding).
+Optimizing module expmob1.
+
+41. Executing WREDUCE pass (reducing word size of cells).
+
+42. Executing PEEPOPT pass (run peephole optimizers).
+
+43. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \expmob1..
+
+44. Executing ALUMACC pass (create $alu and $macc cells).
+Extracting $alu and $macc cells in module expmob1:
+  created 0 $alu and 0 $macc cells.
+
+45. Executing SHARE pass (SAT-based resource sharing).
+
+46. Executing OPT_EXPR pass (perform const folding).
+Optimizing module expmob1.
+
+47. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\expmob1'.
+Removed a total of 0 cells.
+
+48. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \expmob1..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+49. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \expmob1.
+Performed a total of 0 changes.
+
+50. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\expmob1'.
+Removed a total of 0 cells.
+
+51. Executing OPT_DFF pass (perform DFF optimizations).
+
+52. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \expmob1..
+
+53. Executing OPT_EXPR pass (perform const folding).
+Optimizing module expmob1.
+
+54. Executing MEMORY pass.
+
+54.1. Executing OPT_MEM pass (optimize memories).
+Performed a total of 0 transformations.
+
+54.2. Executing OPT_MEM_PRIORITY pass (removing unnecessary memory write priority relations).
+Performed a total of 0 transformations.
+
+54.3. Executing OPT_MEM_FEEDBACK pass (finding memory read-to-write feedback paths).
+
+54.4. Executing MEMORY_BMUX2ROM pass (converting muxes to ROMs).
+
+54.5. Executing MEMORY_DFF pass (merging $dff cells to $memrd).
+
+54.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \expmob1..
+
+54.7. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+
+54.8. Executing OPT_MEM_WIDEN pass (optimize memories where all ports are wide).
+Performed a total of 0 transformations.
+
+54.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \expmob1..
+
+54.10. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+55. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \expmob1..
+
+56. Executing OPT_EXPR pass (perform const folding).
+Optimizing module expmob1.
+
+57. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\expmob1'.
+Removed a total of 0 cells.
+
+58. Executing OPT_DFF pass (perform DFF optimizations).
+
+59. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \expmob1..
+
+60. Executing MEMORY_MAP pass (converting memories to logic and flip-flops).
+
+61. Executing OPT_EXPR pass (perform const folding).
+Optimizing module expmob1.
+
+62. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\expmob1'.
+Removed a total of 0 cells.
+
+63. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \expmob1..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+64. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \expmob1.
+Performed a total of 0 changes.
+
+65. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\expmob1'.
+Removed a total of 0 cells.
+
+66. Executing OPT_SHARE pass.
+
+67. Executing OPT_DFF pass (perform DFF optimizations).
+
+68. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \expmob1..
+
+69. Executing OPT_EXPR pass (perform const folding).
+Optimizing module expmob1.
+
+70. Executing TECHMAP pass (map to technology primitives).
+
+70.1. Executing Verilog-2005 frontend: /nix/store/9r0bh7sp051dpm8km8bqlb028anpd3v3-yosys/bin/../share/yosys/techmap.v
+Parsing Verilog input from `/nix/store/9r0bh7sp051dpm8km8bqlb028anpd3v3-yosys/bin/../share/yosys/techmap.v' to AST representation.
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu_brent_kung'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `\$__div_mod_u'.
+Generating RTLIL representation for module `\$__div_mod_trunc'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `\$__div_mod_floor'.
+Generating RTLIL representation for module `\_90_divfloor'.
+Generating RTLIL representation for module `\_90_modfloor'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_pmux'.
+Generating RTLIL representation for module `\_90_demux'.
+Generating RTLIL representation for module `\_90_lut'.
+Successfully finished Verilog frontend.
+
+70.2. Continuing TECHMAP pass.
+Using extmapper simplemap for cells of type $xor.
+No more expansions possible.
+<suppressed ~153 debug messages>
+
+71. Executing OPT_EXPR pass (perform const folding).
+Optimizing module expmob1.
+
+72. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\expmob1'.
+Removed a total of 0 cells.
+
+73. Executing OPT_DFF pass (perform DFF optimizations).
+
+74. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \expmob1..
+
+75. Executing OPT_EXPR pass (perform const folding).
+Optimizing module expmob1.
+
+76. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\expmob1'.
+Removed a total of 0 cells.
+
+77. Executing OPT_DFF pass (perform DFF optimizations).
+
+78. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \expmob1..
+
+79. Executing ABC pass (technology mapping using ABC).
+
+79.1. Extracting gate netlist of module `\expmob1' to `<abc-temp-dir>/input.blif'..
+Extracted 80 gates and 112 wires to a netlist network with 32 inputs and 31 outputs.
+
+79.1.1. Executing ABC.
+Running ABC command: "/nix/store/6l3aj1gi4lja8z5s4lan2k2cfz9mqkrz-yosys-abc/bin/abc" -s -f <abc-temp-dir>/abc.script 2>&1
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: Entered genlib library with 13 gates from file "<abc-temp-dir>/stdcells.genlib".
+ABC: + strash 
+ABC: + dretime 
+ABC: + map 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+79.1.2. Re-integrating ABC results.
+ABC RESULTS:               NOT cells:        4
+ABC RESULTS:              XNOR cells:       24
+ABC RESULTS:               XOR cells:       59
+ABC RESULTS:        internal signals:       49
+ABC RESULTS:           input signals:       32
+ABC RESULTS:          output signals:       31
+Removing temp directory.
+
+80. Executing OPT pass (performing simple optimizations).
+
+80.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module expmob1.
+
+80.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\expmob1'.
+Removed a total of 0 cells.
+
+80.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+80.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \expmob1..
+Removed 0 unused cells and 63 unused wires.
+<suppressed ~1 debug messages>
+
+80.5. Finished fast OPT passes.
+
+81. Executing HIERARCHY pass (managing design hierarchy).
+
+81.1. Analyzing design hierarchy..
+Top module:  \expmob1
+
+81.2. Analyzing design hierarchy..
+Top module:  \expmob1
+Removed 0 unused modules.
+
+82. Executing CHECK pass (checking for obvious problems).
+Checking module expmob1...
+Found and reported 0 problems.
+
+83. Printing statistics.
+
+=== expmob1 ===
+
+   Number of wires:                 73
+   Number of wire bits:            600
+   Number of public wires:          17
+   Number of public wire bits:     544
+   Number of ports:                  2
+   Number of port bits:             64
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 92
+     $_NOT_                          4
+     $_XNOR_                        24
+     $_XOR_                         59
+     $scopeinfo                      5
+
+84. Generating Graphviz representation of design.
+Writing dot description to `/home/fjjf/circuits/expmob1_n5/runs/RUN_2025-03-15_01-42-01/06-yosys-synthesis/primitive_techmap.dot'.
+Dumping module expmob1 to page 1.
+
+85. Executing OPT pass (performing simple optimizations).
+
+85.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module expmob1.
+
+85.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\expmob1'.
+Removed a total of 0 cells.
+
+85.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \expmob1..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+85.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \expmob1.
+Performed a total of 0 changes.
+
+85.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\expmob1'.
+Removed a total of 0 cells.
+
+85.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+85.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \expmob1..
+
+85.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module expmob1.
+
+85.9. Finished OPT passes. (There is nothing left to do.)
+
+86. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \expmob1..
+Removed 5 unused cells and 15 unused wires.
+<suppressed ~20 debug messages>
+{
+   "creator": "Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)",
+   "invocation": "stat -json -liberty /home/fjjf/circuits/expmob1_n5/runs/RUN_2025-03-15_01-42-01/tmp/6a8516738ab74bc49b4e2f682ac0c8f3.lib ",
+   "modules": {
+      "\\expmob1": {
+         "num_wires":         58,
+         "num_wire_bits":     120,
+         "num_pub_wires":     2,
+         "num_pub_wire_bits": 64,
+         "num_ports":         2,
+         "num_port_bits":     64,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         87,
+         "num_cells_by_type": {
+            "$_NOT_": 4,
+            "$_XNOR_": 24,
+            "$_XOR_": 59
+         }
+      }
+   },
+      "design": {
+         "num_wires":         58,
+         "num_wire_bits":     120,
+         "num_pub_wires":     2,
+         "num_pub_wire_bits": 64,
+         "num_ports":         2,
+         "num_port_bits":     64,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         87,
+         "num_cells_by_type": {
+            "$_NOT_": 4,
+            "$_XNOR_": 24,
+            "$_XOR_": 59
+         }
+      }
+}
+
+87. Printing statistics.
+
+=== expmob1 ===
+
+   Number of wires:                 58
+   Number of wire bits:            120
+   Number of public wires:           2
+   Number of public wire bits:      64
+   Number of ports:                  2
+   Number of port bits:             64
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 87
+     $_NOT_                          4
+     $_XNOR_                        24
+     $_XOR_                         59
+
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+
+[INFO] Applying tri-state buffer mapping from '/home/fjjf/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tribuff_map.v'…
+
+88. Executing TECHMAP pass (map to technology primitives).
+
+88.1. Executing Verilog-2005 frontend: /home/fjjf/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tribuff_map.v
+Parsing Verilog input from `/home/fjjf/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tribuff_map.v' to AST representation.
+Generating RTLIL representation for module `\$_TBUF_'.
+Successfully finished Verilog frontend.
+
+88.2. Continuing TECHMAP pass.
+No more expansions possible.
+<suppressed ~3 debug messages>
+
+89. Executing SIMPLEMAP pass (map simple cells to gate primitives).
+[INFO] Applying latch mapping from '/home/fjjf/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/openlane/sky130_fd_sc_hd/latch_map.v'…
+
+90. Executing TECHMAP pass (map to technology primitives).
+
+90.1. Executing Verilog-2005 frontend: /home/fjjf/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/openlane/sky130_fd_sc_hd/latch_map.v
+Parsing Verilog input from `/home/fjjf/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/openlane/sky130_fd_sc_hd/latch_map.v' to AST representation.
+Generating RTLIL representation for module `\$_DLATCH_P_'.
+Generating RTLIL representation for module `\$_DLATCH_N_'.
+Successfully finished Verilog frontend.
+
+90.2. Continuing TECHMAP pass.
+No more expansions possible.
+<suppressed ~4 debug messages>
+
+91. Executing SIMPLEMAP pass (map simple cells to gate primitives).
+
+92. Executing DFFLIBMAP pass (mapping DFF cells to sequential cells from liberty file).
+  cell sky130_fd_sc_hd__dfxtp_2 (noninv, pins=3, area=21.27) is a direct match for cell type $_DFF_P_.
+  cell sky130_fd_sc_hd__dfrtp_2 (noninv, pins=4, area=26.28) is a direct match for cell type $_DFF_PN0_.
+  cell sky130_fd_sc_hd__dfstp_2 (noninv, pins=4, area=26.28) is a direct match for cell type $_DFF_PN1_.
+  cell sky130_fd_sc_hd__dfbbn_2 (noninv, pins=6, area=35.03) is a direct match for cell type $_DFFSR_NNN_.
+  final dff cell mappings:
+    unmapped dff cell: $_DFF_N_
+    \sky130_fd_sc_hd__dfxtp_2 _DFF_P_ (.CLK( C), .D( D), .Q( Q));
+    unmapped dff cell: $_DFF_NN0_
+    unmapped dff cell: $_DFF_NN1_
+    unmapped dff cell: $_DFF_NP0_
+    unmapped dff cell: $_DFF_NP1_
+    \sky130_fd_sc_hd__dfrtp_2 _DFF_PN0_ (.CLK( C), .D( D), .Q( Q), .RESET_B( R));
+    \sky130_fd_sc_hd__dfstp_2 _DFF_PN1_ (.CLK( C), .D( D), .Q( Q), .SET_B( R));
+    unmapped dff cell: $_DFF_PP0_
+    unmapped dff cell: $_DFF_PP1_
+    \sky130_fd_sc_hd__dfbbn_2 _DFFSR_NNN_ (.CLK_N( C), .D( D), .Q( Q), .Q_N(~Q), .RESET_B( R), .SET_B( S));
+    unmapped dff cell: $_DFFSR_NNP_
+    unmapped dff cell: $_DFFSR_NPN_
+    unmapped dff cell: $_DFFSR_NPP_
+    unmapped dff cell: $_DFFSR_PNN_
+    unmapped dff cell: $_DFFSR_PNP_
+    unmapped dff cell: $_DFFSR_PPN_
+    unmapped dff cell: $_DFFSR_PPP_
+
+92.1. Executing DFFLEGALIZE pass (convert FFs to types supported by the target).
+Mapping DFF cells in module `\expmob1':
+{
+   "creator": "Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)",
+   "invocation": "stat -json -liberty /home/fjjf/circuits/expmob1_n5/runs/RUN_2025-03-15_01-42-01/tmp/6a8516738ab74bc49b4e2f682ac0c8f3.lib ",
+   "modules": {
+      "\\expmob1": {
+         "num_wires":         58,
+         "num_wire_bits":     120,
+         "num_pub_wires":     2,
+         "num_pub_wire_bits": 64,
+         "num_ports":         2,
+         "num_port_bits":     64,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         87,
+         "num_cells_by_type": {
+            "$_NOT_": 4,
+            "$_XNOR_": 24,
+            "$_XOR_": 59
+         }
+      }
+   },
+      "design": {
+         "num_wires":         58,
+         "num_wire_bits":     120,
+         "num_pub_wires":     2,
+         "num_pub_wire_bits": 64,
+         "num_ports":         2,
+         "num_port_bits":     64,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         87,
+         "num_cells_by_type": {
+            "$_NOT_": 4,
+            "$_XNOR_": 24,
+            "$_XOR_": 59
+         }
+      }
+}
+
+93. Printing statistics.
+
+=== expmob1 ===
+
+   Number of wires:                 58
+   Number of wire bits:            120
+   Number of public wires:           2
+   Number of public wire bits:      64
+   Number of ports:                  2
+   Number of port bits:             64
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 87
+     $_NOT_                          4
+     $_XNOR_                        24
+     $_XOR_                         59
+
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+
+[INFO] Using generated ABC script '/home/fjjf/circuits/expmob1_n5/runs/RUN_2025-03-15_01-42-01/06-yosys-synthesis/AREA_0.abc'…
+
+94. Executing ABC pass (technology mapping using ABC).
+
+94.1. Extracting gate netlist of module `\expmob1' to `/tmp/yosys-abc-c90Pki/input.blif'..
+Extracted 87 gates and 119 wires to a netlist network with 32 inputs and 31 outputs.
+
+94.1.1. Executing ABC.
+Running ABC command: "/nix/store/6l3aj1gi4lja8z5s4lan2k2cfz9mqkrz-yosys-abc/bin/abc" -s -f /tmp/yosys-abc-c90Pki/abc.script 2>&1
+ABC: ABC command line: "source /tmp/yosys-abc-c90Pki/abc.script".
+ABC: 
+ABC: + read_blif /tmp/yosys-abc-c90Pki/input.blif 
+ABC: + read_lib -w /home/fjjf/circuits/expmob1_n5/runs/RUN_2025-03-15_01-42-01/tmp/6a8516738ab74bc49b4e2f682ac0c8f3.lib 
+ABC: Parsing finished successfully.  Parsing time =     0.02 sec
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfbbn_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfrbp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfrtp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfrtp_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfsbp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfstp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfstp_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfxbp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfxtp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfxtp_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlxtn_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlxtn_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlxtn_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlxtp_1".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__ebufn_2".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__ebufn_4".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__ebufn_8".
+ABC: Library "sky130_fd_sc_hd__tt_025C_1v80" from "/home/fjjf/circuits/expmob1_n5/runs/RUN_2025-03-15_01-42-01/tmp/6a8516738ab74bc49b4e2f682ac0c8f3.lib" has 175 cells (17 skipped: 14 seq; 3 tri-state; 0 no func; 0 dont_use).  Time =     0.04 sec
+ABC: Memory =    9.54 MB. Time =     0.04 sec
+ABC: Warning: Detected 2 multi-output gates (for example, "sky130_fd_sc_hd__fa_1").
+ABC: + read_constr -v /home/fjjf/circuits/expmob1_n5/runs/RUN_2025-03-15_01-42-01/06-yosys-synthesis/synthesis.abc.sdc 
+ABC: Setting driving cell to be "sky130_fd_sc_hd__inv_2/Y".
+ABC: Setting output load to be 33.442001.
+ABC: + source /home/fjjf/circuits/expmob1_n5/runs/RUN_2025-03-15_01-42-01/06-yosys-synthesis/AREA_0.abc 
+ABC: Error: The network is combinational.
+ABC: Cannot find the default PI driving cell (sky130_fd_sc_hd__inv_2/Y) in the library.
+ABC: WireLoad = "none"  Gates =     80 (  0.0 %)   Cap = 21.4 ff (  0.0 %)   Area =     1301.25 (100.0 %)   Delay =  2790.65 ps  (  6.2 %)               
+ABC: Path  0 --       1 : 0    1 pi                       A =   0.00  Df =   0.0   -0.0 ps  S =   0.0 ps  Cin =  0.0 ff  Cout =   9.4 ff  Cmax =   0.0 ff  G =    0  
+ABC: Path  1 --      64 : 2    5 sky130_fd_sc_hd__xor2_2  A =  16.27  Df = 652.9 -367.8 ps  S = 832.0 ps  Cin =  8.6 ff  Cout =  70.3 ff  Cmax = 130.0 ff  G =  802  
+ABC: Path  2 --      70 : 2    4 sky130_fd_sc_hd__xnor2_2 A =  16.27  Df =1205.3 -212.0 ps  S = 768.5 ps  Cin =  8.5 ff  Cout =  60.9 ff  Cmax = 121.8 ff  G =  705  
+ABC: Path  3 --      72 : 2    3 sky130_fd_sc_hd__xnor2_2 A =  16.27  Df =1857.5 -350.7 ps  S = 664.8 ps  Cin =  8.5 ff  Cout =  51.9 ff  Cmax = 121.8 ff  G =  603  
+ABC: Path  4 --      83 : 2    2 sky130_fd_sc_hd__xnor2_2 A =  16.27  Df =2322.2 -255.3 ps  S = 557.0 ps  Cin =  8.5 ff  Cout =  42.5 ff  Cmax = 121.8 ff  G =  497  
+ABC: Path  5 --     111 : 2    1 sky130_fd_sc_hd__xnor2_2 A =  16.27  Df =2790.7 -316.4 ps  S = 453.3 ps  Cin =  8.5 ff  Cout =  33.4 ff  Cmax = 121.8 ff  G =  394  
+ABC: Start-point = pi0 (\inputs [15]).  End-point = po15 (\outputs [0]).
+ABC: netlist                       : i/o =   32/   31  lat =    0  nd =    80  edge =    160  area =1301.60  delay = 5.00  lev = 5
+ABC: + write_blif /tmp/yosys-abc-c90Pki/output.blif 
+
+94.1.2. Re-integrating ABC results.
+ABC RESULTS:   sky130_fd_sc_hd__xnor2_2 cells:       50
+ABC RESULTS:   sky130_fd_sc_hd__xor2_2 cells:       30
+ABC RESULTS:        internal signals:       56
+ABC RESULTS:           input signals:       32
+ABC RESULTS:          output signals:       31
+Removing temp directory.
+
+95. Executing SETUNDEF pass (replace undef values with defined constants).
+
+96. Executing HILOMAP pass (mapping to constant drivers).
+
+97. Executing SPLITNETS pass (splitting up multi-bit signals).
+
+98. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \expmob1..
+Removed 0 unused cells and 119 unused wires.
+<suppressed ~1 debug messages>
+
+99. Executing INSBUF pass (insert buffer cells for connected wires).
+Add expmob1/$auto$insbuf.cc:97:execute$423: \inputs [31] -> \outputs [31]
+
+100. Executing CHECK pass (checking for obvious problems).
+Checking module expmob1...
+Found and reported 0 problems.
+{
+   "creator": "Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)",
+   "invocation": "stat -json -liberty /home/fjjf/circuits/expmob1_n5/runs/RUN_2025-03-15_01-42-01/tmp/6a8516738ab74bc49b4e2f682ac0c8f3.lib ",
+   "modules": {
+      "\\expmob1": {
+         "num_wires":         51,
+         "num_wire_bits":     113,
+         "num_pub_wires":     2,
+         "num_pub_wire_bits": 64,
+         "num_ports":         2,
+         "num_port_bits":     64,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         81,
+         "area":              1306.252800,
+         "num_cells_by_type": {
+            "sky130_fd_sc_hd__buf_2": 1,
+            "sky130_fd_sc_hd__xnor2_2": 50,
+            "sky130_fd_sc_hd__xor2_2": 30
+         }
+      }
+   },
+      "design": {
+         "num_wires":         51,
+         "num_wire_bits":     113,
+         "num_pub_wires":     2,
+         "num_pub_wire_bits": 64,
+         "num_ports":         2,
+         "num_port_bits":     64,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         81,
+         "area":              1306.252800,
+         "num_cells_by_type": {
+            "sky130_fd_sc_hd__buf_2": 1,
+            "sky130_fd_sc_hd__xnor2_2": 50,
+            "sky130_fd_sc_hd__xor2_2": 30
+         }
+      }
+}
+
+101. Printing statistics.
+
+=== expmob1 ===
+
+   Number of wires:                 51
+   Number of wire bits:            113
+   Number of public wires:           2
+   Number of public wire bits:      64
+   Number of ports:                  2
+   Number of port bits:             64
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 81
+     sky130_fd_sc_hd__buf_2          1
+     sky130_fd_sc_hd__xnor2_2       50
+     sky130_fd_sc_hd__xor2_2        30
+
+   Chip area for module '\expmob1': 1306.252800
+     of which used for sequential elements: 0.000000 (0.00%)
+
+102. Executing Verilog backend.
+Dumping module `\expmob1'.
+
+103. Executing JSON backend.
