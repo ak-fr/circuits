@@ -1,0 +1,307 @@
+______________________________________________________________________
+n = 5
+Yosys
+   Number of wires:                 51
+   Number of wire bits:            113
+   Number of public wires:           2
+   Number of public wire bits:      64
+   Number of ports:                  2
+   Number of port bits:             64
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 81
+     sky130_fd_sc_hd__buf_2          1
+     sky130_fd_sc_hd__xnor2_2       50
+     sky130_fd_sc_hd__xor2_2        30
+
+   Chip area for module '\expmob1': 1306.252800
+     of which used for sequential elements: 0.000000 (0.00%)
+
+
+
+[INFO DRT-0198] Complete detail routing.
+Total wire length = 2343 um.
+Total wire length on LAYER li1 = 0 um.
+Total wire length on LAYER met1 = 926 um.
+Total wire length on LAYER met2 = 1235 um.
+Total wire length on LAYER met3 = 181 um.
+Total wire length on LAYER met4 = 0 um.
+Total wire length on LAYER met5 = 0 um.
+Total number of vias = 755.
+Up-via summary (total 755):
+
+design__instance__area,1222.42
+design__die__area,4528.87
+design__core__area,2499.9
+
+
+
+
+______________________________________________________________________
+n = 6
+Yosys
+=== expmob1 ===
+
+   Number of wires:                136
+   Number of wire bits:            262
+   Number of public wires:           2
+   Number of public wire bits:     128
+   Number of ports:                  2
+   Number of port bits:            128
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                198
+     sky130_fd_sc_hd__buf_2          1
+     sky130_fd_sc_hd__inv_2          4
+     sky130_fd_sc_hd__xnor2_2      145
+     sky130_fd_sc_hd__xor2_2        48
+
+   Chip area for module '\expmob1': 3159.280000
+     of which used for sequential elements: 0.000000 (0.00%)
+
+
+[INFO DRT-0198] Complete detail routing.
+Total wire length = 7442 um.
+Total wire length on LAYER li1 = 0 um.
+Total wire length on LAYER met1 = 3209 um.
+Total wire length on LAYER met2 = 3893 um.
+Total wire length on LAYER met3 = 339 um.
+Total wire length on LAYER met4 = 0 um.
+Total wire length on LAYER met5 = 0 um.
+Total number of vias = 1728.
+Up-via summary (total 1728):
+
+
+design__instance__area,3193.06
+design__die__area,11025
+design__core__area,7657.34
+
+
+
+______________________________________________________________________
+n = 7
+101. Printing statistics.
+
+=== expmob1 ===
+
+   Number of wires:                329
+   Number of wire bits:            583
+   Number of public wires:           2
+   Number of public wire bits:     256
+   Number of ports:                  2
+   Number of port bits:            256
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                455
+     sky130_fd_sc_hd__buf_2          1
+     sky130_fd_sc_hd__inv_2          6
+     sky130_fd_sc_hd__xnor2_2      326
+     sky130_fd_sc_hd__xor2_2       122
+
+   Chip area for module '\expmob1': 7314.515200
+
+
+[INFO DRT-0198] Complete detail routing.
+Total wire length = 28554 um.
+Total wire length on LAYER li1 = 0 um.
+Total wire length on LAYER met1 = 12607 um.
+Total wire length on LAYER met2 = 14876 um.
+Total wire length on LAYER met3 = 964 um.
+Total wire length on LAYER met4 = 105 um.
+Total wire length on LAYER met5 = 0 um.
+Total number of vias = 3966.
+Up-via summary (total 3966):
+
+
+route__wirelength__estimated,29336.3
+design__instance__area,8908.54
+design__die__area,44100
+design__core__area,37295.8
+
+
+
+______________________________________________________________________
+n = 8
+101. Printing statistics.
+Yosys
+=== expmob1 ===
+
+   Number of wires:                785
+   Number of wire bits:           1295
+   Number of public wires:           2
+   Number of public wire bits:     512
+   Number of ports:                  2
+   Number of port bits:            512
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1039
+     sky130_fd_sc_hd__buf_2          1
+     sky130_fd_sc_hd__inv_2         12
+     sky130_fd_sc_hd__xnor2_2      768
+     sky130_fd_sc_hd__xor2_2       258
+
+   Chip area for module '\expmob1': 16738.553600
+
+
+
+[INFO DRT-0198] Complete detail routing.
+Total wire length = 118013 um.
+Total wire length on LAYER li1 = 0 um.
+Total wire length on LAYER met1 = 53090 um.
+Total wire length on LAYER met2 = 59632 um.
+Total wire length on LAYER met3 = 4297 um.
+Total wire length on LAYER met4 = 992 um.
+Total wire length on LAYER met5 = 0 um.
+Total number of vias = 9432.
+Up-via summary (total 9432):
+
+route__wirelength__estimated,119297
+
+design__instance__area,24886.4
+design__die__area,178929
+design__core__area,164614
+
+
+
+______________________________________________________________________
+n = 9
+
+101. Printing statistics.
+
+=== expmob1 ===
+
+   Number of wires:               1824
+   Number of wire bits:           2846
+   Number of public wires:           2
+   Number of public wire bits:    1024
+   Number of ports:                  2
+   Number of port bits:           1024
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               2334
+     sky130_fd_sc_hd__buf_2          1
+     sky130_fd_sc_hd__inv_2         27
+     sky130_fd_sc_hd__xnor2_2     1715
+     sky130_fd_sc_hd__xor2_2       591
+
+   Chip area for module '\expmob1': 37614.825600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+
+[INFO DRT-0198] Complete detail routing.
+Total wire length = 472789 um.
+Total wire length on LAYER li1 = 0 um.
+Total wire length on LAYER met1 = 220164 um.
+Total wire length on LAYER met2 = 232561 um.
+Total wire length on LAYER met3 = 10194 um.
+Total wire length on LAYER met4 = 9869 um.
+Total wire length on LAYER met5 = 0 um.
+Total number of vias = 23274.
+Up-via summary (total 23274):
+
+
+
+route__wirelength__estimated,475713
+design__instance__area,66985.5
+design__die__area,714025
+design__core__area,684687
+
+
+
+______________________________________________________________________
+n = 10
+101. Printing statistics.
+
+=== expmob1 ===
+
+   Number of wires:               4171
+   Number of wire bits:           6217
+   Number of public wires:           2
+   Number of public wire bits:    2048
+   Number of ports:                  2
+   Number of port bits:           2048
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               5193
+     sky130_fd_sc_hd__buf_2          1
+     sky130_fd_sc_hd__inv_2         66
+     sky130_fd_sc_hd__xnor2_2     3825
+     sky130_fd_sc_hd__xor2_2      1301
+
+   Chip area for module '\expmob1': 83630.208000
+     of which used for sequential elements: 0.000000 (0.00%)
+
+
+[INFO DRT-0198] Complete detail routing.
+Total wire length = 2088993 um.
+Total wire length on LAYER li1 = 0 um.
+Total wire length on LAYER met1 = 981959 um.
+Total wire length on LAYER met2 = 1042700 um.
+Total wire length on LAYER met3 = 43168 um.
+Total wire length on LAYER met4 = 21164 um.
+Total wire length on LAYER met5 = 0 um.
+Total number of vias = 58192.
+Up-via summary (total 58192):
+
+
+route__wirelength,2 088 993
+design__instance__area,195212
+design__die__area,2.89E+6
+design__core__area,2.83398E+6
+
+
+
+______________________________________________________________________
+n = 11
+101. Printing statistics.
+
+=== expmob1 ===
+
+   Number of wires:               9374
+   Number of wire bits:          13468
+   Number of public wires:           2
+   Number of public wire bits:    4096
+   Number of ports:                  2
+   Number of port bits:           4096
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              11420
+     sky130_fd_sc_hd__a21oi_2        2
+     sky130_fd_sc_hd__a31o_2         2
+     sky130_fd_sc_hd__buf_2          1
+     sky130_fd_sc_hd__inv_2        141
+     sky130_fd_sc_hd__nand2_2        2
+     sky130_fd_sc_hd__or2_2          2
+     sky130_fd_sc_hd__xnor2_2     8492
+     sky130_fd_sc_hd__xor2_2      2778
+
+   Chip area for module '\expmob1': 183907.632000
+     of which used for sequential elements: 0.000000 (0.00%)
+
+
+
+[INFO DRT-0198] Complete detail routing.
+Total wire length = 8540613 um.
+Total wire length on LAYER li1 = 0 um.
+Total wire length on LAYER met1 = 3945192 um.
+Total wire length on LAYER met2 = 4203610 um.
+Total wire length on LAYER met3 = 203507 um.
+Total wire length on LAYER met4 = 188302 um.
+Total wire length on LAYER met5 = 0 um.
+Total number of vias = 154925.
+Up-via summary (total 154925):
+
+route__wirelength,8 540 613
+design__instance__area,614 955
+design__die__area,1.156E+7
+design__core__area,1.14482E+7
+
+
+

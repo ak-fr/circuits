@@ -1,7 +1,0 @@
-
-15. Executing PROC_DLATCH pass (convert process syncs to latches).
-No latch inferred for signal `\expmob1.\middle[0]' from process `\expmob1.$proc$/home/fjjf/circuits/expmob1_n5/expmob1.v:0$90'.
-No latch inferred for signal `\expmob1.\middle[1]' from process `\expmob1.$proc$/home/fjjf/circuits/expmob1_n5/expmob1.v:0$90'.
-No latch inferred for signal `\expmob1.\middle[2]' from process `\expmob1.$proc$/home/fjjf/circuits/expmob1_n5/expmob1.v:0$90'.
-No latch inferred for signal `\expmob1.\middle[3]' from process `\expmob1.$proc$/home/fjjf/circuits/expmob1_n5/expmob1.v:0$90'.
-No latch inferred for signal `\expmob1.\middle[4]' from process `\expmob1.$proc$/home/fjjf/circuits/expmob1_n5/expmob1.v:0$90'.

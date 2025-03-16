@@ -1,8 +1,0 @@
-{
-  "DESIGN_NAME": "expmob1",
-  "VERILOG_FILES": ["dir::expmob1.v"],
-  "CLOCK_PERIOD": 25,
-  "CLOCK_PORT": "clk",
-  "DIE_AREA": [0, 0, 150, 150],
-  "FP_SIZING": "absolute"
-}

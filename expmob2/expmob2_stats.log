@@ -1,0 +1,528 @@
+______________________________________________________________________
+n = 5
+
+
+129. Yosys  Printing statistics.
+
+=== expmob2 ===
+
+   Number of wires:                224
+   Number of wire bits:            286
+   Number of public wires:          68
+   Number of public wire bits:     130
+   Number of ports:                  3
+   Number of port bits:             65
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                253
+     sky130_fd_sc_hd__a21boi_2       1
+     sky130_fd_sc_hd__a21o_2         1
+     sky130_fd_sc_hd__a21oi_2        8
+     sky130_fd_sc_hd__a221o_2       31
+     sky130_fd_sc_hd__a31o_2         1
+     sky130_fd_sc_hd__a31oi_2        2
+     sky130_fd_sc_hd__a41oi_2        1
+     sky130_fd_sc_hd__and2_2         7
+     sky130_fd_sc_hd__and2b_2        1
+     sky130_fd_sc_hd__and3_2        45
+     sky130_fd_sc_hd__and4_2        12
+     sky130_fd_sc_hd__buf_2         16
+     sky130_fd_sc_hd__conb_1         1
+     sky130_fd_sc_hd__dfxtp_2       65
+     sky130_fd_sc_hd__inv_2          1
+     sky130_fd_sc_hd__mux2_1         1
+     sky130_fd_sc_hd__nand2_2        1
+     sky130_fd_sc_hd__nand4_2        1
+     sky130_fd_sc_hd__nor2_2        12
+     sky130_fd_sc_hd__o21a_2         1
+     sky130_fd_sc_hd__o21ba_2        1
+     sky130_fd_sc_hd__o21bai_2       1
+     sky130_fd_sc_hd__o2bb2a_2       1
+     sky130_fd_sc_hd__or4_2          9
+     sky130_fd_sc_hd__xnor2_2        2
+     sky130_fd_sc_hd__xor2_2        30
+
+   Chip area for module '\expmob2': 3224.342400
+     of which used for sequential elements: 1382.576000 (42.88%)
+
+
+
+[INFO DRT-0198] Complete detail routing.
+Total wire length = 7257 um.
+Total wire length on LAYER li1 = 0 um.
+Total wire length on LAYER met1 = 3429 um.
+Total wire length on LAYER met2 = 3270 um.
+Total wire length on LAYER met3 = 539 um.
+Total wire length on LAYER met4 = 18 um.
+Total wire length on LAYER met5 = 0 um.
+Total number of vias = 2570.
+Up-via summary (total 2570):
+
+route__wirelength__estimated,6783.29
+
+design__instance__area,4151.48
+design__die__area,9323.13
+design__core__area,6313.56
+
+
+
+______________________________________________________________________
+n = 6
+
+
+Yosys
+129. Printing statistics.
+
+=== expmob2 ===
+
+   Number of wires:                327
+   Number of wire bits:            453
+   Number of public wires:         100
+   Number of public wire bits:     226
+   Number of ports:                  3
+   Number of port bits:            129
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                388
+     sky130_fd_sc_hd__a21boi_2       1
+     sky130_fd_sc_hd__a21oi_2        6
+     sky130_fd_sc_hd__a221o_2       63
+     sky130_fd_sc_hd__a31o_2         3
+     sky130_fd_sc_hd__a31oi_2        4
+     sky130_fd_sc_hd__and2_2         8
+     sky130_fd_sc_hd__and2b_2       64
+     sky130_fd_sc_hd__and3_2        12
+     sky130_fd_sc_hd__and4_2        19
+     sky130_fd_sc_hd__buf_2         32
+     sky130_fd_sc_hd__conb_1         1
+     sky130_fd_sc_hd__dfxtp_2       97
+     sky130_fd_sc_hd__inv_2          1
+     sky130_fd_sc_hd__mux2_1         1
+     sky130_fd_sc_hd__nand2_2        3
+     sky130_fd_sc_hd__nor2_2         7
+     sky130_fd_sc_hd__o211a_2        1
+     sky130_fd_sc_hd__o21a_2         1
+     sky130_fd_sc_hd__o21ai_2        1
+     sky130_fd_sc_hd__o21ba_2        7
+     sky130_fd_sc_hd__o2bb2a_2       1
+     sky130_fd_sc_hd__o41ai_2        1
+     sky130_fd_sc_hd__or2_2          1
+     sky130_fd_sc_hd__or3_2          1
+     sky130_fd_sc_hd__or4_2          8
+     sky130_fd_sc_hd__or4bb_2        1
+     sky130_fd_sc_hd__xnor2_2        3
+     sky130_fd_sc_hd__xor2_2        40
+
+   Chip area for module '\expmob2': 4976.022400
+     of which used for sequential elements: 2063.228800 (41.46%)
+
+
+[INFO DRT-0198] Complete detail routing.
+Total wire length = 14246 um.
+Total wire length on LAYER li1 = 0 um.
+Total wire length on LAYER met1 = 5978 um.
+Total wire length on LAYER met2 = 7284 um.
+Total wire length on LAYER met3 = 699 um.
+Total wire length on LAYER met4 = 284 um.
+Total wire length on LAYER met5 = 0 um.
+Total number of vias = 4021.
+Up-via summary (total 4021):
+
+
+route__wirelength__estimated,13411.2
+design__instance__area,6251
+design__die__area,13464.4
+design__core__area,9729.33
+
+______________________________________________________________________
+n = 7
+
+Yosys
+129. Printing statistics.
+
+=== expmob2 ===
+
+   Number of wires:                509
+   Number of wire bits:            763
+   Number of public wires:         164
+   Number of public wire bits:     418
+   Number of ports:                  3
+   Number of port bits:            257
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                634
+     sky130_fd_sc_hd__a21boi_2       1
+     sky130_fd_sc_hd__a21o_2         3
+     sky130_fd_sc_hd__a21oi_2        3
+     sky130_fd_sc_hd__a221o_2      127
+     sky130_fd_sc_hd__a31oi_2        2
+     sky130_fd_sc_hd__a41o_2         2
+     sky130_fd_sc_hd__and2_2         7
+     sky130_fd_sc_hd__and2b_2        2
+     sky130_fd_sc_hd__and3_2       139
+     sky130_fd_sc_hd__and4_2        13
+     sky130_fd_sc_hd__buf_2         64
+     sky130_fd_sc_hd__conb_1         1
+     sky130_fd_sc_hd__dfxtp_2      161
+     sky130_fd_sc_hd__inv_2          1
+     sky130_fd_sc_hd__mux2_1         1
+     sky130_fd_sc_hd__nand2_2        2
+     sky130_fd_sc_hd__nand3_2        3
+     sky130_fd_sc_hd__nand4_2        1
+     sky130_fd_sc_hd__nor2_2         7
+     sky130_fd_sc_hd__o21a_2         1
+     sky130_fd_sc_hd__o21ba_2        4
+     sky130_fd_sc_hd__o21bai_2       1
+     sky130_fd_sc_hd__o2bb2a_2       1
+     sky130_fd_sc_hd__or4_2          9
+     sky130_fd_sc_hd__xnor2_2        6
+     sky130_fd_sc_hd__xor2_2        72
+
+   Chip area for module '\expmob2': 8066.486400
+     of which used for sequential elements: 3424.534400 (42.45%)
+
+
+
+[INFO DRT-0198] Complete detail routing.
+Total wire length = 33051 um.
+Total wire length on LAYER li1 = 0 um.
+Total wire length on LAYER met1 = 14269 um.
+Total wire length on LAYER met2 = 16993 um.
+Total wire length on LAYER met3 = 1405 um.
+Total wire length on LAYER met4 = 382 um.
+Total wire length on LAYER met5 = 0 um.
+Total number of vias = 7103.
+Up-via summary (total 7103):
+
+route__wirelength__estimated,30393.1
+design__instance__area,10517.6
+design__die__area,46225
+design__core__area,39354
+
+
+
+______________________________________________________________________
+n = 8
+
+Yosys
+129. Printing statistics.
+
+=== expmob2 ===
+
+   Number of wires:                907
+   Number of wire bits:           1417
+   Number of public wires:         292
+   Number of public wire bits:     802
+   Number of ports:                  3
+   Number of port bits:            513
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1160
+     sky130_fd_sc_hd__a21boi_2       1
+     sky130_fd_sc_hd__a21oi_2        6
+     sky130_fd_sc_hd__a221o_2      255
+     sky130_fd_sc_hd__a31o_2         1
+     sky130_fd_sc_hd__a31oi_2        2
+     sky130_fd_sc_hd__a41o_2         1
+     sky130_fd_sc_hd__a41oi_2        2
+     sky130_fd_sc_hd__and2_2        10
+     sky130_fd_sc_hd__and2b_2        1
+     sky130_fd_sc_hd__and3_2       274
+     sky130_fd_sc_hd__and4_2        19
+     sky130_fd_sc_hd__buf_2        128
+     sky130_fd_sc_hd__conb_1         1
+     sky130_fd_sc_hd__dfxtp_2      289
+     sky130_fd_sc_hd__inv_2          2
+     sky130_fd_sc_hd__mux2_1         1
+     sky130_fd_sc_hd__nor2_2         8
+     sky130_fd_sc_hd__o21ba_2       10
+     sky130_fd_sc_hd__o2bb2a_2       1
+     sky130_fd_sc_hd__o31ai_2        1
+     sky130_fd_sc_hd__or3_2          1
+     sky130_fd_sc_hd__or4_2          8
+     sky130_fd_sc_hd__xor2_2       138
+
+   Chip area for module '\expmob2': 14650.300800
+     of which used for sequential elements: 6147.145600 (41.96%)
+
+
+[INFO DRT-0198] Complete detail routing.
+Total wire length = 104240 um.
+Total wire length on LAYER li1 = 0 um.
+Total wire length on LAYER met1 = 43415 um.
+Total wire length on LAYER met2 = 55818 um.
+Total wire length on LAYER met3 = 4413 um.
+Total wire length on LAYER met4 = 593 um.
+Total wire length on LAYER met5 = 0 um.
+Total number of vias = 13634.
+Up-via summary (total 13634):
+
+
+route__wirelength__estimated,97045.9
+design__instance__area,22482.8
+design__die__area,180625
+design__core__area,166475
+
+______________________________________________________________________
+n = 9
+Yosys129. Printing statistics.
+
+=== expmob2 ===
+
+   Number of wires:               1665
+   Number of wire bits:           2687
+   Number of public wires:         548
+   Number of public wire bits:    1570
+   Number of ports:                  3
+   Number of port bits:           1025
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               2174
+     sky130_fd_sc_hd__a21boi_2       2
+     sky130_fd_sc_hd__a21o_2         2
+     sky130_fd_sc_hd__a21oi_2        6
+     sky130_fd_sc_hd__a221o_2        2
+     sky130_fd_sc_hd__a31o_2         3
+     sky130_fd_sc_hd__a31oi_2        1
+     sky130_fd_sc_hd__a41o_2         2
+     sky130_fd_sc_hd__and2_2         7
+     sky130_fd_sc_hd__and2b_2        1
+     sky130_fd_sc_hd__and3_2        15
+     sky130_fd_sc_hd__and4_2        12
+     sky130_fd_sc_hd__buf_2        256
+     sky130_fd_sc_hd__conb_1         1
+     sky130_fd_sc_hd__dfxtp_2      545
+     sky130_fd_sc_hd__inv_2          3
+     sky130_fd_sc_hd__mux2_1      1019
+     sky130_fd_sc_hd__nand2_2        3
+     sky130_fd_sc_hd__nand3_2        1
+     sky130_fd_sc_hd__nor2_2         7
+     sky130_fd_sc_hd__o21a_2         1
+     sky130_fd_sc_hd__o21ba_2        4
+     sky130_fd_sc_hd__o2bb2a_2       2
+     sky130_fd_sc_hd__o31a_2         1
+     sky130_fd_sc_hd__o31ai_2        1
+     sky130_fd_sc_hd__or3_2          2
+     sky130_fd_sc_hd__or4_2          7
+     sky130_fd_sc_hd__xnor2_2        4
+     sky130_fd_sc_hd__xor2_2       264
+
+   Chip area for module '\expmob2': 29435.731200
+     of which used for sequential elements: 11592.368000 (39.38%)
+
+[INFO DRT-0198] Complete detail routing.
+Total wire length = 283708 um.
+Total wire length on LAYER li1 = 0 um.
+Total wire length on LAYER met1 = 131110 um.
+Total wire length on LAYER met2 = 138396 um.
+Total wire length on LAYER met3 = 8755 um.
+Total wire length on LAYER met4 = 5446 um.
+Total wire length on LAYER met5 = 0 um.
+Total number of vias = 23301.
+Up-via summary (total 23301):
+
+route__wirelength__estimated,275199
+design__instance__area,54542.3
+design__die__area,722500
+design__core__area,693405
+
+
+______________________________________________________________________
+n = 10
+
+
+129. Printing statistics.
+
+=== expmob2 ===
+
+   Number of wires:               3208
+   Number of wire bits:           5254
+   Number of public wires:        1060
+   Number of public wire bits:    3106
+   Number of ports:                  3
+   Number of port bits:           2049
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               4229
+     sky130_fd_sc_hd__a21bo_2        1
+     sky130_fd_sc_hd__a21boi_2       1
+     sky130_fd_sc_hd__a21o_2         1
+     sky130_fd_sc_hd__a21oi_2        3
+     sky130_fd_sc_hd__a31o_2         3
+     sky130_fd_sc_hd__a31oi_2        1
+     sky130_fd_sc_hd__and2_2         9
+     sky130_fd_sc_hd__and2b_2        2
+     sky130_fd_sc_hd__and3_2        22
+     sky130_fd_sc_hd__and4_2        12
+     sky130_fd_sc_hd__buf_2        512
+     sky130_fd_sc_hd__conb_1         1
+     sky130_fd_sc_hd__dfxtp_2     1057
+     sky130_fd_sc_hd__inv_2          3
+     sky130_fd_sc_hd__mux2_1      2047
+     sky130_fd_sc_hd__nand2_2        1
+     sky130_fd_sc_hd__nor2_2         3
+     sky130_fd_sc_hd__o21a_2         3
+     sky130_fd_sc_hd__o21ba_2       13
+     sky130_fd_sc_hd__o2bb2a_2       2
+     sky130_fd_sc_hd__o31ai_2        1
+     sky130_fd_sc_hd__or3_2          1
+     sky130_fd_sc_hd__or3b_2         1
+     sky130_fd_sc_hd__or4_2          9
+     sky130_fd_sc_hd__xnor2_2        1
+     sky130_fd_sc_hd__xor2_2       519
+
+   Chip area for module '\expmob2': 57346.249600
+     of which used for sequential elements: 22482.812800 (39.21%)
+
+
+
+[INFO DRT-0198] Complete detail routing.
+Total wire length = 1270831 um.
+Total wire length on LAYER li1 = 0 um.
+Total wire length on LAYER met1 = 590378 um.
+Total wire length on LAYER met2 = 588181 um.
+Total wire length on LAYER met3 = 66522 um.
+Total wire length on LAYER met4 = 25747 um.
+Total wire length on LAYER met5 = 0 um.
+Total number of vias = 52984.
+Up-via summary (total 52984):
+
+
+route__wirelength,1 270 831
+design__instance__area,146753
+design__die__area,2.89E+6
+design__core__area,2.83398E+6
+
+
+
+______________________________________________________________________
+n = 11
+
+Yosys
+129. Printing statistics.
+
+=== expmob2 ===
+
+   Number of wires:               6270
+   Number of wire bits:          10364
+   Number of public wires:        2084
+   Number of public wire bits:    6178
+   Number of ports:                  3
+   Number of port bits:           4097
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               8315
+     sky130_fd_sc_hd__a21boi_2       2
+     sky130_fd_sc_hd__a21o_2         1
+     sky130_fd_sc_hd__a21oi_2       13
+     sky130_fd_sc_hd__a31o_2         2
+     sky130_fd_sc_hd__a31oi_2        1
+     sky130_fd_sc_hd__a41o_2         1
+     sky130_fd_sc_hd__and2_2         3
+     sky130_fd_sc_hd__and2b_2        1
+     sky130_fd_sc_hd__and3_2        20
+     sky130_fd_sc_hd__and4_2         6
+     sky130_fd_sc_hd__buf_2       1024
+     sky130_fd_sc_hd__conb_1         1
+     sky130_fd_sc_hd__dfxtp_2     2081
+     sky130_fd_sc_hd__inv_2          1
+     sky130_fd_sc_hd__mux2_1      4095
+     sky130_fd_sc_hd__nand2_2        3
+     sky130_fd_sc_hd__nor2_2         8
+     sky130_fd_sc_hd__nor3_2         1
+     sky130_fd_sc_hd__nor4_2         1
+     sky130_fd_sc_hd__o21a_2         1
+     sky130_fd_sc_hd__o21ba_2        6
+     sky130_fd_sc_hd__o2bb2a_2       1
+     sky130_fd_sc_hd__or2_2          1
+     sky130_fd_sc_hd__or3_2          1
+     sky130_fd_sc_hd__or4_2          6
+     sky130_fd_sc_hd__xnor2_2        2
+     sky130_fd_sc_hd__xor2_2      1032
+
+   Chip area for module '\expmob2': 112993.369600
+     of which used for sequential elements: 44263.702400 (39.17%)
+
+
+[INFO DRT-0198] Complete detail routing.
+Total wire length = 4858173 um.
+Total wire length on LAYER li1 = 0 um.
+Total wire length on LAYER met1 = 2083460 um.
+Total wire length on LAYER met2 = 2309229 um.
+Total wire length on LAYER met3 = 293511 um.
+Total wire length on LAYER met4 = 170883 um.
+Total wire length on LAYER met5 = 1089 um.
+Total number of vias = 128871.
+Up-via summary (total 128871):
+
+
+route__wirelength,4 858 173
+design__instance__area,456 245
+design__die__area,1.19025E+7
+design__core__area,1.1786E+7
+
+______________________________________________________________________
+n = 12
+
+
+Yosys129. Printing statistics.
+
+=== expmob2 ===
+
+   Number of wires:              12418
+   Number of wire bits:          20608
+   Number of public wires:        4132
+   Number of public wire bits:   12322
+   Number of ports:                  3
+   Number of port bits:           8193
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              16511
+     sky130_fd_sc_hd__a2111o_2       1
+     sky130_fd_sc_hd__a21boi_2       2
+     sky130_fd_sc_hd__a21o_2         1
+     sky130_fd_sc_hd__a21oi_2       12
+     sky130_fd_sc_hd__a31o_2         1
+     sky130_fd_sc_hd__and2_2         6
+     sky130_fd_sc_hd__and3_2        19
+     sky130_fd_sc_hd__and4_2        10
+     sky130_fd_sc_hd__buf_2       2048
+     sky130_fd_sc_hd__conb_1         1
+     sky130_fd_sc_hd__dfxtp_2     4129
+     sky130_fd_sc_hd__inv_2          2
+     sky130_fd_sc_hd__mux2_1      8191
+     sky130_fd_sc_hd__nand2_2        2
+     sky130_fd_sc_hd__nor2_2        12
+     sky130_fd_sc_hd__o21a_2         1
+     sky130_fd_sc_hd__o21ba_2        3
+     sky130_fd_sc_hd__o21bai_2       1
+     sky130_fd_sc_hd__o2bb2a_2       1
+     sky130_fd_sc_hd__or4_2          8
+     sky130_fd_sc_hd__xnor2_2        1
+     sky130_fd_sc_hd__xor2_2      2059
+
+   Chip area for module '\expmob2': 224495.308800
+     of which used for sequential elements: 87825.481600 (39.12%)
+
+[INFO DRT-0198] Complete detail routing.
+Total wire length = 20897991 um.
+Total wire length on LAYER li1 = 0 um.
+Total wire length on LAYER met1 = 8589220 um.
+Total wire length on LAYER met2 = 9873397 um.
+Total wire length on LAYER met3 = 1455359 um.
+Total wire length on LAYER met4 = 887421 um.
+Total wire length on LAYER met5 = 92592 um.
+Total number of vias = 388887.
+Up-via summary (total 388887):
+
+
+
+

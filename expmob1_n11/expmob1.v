@@ -2,6 +2,7 @@
 /// "Compact Circuits for Efficient Mobius Transform" 
 ///  by Subhadeep Banik and Francesco Regazzoni
 /// Note: For larger circuits adjust the size of n_blocks, and n_elements_block
+`define VERILATOR_UNROLL_COUNT 8192
 
 /// One stage
 module stage 
