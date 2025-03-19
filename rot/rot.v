@@ -1,9 +1,11 @@
+// compute (a >>> k) when the number of bits N = 2^n
+
 module top_module();
-   localparam N = 16;
-   localparam log2_N = 4;
+   localparam N = 32;
+   localparam log2_N = 5;
    reg [0:N-1] a;
    reg [0:N-1] rot_a;
-    reg [0:log2_N - 1] k = 1;
+    reg [0:log2_N - 1] k;
    
 
    initial begin
@@ -15,7 +17,8 @@ module top_module();
 
 
    initial begin
-      a = 'b1111_0000_0000_0000;
+      k = 4;
+      a = 'b1000_0000_0000_0000_1000_0000_0000_0000;
       #100 $stop;
 
    end
@@ -25,9 +28,6 @@ module top_module();
    end
 endmodule // top_module
 
-
-  
-   
    
 
 
@@ -43,33 +43,30 @@ module stage
 
    // stage 0 has one block
    localparam n_blocks  = 32'b1 << stage_number;
-   localparam n_elements_block = 32'b1 * (N / (2*n_blocks));
+   // localparam n_elements_block = 32'b1 * (N / (2*n_blocks));
+    localparam stage_shift  = 32'b1 * (N / (2*n_blocks) ); //32'b1 << stage_number;
+
    //localparam start_index = 32'b0;
    //$display("Stage %0d | Block %0d out of %0d | j = %0d | start_index = %0d", stage_number, k, n_blocks, j, start_index);
 
    // Butterfly
    genvar k;
-   genvar j;
    generate
-     for ( k = 0; k < n_blocks; k = k + 1) begin
-	 localparam start_index = (32'b1) *  k * (n_elements_block * 2);
-	 
-	   for (j = 0; j < n_elements_block; j = j +1) begin
-
-	      assign outputs[start_index + j] = mux_sel ? inputs[start_index + j + n_elements_block] : inputs[start_index + j] ;
- 	      assign outputs[start_index + j + n_elements_block] = mux_sel ? inputs[start_index + j] : inputs[start_index + j + n_elements_block];
+     for ( k = 0; k < N; k = k + 1) begin
+         assign outputs[k] = mux_sel ? inputs[(k - stage_shift)%N] :  inputs[k] ;
            // Printing intermediate values for debugging
+
            always @(*) begin 
                if (^outputs !== 1'bx) begin  // skip printing unkown values
-                 $display("N = %0d, log2(N) = %0d, Stage %0d | Block %0d out of %0d | mux_sel = %b | inp[%0d] = %b, inp[%0d] = %b, out[%0d] = %b, out[%0d] = %b", 
-                          N, log2_N, stage_number, k, n_blocks, mux_sel, 
-                          start_index + j,   inputs[start_index + j],  
-                          start_index + j + n_elements_block, inputs[start_index + j + n_elements_block],
-                          start_index + j,   outputs[start_index + j],  
-                          start_index + j + n_elements_block, outputs[start_index + j + n_elements_block]);
+                 $display("N = %0d, log2(N) = %0d, Stage %0d | shift = %0d | mux_sel = %b | inp[%0d] = %b, inp[%0d] = %b, out[%0d] = %b", 
+                          N, log2_N, stage_number, stage_shift, mux_sel, 
+                          k,   inputs[k],
+			  (k - stage_shift)%N, inputs[(k - stage_shift)%N],
+			  k, outputs[k]);
+
               end // if
            end // always @(*)
-       end // for j
+
      end // for k
    endgenerate //
 endmodule // stage
@@ -98,7 +95,7 @@ module rot #(parameter N=16,
    generate
       // Generate log2_N stages, and connect the output of each stage to the
       // to the inputs of the next stage, i.e. stage0 -> stage1 -> ... -> stage_{log2_N-1}
-       for (n = 1; n < log2_N ; n = n +1) begin
+       for (n = 1; n < log2_N; n = n +1) begin
            stage #(.N(N), .log2_N(log2_N), .stage_number(n)) si (.inputs(middle[n-1]), .mux_sel(k[n]), .outputs(middle[n]));
           always @(*) begin 
               $display("time = %0d, stage = %0d, mux_sel=%0d", $time, n, k[n]);
