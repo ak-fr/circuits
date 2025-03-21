@@ -47,6 +47,9 @@ module stage
    //localparam start_index = 32'b0;
    //$display("Stage %0d | Block %0d out of %0d | j = %0d | start_index = %0d", stage_number, k, n_blocks, j, start_index);
 
+
+   // Indexing is simpler than butterfly, just use modulo log2_N!
+/* -----\/----- EXCLUDED -----\/-----
    // Butterfly
    genvar k;
    genvar j;
@@ -72,6 +75,7 @@ module stage
        end // for j
      end // for k
    endgenerate //
+ -----/\----- EXCLUDED -----/\----- */
 endmodule // stage
 
 
