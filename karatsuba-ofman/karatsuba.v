@@ -26,7 +26,7 @@
 //VERSION       : 1.1
 //CHANGE LOG    : 1.0: initial version.
 //
-//CHANGE LOG    : 1.1: Use logical and in the recursion
+//CHANGE LOG    : 1.1: Use wireal and in the recursion
 //-----------------------------------------------------------------------------
 
 module karat_mult_recursion #(
@@ -36,45 +36,45 @@ parameter nSTAGE = 10 // log2(wI)
 )
 (
 // data IOs
-input   logic   [wI-1:0]    iX,
-input   logic   [wI-1:0]    iY,
-output  logic   [wO-1:0]    oO,
+input   wire   [wI-1:0]    iX,
+input   wire   [wI-1:0]    iY,
+output  wire   [wO-1:0]    oO,
 // control IOs
-input   logic   clk,
-input   logic   rst_n,
-input   logic   i_enable,
-output  logic   o_finish
+input   wire   clk,
+input   wire   rst_n,
+input   wire   i_enable,
+output  wire   o_finish
 );
 
 localparam wI_pt = wI / 2;
 
-logic   finish_p, finish_q, finish_ts;
+wire   finish_p, finish_q, finish_ts;
 
-logic   [wI_pt-1:0] X_hi, X_lo;
-logic   [wI_pt-1:0] Y_hi, Y_lo;
+wire   [wI_pt-1:0] X_hi, X_lo;
+wire   [wI_pt-1:0] Y_hi, Y_lo;
 
 assign  {X_hi, X_lo} = iX;
 assign  {Y_hi, Y_lo} = iY;
 
-logic   [wI_pt*2-1:0]   p;
-logic   [wI_pt*2-1:0]   q;
-logic   [wI_pt:0]       r;
-logic   [wI_pt:0]       s;
+wire   [wI_pt*2-1:0]   p;
+wire   [wI_pt*2-1:0]   q;
+wire   [wI_pt:0]       r;
+wire   [wI_pt:0]       s;
 
 assign  r = X_hi + X_lo;
 assign  s = Y_hi + Y_lo;
 
-logic   [wI_pt*2:0]     u;
+wire   [wI_pt*2:0]     u;
 assign  u = p + q;
 
-logic   [wI+1:0]        t;
-logic   r_hi, s_hi;
-logic   [wI_pt-1:0]     r_lo, s_lo;
+wire   [wI+1:0]        t;
+wire   r_hi, s_hi;
+wire   [wI_pt-1:0]     r_lo, s_lo;
 
 assign  {r_hi, r_lo} = r;
 assign  {s_hi, s_lo} = s;
 
-logic   [wI-1:0]        t_s;
+wire   [wI-1:0]        t_s;
 
 generate
 begin: p_eq_Xhi_x_Yhi
@@ -158,6 +158,7 @@ assign t = ((r_hi & s_hi) << wI) + ((r_hi * s_lo + s_hi * r_lo) << wI_pt) + t_s;
 
 assign oO = (p << wI) + ((t - u) << wI_pt) + q;
 
+// Vivado complains about 
 always  @(posedge clk or negedge rst_n)
     if(!rst_n)
         o_finish    <= 1'b0;
