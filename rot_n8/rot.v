@@ -1,42 +1,10 @@
 // compute (a >>> k) when the number of bits N = 2^n
-/* -----\/----- EXCLUDED -----\/-----
-
-module top_module();
-   localparam N = 32;
-   localparam log2_N = 5;
-   reg [0:N-1] a;
-   reg [0:N-1] rot_a;
-    reg [0:log2_N - 1] k;
-   
-
-   initial begin
-      $display("N=%0d, log2(N)=%0d", N, log2_N);
-   end
-   
-   rot #(.N(N), .log2_N(log2_N))  ROT
-     (.bits(a), .k(k), .rotated_bits(rot_a));
-
-
-   initial begin
-      k = 4;
-      a = 'b1000_0000_0000_0000_1000_0000_0000_0000;
-      #100 $stop;
-
-   end
-
-p   initial begin
-      $monitor("Time: %0t | a = %b | rot(a, %0d) = %b", $time, a, k, rot_a);
-   end
-endmodule // top_module
- -----/\----- EXCLUDED -----/\----- */
-
-   
 
 
 /// One stage
 module stage 
-  #(parameter N=32,
-    parameter log2_N=5,
+  #(parameter N=256,
+    parameter log2_N=8,
     parameter stage_number=0)
 
    (input wire [0:N-1]	inputs,
@@ -48,19 +16,17 @@ module stage
    // localparam n_elements_block = 32'b1 * (N / (2*n_blocks));
     localparam stage_shift  = 32'b1 * (N / (2*n_blocks) ); //32'b1 << stage_number;
 
-   //localparam start_index = 32'b0;
-   //$display("Stage %0d | Block %0d out of %0d | j = %0d | start_index = %0d", stage_number, k, n_blocks, j, start_index);
 
 
    // Indexing is simpler than butterfly, just use modulo log2_N!
-/* -----\/----- EXCLUDED -----\/-----
+
    // Butterfly
    genvar k;
    generate
      for ( k = 0; k < N; k = k + 1) begin
          assign outputs[k] = mux_sel ? inputs[(k - stage_shift)%N] :  inputs[k] ;
            // Printing intermediate values for debugging
-
+/* -----\/----- EXCLUDED -----\/-----
            always @(*) begin 
                if (^outputs !== 1'bx) begin  // skip printing unkown values
                  $display("N = %0d, log2(N) = %0d, Stage %0d | shift = %0d | mux_sel = %b | inp[%0d] = %b, inp[%0d] = %b, out[%0d] = %b", 
@@ -71,10 +37,11 @@ module stage
 
               end // if
            end // always @(*)
+ -----/\----- EXCLUDED -----/\----- */
 
      end // for k
    endgenerate //
- -----/\----- EXCLUDED -----/\----- */
+
 endmodule // stage
 
 
@@ -88,9 +55,11 @@ module rot #(parameter N=256,
    
     wire [0:N-1] middle [0:log2_N]; // Create log2(N) arrays each of size N
    
+/* -----\/----- EXCLUDED -----\/-----
    initial begin 
        $display("Inside rot: N = %0d, log2(N) = %0d, mux_sel = %b", N, log2_N, k[0]);
    end
+ -----/\----- EXCLUDED -----/\----- */
    
    // do stage 0 manually, other stages by a for loop
     stage #(.N(N), .log2_N(log2_N), .stage_number(0)) s0 (.inputs(bits), .mux_sel(k[0]), .outputs(middle[0]));
@@ -103,9 +72,11 @@ module rot #(parameter N=256,
       // to the inputs of the next stage, i.e. stage0 -> stage1 -> ... -> stage_{log2_N-1}
        for (n = 1; n < log2_N; n = n +1) begin
            stage #(.N(N), .log2_N(log2_N), .stage_number(n)) si (.inputs(middle[n-1]), .mux_sel(k[n]), .outputs(middle[n]));
+/* -----\/----- EXCLUDED -----\/-----
           always @(*) begin 
               $display("time = %0d, stage = %0d, mux_sel=%0d", $time, n, k[n]);
           end // always
+ -----/\----- EXCLUDED -----/\----- */
        end
    endgenerate
    
