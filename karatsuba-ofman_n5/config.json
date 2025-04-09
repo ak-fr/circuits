@@ -1,6 +1,0 @@
-{
-  "DESIGN_NAME": "karatsuba",
-  "VERILOG_FILES": ["dir::karatsuba.v"],
-  "CLOCK_PERIOD": 25,
-  "CLOCK_PORT": "clk"
-}
