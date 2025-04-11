@@ -19,7 +19,8 @@ af = CRL.AllianceFramework.get()
 
 
 CoreName = 'rot'
-scalar_a, scalar_b = 650, 100
+scalar_a, scalar_b = 650*4, 100*4
+connectors_margin = 6
 
 
 def get_signals_hurricane(entity):
@@ -165,7 +166,7 @@ def scriptMain ( **kw ):
 
         vpitchedSliceHeight = sliceHeight - sliceHeight%hpitch
         hpitchedSliceHeight = sliceHeight - sliceHeight%vpitch
-        h,v =  ( (scalar_a - 2) * sliceStep,  (scalar_b - 2)*sliceHeight )
+        h,v =  ( (scalar_a - connectors_margin) * sliceStep,  (scalar_b - connectors_margin) * sliceHeight )
         L = generate_ioPinsSpec_list(dico,h,v,vpitchedSliceHeight,hpitchedSliceHeight)
         m2pitch=vpitchedSliceHeight
         m1pitch=hpitchedSliceHeight

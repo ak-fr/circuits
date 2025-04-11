@@ -23,7 +23,7 @@ from pdks.ihpsg13g2_c4m.designflow.drc      import DRC
 from doDesign                               import scriptMain
 
 buildChip          = False
-PnR.textMode       = False
+PnR.textMode       = True
 pnrSuffix          = '_cts_r'
 topName            = 'expmob1'
 TasYagle.ClockName = 'clk'

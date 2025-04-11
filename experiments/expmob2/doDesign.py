@@ -19,7 +19,9 @@ af = CRL.AllianceFramework.get()
 
 
 CoreName = 'expmob2'
-height, length = 80, 10
+scalar_a, scalar_b = 650//2 - 10, 100//2 - 5
+connectors_margin = 6
+
 
 def get_signals_hurricane(entity):
 # from coriolis.designflow.technos import setupSky130_c4m
@@ -164,8 +166,7 @@ def scriptMain ( **kw ):
 
         vpitchedSliceHeight = sliceHeight - sliceHeight%hpitch
         hpitchedSliceHeight = sliceHeight - sliceHeight%vpitch
-
-        h,v =  ( (height-2)*sliceStep,  (length-2)*sliceHeight )
+        h,v =  ( (scalar_a - connectors_margin) * sliceStep,  (scalar_b - connectors_margin) * sliceHeight )
         L = generate_ioPinsSpec_list(dico,h,v,vpitchedSliceHeight,hpitchedSliceHeight)
         m2pitch=vpitchedSliceHeight
         m1pitch=hpitchedSliceHeight
@@ -215,7 +216,7 @@ def scriptMain ( **kw ):
         designConf.chipName            = 'chip'
         designConf.chipConf.ioPadGauge = 'LEF.IO_Site'
         designConf.coreToChipClass     = CoreToChip
-        designConf.coreSize            = (  height*sliceStep,  length*sliceHeight )
+        designConf.coreSize            = (  scalar_a*sliceStep,  scalar_b*sliceHeight )
         designConf.chipSize            = ( u(16*85 + 2*260.0 + 40.0), u(18*85 + 2*260.0) )
         if buildChip:
             designConf.useHTree( 'clk_from_pad', Spares.HEAVY_LEAF_LOAD )
