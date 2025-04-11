@@ -3,8 +3,8 @@
 
 /// One stage
 module stage 
-  #(parameter N=32,
-    parameter log2_N=5,
+  #(parameter N=256,
+    parameter log2_N=8,
     parameter stage_number=0)
 
    (input wire [0:N-1]	inputs,

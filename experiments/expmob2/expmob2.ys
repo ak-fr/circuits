@@ -1,11 +1,11 @@
-read_verilog -sv expmob1.v
-hierarchy -check -top expmob1
-synth            -top expmob1
+read_verilog -sv expmob2.v
+hierarchy -check -top expmob2
+synth            -top expmob2
 flatten        
-hierarchy -top expmob1
+hierarchy -top expmob2
 memory
 dfflibmap -liberty /home/ahmed/coriolis-2.x/release/install/lib/python3/dist-packages/pdks/ihpsg13g2_c4m/libs.ref/StdCellLib/liberty/StdCellLib_nom.lib
 abc       -liberty /home/ahmed/coriolis-2.x/release/install/lib/python3/dist-packages/pdks/ihpsg13g2_c4m/libs.ref/StdCellLib/liberty/StdCellLib_nom.lib
 stat
 clean
-write_blif expmob1.blif
+write_blif expmob2.blif

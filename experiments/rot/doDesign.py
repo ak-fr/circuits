@@ -164,7 +164,7 @@ def scriptMain ( **kw ):
 
         vpitchedSliceHeight = sliceHeight - sliceHeight%hpitch
         hpitchedSliceHeight = sliceHeight - sliceHeight%vpitch
-        h,v =  ( 648*sliceStep,  98*sliceHeight )
+        h,v =  ( 6480*sliceStep,  980*sliceHeight )
         L = generate_ioPinsSpec_list(dico,h,v,vpitchedSliceHeight,hpitchedSliceHeight)
         m2pitch=vpitchedSliceHeight
         m1pitch=hpitchedSliceHeight
@@ -214,7 +214,7 @@ def scriptMain ( **kw ):
         designConf.chipName            = 'chip'
         designConf.chipConf.ioPadGauge = 'LEF.IO_Site'
         designConf.coreToChipClass     = CoreToChip
-        designConf.coreSize            = (  650*sliceStep,  100*sliceHeight )
+        designConf.coreSize            = (  6500*sliceStep,  1000*sliceHeight )
         designConf.chipSize            = ( u(16*85 + 2*260.0 + 40.0), u(18*85 + 2*260.0) )
         if buildChip:
             designConf.useHTree( 'clk_from_pad', Spares.HEAVY_LEAF_LOAD )

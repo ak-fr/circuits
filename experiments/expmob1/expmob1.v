@@ -48,8 +48,8 @@ endmodule // stage
 
 
 // 
-module expmob1 #(parameter N=32,
-		parameter log2_N=5)
+module expmob1 #(parameter N=256,
+		parameter log2_N=8)
    (input wire [0:N-1]	inputs,
     output wire [0:N-1]	outputs);
 
