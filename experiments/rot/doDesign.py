@@ -19,6 +19,7 @@ af = CRL.AllianceFramework.get()
 
 
 CoreName = 'rot'
+scalar_a, scalar_b = 650, 100
 
 
 def get_signals_hurricane(entity):
@@ -164,7 +165,7 @@ def scriptMain ( **kw ):
 
         vpitchedSliceHeight = sliceHeight - sliceHeight%hpitch
         hpitchedSliceHeight = sliceHeight - sliceHeight%vpitch
-        h,v =  ( 6480*sliceStep,  980*sliceHeight )
+        h,v =  ( (scalar_a - 2) * sliceStep,  (scalar_b - 2)*sliceHeight )
         L = generate_ioPinsSpec_list(dico,h,v,vpitchedSliceHeight,hpitchedSliceHeight)
         m2pitch=vpitchedSliceHeight
         m1pitch=hpitchedSliceHeight
@@ -214,7 +215,7 @@ def scriptMain ( **kw ):
         designConf.chipName            = 'chip'
         designConf.chipConf.ioPadGauge = 'LEF.IO_Site'
         designConf.coreToChipClass     = CoreToChip
-        designConf.coreSize            = (  6500*sliceStep,  1000*sliceHeight )
+        designConf.coreSize            = (  scalar_a*sliceStep,  scalar_b*sliceHeight )
         designConf.chipSize            = ( u(16*85 + 2*260.0 + 40.0), u(18*85 + 2*260.0) )
         if buildChip:
             designConf.useHTree( 'clk_from_pad', Spares.HEAVY_LEAF_LOAD )
