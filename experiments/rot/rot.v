@@ -46,8 +46,8 @@ endmodule // stage
 
 
 // 
-module rot #(parameter N=65536,
-		parameter log2_N=16)
+module rot #(parameter N=64,
+		parameter log2_N=6)
    (input wire [0 : N-1 ] bits,
     input wire [0 : log2_N-1 ] k,
     output wire [0:N-1]	rotated_bits);

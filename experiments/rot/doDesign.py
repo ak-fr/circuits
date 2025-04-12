@@ -19,8 +19,8 @@ af = CRL.AllianceFramework.get()
 
 
 CoreName = 'rot'
-scalar_a, scalar_b = 650*4, 100*4
-connectors_margin = 6
+scalar_a, scalar_b = 128, 19  # updated values
+connectors_margin = 2  # updated value
 
 
 def get_signals_hurricane(entity):
