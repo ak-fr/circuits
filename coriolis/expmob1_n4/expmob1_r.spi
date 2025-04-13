@@ -1,0 +1,201 @@
+* Coriolis Structural SPICE Driver
+* Generated on Apr 13, 2025, 01:28
+* Cell/Subckt "expmob1_r".
+* 
+* INTERF vss
+* INTERF vdd
+* INTERF outputs[9]
+* INTERF outputs[8]
+* INTERF outputs[7]
+* INTERF outputs[6]
+* INTERF outputs[5]
+* INTERF outputs[4]
+* INTERF outputs[3]
+* INTERF outputs[2]
+* INTERF outputs[15]
+* INTERF outputs[14]
+* INTERF outputs[13]
+* INTERF outputs[12]
+* INTERF outputs[11]
+* INTERF outputs[10]
+* INTERF outputs[1]
+* INTERF inputs[9]
+* INTERF inputs[8]
+* INTERF inputs[7]
+* INTERF inputs[6]
+* INTERF inputs[5]
+* INTERF inputs[4]
+* INTERF inputs[3]
+* INTERF inputs[2]
+* INTERF inputs[15]
+* INTERF inputs[14]
+* INTERF inputs[13]
+* INTERF inputs[12]
+* INTERF inputs[11]
+* INTERF inputs[10]
+* INTERF inputs[1]
+* INTERF inputs[0]
+
+* Terminal models (aka standard cells) used througout all the hierarchy.
+.include decap_w0.spi
+.include nexor2_x0.spi
+.include tie.spi
+.include xor2_x0.spi
+.include inv_x0.spi
+
+* Non-terminal models (part of the user's design hierarchy).
+
+.subckt expmob1_r 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32
+* NET     0 = vss
+* NET     1 = vdd
+* NET     2 = outputs[9]
+* NET     3 = outputs[8]
+* NET     4 = outputs[7]
+* NET     5 = outputs[6]
+* NET     6 = outputs[5]
+* NET     7 = outputs[4]
+* NET     8 = outputs[3]
+* NET     9 = outputs[2]
+* NET    10 = outputs[15]
+* NET    11 = outputs[14]
+* NET    12 = outputs[13]
+* NET    13 = outputs[12]
+* NET    14 = outputs[11]
+* NET    15 = outputs[10]
+* NET    16 = outputs[1]
+* NET    17 = inputs[9]
+* NET    18 = inputs[8]
+* NET    19 = inputs[7]
+* NET    20 = inputs[6]
+* NET    21 = inputs[5]
+* NET    22 = inputs[4]
+* NET    23 = inputs[3]
+* NET    24 = inputs[2]
+* NET    25 = inputs[15]
+* NET    26 = inputs[14]
+* NET    27 = inputs[13]
+* NET    28 = inputs[12]
+* NET    29 = inputs[11]
+* NET    30 = inputs[10]
+* NET    31 = inputs[1]
+* NET    32 = inputs[0]
+* NET    33 = genblk1_2_si_outputs_7
+* NET    34 = genblk1_2_si_outputs_3
+* NET    35 = genblk1_2_si_outputs_15
+* NET    36 = genblk1_2_si_outputs_11
+* NET    37 = genblk1_1_si_outputs_7
+* NET    38 = genblk1_1_si_outputs_6
+* NET    39 = genblk1_1_si_outputs_5
+* NET    40 = genblk1_1_si_outputs_15
+* NET    41 = genblk1_1_si_outputs_14
+* NET    42 = genblk1_1_si_outputs_13
+* NET    43 = genblk1_1_si_inputs_9
+* NET    44 = genblk1_1_si_inputs_15
+* NET    45 = genblk1_1_si_inputs_14
+* NET    46 = genblk1_1_si_inputs_13
+* NET    47 = genblk1_1_si_inputs_12
+* NET    48 = genblk1_1_si_inputs_11
+* NET    49 = genblk1_1_si_inputs_10
+* NET    50 = blockagenet
+* NET    51 = abc_203_new_n68
+* NET    52 = abc_203_new_n67
+* NET    53 = abc_203_new_n66
+* NET    54 = abc_203_new_n64
+* NET    55 = abc_203_new_n63
+* NET    56 = abc_203_new_n61
+* NET    57 = abc_203_new_n60
+* NET    58 = abc_203_new_n58
+* NET    59 = abc_203_new_n56
+* NET    60 = abc_203_new_n55
+* NET    61 = abc_203_new_n53
+* NET    62 = abc_203_new_n52
+* NET    63 = abc_203_new_n50
+* NET    64 = abc_203_new_n48
+* NET    65 = abc_203_new_n46
+* NET    66 = abc_203_new_n45
+* NET    67 = abc_203_new_n44
+* NET    68 = abc_203_new_n42
+* NET    69 = abc_203_new_n40
+* NET    70 = abc_203_new_n39
+* NET    71 = abc_203_new_n36
+* NET    72 = abc_203_new_n35
+* NET    73 = abc_203_new_n32
+
+xfeed_0 1 0 decap_w0
+xsubckt_19_nexor2_x0 1 0 63 64 8 nexor2_x0
+xsubckt_13_nexor2_x0 1 0 67 68 66 nexor2_x0
+xsubckt_27_nexor2_x0 1 0 58 3 2 nexor2_x0
+xsubckt_30_nexor2_x0 1 0 56 15 14 nexor2_x0
+xsubckt_36_nexor2_x0 1 0 52 54 51 nexor2_x0
+xfeed_9 1 0 decap_w0
+xfeed_8 1 0 tie
+xfeed_7 1 0 decap_w0
+xfeed_6 1 0 decap_w0
+xfeed_5 1 0 decap_w0
+xfeed_4 1 0 decap_w0
+xfeed_3 1 0 decap_w0
+xfeed_2 1 0 decap_w0
+xfeed_1 1 0 decap_w0
+xsubckt_18_xor2_x0 1 0 23 24 63 xor2_x0
+xsubckt_12_nexor2_x0 1 0 26 20 67 nexor2_x0
+xsubckt_1_inv_x0 1 0 73 7 inv_x0
+xsubckt_21_xor2_x0 1 0 31 21 61 xor2_x0
+xsubckt_35_nexor2_x0 1 0 53 60 52 nexor2_x0
+xspare_feed_9 1 0 tie
+xspare_feed_8 1 0 tie
+xspare_feed_7 1 0 decap_w0
+xspare_feed_6 1 0 tie
+xspare_feed_5 1 0 tie
+xspare_feed_4 1 0 decap_w0
+xspare_feed_3 1 0 tie
+xspare_feed_2 1 0 tie
+xspare_feed_1 1 0 tie
+xsubckt_20_nexor2_x0 1 0 31 21 62 nexor2_x0
+xsubckt_17_inv_x0 1 0 64 16 inv_x0
+xsubckt_15_inv_x0 1 0 65 11 inv_x0
+xsubckt_3_xor2_x0 1 0 28 18 72 xor2_x0
+xsubckt_4_nexor2_x0 1 0 72 7 71 nexor2_x0
+xsubckt_5_inv_x0 1 0 71 13 inv_x0
+xsubckt_9_inv_x0 1 0 69 5 inv_x0
+xsubckt_26_nexor2_x0 1 0 17 31 58 nexor2_x0
+xsubckt_34_xor2_x0 1 0 25 29 53 xor2_x0
+xspare_feed_0 1 0 tie
+xfeed_19 1 0 decap_w0
+xfeed_18 1 0 decap_w0
+xfeed_17 1 0 decap_w0
+xfeed_16 1 0 tie
+xfeed_15 1 0 decap_w0
+xfeed_14 1 0 tie
+xfeed_13 1 0 tie
+xfeed_12 1 0 decap_w0
+xfeed_11 1 0 tie
+xfeed_10 1 0 tie
+xsubckt_11_nexor2_x0 1 0 68 3 15 nexor2_x0
+xsubckt_2_xor2_x0 1 0 18 32 3 xor2_x0
+xsubckt_25_nexor2_x0 1 0 59 69 4 nexor2_x0
+xsubckt_16_nexor2_x0 1 0 31 32 64 nexor2_x0
+xsubckt_7_xor2_x0 1 0 24 20 70 xor2_x0
+xsubckt_8_nexor2_x0 1 0 70 7 69 nexor2_x0
+xsubckt_10_nexor2_x0 1 0 30 24 68 nexor2_x0
+xsubckt_33_nexor2_x0 1 0 54 13 12 nexor2_x0
+xfeed_22 1 0 tie
+xfeed_21 1 0 decap_w0
+xfeed_20 1 0 decap_w0
+xsubckt_6_xor2_x0 1 0 24 32 9 xor2_x0
+xsubckt_24_nexor2_x0 1 0 60 61 59 nexor2_x0
+xsubckt_32_nexor2_x0 1 0 55 61 54 nexor2_x0
+xspare_feed_13 1 0 decap_w0
+xspare_feed_12 1 0 tie
+xspare_feed_11 1 0 tie
+xspare_feed_10 1 0 decap_w0
+xsubckt_23_nexor2_x0 1 0 23 19 60 nexor2_x0
+xsubckt_29_nexor2_x0 1 0 57 58 56 nexor2_x0
+xsubckt_31_xor2_x0 1 0 27 17 55 xor2_x0
+xsubckt_37_nexor2_x0 1 0 51 65 10 nexor2_x0
+xspare_feed_15 1 0 tie
+xspare_feed_14 1 0 tie
+xsubckt_14_nexor2_x0 1 0 66 71 65 nexor2_x0
+xsubckt_0_nexor2_x0 1 0 32 22 73 nexor2_x0
+xsubckt_22_nexor2_x0 1 0 62 7 6 nexor2_x0
+xsubckt_28_nexor2_x0 1 0 29 23 57 nexor2_x0
+.ends expmob1_r

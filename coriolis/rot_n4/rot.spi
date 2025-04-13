@@ -1,0 +1,208 @@
+* Coriolis Structural SPICE Driver
+* Generated on Apr 13, 2025, 00:49
+* Cell/Subckt "rot".
+* 
+* INTERF vss
+* INTERF vdd
+* INTERF rotated_bits[9]
+* INTERF rotated_bits[8]
+* INTERF rotated_bits[7]
+* INTERF rotated_bits[6]
+* INTERF rotated_bits[5]
+* INTERF rotated_bits[4]
+* INTERF rotated_bits[3]
+* INTERF rotated_bits[2]
+* INTERF rotated_bits[15]
+* INTERF rotated_bits[14]
+* INTERF rotated_bits[13]
+* INTERF rotated_bits[12]
+* INTERF rotated_bits[11]
+* INTERF rotated_bits[10]
+* INTERF rotated_bits[1]
+* INTERF rotated_bits[0]
+* INTERF k[3]
+* INTERF k[2]
+* INTERF k[1]
+* INTERF k[0]
+* INTERF bits[9]
+* INTERF bits[8]
+* INTERF bits[7]
+* INTERF bits[6]
+* INTERF bits[5]
+* INTERF bits[4]
+* INTERF bits[3]
+* INTERF bits[2]
+* INTERF bits[15]
+* INTERF bits[14]
+* INTERF bits[13]
+* INTERF bits[12]
+* INTERF bits[11]
+* INTERF bits[10]
+* INTERF bits[1]
+* INTERF bits[0]
+
+* Terminal models (aka standard cells) used througout all the hierarchy.
+.include mux2_x1.spi
+.include inv_x0.spi
+
+* Non-terminal models (part of the user's design hierarchy).
+
+.subckt rot 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37
+* NET     0 = vss
+* NET     1 = vdd
+* NET     2 = rotated_bits[9]
+* NET     3 = rotated_bits[8]
+* NET     4 = rotated_bits[7]
+* NET     5 = rotated_bits[6]
+* NET     6 = rotated_bits[5]
+* NET     7 = rotated_bits[4]
+* NET     8 = rotated_bits[3]
+* NET     9 = rotated_bits[2]
+* NET    10 = rotated_bits[15]
+* NET    11 = rotated_bits[14]
+* NET    12 = rotated_bits[13]
+* NET    13 = rotated_bits[12]
+* NET    14 = rotated_bits[11]
+* NET    15 = rotated_bits[10]
+* NET    16 = rotated_bits[1]
+* NET    17 = rotated_bits[0]
+* NET    18 = k[3]
+* NET    19 = k[2]
+* NET    20 = k[1]
+* NET    21 = k[0]
+* NET    22 = bits[9]
+* NET    23 = bits[8]
+* NET    24 = bits[7]
+* NET    25 = bits[6]
+* NET    26 = bits[5]
+* NET    27 = bits[4]
+* NET    28 = bits[3]
+* NET    29 = bits[2]
+* NET    30 = bits[15]
+* NET    31 = bits[14]
+* NET    32 = bits[13]
+* NET    33 = bits[12]
+* NET    34 = bits[11]
+* NET    35 = bits[10]
+* NET    36 = bits[1]
+* NET    37 = bits[0]
+* NET    38 = abc_319_new_n99
+* NET    39 = abc_319_new_n97
+* NET    40 = abc_319_new_n96
+* NET    41 = abc_319_new_n94
+* NET    42 = abc_319_new_n93
+* NET    43 = abc_319_new_n91
+* NET    44 = abc_319_new_n90
+* NET    45 = abc_319_new_n88
+* NET    46 = abc_319_new_n87
+* NET    47 = abc_319_new_n85
+* NET    48 = abc_319_new_n84
+* NET    49 = abc_319_new_n83
+* NET    50 = abc_319_new_n81
+* NET    51 = abc_319_new_n80
+* NET    52 = abc_319_new_n79
+* NET    53 = abc_319_new_n77
+* NET    54 = abc_319_new_n76
+* NET    55 = abc_319_new_n75
+* NET    56 = abc_319_new_n73
+* NET    57 = abc_319_new_n72
+* NET    58 = abc_319_new_n71
+* NET    59 = abc_319_new_n69
+* NET    60 = abc_319_new_n68
+* NET    61 = abc_319_new_n67
+* NET    62 = abc_319_new_n65
+* NET    63 = abc_319_new_n64
+* NET    64 = abc_319_new_n63
+* NET    65 = abc_319_new_n61
+* NET    66 = abc_319_new_n60
+* NET    67 = abc_319_new_n59
+* NET    68 = abc_319_new_n57
+* NET    69 = abc_319_new_n56
+* NET    70 = abc_319_new_n55
+* NET    71 = abc_319_new_n53
+* NET    72 = abc_319_new_n52
+* NET    73 = abc_319_new_n51
+* NET    74 = abc_319_new_n50
+* NET    75 = abc_319_new_n49
+* NET    76 = abc_319_new_n48
+* NET    77 = abc_319_new_n47
+* NET    78 = abc_319_new_n46
+* NET    79 = abc_319_new_n45
+* NET    80 = abc_319_new_n44
+* NET    81 = abc_319_new_n43
+* NET    82 = abc_319_new_n42
+* NET    83 = abc_319_new_n41
+* NET    84 = abc_319_new_n40
+* NET    85 = abc_319_new_n39
+* NET    86 = abc_319_new_n38
+* NET    87 = abc_319_new_n37
+* NET    88 = abc_319_new_n101
+
+xsubckt_61_mux2_x1 1 0 39 41 18 13 mux2_x1
+xsubckt_58_mux2_x1 1 0 41 43 18 14 mux2_x1
+xsubckt_44_mux2_x1 1 0 51 57 19 50 mux2_x1
+xsubckt_19_mux2_x1 1 0 70 74 20 69 mux2_x1
+xsubckt_14_mux2_x1 1 0 22 36 21 73 mux2_x1
+xsubckt_5_mux2_x1 1 0 83 84 87 82 mux2_x1
+xsubckt_22_mux2_x1 1 0 29 35 21 67 mux2_x1
+xsubckt_36_mux2_x1 1 0 57 63 19 56 mux2_x1
+xsubckt_66_mux2_x1 1 0 88 71 85 10 mux2_x1
+xsubckt_60_mux2_x1 1 0 40 44 19 39 mux2_x1
+xsubckt_52_mux2_x1 1 0 45 47 18 2 mux2_x1
+xsubckt_49_mux2_x1 1 0 47 50 18 3 mux2_x1
+xsubckt_13_mux2_x1 1 0 32 26 21 74 mux2_x1
+xsubckt_0_inv_x0 1 0 20 87 inv_x0
+xsubckt_1_inv_x0 1 0 19 86 inv_x0
+xsubckt_2_inv_x0 1 0 18 85 inv_x0
+xsubckt_4_mux2_x1 1 0 33 27 21 83 mux2_x1
+xsubckt_27_mux2_x1 1 0 64 77 20 63 mux2_x1
+xsubckt_30_mux2_x1 1 0 27 33 21 61 mux2_x1
+xsubckt_35_mux2_x1 1 0 58 70 20 57 mux2_x1
+xsubckt_65_mux2_x1 1 0 88 38 18 11 mux2_x1
+xsubckt_57_mux2_x1 1 0 42 46 19 41 mux2_x1
+xsubckt_51_mux2_x1 1 0 46 51 19 45 mux2_x1
+xsubckt_48_mux2_x1 1 0 48 54 19 47 mux2_x1
+xsubckt_43_mux2_x1 1 0 52 64 20 51 mux2_x1
+xsubckt_18_mux2_x1 1 0 36 22 21 70 mux2_x1
+xsubckt_9_mux2_x1 1 0 79 82 86 78 mux2_x1
+xsubckt_21_mux2_x1 1 0 68 78 18 16 mux2_x1
+xsubckt_26_mux2_x1 1 0 28 34 21 64 mux2_x1
+xsubckt_56_mux2_x1 1 0 52 76 87 42 mux2_x1
+xsubckt_42_mux2_x1 1 0 24 30 21 52 mux2_x1
+xsubckt_20_mux2_x1 1 0 69 75 19 68 mux2_x1
+xsubckt_17_mux2_x1 1 0 71 78 85 17 mux2_x1
+xsubckt_12_mux2_x1 1 0 76 77 87 75 mux2_x1
+xsubckt_3_mux2_x1 1 0 37 23 21 84 mux2_x1
+xsubckt_34_mux2_x1 1 0 26 32 21 58 mux2_x1
+xsubckt_39_mux2_x1 1 0 55 67 20 54 mux2_x1
+xsubckt_64_mux2_x1 1 0 40 79 86 88 mux2_x1
+xsubckt_55_mux2_x1 1 0 43 45 18 15 mux2_x1
+xsubckt_50_mux2_x1 1 0 58 73 87 46 mux2_x1
+xsubckt_47_mux2_x1 1 0 49 61 20 48 mux2_x1
+xsubckt_11_mux2_x1 1 0 34 28 21 76 mux2_x1
+xsubckt_8_mux2_x1 1 0 80 81 87 79 mux2_x1
+xsubckt_25_mux2_x1 1 0 65 68 18 9 mux2_x1
+xsubckt_33_mux2_x1 1 0 59 62 18 7 mux2_x1
+xsubckt_63_mux2_x1 1 0 38 39 18 12 mux2_x1
+xsubckt_46_mux2_x1 1 0 23 37 21 49 mux2_x1
+xsubckt_41_mux2_x1 1 0 53 56 18 5 mux2_x1
+xsubckt_16_mux2_x1 1 0 72 75 86 71 mux2_x1
+xsubckt_7_mux2_x1 1 0 35 29 21 80 mux2_x1
+xsubckt_24_mux2_x1 1 0 66 82 19 65 mux2_x1
+xsubckt_38_mux2_x1 1 0 25 31 21 55 mux2_x1
+xsubckt_62_mux2_x1 1 0 42 72 86 38 mux2_x1
+xsubckt_54_mux2_x1 1 0 44 48 19 43 mux2_x1
+xsubckt_15_mux2_x1 1 0 73 74 87 72 mux2_x1
+xsubckt_6_mux2_x1 1 0 31 25 21 81 mux2_x1
+xsubckt_10_mux2_x1 1 0 30 24 21 77 mux2_x1
+xsubckt_29_mux2_x1 1 0 62 65 18 8 mux2_x1
+xsubckt_32_mux2_x1 1 0 60 66 19 59 mux2_x1
+xsubckt_37_mux2_x1 1 0 56 59 18 6 mux2_x1
+xsubckt_40_mux2_x1 1 0 54 60 19 53 mux2_x1
+xsubckt_59_mux2_x1 1 0 49 83 87 40 mux2_x1
+xsubckt_53_mux2_x1 1 0 55 80 87 44 mux2_x1
+xsubckt_45_mux2_x1 1 0 50 53 18 4 mux2_x1
+xsubckt_23_mux2_x1 1 0 67 81 20 66 mux2_x1
+xsubckt_28_mux2_x1 1 0 63 69 19 62 mux2_x1
+xsubckt_31_mux2_x1 1 0 61 84 20 60 mux2_x1
+.ends rot

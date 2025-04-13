@@ -1,0 +1,188 @@
+* Coriolis Structural SPICE Driver
+* Generated on Apr 13, 2025, 00:44
+* Cell/Subckt "rot_r".
+* 
+* INTERF vss
+* INTERF vdd
+* INTERF rotated_bits[7]
+* INTERF rotated_bits[6]
+* INTERF rotated_bits[5]
+* INTERF rotated_bits[4]
+* INTERF rotated_bits[3]
+* INTERF rotated_bits[2]
+* INTERF rotated_bits[1]
+* INTERF rotated_bits[0]
+* INTERF k[2]
+* INTERF k[1]
+* INTERF k[0]
+* INTERF bits[7]
+* INTERF bits[6]
+* INTERF bits[5]
+* INTERF bits[4]
+* INTERF bits[3]
+* INTERF bits[2]
+* INTERF bits[1]
+* INTERF bits[0]
+
+* Terminal models (aka standard cells) used througout all the hierarchy.
+.include mux2_x1.spi
+.include decap_w0.spi
+.include inv_x0.spi
+.include tie.spi
+
+* Non-terminal models (part of the user's design hierarchy).
+
+.subckt rot_r 0 1 2 3 4 5 6 7 8 9 10 11 12 14 15 16 17 18 19 20 21
+* NET     0 = vss
+* NET     1 = vdd
+* NET     2 = rotated_bits[7]
+* NET     3 = rotated_bits[6]
+* NET     4 = rotated_bits[5]
+* NET     5 = rotated_bits[4]
+* NET     6 = rotated_bits[3]
+* NET     7 = rotated_bits[2]
+* NET     8 = rotated_bits[1]
+* NET     9 = rotated_bits[0]
+* NET    10 = k[2]
+* NET    11 = k[1]
+* NET    12 = k[0]
+* NET    13 = blockagenet
+* NET    14 = bits[7]
+* NET    15 = bits[6]
+* NET    16 = bits[5]
+* NET    17 = bits[4]
+* NET    18 = bits[3]
+* NET    19 = bits[2]
+* NET    20 = bits[1]
+* NET    21 = bits[0]
+* NET    22 = abc_171_new_n43
+* NET    23 = abc_171_new_n41
+* NET    24 = abc_171_new_n39
+* NET    25 = abc_171_new_n38
+* NET    26 = abc_171_new_n36
+* NET    27 = abc_171_new_n35
+* NET    28 = abc_171_new_n33
+* NET    29 = abc_171_new_n32
+* NET    30 = abc_171_new_n30
+* NET    31 = abc_171_new_n29
+* NET    32 = abc_171_new_n27
+* NET    33 = abc_171_new_n26
+* NET    34 = abc_171_new_n25
+* NET    35 = abc_171_new_n24
+* NET    36 = abc_171_new_n23
+* NET    37 = abc_171_new_n22
+* NET    38 = abc_171_new_n21
+* NET    39 = abc_171_new_n20
+
+xsubckt_5_mux2_x1 1 0 14 18 12 34 mux2_x1
+xsubckt_14_mux2_x1 1 0 28 30 10 7 mux2_x1
+xsubckt_19_mux2_x1 1 0 25 29 11 24 mux2_x1
+xfeed_0 1 0 decap_w0
+xsubckt_1_inv_x0 1 0 10 38 inv_x0
+xsubckt_0_inv_x0 1 0 11 39 inv_x0
+xfeed_1 1 0 decap_w0
+xfeed_2 1 0 decap_w0
+xfeed_3 1 0 decap_w0
+xfeed_4 1 0 decap_w0
+xfeed_5 1 0 decap_w0
+xfeed_6 1 0 decap_w0
+xfeed_7 1 0 decap_w0
+xfeed_8 1 0 decap_w0
+xfeed_9 1 0 decap_w0
+xsubckt_21_mux2_x1 1 0 27 33 39 23 mux2_x1
+xsubckt_3_mux2_x1 1 0 15 19 12 36 mux2_x1
+xsubckt_12_mux2_x1 1 0 19 15 12 29 mux2_x1
+xsubckt_17_mux2_x1 1 0 26 28 10 6 mux2_x1
+xfeed_10 1 0 decap_w0
+xfeed_11 1 0 decap_w0
+xfeed_12 1 0 decap_w0
+xfeed_13 1 0 decap_w0
+xfeed_14 1 0 decap_w0
+xfeed_15 1 0 decap_w0
+xfeed_16 1 0 tie
+xfeed_17 1 0 decap_w0
+xfeed_18 1 0 decap_w0
+xfeed_19 1 0 decap_w0
+xsubckt_8_mux2_x1 1 0 32 35 38 9 mux2_x1
+xsubckt_24_mux2_x1 1 0 22 23 10 3 mux2_x1
+xfeed_20 1 0 decap_w0
+xfeed_21 1 0 decap_w0
+xfeed_22 1 0 decap_w0
+xfeed_23 1 0 tie
+xfeed_24 1 0 decap_w0
+xfeed_25 1 0 tie
+xfeed_26 1 0 decap_w0
+xfeed_27 1 0 decap_w0
+xfeed_28 1 0 decap_w0
+xfeed_29 1 0 decap_w0
+xspare_feed_13 1 0 decap_w0
+xspare_feed_12 1 0 tie
+xspare_feed_11 1 0 tie
+xspare_feed_10 1 0 decap_w0
+xsubckt_10_mux2_x1 1 0 31 34 11 30 mux2_x1
+xsubckt_6_mux2_x1 1 0 16 20 12 33 mux2_x1
+xsubckt_15_mux2_x1 1 0 18 14 12 27 mux2_x1
+xfeed_39 1 0 decap_w0
+xspare_feed_14 1 0 tie
+xspare_feed_15 1 0 tie
+xfeed_30 1 0 decap_w0
+xfeed_31 1 0 decap_w0
+xfeed_32 1 0 decap_w0
+xfeed_33 1 0 decap_w0
+xfeed_34 1 0 decap_w0
+xfeed_35 1 0 tie
+xfeed_36 1 0 decap_w0
+xfeed_37 1 0 decap_w0
+xfeed_38 1 0 decap_w0
+xsubckt_22_mux2_x1 1 0 23 24 10 4 mux2_x1
+xfeed_46 1 0 decap_w0
+xfeed_45 1 0 decap_w0
+xfeed_44 1 0 decap_w0
+xfeed_43 1 0 decap_w0
+xfeed_42 1 0 decap_w0
+xfeed_41 1 0 decap_w0
+xfeed_40 1 0 tie
+xsubckt_4_mux2_x1 1 0 36 37 39 35 mux2_x1
+xsubckt_13_mux2_x1 1 0 29 37 11 28 mux2_x1
+xfeed_49 1 0 decap_w0
+xfeed_48 1 0 decap_w0
+xfeed_47 1 0 decap_w0
+xspare_feed_9 1 0 tie
+xspare_feed_8 1 0 tie
+xspare_feed_7 1 0 decap_w0
+xspare_feed_6 1 0 tie
+xspare_feed_5 1 0 tie
+xspare_feed_4 1 0 decap_w0
+xspare_feed_3 1 0 tie
+xspare_feed_2 1 0 tie
+xspare_feed_1 1 0 tie
+xspare_feed_0 1 0 tie
+xsubckt_9_mux2_x1 1 0 20 16 12 31 mux2_x1
+xsubckt_18_mux2_x1 1 0 17 21 12 25 mux2_x1
+xfeed_53 1 0 tie
+xfeed_52 1 0 decap_w0
+xfeed_51 1 0 decap_w0
+xfeed_50 1 0 decap_w0
+xsubckt_20_mux2_x1 1 0 24 26 10 5 mux2_x1
+xfeed_59 1 0 decap_w0
+xfeed_58 1 0 decap_w0
+xfeed_57 1 0 decap_w0
+xfeed_56 1 0 decap_w0
+xfeed_55 1 0 decap_w0
+xfeed_54 1 0 tie
+xsubckt_25_mux2_x1 1 0 22 32 38 2 mux2_x1
+xsubckt_2_mux2_x1 1 0 21 17 12 37 mux2_x1
+xsubckt_11_mux2_x1 1 0 30 35 10 8 mux2_x1
+xfeed_60 1 0 decap_w0
+xsubckt_7_mux2_x1 1 0 33 34 39 32 mux2_x1
+xsubckt_16_mux2_x1 1 0 27 31 11 26 mux2_x1
+xfeed_68 1 0 decap_w0
+xfeed_67 1 0 decap_w0
+xfeed_66 1 0 decap_w0
+xfeed_65 1 0 decap_w0
+xfeed_64 1 0 decap_w0
+xfeed_63 1 0 decap_w0
+xfeed_62 1 0 decap_w0
+xfeed_61 1 0 decap_w0
+xsubckt_23_mux2_x1 1 0 25 36 39 22 mux2_x1
+.ends rot_r

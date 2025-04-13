@@ -1,0 +1,608 @@
+effective_density = 0.44
+wire_length = 2915
+dimensions = (252.0, 259.2)
+
+effective_density = 0.481
+wire_length = 2783
+dimensions = (241.6, 247.68)
+
+effective_density = 0.528
+wire_length = 2632
+dimensions = (231.2, 236.16)
+
+effective_density = 0.581
+wire_length = 2552
+dimensions = (220.8, 224.64)
+
+effective_density = 0.644
+wire_length = 2446
+dimensions = (210.4, 213.12)
+
+effective_density = 0.717
+wire_length = 2298
+dimensions = (200.0, 201.6)
+
+effective_density = 0.803
+wire_length = 2273
+dimensions = (189.6, 190.08)
+
+effective_density = 0.895
+wire_length = 2071
+dimensions = (179.2, 178.56)
+
+effective_density = 1.02
+wire_length = 1902
+dimensions = (168.8, 167.04)
+
+effective_density = 1.16
+wire_length = 1854
+dimensions = (158.4, 155.52)
+
+effective_density = 1.35
+wire_length = 1608
+dimensions = (148.0, 144.0)
+
+effective_density = 1.58
+wire_length = 1485
+dimensions = (137.6, 132.48)
+
+effective_density = 1.87
+wire_length = 1381
+dimensions = (127.2, 120.96)
+
+effective_density = 2.25
+wire_length = 1226
+dimensions = (116.8, 109.44)
+
+effective_density = 2.77
+wire_length = 1126
+dimensions = (106.4, 97.92)
+
+effective_density = 3.48
+wire_length = 1006
+dimensions = (96.0, 86.4)
+
+effective_density = 4.52
+wire_length = 852
+dimensions = (85.6, 74.88)
+
+effective_density = 6.11
+wire_length = 758
+dimensions = (75.2, 63.36)
+
+effective_density = 8.74
+wire_length = 715
+dimensions = (64.8, 51.84)
+
+effective_density = 13.6
+wire_length = 557
+dimensions = (54.4, 40.32)
+
+effective_density = 24.3
+wire_length = 460
+dimensions = (44.0, 28.8)
+
+effective_density = 0.44
+wire_length = 2915
+dimensions = (252.0, 259.2)
+
+effective_density = 0.481
+wire_length = 2783
+dimensions = (241.6, 247.68)
+
+effective_density = 0.528
+wire_length = 2632
+dimensions = (231.2, 236.16)
+
+effective_density = 0.581
+wire_length = 2552
+dimensions = (220.8, 224.64)
+
+effective_density = 0.644
+wire_length = 2446
+dimensions = (210.4, 213.12)
+
+effective_density = 0.717
+wire_length = 2298
+dimensions = (200.0, 201.6)
+
+effective_density = 0.803
+wire_length = 2273
+dimensions = (189.6, 190.08)
+
+effective_density = 0.895
+wire_length = 2071
+dimensions = (179.2, 178.56)
+
+effective_density = 1.02
+wire_length = 1902
+dimensions = (168.8, 167.04)
+
+effective_density = 1.16
+wire_length = 1854
+dimensions = (158.4, 155.52)
+
+effective_density = 1.35
+wire_length = 1608
+dimensions = (148.0, 144.0)
+
+effective_density = 1.58
+wire_length = 1485
+dimensions = (137.6, 132.48)
+
+effective_density = 1.87
+wire_length = 1381
+dimensions = (127.2, 120.96)
+
+effective_density = 2.25
+wire_length = 1226
+dimensions = (116.8, 109.44)
+
+effective_density = 2.77
+wire_length = 1126
+dimensions = (106.4, 97.92)
+
+effective_density = 3.48
+wire_length = 1006
+dimensions = (96.0, 86.4)
+
+effective_density = 4.52
+wire_length = 852
+dimensions = (85.6, 74.88)
+
+effective_density = 6.11
+wire_length = 758
+dimensions = (75.2, 63.36)
+
+effective_density = 8.74
+wire_length = 715
+dimensions = (64.8, 51.84)
+
+effective_density = 13.6
+wire_length = 557
+dimensions = (54.4, 40.32)
+
+effective_density = 24.3
+wire_length = 460
+dimensions = (44.0, 28.8)
+
+effective_density = 1.21
+wire_length = 1751
+dimensions = (137.6, 172.8)
+
+effective_density = 1.4
+wire_length = 1642
+dimensions = (127.2, 161.28)
+
+effective_density = 1.21
+wire_length = 1751
+dimensions = (137.6, 172.8)
+
+effective_density = 1.29
+wire_length = 1691
+dimensions = (132.8, 167.04)
+
+effective_density = 1.39
+wire_length = 1652
+dimensions = (128.0, 161.28)
+
+effective_density = 1.5
+wire_length = 1594
+dimensions = (123.2, 155.52)
+
+effective_density = 1.62
+wire_length = 1548
+dimensions = (118.4, 149.76)
+
+effective_density = 1.76
+wire_length = 1439
+dimensions = (113.6, 144.0)
+
+effective_density = 1.91
+wire_length = 1399
+dimensions = (108.8, 138.24)
+
+effective_density = 1.21
+wire_length = 1751
+dimensions = (137.6, 172.8)
+
+effective_density = 1.29
+wire_length = 1691
+dimensions = (132.8, 167.04)
+
+effective_density = 1.39
+wire_length = 1652
+dimensions = (128.0, 161.28)
+
+effective_density = 1.5
+wire_length = 1594
+dimensions = (123.2, 155.52)
+
+effective_density = 1.62
+wire_length = 1548
+dimensions = (118.4, 149.76)
+
+effective_density = 1.76
+wire_length = 1439
+dimensions = (113.6, 144.0)
+
+effective_density = 1.91
+wire_length = 1399
+dimensions = (108.8, 138.24)
+
+effective_density = 2.09
+wire_length = 1359
+dimensions = (104.0, 132.48)
+
+effective_density = 2.29
+wire_length = 1313
+dimensions = (99.2, 126.72)
+
+effective_density = 2.52
+wire_length = 1251
+dimensions = (94.4, 120.96)
+
+effective_density = 2.79
+wire_length = 1133
+dimensions = (89.6, 115.2)
+
+effective_density = 3.11
+wire_length = 1125
+dimensions = (84.8, 109.44)
+
+effective_density = 3.48
+wire_length = 1081
+dimensions = (80.0, 103.68)
+
+effective_density = 3.93
+wire_length = 1003
+dimensions = (75.2, 97.92)
+
+effective_density = 4.47
+wire_length = 934
+dimensions = (70.4, 92.16)
+
+effective_density = 5.12
+wire_length = 866
+dimensions = (65.6, 86.4)
+
+effective_density = 5.94
+wire_length = 767
+dimensions = (60.8, 80.64)
+
+effective_density = 6.97
+wire_length = 749
+dimensions = (56.0, 74.88)
+
+effective_density = 8.29
+wire_length = 714
+dimensions = (51.2, 69.12)
+
+effective_density = 10.0
+wire_length = 605
+dimensions = (46.4, 63.36)
+
+effective_density = 12.4
+wire_length = 559
+dimensions = (41.6, 57.6)
+
+effective_density = 15.7
+wire_length = 606
+dimensions = (36.8, 51.84)
+
+effective_density = 20.7
+wire_length = 534
+dimensions = (32.0, 46.08)
+
+effective_density = 68.9
+wire_length = 420
+dimensions = (17.6, 28.8)
+
+effective_density = 1.21
+wire_length = 1751
+dimensions = (137.6, 172.8)
+
+effective_density = 1.29
+wire_length = 1691
+dimensions = (132.8, 167.04)
+
+effective_density = 1.39
+wire_length = 1652
+dimensions = (128.0, 161.28)
+
+effective_density = 1.5
+wire_length = 1594
+dimensions = (123.2, 155.52)
+
+effective_density = 1.62
+wire_length = 1548
+dimensions = (118.4, 149.76)
+
+effective_density = 1.76
+wire_length = 1439
+dimensions = (113.6, 144.0)
+
+effective_density = 1.91
+wire_length = 1399
+dimensions = (108.8, 138.24)
+
+effective_density = 2.09
+wire_length = 1359
+dimensions = (104.0, 132.48)
+
+effective_density = 2.29
+wire_length = 1313
+dimensions = (99.2, 126.72)
+
+effective_density = 2.52
+wire_length = 1251
+dimensions = (94.4, 120.96)
+
+effective_density = 2.79
+wire_length = 1133
+dimensions = (89.6, 115.2)
+
+effective_density = 3.11
+wire_length = 1125
+dimensions = (84.8, 109.44)
+
+effective_density = 3.48
+wire_length = 1081
+dimensions = (80.0, 103.68)
+
+effective_density = 3.93
+wire_length = 1003
+dimensions = (75.2, 97.92)
+
+effective_density = 4.47
+wire_length = 934
+dimensions = (70.4, 92.16)
+
+effective_density = 5.12
+wire_length = 866
+dimensions = (65.6, 86.4)
+
+effective_density = 5.94
+wire_length = 767
+dimensions = (60.8, 80.64)
+
+effective_density = 6.97
+wire_length = 749
+dimensions = (56.0, 74.88)
+
+effective_density = 8.29
+wire_length = 714
+dimensions = (51.2, 69.12)
+
+effective_density = 10.0
+wire_length = 605
+dimensions = (46.4, 63.36)
+
+effective_density = 12.4
+wire_length = 559
+dimensions = (41.6, 57.6)
+
+effective_density = 15.7
+wire_length = 606
+dimensions = (36.8, 51.84)
+
+effective_density = 20.7
+wire_length = 534
+dimensions = (32.0, 46.08)
+
+effective_density = 68.9
+wire_length = 420
+dimensions = (17.6, 28.8)
+
+effective_density = 68.9
+wire_length = 420
+dimensions = (17.6, 28.8)
+
+effective_density = 68.9
+wire_length = 420
+dimensions = (17.6, 28.8)
+
+effective_density = 1.21
+wire_length = 1751
+dimensions = (137.6, 172.8)
+
+effective_density = 1.28
+wire_length = 1741
+dimensions = (134.4, 167.04)
+
+effective_density = 1.36
+wire_length = 1665
+dimensions = (131.2, 161.28)
+
+effective_density = 1.44
+wire_length = 1618
+dimensions = (128.0, 155.52)
+
+effective_density = 1.54
+wire_length = 1575
+dimensions = (124.8, 149.76)
+
+effective_density = 1.64
+wire_length = 1504
+dimensions = (121.6, 144.0)
+
+effective_density = 1.76
+wire_length = 1450
+dimensions = (118.4, 138.24)
+
+effective_density = 1.88
+wire_length = 1390
+dimensions = (115.2, 132.48)
+
+effective_density = 2.03
+wire_length = 1389
+dimensions = (112.0, 126.72)
+
+effective_density = 2.19
+wire_length = 1308
+dimensions = (108.8, 120.96)
+
+effective_density = 2.37
+wire_length = 1256
+dimensions = (105.6, 115.2)
+
+effective_density = 2.57
+wire_length = 1242
+dimensions = (102.4, 109.44)
+
+effective_density = 2.8
+wire_length = 1193
+dimensions = (99.2, 103.68)
+
+effective_density = 3.07
+wire_length = 1139
+dimensions = (96.0, 97.92)
+
+effective_density = 3.38
+wire_length = 1074
+dimensions = (92.8, 92.16)
+
+effective_density = 3.73
+wire_length = 990
+dimensions = (89.6, 86.4)
+
+effective_density = 4.16
+wire_length = 934
+dimensions = (86.4, 80.64)
+
+effective_density = 4.65
+wire_length = 855
+dimensions = (83.2, 74.88)
+
+effective_density = 5.25
+wire_length = 838
+dimensions = (80.0, 69.12)
+
+effective_density = 5.98
+wire_length = 764
+dimensions = (76.8, 63.36)
+
+effective_density = 6.89
+wire_length = 763
+dimensions = (73.6, 57.6)
+
+effective_density = 8.03
+wire_length = 736
+dimensions = (70.4, 51.84)
+
+effective_density = 9.51
+wire_length = 626
+dimensions = (67.2, 46.08)
+
+effective_density = 11.5
+wire_length = 629
+dimensions = (64.0, 40.32)
+
+effective_density = 14.2
+wire_length = 625
+dimensions = (60.8, 34.56)
+
+effective_density = 18.2
+wire_length = 552
+dimensions = (57.6, 28.8)
+
+effective_density = 24.6
+wire_length = 412
+dimensions = (54.4, 23.04)
+
+effective_density = 36.0
+wire_length = 401
+dimensions = (51.2, 17.28)
+
+effective_density = 1.43
+wire_length = 1662
+dimensions = (134.4, 149.76)
+
+effective_density = 1.54
+wire_length = 1534
+dimensions = (129.6, 144.0)
+
+effective_density = 1.66
+wire_length = 1473
+dimensions = (124.8, 138.24)
+
+effective_density = 1.81
+wire_length = 1478
+dimensions = (120.0, 132.48)
+
+effective_density = 1.97
+wire_length = 1417
+dimensions = (115.2, 126.72)
+
+effective_density = 2.15
+wire_length = 1315
+dimensions = (110.4, 120.96)
+
+effective_density = 2.37
+wire_length = 1256
+dimensions = (105.6, 115.2)
+
+effective_density = 2.61
+wire_length = 1273
+dimensions = (100.8, 109.44)
+
+effective_density = 2.9
+wire_length = 1177
+dimensions = (96.0, 103.68)
+
+effective_density = 3.23
+wire_length = 1127
+dimensions = (91.2, 97.92)
+
+effective_density = 3.63
+wire_length = 1033
+dimensions = (86.4, 92.16)
+
+effective_density = 4.11
+wire_length = 950
+dimensions = (81.6, 86.4)
+
+effective_density = 4.68
+wire_length = 889
+dimensions = (76.8, 80.64)
+
+effective_density = 5.39
+wire_length = 877
+dimensions = (72.0, 74.88)
+
+effective_density = 6.28
+wire_length = 824
+dimensions = (67.2, 69.12)
+
+effective_density = 7.4
+wire_length = 704
+dimensions = (62.4, 63.36)
+
+effective_density = 8.86
+wire_length = 678
+dimensions = (57.6, 57.6)
+
+effective_density = 10.8
+wire_length = 631
+dimensions = (52.8, 51.84)
+
+effective_density = 13.5
+wire_length = 580
+dimensions = (48.0, 46.08)
+
+effective_density = 17.3
+wire_length = 465
+dimensions = (43.2, 40.32)
+
+effective_density = 23.1
+wire_length = 444
+dimensions = (38.4, 34.56)
+
+effective_density = 32.6
+wire_length = 403
+dimensions = (33.6, 28.8)
+
+effective_density = 88.6
+wire_length = 401
+dimensions = (24.0, 17.28)
+

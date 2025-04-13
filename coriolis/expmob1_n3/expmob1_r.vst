@@ -1,0 +1,283 @@
+
+-- =======================================================================
+-- Coriolis Structural VHDL Driver
+-- Generated on Apr 13, 2025, 02:01
+-- 
+-- To be interoperable with Alliance, it uses it's special VHDL subset.
+-- ("man vhdl" under Alliance for more informations)
+-- =======================================================================
+
+entity expmob1_r is
+  port ( inputs  : in bit_vector(7 downto 0)
+       ; outputs : out bit_vector(7 downto 1)
+       ; vdd     : in bit
+       ; vss     : in bit
+       );
+end expmob1_r;
+
+architecture structural of expmob1_r is
+
+  component tie
+    port ( vdd : in bit
+         ; vss : in bit
+         );
+  end component;
+
+  component decap_w0
+    port ( vdd : in bit
+         ; vss : in bit
+         );
+  end component;
+
+  component inv_x0
+    port ( i   : in bit
+         ; nq  : out bit
+         ; vdd : in bit
+         ; vss : in bit
+         );
+  end component;
+
+  component xor2_x0
+    port ( i0  : in bit
+         ; i1  : in bit
+         ; q   : out bit
+         ; vdd : in bit
+         ; vss : in bit
+         );
+  end component;
+
+  component nexor2_x0
+    port ( i0  : in bit
+         ; i1  : in bit
+         ; nq  : out bit
+         ; vdd : in bit
+         ; vss : in bit
+         );
+  end component;
+
+  signal abc_140_new_n16        :  bit;
+  signal abc_140_new_n19        :  bit;
+  signal abc_140_new_n22        :  bit;
+  signal abc_140_new_n24        :  bit;
+  signal abc_140_new_n26        :  bit;
+  signal abc_140_new_n27        :  bit;
+  signal blockagenet            :  bit;
+  signal genblk1_1_si_inputs_5  :  bit;
+  signal genblk1_1_si_inputs_6  :  bit;
+  signal genblk1_1_si_inputs_7  :  bit;
+  signal genblk1_1_si_outputs_3 :  bit;
+  signal genblk1_1_si_outputs_7 :  bit;
+
+
+begin
+
+  feed_0 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  subckt_10_nexor2_x0 : nexor2_x0
+  port map ( i0  => inputs(7)
+           , i1  => inputs(3)
+           , nq  => abc_140_new_n26
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_8_nexor2_x0 : nexor2_x0
+  port map ( i0  => inputs(5)
+           , i1  => inputs(1)
+           , nq  => abc_140_new_n24
+           , vdd => vdd
+           , vss => vss
+           );
+
+  feed_4 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_3 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_2 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_1 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  subckt_6_xor2_x0 : xor2_x0
+  port map ( i0  => inputs(1)
+           , i1  => inputs(3)
+           , q   => abc_140_new_n22
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_1_inv_x0 : inv_x0
+  port map ( i   => abc_140_new_n16
+           , nq  => outputs(2)
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_12_nexor2_x0 : nexor2_x0
+  port map ( i0  => abc_140_new_n27
+           , i1  => outputs(6)
+           , nq  => outputs(7)
+           , vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_13 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_12 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_11 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_10 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_9 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_8 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_7 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_6 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_5 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_4 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  subckt_7_nexor2_x0 : nexor2_x0
+  port map ( i0  => abc_140_new_n22
+           , i1  => abc_140_new_n16
+           , nq  => outputs(3)
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_4_nexor2_x0 : nexor2_x0
+  port map ( i0  => abc_140_new_n19
+           , i1  => abc_140_new_n16
+           , nq  => outputs(6)
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_3_xor2_x0 : xor2_x0
+  port map ( i0  => inputs(6)
+           , i1  => inputs(4)
+           , q   => abc_140_new_n19
+           , vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_0 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_1 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_2 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_3 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_15 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_14 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  subckt_9_nexor2_x0 : nexor2_x0
+  port map ( i0  => abc_140_new_n24
+           , i1  => outputs(4)
+           , nq  => outputs(5)
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_5_xor2_x0 : xor2_x0
+  port map ( i0  => inputs(1)
+           , i1  => inputs(0)
+           , q   => outputs(1)
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_2_xor2_x0 : xor2_x0
+  port map ( i0  => inputs(4)
+           , i1  => inputs(0)
+           , q   => outputs(4)
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_0_nexor2_x0 : nexor2_x0
+  port map ( i0  => inputs(0)
+           , i1  => inputs(2)
+           , nq  => abc_140_new_n16
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_11_nexor2_x0 : nexor2_x0
+  port map ( i0  => abc_140_new_n26
+           , i1  => abc_140_new_n24
+           , nq  => abc_140_new_n27
+           , vdd => vdd
+           , vss => vss
+           );
+
+end structural;
+

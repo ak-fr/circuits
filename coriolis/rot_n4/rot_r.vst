@@ -1,0 +1,1240 @@
+
+-- =======================================================================
+-- Coriolis Structural VHDL Driver
+-- Generated on Apr 13, 2025, 00:57
+-- 
+-- To be interoperable with Alliance, it uses it's special VHDL subset.
+-- ("man vhdl" under Alliance for more informations)
+-- =======================================================================
+
+entity rot_r is
+  port ( k            : in bit_vector(3 downto 0)
+       ; bits         : in bit_vector(15 downto 0)
+       ; rotated_bits : out bit_vector(15 downto 0)
+       ; vdd          : in bit
+       ; vss          : in bit
+       );
+end rot_r;
+
+architecture structural of rot_r is
+
+  component tie
+    port ( vdd : in bit
+         ; vss : in bit
+         );
+  end component;
+
+  component decap_w0
+    port ( vdd : in bit
+         ; vss : in bit
+         );
+  end component;
+
+  component inv_x0
+    port ( i   : in bit
+         ; nq  : out bit
+         ; vdd : in bit
+         ; vss : in bit
+         );
+  end component;
+
+  component mux2_x1
+    port ( cmd : in bit
+         ; i0  : in bit
+         ; i1  : in bit
+         ; q   : out bit
+         ; vdd : in bit
+         ; vss : in bit
+         );
+  end component;
+
+  signal abc_319_new_n101 :  bit;
+  signal abc_319_new_n37  :  bit;
+  signal abc_319_new_n38  :  bit;
+  signal abc_319_new_n39  :  bit;
+  signal abc_319_new_n40  :  bit;
+  signal abc_319_new_n41  :  bit;
+  signal abc_319_new_n42  :  bit;
+  signal abc_319_new_n43  :  bit;
+  signal abc_319_new_n44  :  bit;
+  signal abc_319_new_n45  :  bit;
+  signal abc_319_new_n46  :  bit;
+  signal abc_319_new_n47  :  bit;
+  signal abc_319_new_n48  :  bit;
+  signal abc_319_new_n49  :  bit;
+  signal abc_319_new_n50  :  bit;
+  signal abc_319_new_n51  :  bit;
+  signal abc_319_new_n52  :  bit;
+  signal abc_319_new_n53  :  bit;
+  signal abc_319_new_n55  :  bit;
+  signal abc_319_new_n56  :  bit;
+  signal abc_319_new_n57  :  bit;
+  signal abc_319_new_n59  :  bit;
+  signal abc_319_new_n60  :  bit;
+  signal abc_319_new_n61  :  bit;
+  signal abc_319_new_n63  :  bit;
+  signal abc_319_new_n64  :  bit;
+  signal abc_319_new_n65  :  bit;
+  signal abc_319_new_n67  :  bit;
+  signal abc_319_new_n68  :  bit;
+  signal abc_319_new_n69  :  bit;
+  signal abc_319_new_n71  :  bit;
+  signal abc_319_new_n72  :  bit;
+  signal abc_319_new_n73  :  bit;
+  signal abc_319_new_n75  :  bit;
+  signal abc_319_new_n76  :  bit;
+  signal abc_319_new_n77  :  bit;
+  signal abc_319_new_n79  :  bit;
+  signal abc_319_new_n80  :  bit;
+  signal abc_319_new_n81  :  bit;
+  signal abc_319_new_n83  :  bit;
+  signal abc_319_new_n84  :  bit;
+  signal abc_319_new_n85  :  bit;
+  signal abc_319_new_n87  :  bit;
+  signal abc_319_new_n88  :  bit;
+  signal abc_319_new_n90  :  bit;
+  signal abc_319_new_n91  :  bit;
+  signal abc_319_new_n93  :  bit;
+  signal abc_319_new_n94  :  bit;
+  signal abc_319_new_n96  :  bit;
+  signal abc_319_new_n97  :  bit;
+  signal abc_319_new_n99  :  bit;
+  signal blockagenet      :  bit;
+
+
+begin
+
+  feed_79 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_78 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  subckt_58_mux2_x1 : mux2_x1
+  port map ( cmd => k(3)
+           , i0  => abc_319_new_n94
+           , i1  => abc_319_new_n91
+           , q   => rotated_bits(11)
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_44_mux2_x1 : mux2_x1
+  port map ( cmd => k(2)
+           , i0  => abc_319_new_n80
+           , i1  => abc_319_new_n72
+           , q   => abc_319_new_n81
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_19_mux2_x1 : mux2_x1
+  port map ( cmd => k(1)
+           , i0  => abc_319_new_n55
+           , i1  => abc_319_new_n50
+           , q   => abc_319_new_n56
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_5_mux2_x1 : mux2_x1
+  port map ( cmd => abc_319_new_n37
+           , i0  => abc_319_new_n41
+           , i1  => abc_319_new_n40
+           , q   => abc_319_new_n42
+           , vdd => vdd
+           , vss => vss
+           );
+
+  feed_70 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_71 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_72 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_73 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_74 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_75 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_76 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_77 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  subckt_30_mux2_x1 : mux2_x1
+  port map ( cmd => k(0)
+           , i0  => bits(4)
+           , i1  => bits(12)
+           , q   => abc_319_new_n67
+           , vdd => vdd
+           , vss => vss
+           );
+
+  feed_89 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_88 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_87 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_86 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_85 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_84 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_83 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_82 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_81 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_80 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  subckt_65_mux2_x1 : mux2_x1
+  port map ( cmd => k(3)
+           , i0  => abc_319_new_n101
+           , i1  => abc_319_new_n99
+           , q   => rotated_bits(14)
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_51_mux2_x1 : mux2_x1
+  port map ( cmd => k(2)
+           , i0  => abc_319_new_n87
+           , i1  => abc_319_new_n80
+           , q   => abc_319_new_n88
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_26_mux2_x1 : mux2_x1
+  port map ( cmd => k(0)
+           , i0  => bits(3)
+           , i1  => bits(11)
+           , q   => abc_319_new_n63
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_12_mux2_x1 : mux2_x1
+  port map ( cmd => abc_319_new_n37
+           , i0  => abc_319_new_n48
+           , i1  => abc_319_new_n47
+           , q   => abc_319_new_n49
+           , vdd => vdd
+           , vss => vss
+           );
+
+  feed_90 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  subckt_47_mux2_x1 : mux2_x1
+  port map ( cmd => k(1)
+           , i0  => abc_319_new_n83
+           , i1  => abc_319_new_n67
+           , q   => abc_319_new_n84
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_8_mux2_x1 : mux2_x1
+  port map ( cmd => abc_319_new_n37
+           , i0  => abc_319_new_n44
+           , i1  => abc_319_new_n43
+           , q   => abc_319_new_n45
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_33_mux2_x1 : mux2_x1
+  port map ( cmd => k(3)
+           , i0  => abc_319_new_n69
+           , i1  => abc_319_new_n65
+           , q   => rotated_bits(4)
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_54_mux2_x1 : mux2_x1
+  port map ( cmd => k(2)
+           , i0  => abc_319_new_n90
+           , i1  => abc_319_new_n84
+           , q   => abc_319_new_n91
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_15_mux2_x1 : mux2_x1
+  port map ( cmd => abc_319_new_n37
+           , i0  => abc_319_new_n51
+           , i1  => abc_319_new_n50
+           , q   => abc_319_new_n52
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_29_mux2_x1 : mux2_x1
+  port map ( cmd => k(3)
+           , i0  => abc_319_new_n65
+           , i1  => abc_319_new_n61
+           , q   => rotated_bits(3)
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_40_mux2_x1 : mux2_x1
+  port map ( cmd => k(2)
+           , i0  => abc_319_new_n76
+           , i1  => abc_319_new_n68
+           , q   => abc_319_new_n77
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_61_mux2_x1 : mux2_x1
+  port map ( cmd => k(3)
+           , i0  => abc_319_new_n97
+           , i1  => abc_319_new_n94
+           , q   => rotated_bits(12)
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_22_mux2_x1 : mux2_x1
+  port map ( cmd => k(0)
+           , i0  => bits(2)
+           , i1  => bits(10)
+           , q   => abc_319_new_n59
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_36_mux2_x1 : mux2_x1
+  port map ( cmd => k(2)
+           , i0  => abc_319_new_n72
+           , i1  => abc_319_new_n64
+           , q   => abc_319_new_n73
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_4_mux2_x1 : mux2_x1
+  port map ( cmd => k(0)
+           , i0  => bits(12)
+           , i1  => bits(4)
+           , q   => abc_319_new_n41
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_57_mux2_x1 : mux2_x1
+  port map ( cmd => k(2)
+           , i0  => abc_319_new_n93
+           , i1  => abc_319_new_n87
+           , q   => abc_319_new_n94
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_43_mux2_x1 : mux2_x1
+  port map ( cmd => k(1)
+           , i0  => abc_319_new_n79
+           , i1  => abc_319_new_n63
+           , q   => abc_319_new_n80
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_18_mux2_x1 : mux2_x1
+  port map ( cmd => k(0)
+           , i0  => bits(1)
+           , i1  => bits(9)
+           , q   => abc_319_new_n55
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_39_mux2_x1 : mux2_x1
+  port map ( cmd => k(1)
+           , i0  => abc_319_new_n75
+           , i1  => abc_319_new_n59
+           , q   => abc_319_new_n76
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_64_mux2_x1 : mux2_x1
+  port map ( cmd => abc_319_new_n38
+           , i0  => abc_319_new_n96
+           , i1  => abc_319_new_n45
+           , q   => abc_319_new_n101
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_50_mux2_x1 : mux2_x1
+  port map ( cmd => abc_319_new_n37
+           , i0  => abc_319_new_n71
+           , i1  => abc_319_new_n51
+           , q   => abc_319_new_n87
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_11_mux2_x1 : mux2_x1
+  port map ( cmd => k(0)
+           , i0  => bits(11)
+           , i1  => bits(3)
+           , q   => abc_319_new_n48
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_25_mux2_x1 : mux2_x1
+  port map ( cmd => k(3)
+           , i0  => abc_319_new_n61
+           , i1  => abc_319_new_n57
+           , q   => rotated_bits(2)
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_46_mux2_x1 : mux2_x1
+  port map ( cmd => k(0)
+           , i0  => bits(8)
+           , i1  => bits(0)
+           , q   => abc_319_new_n83
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_7_mux2_x1 : mux2_x1
+  port map ( cmd => k(0)
+           , i0  => bits(10)
+           , i1  => bits(2)
+           , q   => abc_319_new_n44
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_32_mux2_x1 : mux2_x1
+  port map ( cmd => k(2)
+           , i0  => abc_319_new_n68
+           , i1  => abc_319_new_n60
+           , q   => abc_319_new_n69
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_53_mux2_x1 : mux2_x1
+  port map ( cmd => abc_319_new_n37
+           , i0  => abc_319_new_n75
+           , i1  => abc_319_new_n44
+           , q   => abc_319_new_n90
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_28_mux2_x1 : mux2_x1
+  port map ( cmd => k(2)
+           , i0  => abc_319_new_n64
+           , i1  => abc_319_new_n56
+           , q   => abc_319_new_n65
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_14_mux2_x1 : mux2_x1
+  port map ( cmd => k(0)
+           , i0  => bits(9)
+           , i1  => bits(1)
+           , q   => abc_319_new_n51
+           , vdd => vdd
+           , vss => vss
+           );
+
+  feed_0 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  subckt_60_mux2_x1 : mux2_x1
+  port map ( cmd => k(2)
+           , i0  => abc_319_new_n96
+           , i1  => abc_319_new_n90
+           , q   => abc_319_new_n97
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_49_mux2_x1 : mux2_x1
+  port map ( cmd => k(3)
+           , i0  => abc_319_new_n85
+           , i1  => abc_319_new_n81
+           , q   => rotated_bits(8)
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_0_inv_x0 : inv_x0
+  port map ( i   => k(1)
+           , nq  => abc_319_new_n37
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_1_inv_x0 : inv_x0
+  port map ( i   => k(2)
+           , nq  => abc_319_new_n38
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_2_inv_x0 : inv_x0
+  port map ( i   => k(3)
+           , nq  => abc_319_new_n39
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_35_mux2_x1 : mux2_x1
+  port map ( cmd => k(1)
+           , i0  => abc_319_new_n71
+           , i1  => abc_319_new_n55
+           , q   => abc_319_new_n72
+           , vdd => vdd
+           , vss => vss
+           );
+
+  feed_1 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_2 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_3 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_4 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_5 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_6 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_7 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_8 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_9 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  subckt_21_mux2_x1 : mux2_x1
+  port map ( cmd => k(3)
+           , i0  => abc_319_new_n57
+           , i1  => abc_319_new_n46
+           , q   => rotated_bits(1)
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_56_mux2_x1 : mux2_x1
+  port map ( cmd => abc_319_new_n37
+           , i0  => abc_319_new_n79
+           , i1  => abc_319_new_n48
+           , q   => abc_319_new_n93
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_42_mux2_x1 : mux2_x1
+  port map ( cmd => k(0)
+           , i0  => bits(7)
+           , i1  => bits(15)
+           , q   => abc_319_new_n79
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_17_mux2_x1 : mux2_x1
+  port map ( cmd => abc_319_new_n39
+           , i0  => abc_319_new_n53
+           , i1  => abc_319_new_n46
+           , q   => rotated_bits(0)
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_3_mux2_x1 : mux2_x1
+  port map ( cmd => k(0)
+           , i0  => bits(0)
+           , i1  => bits(8)
+           , q   => abc_319_new_n40
+           , vdd => vdd
+           , vss => vss
+           );
+
+  feed_10 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_11 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_12 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_13 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_14 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_15 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_16 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_17 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_18 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_19 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  subckt_63_mux2_x1 : mux2_x1
+  port map ( cmd => k(3)
+           , i0  => abc_319_new_n99
+           , i1  => abc_319_new_n97
+           , q   => rotated_bits(13)
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_24_mux2_x1 : mux2_x1
+  port map ( cmd => k(2)
+           , i0  => abc_319_new_n60
+           , i1  => abc_319_new_n42
+           , q   => abc_319_new_n61
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_38_mux2_x1 : mux2_x1
+  port map ( cmd => k(0)
+           , i0  => bits(6)
+           , i1  => bits(14)
+           , q   => abc_319_new_n75
+           , vdd => vdd
+           , vss => vss
+           );
+
+  feed_20 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_21 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_22 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_23 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_24 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_25 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_26 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_27 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_28 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_29 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_12 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_11 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_10 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  subckt_6_mux2_x1 : mux2_x1
+  port map ( cmd => k(0)
+           , i0  => bits(14)
+           , i1  => bits(6)
+           , q   => abc_319_new_n43
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_10_mux2_x1 : mux2_x1
+  port map ( cmd => k(0)
+           , i0  => bits(15)
+           , i1  => bits(7)
+           , q   => abc_319_new_n47
+           , vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_13 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  subckt_59_mux2_x1 : mux2_x1
+  port map ( cmd => abc_319_new_n37
+           , i0  => abc_319_new_n83
+           , i1  => abc_319_new_n41
+           , q   => abc_319_new_n96
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_45_mux2_x1 : mux2_x1
+  port map ( cmd => k(3)
+           , i0  => abc_319_new_n81
+           , i1  => abc_319_new_n77
+           , q   => rotated_bits(7)
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_31_mux2_x1 : mux2_x1
+  port map ( cmd => k(1)
+           , i0  => abc_319_new_n67
+           , i1  => abc_319_new_n40
+           , q   => abc_319_new_n68
+           , vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_14 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_15 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_30 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_31 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_32 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_33 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_34 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_35 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_36 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_37 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_38 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_39 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  subckt_66_mux2_x1 : mux2_x1
+  port map ( cmd => abc_319_new_n39
+           , i0  => abc_319_new_n101
+           , i1  => abc_319_new_n53
+           , q   => rotated_bits(15)
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_52_mux2_x1 : mux2_x1
+  port map ( cmd => k(3)
+           , i0  => abc_319_new_n88
+           , i1  => abc_319_new_n85
+           , q   => rotated_bits(9)
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_13_mux2_x1 : mux2_x1
+  port map ( cmd => k(0)
+           , i0  => bits(13)
+           , i1  => bits(5)
+           , q   => abc_319_new_n50
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_27_mux2_x1 : mux2_x1
+  port map ( cmd => k(1)
+           , i0  => abc_319_new_n63
+           , i1  => abc_319_new_n47
+           , q   => abc_319_new_n64
+           , vdd => vdd
+           , vss => vss
+           );
+
+  feed_40 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_41 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_42 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_43 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_44 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_45 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_46 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_9 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_8 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_7 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_6 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_5 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_4 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_3 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_2 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_1 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  spare_feed_0 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  subckt_48_mux2_x1 : mux2_x1
+  port map ( cmd => k(2)
+           , i0  => abc_319_new_n84
+           , i1  => abc_319_new_n76
+           , q   => abc_319_new_n85
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_9_mux2_x1 : mux2_x1
+  port map ( cmd => abc_319_new_n38
+           , i0  => abc_319_new_n45
+           , i1  => abc_319_new_n42
+           , q   => abc_319_new_n46
+           , vdd => vdd
+           , vss => vss
+           );
+
+  feed_47 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_48 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_49 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  subckt_20_mux2_x1 : mux2_x1
+  port map ( cmd => k(2)
+           , i0  => abc_319_new_n56
+           , i1  => abc_319_new_n49
+           , q   => abc_319_new_n57
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_34_mux2_x1 : mux2_x1
+  port map ( cmd => k(0)
+           , i0  => bits(5)
+           , i1  => bits(13)
+           , q   => abc_319_new_n71
+           , vdd => vdd
+           , vss => vss
+           );
+
+  feed_50 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_51 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_52 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_53 : decap_w0
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  subckt_55_mux2_x1 : mux2_x1
+  port map ( cmd => k(3)
+           , i0  => abc_319_new_n91
+           , i1  => abc_319_new_n88
+           , q   => rotated_bits(10)
+           , vdd => vdd
+           , vss => vss
+           );
+
+  feed_54 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_55 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_56 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_57 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_58 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_59 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  subckt_41_mux2_x1 : mux2_x1
+  port map ( cmd => k(3)
+           , i0  => abc_319_new_n77
+           , i1  => abc_319_new_n73
+           , q   => rotated_bits(6)
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_16_mux2_x1 : mux2_x1
+  port map ( cmd => abc_319_new_n38
+           , i0  => abc_319_new_n52
+           , i1  => abc_319_new_n49
+           , q   => abc_319_new_n53
+           , vdd => vdd
+           , vss => vss
+           );
+
+  feed_60 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  subckt_62_mux2_x1 : mux2_x1
+  port map ( cmd => abc_319_new_n38
+           , i0  => abc_319_new_n93
+           , i1  => abc_319_new_n52
+           , q   => abc_319_new_n99
+           , vdd => vdd
+           , vss => vss
+           );
+
+  subckt_37_mux2_x1 : mux2_x1
+  port map ( cmd => k(3)
+           , i0  => abc_319_new_n73
+           , i1  => abc_319_new_n69
+           , q   => rotated_bits(5)
+           , vdd => vdd
+           , vss => vss
+           );
+
+  feed_61 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_62 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_63 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_64 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_65 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_66 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_67 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_68 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  feed_69 : tie
+  port map ( vdd => vdd
+           , vss => vss
+           );
+
+  subckt_23_mux2_x1 : mux2_x1
+  port map ( cmd => k(1)
+           , i0  => abc_319_new_n59
+           , i1  => abc_319_new_n43
+           , q   => abc_319_new_n60
+           , vdd => vdd
+           , vss => vss
+           );
+
+end structural;
+

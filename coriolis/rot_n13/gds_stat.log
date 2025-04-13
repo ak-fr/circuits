@@ -1,0 +1,44 @@
+effective_density = 51.5
+wire_length = 34712222
+dimensions = (2080.0, 2304.0)
+
+effective_density = 52.1
+wire_length = 34284870
+dimensions = (2069.6, 2292.48)
+
+effective_density = 52.6
+wire_length = 34058574
+dimensions = (2059.2, 2280.96)
+
+effective_density = 53.1
+wire_length = 33865492
+dimensions = (2048.8, 2269.44)
+
+effective_density = 53.7
+wire_length = 33845162
+dimensions = (2038.4, 2257.92)
+
+effective_density = 54.2
+wire_length = 33655134
+dimensions = (2028.0, 2246.4)
+
+effective_density = 54.8
+wire_length = 34219465
+dimensions = (2017.6, 2234.88)
+
+effective_density = 55.4
+wire_length = 33900114
+dimensions = (2007.2, 2223.36)
+
+effective_density = 56.5
+wire_length = 33299844
+dimensions = (1986.4, 2200.32)
+
+effective_density = 57.1
+wire_length = 33255039
+dimensions = (1976.0, 2188.8)
+
+effective_density = 57.8
+wire_length = 33133738
+dimensions = (1965.6, 2177.28)
+

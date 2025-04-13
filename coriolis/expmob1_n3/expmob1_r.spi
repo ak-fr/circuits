@@ -1,0 +1,97 @@
+* Coriolis Structural SPICE Driver
+* Generated on Apr 13, 2025, 02:01
+* Cell/Subckt "expmob1_r".
+* 
+* INTERF vss
+* INTERF vdd
+* INTERF outputs[7]
+* INTERF outputs[6]
+* INTERF outputs[5]
+* INTERF outputs[4]
+* INTERF outputs[3]
+* INTERF outputs[2]
+* INTERF outputs[1]
+* INTERF inputs[7]
+* INTERF inputs[6]
+* INTERF inputs[5]
+* INTERF inputs[4]
+* INTERF inputs[3]
+* INTERF inputs[2]
+* INTERF inputs[1]
+* INTERF inputs[0]
+
+* Terminal models (aka standard cells) used througout all the hierarchy.
+.include decap_w0.spi
+.include nexor2_x0.spi
+.include tie.spi
+.include xor2_x0.spi
+.include inv_x0.spi
+
+* Non-terminal models (part of the user's design hierarchy).
+
+.subckt expmob1_r 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+* NET     0 = vss
+* NET     1 = vdd
+* NET     2 = outputs[7]
+* NET     3 = outputs[6]
+* NET     4 = outputs[5]
+* NET     5 = outputs[4]
+* NET     6 = outputs[3]
+* NET     7 = outputs[2]
+* NET     8 = outputs[1]
+* NET     9 = inputs[7]
+* NET    10 = inputs[6]
+* NET    11 = inputs[5]
+* NET    12 = inputs[4]
+* NET    13 = inputs[3]
+* NET    14 = inputs[2]
+* NET    15 = inputs[1]
+* NET    16 = inputs[0]
+* NET    17 = genblk1_1_si_outputs_7
+* NET    18 = genblk1_1_si_outputs_3
+* NET    19 = genblk1_1_si_inputs_7
+* NET    20 = genblk1_1_si_inputs_6
+* NET    21 = genblk1_1_si_inputs_5
+* NET    22 = blockagenet
+* NET    23 = abc_140_new_n27
+* NET    24 = abc_140_new_n26
+* NET    25 = abc_140_new_n24
+* NET    26 = abc_140_new_n22
+* NET    27 = abc_140_new_n19
+* NET    28 = abc_140_new_n16
+
+xfeed_0 1 0 decap_w0
+xsubckt_10_nexor2_x0 1 0 9 13 24 nexor2_x0
+xsubckt_8_nexor2_x0 1 0 11 15 25 nexor2_x0
+xfeed_4 1 0 tie
+xfeed_3 1 0 decap_w0
+xfeed_2 1 0 tie
+xfeed_1 1 0 decap_w0
+xsubckt_6_xor2_x0 1 0 15 13 26 xor2_x0
+xsubckt_1_inv_x0 1 0 28 7 inv_x0
+xsubckt_12_nexor2_x0 1 0 23 3 2 nexor2_x0
+xspare_feed_13 1 0 decap_w0
+xspare_feed_12 1 0 tie
+xspare_feed_11 1 0 tie
+xspare_feed_10 1 0 decap_w0
+xspare_feed_9 1 0 tie
+xspare_feed_8 1 0 tie
+xspare_feed_7 1 0 decap_w0
+xspare_feed_6 1 0 tie
+xspare_feed_5 1 0 tie
+xspare_feed_4 1 0 decap_w0
+xsubckt_7_nexor2_x0 1 0 26 28 6 nexor2_x0
+xsubckt_4_nexor2_x0 1 0 27 28 3 nexor2_x0
+xsubckt_3_xor2_x0 1 0 10 12 27 xor2_x0
+xspare_feed_0 1 0 tie
+xspare_feed_1 1 0 tie
+xspare_feed_2 1 0 tie
+xspare_feed_3 1 0 tie
+xspare_feed_15 1 0 tie
+xspare_feed_14 1 0 tie
+xsubckt_9_nexor2_x0 1 0 25 5 4 nexor2_x0
+xsubckt_5_xor2_x0 1 0 15 16 8 xor2_x0
+xsubckt_2_xor2_x0 1 0 12 16 5 xor2_x0
+xsubckt_0_nexor2_x0 1 0 16 14 28 nexor2_x0
+xsubckt_11_nexor2_x0 1 0 24 25 23 nexor2_x0
+.ends expmob1_r
