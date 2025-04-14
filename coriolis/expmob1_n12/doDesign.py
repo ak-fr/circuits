@@ -19,7 +19,7 @@ af = CRL.AllianceFramework.get()
 
 
 CoreName = 'expmob1'
-scalar_a, scalar_b = 1677, 258  # updated values
+scalar_a, scalar_b = 1261, 194  # updated values
 connectors_margin = 16  # updated value
 
 

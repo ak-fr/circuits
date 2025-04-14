@@ -94,3 +94,111 @@ effective_density = 35.8
 wire_length = 12507779
 dimensions = (1352.0, 1497.6)
 
+effective_density = 36.4
+wire_length = 12333162
+dimensions = (1341.6, 1486.08)
+
+effective_density = 37.0
+wire_length = 10663800
+dimensions = (1331.2, 1474.56)
+
+effective_density = 37.5
+wire_length = 10631996
+dimensions = (1320.8, 1463.04)
+
+effective_density = 38.2
+wire_length = 10525483
+dimensions = (1310.4, 1451.52)
+
+effective_density = 38.8
+wire_length = 10415362
+dimensions = (1300.0, 1440.0)
+
+effective_density = 39.4
+wire_length = 10280530
+dimensions = (1289.6, 1428.48)
+
+effective_density = 40.0
+wire_length = 10262096
+dimensions = (1279.2, 1416.96)
+
+effective_density = 40.7
+wire_length = 10186945
+dimensions = (1268.8, 1405.44)
+
+effective_density = 41.4
+wire_length = 10097489
+dimensions = (1258.4, 1393.92)
+
+effective_density = 42.1
+wire_length = 10001565
+dimensions = (1248.0, 1382.4)
+
+effective_density = 42.8
+wire_length = 9901286
+dimensions = (1237.6, 1370.88)
+
+effective_density = 43.5
+wire_length = 9843061
+dimensions = (1227.2, 1359.36)
+
+effective_density = 44.3
+wire_length = 9817687
+dimensions = (1216.8, 1347.84)
+
+effective_density = 45.0
+wire_length = 9845247
+dimensions = (1206.4, 1336.32)
+
+effective_density = 45.8
+wire_length = 9702271
+dimensions = (1196.0, 1324.8)
+
+effective_density = 46.6
+wire_length = 9689373
+dimensions = (1185.6, 1313.28)
+
+effective_density = 48.3
+wire_length = 9526301
+dimensions = (1164.8, 1290.24)
+
+effective_density = 49.2
+wire_length = 9504476
+dimensions = (1154.4, 1278.72)
+
+effective_density = 50.1
+wire_length = 9288578
+dimensions = (1144.0, 1267.2)
+
+effective_density = 53.0
+wire_length = 9223421
+dimensions = (1112.8, 1232.64)
+
+effective_density = 54.0
+wire_length = 9157966
+dimensions = (1102.4, 1221.12)
+
+effective_density = 56.1
+wire_length = 9049666
+dimensions = (1081.6, 1198.08)
+
+effective_density = 57.2
+wire_length = 8890297
+dimensions = (1071.2, 1186.56)
+
+effective_density = 58.3
+wire_length = 8781652
+dimensions = (1060.8, 1175.04)
+
+effective_density = 59.5
+wire_length = 8744747
+dimensions = (1050.4, 1163.52)
+
+effective_density = 62.0
+wire_length = 8856714
+dimensions = (1029.6, 1140.48)
+
+effective_density = 63.2
+wire_length = 8675264
+dimensions = (1019.2, 1128.96)
+

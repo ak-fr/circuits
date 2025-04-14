@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-scalar_a, scalar_b, connectors_margin = 650*4, 100*4, 6
+
+
+scalar_a, scalar_b, connectors_margin = 2440, 376, 20
 
 def format_time(seconds):
     hours = int(seconds // 3600)
