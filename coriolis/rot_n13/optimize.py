@@ -3,7 +3,7 @@
 
 
 
-scalar_a, scalar_b, connectors_margin = 2440, 376, 20
+scalar_a, scalar_b, connectors_margin = 2440//2, 376//2, 100
 
 def format_time(seconds):
     hours = int(seconds // 3600)

@@ -19,8 +19,8 @@ af = CRL.AllianceFramework.get()
 
 
 CoreName = 'expmob1'
-scalar_a, scalar_b = 2509, 386  # updated values
-connectors_margin = 30  # updated value
+scalar_a, scalar_b = 1950, 500  # updated values
+connectors_margin = 100  # updated value
 
 
 def get_signals_hurricane(entity):

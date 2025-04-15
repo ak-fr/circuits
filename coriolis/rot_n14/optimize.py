@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-scalar_a, scalar_b, connectors_margin = 650*8, 100*8, 32
+scalar_a, scalar_b, connectors_margin = 650*4, 100*4, 128
 
 def format_time(seconds):
     hours = int(seconds // 3600)
@@ -171,7 +171,7 @@ history_wire_lengths = []
 history_density = []
 history_dimensions = []
 # reduce or increase the density
-while density < 60 or  density >= 70 or density > 100:
+while True:
     print(f"Going to try with a={scalar_a}, b={scalar_b}")
     update_doDesign(scalar_a, scalar_b, connectors_margin)
     density, wire_length, dimensions = run_gds()
@@ -198,11 +198,11 @@ while density < 60 or  density >= 70 or density > 100:
 
     # test only substract and add
     # increase the chip by adding 10, and 5
-    if  density < 100:
+    if  density < 90:
         scalar_a = scalar_a - 13
         scalar_b = scalar_b - 2
     
-    elif density > 100:
+    elif density > 90:
         scalar_a = scalar_a + 13
         scalar_b = scalar_b + 2
     else:

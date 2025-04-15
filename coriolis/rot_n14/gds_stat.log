@@ -2,3 +2,11 @@ effective_density = 28.0
 wire_length = 132923560
 dimensions = (4139.2, 4584.96)
 
+effective_density = 28.2
+wire_length = 132572525
+dimensions = (4128.8, 4573.44)
+
+effective_density = 28.3
+wire_length = 132327987
+dimensions = (4118.4, 4561.92)
+
