@@ -1,0 +1,653 @@
+PyInit_Cfg() (Python3+template)
+Cfg.so loaded 0x727fbf074d48 (std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+[ERROR] GdsStream::xyToComponent(): 56 offgrid points on layer "TopMetal2" (foundry grid: 0.005um).
+        | <Point 0um -22.5um>
+        | <Point -2.205um -22.392um> offgrid
+        | <Point -4.39um -22.068um> offgrid
+        | <Point -6.531um -21.531um> offgrid
+        | <Point -8.61um -20.787um> offgrid
+        | <Point -10.606um -19.843um> offgrid
+        | <Point -12.5um -18.708um> offgrid
+        | <Point -14.274um -17.393um> offgrid
+        | <Point -15.91um -15.91um>
+        | <Point -17.393um -14.274um> offgrid
+        | <Point -18.708um -12.5um> offgrid
+        | <Point -19.843um -10.606um> offgrid
+        | <Point -20.787um -8.61um> offgrid
+        | <Point -21.531um -6.531um> offgrid
+        | <Point -22.068um -4.39um> offgrid
+        | <Point -22.392um -2.205um> offgrid
+        | <Point -22.5um 0um>
+        | <Point -22.392um 2.205um> offgrid
+        | <Point -22.068um 4.39um> offgrid
+        | <Point -21.531um 6.531um> offgrid
+        | <Point -20.787um 8.61um> offgrid
+        | <Point -19.843um 10.606um> offgrid
+        | <Point -18.708um 12.5um> offgrid
+        | <Point -17.393um 14.274um> offgrid
+        | <Point -15.91um 15.91um>
+        | <Point -14.274um 17.393um> offgrid
+        | <Point -12.5um 18.708um> offgrid
+        | <Point -10.606um 19.843um> offgrid
+        | <Point -8.61um 20.787um> offgrid
+        | <Point -6.531um 21.531um> offgrid
+        | <Point -4.39um 22.068um> offgrid
+        | <Point -2.205um 22.392um> offgrid
+        | <Point 0um 22.5um>
+        | <Point 2.205um 22.392um> offgrid
+        | <Point 4.39um 22.068um> offgrid
+        | <Point 6.531um 21.531um> offgrid
+        | <Point 8.61um 20.787um> offgrid
+        | <Point 10.606um 19.843um> offgrid
+        | <Point 12.5um 18.708um> offgrid
+        | <Point 14.274um 17.393um> offgrid
+        | <Point 15.91um 15.91um>
+        | <Point 17.393um 14.274um> offgrid
+        | <Point 18.708um 12.5um> offgrid
+        | <Point 19.843um 10.606um> offgrid
+        | <Point 20.787um 8.61um> offgrid
+        | <Point 21.531um 6.531um> offgrid
+        | <Point 22.068um 4.39um> offgrid
+        | <Point 22.392um 2.205um> offgrid
+        | <Point 22.5um 0um>
+        | <Point 22.392um -2.205um> offgrid
+        | <Point 22.068um -4.39um> offgrid
+        | <Point 21.531um -6.531um> offgrid
+        | <Point 20.787um -8.61um> offgrid
+        | <Point 19.843um -10.606um> offgrid
+        | <Point 18.708um -12.5um> offgrid
+        | <Point 17.393um -14.274um> offgrid
+        | <Point 15.91um -15.91um>
+        | <Point 14.274um -17.393um> offgrid
+        | <Point 12.5um -18.708um> offgrid
+        | <Point 10.606um -19.843um> offgrid
+        | <Point 8.61um -20.787um> offgrid
+        | <Point 6.531um -21.531um> offgrid
+        | <Point 4.39um -22.068um> offgrid
+        | <Point 2.205um -22.392um> offgrid
+        | <Point 0um -22.5um>
+[ERROR] GdsStream::xyToComponent(): 52 offgrid points on layer "Passiv" (foundry grid: 0.005um).
+        | <Point 0um -12.5um>
+        | <Point -1.225um -12.44um>
+        | <Point -2.439um -12.26um> offgrid
+        | <Point -3.629um -11.962um> offgrid
+        | <Point -4.784um -11.548um> offgrid
+        | <Point -5.892um -11.024um> offgrid
+        | <Point -6.945um -10.393um> offgrid
+        | <Point -7.93um -9.663um> offgrid
+        | <Point -8.839um -8.839um> offgrid
+        | <Point -9.663um -7.93um> offgrid
+        | <Point -10.393um -6.945um> offgrid
+        | <Point -11.024um -5.892um> offgrid
+        | <Point -11.548um -4.784um> offgrid
+        | <Point -11.962um -3.629um> offgrid
+        | <Point -12.26um -2.439um> offgrid
+        | <Point -12.44um -1.225um>
+        | <Point -12.5um 0um>
+        | <Point -12.44um 1.225um>
+        | <Point -12.26um 2.439um> offgrid
+        | <Point -11.962um 3.629um> offgrid
+        | <Point -11.548um 4.784um> offgrid
+        | <Point -11.024um 5.892um> offgrid
+        | <Point -10.393um 6.945um> offgrid
+        | <Point -9.663um 7.93um> offgrid
+        | <Point -8.839um 8.839um> offgrid
+        | <Point -7.93um 9.663um> offgrid
+        | <Point -6.945um 10.393um> offgrid
+        | <Point -5.892um 11.024um> offgrid
+        | <Point -4.784um 11.548um> offgrid
+        | <Point -3.629um 11.962um> offgrid
+        | <Point -2.439um 12.26um> offgrid
+        | <Point -1.225um 12.44um>
+        | <Point 0um 12.5um>
+        | <Point 1.225um 12.44um>
+        | <Point 2.439um 12.26um> offgrid
+        | <Point 3.629um 11.962um> offgrid
+        | <Point 4.784um 11.548um> offgrid
+        | <Point 5.892um 11.024um> offgrid
+        | <Point 6.945um 10.393um> offgrid
+        | <Point 7.93um 9.663um> offgrid
+        | <Point 8.839um 8.839um> offgrid
+        | <Point 9.663um 7.93um> offgrid
+        | <Point 10.393um 6.945um> offgrid
+        | <Point 11.024um 5.892um> offgrid
+        | <Point 11.548um 4.784um> offgrid
+        | <Point 11.962um 3.629um> offgrid
+        | <Point 12.26um 2.439um> offgrid
+        | <Point 12.44um 1.225um>
+        | <Point 12.5um 0um>
+        | <Point 12.44um -1.225um>
+        | <Point 12.26um -2.439um> offgrid
+        | <Point 11.962um -3.629um> offgrid
+        | <Point 11.548um -4.784um> offgrid
+        | <Point 11.024um -5.892um> offgrid
+        | <Point 10.393um -6.945um> offgrid
+        | <Point 9.663um -7.93um> offgrid
+        | <Point 8.839um -8.839um> offgrid
+        | <Point 7.93um -9.663um> offgrid
+        | <Point 6.945um -10.393um> offgrid
+        | <Point 5.892um -11.024um> offgrid
+        | <Point 4.784um -11.548um> offgrid
+        | <Point 3.629um -11.962um> offgrid
+        | <Point 2.439um -12.26um> offgrid
+        | <Point 1.225um -12.44um>
+        | <Point 0um -12.5um>
+[ERROR] GdsStream::xyToComponent(): 56 offgrid points on layer "dfpad.pillar" (foundry grid: 0.005um).
+        | <Point 0um -22.5um>
+        | <Point -2.205um -22.392um> offgrid
+        | <Point -4.39um -22.068um> offgrid
+        | <Point -6.531um -21.531um> offgrid
+        | <Point -8.61um -20.787um> offgrid
+        | <Point -10.606um -19.843um> offgrid
+        | <Point -12.5um -18.708um> offgrid
+        | <Point -14.274um -17.393um> offgrid
+        | <Point -15.91um -15.91um>
+        | <Point -17.393um -14.274um> offgrid
+        | <Point -18.708um -12.5um> offgrid
+        | <Point -19.843um -10.606um> offgrid
+        | <Point -20.787um -8.61um> offgrid
+        | <Point -21.531um -6.531um> offgrid
+        | <Point -22.068um -4.39um> offgrid
+        | <Point -22.392um -2.205um> offgrid
+        | <Point -22.5um 0um>
+        | <Point -22.392um 2.205um> offgrid
+        | <Point -22.068um 4.39um> offgrid
+        | <Point -21.531um 6.531um> offgrid
+        | <Point -20.787um 8.61um> offgrid
+        | <Point -19.843um 10.606um> offgrid
+        | <Point -18.708um 12.5um> offgrid
+        | <Point -17.393um 14.274um> offgrid
+        | <Point -15.91um 15.91um>
+        | <Point -14.274um 17.393um> offgrid
+        | <Point -12.5um 18.708um> offgrid
+        | <Point -10.606um 19.843um> offgrid
+        | <Point -8.61um 20.787um> offgrid
+        | <Point -6.531um 21.531um> offgrid
+        | <Point -4.39um 22.068um> offgrid
+        | <Point -2.205um 22.392um> offgrid
+        | <Point 0um 22.5um>
+        | <Point 2.205um 22.392um> offgrid
+        | <Point 4.39um 22.068um> offgrid
+        | <Point 6.531um 21.531um> offgrid
+        | <Point 8.61um 20.787um> offgrid
+        | <Point 10.606um 19.843um> offgrid
+        | <Point 12.5um 18.708um> offgrid
+        | <Point 14.274um 17.393um> offgrid
+        | <Point 15.91um 15.91um>
+        | <Point 17.393um 14.274um> offgrid
+        | <Point 18.708um 12.5um> offgrid
+        | <Point 19.843um 10.606um> offgrid
+        | <Point 20.787um 8.61um> offgrid
+        | <Point 21.531um 6.531um> offgrid
+        | <Point 22.068um 4.39um> offgrid
+        | <Point 22.392um 2.205um> offgrid
+        | <Point 22.5um 0um>
+        | <Point 22.392um -2.205um> offgrid
+        | <Point 22.068um -4.39um> offgrid
+        | <Point 21.531um -6.531um> offgrid
+        | <Point 20.787um -8.61um> offgrid
+        | <Point 19.843um -10.606um> offgrid
+        | <Point 18.708um -12.5um> offgrid
+        | <Point 17.393um -14.274um> offgrid
+        | <Point 15.91um -15.91um>
+        | <Point 14.274um -17.393um> offgrid
+        | <Point 12.5um -18.708um> offgrid
+        | <Point 10.606um -19.843um> offgrid
+        | <Point 8.61um -20.787um> offgrid
+        | <Point 6.531um -21.531um> offgrid
+        | <Point 4.39um -22.068um> offgrid
+        | <Point 2.205um -22.392um> offgrid
+        | <Point 0um -22.5um>
+[ERROR] GdsStream::xyToComponent(): 112 offgrid points on layer "DeepVia" (foundry grid: 0.005um).
+        | <Point 0um -12.5um>
+        | <Point -1.225um -12.44um>
+        | <Point -2.439um -12.26um> offgrid
+        | <Point -3.629um -11.962um> offgrid
+        | <Point -4.784um -11.548um> offgrid
+        | <Point -5.892um -11.024um> offgrid
+        | <Point -6.945um -10.393um> offgrid
+        | <Point -7.93um -9.663um> offgrid
+        | <Point -8.839um -8.839um> offgrid
+        | <Point -9.663um -7.93um> offgrid
+        | <Point -10.393um -6.945um> offgrid
+        | <Point -11.024um -5.892um> offgrid
+        | <Point -11.548um -4.784um> offgrid
+        | <Point -11.962um -3.629um> offgrid
+        | <Point -12.26um -2.439um> offgrid
+        | <Point -12.44um -1.225um>
+        | <Point -12.5um 0um>
+        | <Point -12.44um 1.225um>
+        | <Point -12.26um 2.439um> offgrid
+        | <Point -11.962um 3.629um> offgrid
+        | <Point -11.548um 4.784um> offgrid
+        | <Point -11.024um 5.892um> offgrid
+        | <Point -10.393um 6.945um> offgrid
+        | <Point -9.663um 7.93um> offgrid
+        | <Point -8.839um 8.839um> offgrid
+        | <Point -7.93um 9.663um> offgrid
+        | <Point -6.945um 10.393um> offgrid
+        | <Point -5.892um 11.024um> offgrid
+        | <Point -4.784um 11.548um> offgrid
+        | <Point -3.629um 11.962um> offgrid
+        | <Point -2.439um 12.26um> offgrid
+        | <Point -1.225um 12.44um>
+        | <Point 0um 12.5um>
+        | <Point 1.225um 12.44um>
+        | <Point 2.439um 12.26um> offgrid
+        | <Point 3.629um 11.962um> offgrid
+        | <Point 4.784um 11.548um> offgrid
+        | <Point 5.892um 11.024um> offgrid
+        | <Point 6.945um 10.393um> offgrid
+        | <Point 7.93um 9.663um> offgrid
+        | <Point 8.839um 8.839um> offgrid
+        | <Point 9.663um 7.93um> offgrid
+        | <Point 10.393um 6.945um> offgrid
+        | <Point 11.024um 5.892um> offgrid
+        | <Point 11.548um 4.784um> offgrid
+        | <Point 11.962um 3.629um> offgrid
+        | <Point 12.26um 2.439um> offgrid
+        | <Point 12.44um 1.225um>
+        | <Point 12.5um 0um>
+        | <Point 9.5um 0um>
+        | <Point 9.454um 0.931um> offgrid
+        | <Point 9.317um 1.853um> offgrid
+        | <Point 9.091um 2.758um> offgrid
+        | <Point 8.777um 3.635um> offgrid
+        | <Point 8.378um 4.478um> offgrid
+        | <Point 7.899um 5.278um> offgrid
+        | <Point 7.344um 6.027um> offgrid
+        | <Point 6.718um 6.718um> offgrid
+        | <Point 6.027um 7.344um> offgrid
+        | <Point 5.278um 7.899um> offgrid
+        | <Point 4.478um 8.378um> offgrid
+        | <Point 3.635um 8.777um> offgrid
+        | <Point 2.758um 9.091um> offgrid
+        | <Point 1.853um 9.317um> offgrid
+        | <Point 0.931um 9.454um> offgrid
+        | <Point 0um 9.5um>
+        | <Point -0.931um 9.454um> offgrid
+        | <Point -1.853um 9.317um> offgrid
+        | <Point -2.758um 9.091um> offgrid
+        | <Point -3.635um 8.777um> offgrid
+        | <Point -4.478um 8.378um> offgrid
+        | <Point -5.278um 7.899um> offgrid
+        | <Point -6.027um 7.344um> offgrid
+        | <Point -6.718um 6.718um> offgrid
+        | <Point -7.344um 6.027um> offgrid
+        | <Point -7.899um 5.278um> offgrid
+        | <Point -8.378um 4.478um> offgrid
+        | <Point -8.777um 3.635um> offgrid
+        | <Point -9.091um 2.758um> offgrid
+        | <Point -9.317um 1.853um> offgrid
+        | <Point -9.454um 0.931um> offgrid
+        | <Point -9.5um 0um>
+        | <Point -9.454um -0.931um> offgrid
+        | <Point -9.317um -1.853um> offgrid
+        | <Point -9.091um -2.758um> offgrid
+        | <Point -8.777um -3.635um> offgrid
+        | <Point -8.378um -4.478um> offgrid
+        | <Point -7.899um -5.278um> offgrid
+        | <Point -7.344um -6.027um> offgrid
+        | <Point -6.718um -6.718um> offgrid
+        | <Point -6.027um -7.344um> offgrid
+        | <Point -5.278um -7.899um> offgrid
+        | <Point -4.478um -8.378um> offgrid
+        | <Point -3.635um -8.777um> offgrid
+        | <Point -2.758um -9.091um> offgrid
+        | <Point -1.853um -9.317um> offgrid
+        | <Point -0.931um -9.454um> offgrid
+        | <Point 0um -9.5um>
+        | <Point 0.931um -9.454um> offgrid
+        | <Point 1.853um -9.317um> offgrid
+        | <Point 2.758um -9.091um> offgrid
+        | <Point 3.635um -8.777um> offgrid
+        | <Point 4.478um -8.378um> offgrid
+        | <Point 5.278um -7.899um> offgrid
+        | <Point 6.027um -7.344um> offgrid
+        | <Point 6.718um -6.718um> offgrid
+        | <Point 7.344um -6.027um> offgrid
+        | <Point 7.899um -5.278um> offgrid
+        | <Point 8.378um -4.478um> offgrid
+        | <Point 8.777um -3.635um> offgrid
+        | <Point 9.091um -2.758um> offgrid
+        | <Point 9.317um -1.853um> offgrid
+        | <Point 9.454um -0.931um> offgrid
+        | <Point 9.5um 0um>
+        | <Point 12.5um 0um>
+        | <Point 12.44um -1.225um>
+        | <Point 12.26um -2.439um> offgrid
+        | <Point 11.962um -3.629um> offgrid
+        | <Point 11.548um -4.784um> offgrid
+        | <Point 11.024um -5.892um> offgrid
+        | <Point 10.393um -6.945um> offgrid
+        | <Point 9.663um -7.93um> offgrid
+        | <Point 8.839um -8.839um> offgrid
+        | <Point 7.93um -9.663um> offgrid
+        | <Point 6.945um -10.393um> offgrid
+        | <Point 5.892um -11.024um> offgrid
+        | <Point 4.784um -11.548um> offgrid
+        | <Point 3.629um -11.962um> offgrid
+        | <Point 2.439um -12.26um> offgrid
+        | <Point 1.225um -12.44um>
+        | <Point 0um -12.5um>
+[ERROR] GdsStream::xyToComponent(): 5 offgrid points on layer "gds236.datatype_0" (foundry grid: 0.005um).
+        | <Point -1.334um -0.5um> offgrid
+        | <Point -1.334um 1.02um> offgrid
+        | <Point 1.334um 1.02um> offgrid
+        | <Point 1.334um -0.5um> offgrid
+        | <Point -1.334um -0.5um> offgrid
+     - Precision: 0.001 (LEF MICRONS scale factor:1000)
+     - "Cont" map to "Cont"
+     - "Metal1" map to "Metal1"
+     - "Via1" map to "Via1"
+     - "Metal2" map to "Metal2"
+     - "Via2" map to "Via2"
+     - "Metal3" map to "Metal3"
+     - "Via3" map to "Via3"
+     - "Metal4" map to "Metal4"
+     - "Via4" map to "Via4"
+     - "Metal5" map to "Metal5"
+     - "TopVia1" map to "TopVia1"
+     - "TopMetal1" map to "TopMetal1"
+     - "TopVia2" map to "TopVia2"
+     - "TopMetal2" map to "TopMetal2"
+[WARNING] LefParser::parse(): No CORE site found in library, unable to check the Cell gauge.
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+[WARNING] LefParser::parse(): No CORE site found in library, unable to check the Cell gauge.
+[WARNING] In &<id:982426 Instance subckt_1947_dff_x1 dff_x1>
+          Terminal i is connected to POWER/GROUND vdd through the alias $true.
+[WARNING] EtesianEngine::_postCreate() Unable to find "None" tie cell.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[WARNING] RawGCellsUnder::commonCtor(): Area is completly outside the GCells area (ignored).
+          * GCells area: <Box 0um 0um 239.2um 264.96um>
+          * Obstacle area: [0um 0um 0um 1.12um]
+  o  Global routing did not complete.
+[ERROR] EtesianEngine::antennaProtect(): For <id:967952 Net "outputs(32)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:987536 RoutingPad outputs(32) [11.005um 48.96um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_225_xor2_x0:<id:6317 Vertical i1 Metal1 [3.005um 1.34um] [3.005um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:967920 Net "outputs(64)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:989714 RoutingPad outputs(64) [18.205um 66.24um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_209_xor2_x0:<id:6317 Vertical i1 Metal1 [3.005um 1.34um] [3.005um 4.42um] 0.21um>>>.
+[WARNING]  Position 249um is too far outside the upper bound of <HorizontalTrack [433] Metal2 @216.5um [-0.395um:239.595um] [34/64]>. Returning npos.
+[ERROR] GCell::getUnder(): No GCell under (0.5um,-0.25um), this must *never* happen.
+[BUG] No GCell under source <Point 0.5um -0.25um> for:
+      <id:1093004 Vertical abc_4693_new_n1884 Metal3 [0.5um 0um] [0.5um 3.5um] 0.29um rpD:1 bl:0 ------C-----W-AS------bb-- [-0.25um:3.75um] [-0.25um:3.75um] 4um --S--st>.
+[ERROR] GCell::getUnder(): No GCell under (19um,-0.205um), this must *never* happen.
+[BUG] No GCell under source <Point 19um -0.205um> for:
+      <id:1102184 Vertical abc_4693_new_n1884 Metal3 [19um 0um] [19um 4um] 0.29um rpD:3 bl:0 ------C-------AS------bb-- [-0.25um:4.25um] [-0.25um:4.25um] 4.5um --S--st>.
+[ERROR] GCell::getUnder(): No GCell under (111.5um,-0.205um), this must *never* happen.
+[BUG] No GCell under source <Point 111.5um -0.205um> for:
+      <id:1098098 Vertical abc_4693_new_n2484 Metal3 [111.5um 0um] [111.5um 1.5um] 0.29um rpD:2 bl:0 ------C------wAS------tb-- [-0.25um:1.75um] [-0.25um:1.75um] 2um --S--st>.
+[BUG] Katana has detected a loop between the following Segments:
+        71| &<id:1012206 Vertical abc_4693_new_n2484 Metal3 [108.5um 0um] [108.5um 8um] 0.29um rpD:1 bl:0 ------CG----W---------tb-- [-0.25um:8.25um] [-0.25um:8.25um] 8.5um ------->
+        38| &<id:1066576 Horizontal abc_4693_new_n2484 Metal2 [106.675um 8um] [108.5um 8um] 0.29um rpD:0 bl:0 -----UC---T-----------bt-- [106.465um:108.75um] [106.465um:108.75um] 2.285um ---T--->
+         8| &<id:1073473 Vertical inputs(469) Metal3 [108.5um 0um] [108.5um 3um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.205um:3.25um] [-0.205um:3.25um] 3.455um ---T--->
+         1| &<id:1073475 Horizontal inputs(469) Metal4 [107.9um 3um] [108.5um 3um] 0.29um rpD:1 bl:0 ------C-----W---------tb-- [107.575um:108.75um] [107.575um:108.75um] 1.175um ---T--->
+         8| &<id:1063500 Vertical inputs(467) Metal3 [107.5um 0um] [107.5um 3um] 0.29um rpD:0 bl:0 -----UC---T------------b-- [-0.205um:3.25um] [-0.205um:3.25um] 3.455um ---T--->
+         3| &<id:1063502 Horizontal inputs(467) Metal2 [107.355um 3um] [107.855um 3um] 0.29um rpD:1 bl:0 ---a--C-----W---r-----tt-- [107.25um:107.96um] [107.25um:107.96um] 0.71um ------->
+         8| &<id:1059167 Vertical inputs(466) Metal3 [107um 0um] [107um 2um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.205um:2.25um] [-0.205um:2.25um] 2.455um ---T--->
+         4| &<id:1068566 Vertical inputs(468) Metal3 [108um 0um] [108um 4.5um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.205um:4.75um] [-0.205um:4.75um] 4.955um ---T--->
+         1| &<id:1068568 Horizontal inputs(468) Metal4 [108um 4.5um] [108.55um 4.5um] 0.29um rpD:1 bl:0 ------C-----W---------bt-- [107.75um:108.875um] [107.75um:108.875um] 1.125um ---T--->
+         4| &<id:1077250 Vertical inputs(462) Metal3 [105um 0um] [105um 3um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.205um:3.25um] [-0.205um:3.25um] 3.455um ---T--->
+[ERROR] GCell::getUnder(): No GCell under (86.5um,-0.205um), this must *never* happen.
+[BUG] No GCell under source <Point 86.5um -0.205um> for:
+      <id:1092714 Vertical abc_4693_new_n2486 Metal3 [86.5um 0um] [86.5um 4um] 0.29um rpD:2 bl:0 ------C------wAS------tb-- [-0.25um:4.25um] [-0.25um:4.25um] 4.5um --S---->.
+[ERROR] AutoContact::getLength(): Suspicious length 6.5um (> 6.4um) of <id:1108037 Horizontal abc_4693_new_n2644 Metal2 [51um 79.5um] [57.5um 79.5um] 0.29um rpD:3 bl:1 ------C-------A-------tt-- [50.75um:57.75um]>.
+        (on: <id:1064572 ContactTurn abc_4693_new_n2644 Metal2_Via2_Metal3 [57.5um 79.5um] 0.19um x 0.19um --------->)
+  o  Routing did not complete, unrouted segments:
+      1| &<id:1004583 Horizontal init Metal4 [32um 69um] [53.3um 69um] 0.29um rpD:2 bl:1 ------CG-----w--------bt-- [31.75um:53.625um] [31.75um:53.625um] 21.875um ------t>
+      2| &<id:1012206 Vertical abc_4693_new_n2484 Metal3 [108.5um 0um] [108.5um 8um] 0.29um rpD:1 bl:0 ------CG----W---------tb-- [-0.25um:8.25um] [-0.25um:8.25um] 8.5um ------->
+      3| &<id:1013129 Vertical inputs(267) Metal3 [14um 0.5um] [14um 9.5um] 0.29um rpD:3 bl:1 ------CG--------------bt-- [0.25um:9.75um] [0.25um:9.75um] 9.5um ------t>
+      4| &<id:1014938 Horizontal outputs(265) Metal4 [22um 3.5um] [33.15um 3.5um] 0.29um rpD:2 bl:1 ------CG-----w--------bt-- [21.75um:33.475um] [21.75um:33.475um] 11.725um ------t>
+      5| &<id:1018016 Horizontal outputs(347) Metal4 [46.5um 84um] [56.55um 84um] 0.29um rpD:5 bl:1 ------CG--------------bt-- [46.25um:56.875um] [46.25um:56.875um] 10.625um ------t>
+      6| &<id:1019289 Horizontal outputs(268) Metal4 [7.15um 14um] [11.7um 14um] 0.29um rpD:5 bl:1 ------CG--------------tt-- [6.825um:12.025um] [6.825um:12.025um] 5.2um ------t>
+      7| &<id:1019705 Horizontal outputs(182) Metal4 [112.45um 94um] [123.5um 94um] 0.29um rpD:4 bl:2 ------CG--------------tt-- [112.125um:123.825um] [112.125um:123.825um] 11.7um ------t>
+      8| &<id:1019951 Vertical outputs(320) Metal5 [42.25um 49um] [42.25um 63.72um] 0.39um rpD:4 bl:1 ------CG--------------bt-- [48.75um:64.775um] [48.75um:64.775um] 16.025um ------t>
+      9| &<id:1021969 Horizontal outputs(434) Metal4 [9um 98.5um] [25.35um 98.5um] 0.29um rpD:4 bl:1 ------CG--------------bt-- [8.75um:25.675um] [8.75um:25.675um] 16.925um ------t>
+     10| &<id:1028096 Horizontal outputs(505) Metal4 [123um 103um] [135.85um 103um] 0.29um rpD:7 bl:2 ------CG--------------bt-- [122.75um:136.175um] [122.75um:136.175um] 13.425um ------t>
+     11| &<id:1031223 Vertical outputs(374) Metal5 [10.4um 61um] [10.4um 74.34um] 0.39um rpD:5 bl:1 ------CG--------------bt-- [60.75um:75.395um] [60.75um:75.395um] 14.645um ------t>
+     12| &<id:1031521 Vertical inputs(310) Metal3 [30um 1um] [30um 13.5um] 0.29um rpD:4 bl:0 ------CG--------------bb-- [0.75um:13.75um] [0.75um:13.75um] 13um ------->
+     13| &<id:1036456 Horizontal outputs(300) Metal4 [9um 36.5um] [37.7um 36.5um] 0.29um rpD:6 bl:1 ------CG--------------bt-- [8.75um:38.025um] [8.75um:38.025um] 29.275um ------t>
+     14| &<id:1037571 Horizontal outputs(379) Metal4 [3um 67um] [11.7um 67um] 0.29um rpD:2 bl:0 ------CG-----w--------bt-- [2.75um:12.025um] [2.75um:12.025um] 9.275um ------->
+     15| &<id:1039126 Horizontal outputs(508) Metal4 [67um 46um] [81.9um 46um] 0.29um rpD:7 bl:1 ------CG--------------bt-- [66.75um:82.225um] [66.75um:82.225um] 15.475um ------t>
+     16| &<id:1052790 Vertical abc_4693_new_n2738 Metal3 [22um 1.5um] [22um 8.5um] 0.29um rpD:1 bl:0 ------C-----W---------bt-- [1.25um:8.75um] [1.25um:8.75um] 7.5um ------t>
+     17| &<id:1052804 Horizontal outputs(263) Metal4 [0.5um 3um] [23.4um 3um] 0.29um rpD:2 bl:1 ------CG-----w--------bt-- [0.25um:23.725um] [0.25um:23.725um] 23.475um ------t>
+     18| &<id:1053128 Vertical outputs(337) Metal5 [46.15um 43.5um] [46.15um 67.26um] 0.39um rpD:5 bl:1 ------CG--------------bt-- [43.25um:68.315um] [43.25um:68.315um] 25.065um -----st>
+     19| &<id:1053681 Horizontal inputs(404) Metal4 [69.55um 29um] [92.3um 29um] 0.29um rpD:5 bl:1 ------CG--------------tt-- [69.225um:92.625um] [69.225um:92.625um] 23.4um ------t>
+     20| &<id:1054067 Horizontal inputs(329) Metal2 [29um 73um] [31.475um 73um] 0.29um rpD:1 bl:0 ------C-----W---------t--- [28.75um:31.685um] [28.75um:31.685um] 2.935um ------t>
+     21| &<id:1054240 Horizontal outputs(286) Metal4 [5.2um 25um] [17.55um 25um] 0.29um rpD:8 bl:1 ------CG--------------tt-- [4.875um:17.875um] [4.875um:17.875um] 13um ------t>
+     22| &<id:1054477 Vertical inputs(456) Metal5 [109.2um 3.5um] [109.2um 28.32um] 0.39um rpD:4 bl:1 ------CG--------------bt-- [3.25um:29.375um] [3.25um:29.375um] 26.125um ------t>
+     23| &<id:1054566 Horizontal inputs(448) Metal4 [98um 4.5um] [117um 4.5um] 0.29um rpD:1 bl:1 ------CG----W---------bt-- [97.75um:117.325um] [97.75um:117.325um] 19.575um ------t>
+     24| &<id:1055421 Horizontal outputs(415) Metal4 [46.8um 80um] [69.55um 80um] 0.29um rpD:6 bl:2 ------CG--------------tt-- [46.475um:69.875um] [46.475um:69.875um] 23.4um ------t>
+     25| &<id:1055547 Vertical outputs(253) Metal3 [0um 0.5um] [0um 3.5um] 0.29um rpD:1 bl:0 ------C-----W---------bt-- [0.25um:3.75um] [0.25um:3.75um] 3.5um ------t>
+     26| &<id:1055729 Horizontal inputs(464) Metal4 [106um 1.5um] [114.4um 1.5um] 0.29um rpD:1 bl:1 ------CG----W---------bt-- [105.75um:114.725um] [105.75um:114.725um] 8.975um ------t>
+     27| &<id:1056233 Horizontal inputs(477) Metal4 [109um 67um] [121.55um 67um] 0.29um rpD:6 bl:2 ------CG--------------bt-- [108.75um:121.875um] [108.75um:121.875um] 13.125um ------t>
+     28| &<id:1058837 Horizontal outputs(269) Metal2 [0um 8.5um] [6um 8.5um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.21um:6.25um] [-0.21um:6.25um] 6.46um ------->
+     29| &<id:1058840 Horizontal outputs(360) Metal2 [0um 54um] [8um 54um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.21um:8.25um] [-0.21um:8.25um] 8.46um ------->
+     30| &<id:1058884 Horizontal outputs(362) Metal2 [0um 55um] [10.5um 55um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.21um:10.75um] [-0.21um:10.75um] 10.96um ------->
+     31| &<id:1059291 Vertical inputs(166) Metal3 [83.5um 259um] [83.5um 263.5um] 0.29um rpD:2 bl:0 ------C------w--------bb-- [258.75um:263.75um] [258.75um:263.75um] 5um ------->
+     32| &<id:1063251 Horizontal outputs(374) Metal2 [0um 61um] [1um 61um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.21um:1.25um] [-0.21um:1.25um] 1.46um ------->
+     33| &<id:1063758 Horizontal outputs(479) Metal2 [0um 113.5um] [11.5um 113.5um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.21um:11.75um] [-0.21um:11.75um] 11.96um ------->
+     34| &<id:1065034 Vertical abc_4693_new_n3204 Metal2 [58.815um 263um] [58.815um 263um] 0.21um rpD:0 bl:0 -X---UC---TD---------Pb--- [262.5801um:263.42um] [58.605um:59.025um] 0.42um P------>
+     35| &<id:1066572 Vertical abc_4693_new_n2484 Metal2 [113.215um 1.5um] [113.215um 1.5um] 0.21um rpD:0 bl:0 -X---UC---TD---------P-b-- [1.08um:1.92um] [113.005um:113.425um] 0.42um P------>
+     36| &<id:1067074 Vertical inputs(108) Metal2 [92.315um 262um] [92.315um 262um] 0.21um rpD:0 bl:0 -X---UC---TD---------Pb--- [261.5801um:262.42um] [92.105um:92.525um] 0.42um P------>
+     37| &<id:1067830 Horizontal outputs(282) Metal2 [0um 15um] [1um 15um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.21um:1.25um] [-0.21um:1.25um] 1.46um ------->
+     38| &<id:1067853 Horizontal outputs(283) Metal2 [0um 15.5um] [3um 15.5um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.21um:3.25um] [-0.21um:3.25um] 3.46um ------->
+     39| &<id:1068098 Horizontal outputs(306) Metal2 [0um 27um] [3.5um 27um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.21um:3.75um] [-0.21um:3.75um] 3.96um ------->
+     40| &<id:1069581 Horizontal outputs(486) Metal2 [0um 117um] [1um 117um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.21um:1.25um] [-0.21um:1.25um] 1.46um ------->
+     41| &<id:1069729 Horizontal outputs(409) Metal2 [0um 78.5um] [4.5um 78.5um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.21um:4.75um] [-0.21um:4.75um] 4.96um ------->
+     42| &<id:1072925 Horizontal outputs(295) Metal2 [0um 21.5um] [4um 21.5um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.21um:4.25um] [-0.21um:4.25um] 4.46um ------->
+     43| &<id:1073122 Horizontal outputs(315) Metal2 [0um 31.5um] [10.5um 31.5um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.21um:10.75um] [-0.21um:10.75um] 10.96um ------->
+     44| &<id:1073362 Horizontal inputs(299) Metal4 [23.5um 0um] [27.95um 0um] 0.29um rpD:1 bl:0 ------C-----W---------bt-- [23.25um:28.275um] [23.25um:28.275um] 5.025um ------->
+     45| &<id:1073841 Horizontal outputs(398) Metal2 [0um 73um] [6.5um 73um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.21um:6.75um] [-0.21um:6.75um] 6.96um ------->
+     46| &<id:1074632 Horizontal outputs(419) Metal2 [0um 83.5um] [0.5um 83.5um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.21um:0.75um] [-0.21um:0.75um] 0.96um ------->
+     47| &<id:1077038 Horizontal outputs(326) Metal2 [0um 37um] [7.5um 37um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.21um:7.75um] [-0.21um:7.75um] 7.96um ------->
+     48| &<id:1081851 Horizontal outputs(335) Metal2 [39.5um 66um] [48.315um 66um] 0.29um rpD:0 bl:0 -----UC---T-----------tb-- [39.25um:48.525um] [39.25um:48.525um] 9.275um ------->
+     49| &<id:1081900 Horizontal outputs(338) Metal2 [0um 43um] [2um 43um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.21um:2.25um] [-0.21um:2.25um] 2.46um ------->
+     50| &<id:1085933 Horizontal outputs(441) Metal2 [0um 94.5um] [4.5um 94.5um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.21um:4.75um] [-0.21um:4.75um] 4.96um ------->
+     51| &<id:1089759 Horizontal outputs(259) Metal2 [0um 3.5um] [1.5um 3.5um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.21um:1.75um] [-0.21um:1.75um] 1.96um ------->
+     52| &<id:1089809 Horizontal outputs(352) Metal2 [0um 50um] [1.5um 50um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.21um:1.75um] [-0.21um:1.75um] 1.96um ------->
+     53| &<id:1090430 Horizontal outputs(456) Metal2 [0um 102um] [6.5um 102um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.21um:6.75um] [-0.21um:6.75um] 6.96um ------->
+     54| &<id:1090451 Horizontal outputs(455) Metal2 [0um 101.5um] [5um 101.5um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.21um:5.25um] [-0.21um:5.25um] 5.46um ------->
+     55| &<id:1092150 Vertical inputs(108) Metal3 [92.5um 262um] [92.5um 264.5um] 0.29um rpD:2 bl:0 ------C------wAS------bt-- [261.75um:264.75um] [261.75um:264.75um] 3um --S---->
+     56| &<id:1092235 Horizontal outputs(8) Metal4 [37um 20um] [47.45um 20um] 0.29um rpD:3 bl:2 ------CG--------------bt-- [36.75um:47.775um] [36.75um:47.775um] 11.025um ------t>
+     57| &<id:1092331 Horizontal abc_4693_new_n2634 Metal4 [46um 45um] [53.3um 45um] 0.29um rpD:3 bl:2 ------CG--------------bt-- [45.75um:53.625um] [45.75um:53.625um] 7.875um ------t>
+     58| &<id:1092367 Horizontal abc_4693_new_n2646 Metal4 [50.5um 38um] [68.9um 38um] 0.29um rpD:3 bl:2 ------CG--------------bt-- [50.25um:69.225um] [50.25um:69.225um] 18.975um ------t>
+     59| &<id:1092438 Vertical abc_4693_new_n2706 Metal3 [56.5um 12.5um] [56.5um 15.5um] 0.29um rpD:2 bl:0 ------C------wAS------tb-- [12.25um:15.75um] [12.25um:15.75um] 3.5um --S---->
+     60| &<id:1092734 Vertical abc_4693_new_n3204 Metal3 [61um 261um] [61um 263um] 0.29um rpD:2 bl:0 ------C------wAS------tb-- [260.75um:263.25um] [260.75um:263.25um] 2.5um --S---->
+     61| &<id:1093004 Vertical abc_4693_new_n1884 Metal3 [0um 0um] [0um 3.5um] 0.29um rpD:1 bl:0 ------C-----W-AS------bb-- [-0.25um:3.75um] [-0.25um:3.75um] 4um --S--st>
+     62| &<id:1094211 Horizontal mem_inputs(392) Metal4 [35um 16um] [46.15um 16um] 0.29um rpD:3 bl:2 ------CG--------------bt-- [34.75um:46.475um] [34.75um:46.475um] 11.725um -----st>
+     63| &<id:1095256 Vertical outputs(361) Metal3 [97um 62.5um] [97um 67.5um] 0.29um rpD:2 bl:0 ------C------wAS------tb-- [62.25um:67.75um] [62.25um:67.75um] 5.5um --S--st>
+     64| &<id:1095665 Horizontal outputs(353) Metal4 [49.5um 85um] [55.25um 85um] 0.29um rpD:3 bl:1 ------CG------A-------bt-- [49.25um:55.575um] [49.25um:55.575um] 6.325um ------t>
+     65| &<id:1096149 Horizontal inputs(329) Metal4 [29um 74um] [33.15um 74um] 0.29um rpD:3 bl:1 ------CG--------------bt-- [28.75um:33.475um] [28.75um:33.475um] 4.725um -----st>
+     66| &<id:1096205 Horizontal mem_inputs(385) Metal4 [39um 5um] [61.1um 5um] 0.29um rpD:3 bl:2 ------CG--------------bt-- [38.75um:61.425um] [38.75um:61.425um] 22.675um -----st>
+     67| &<id:1097015 Vertical abc_4693_new_n2594 Metal5 [43.55um 68.5um] [43.55um 88.5um] 0.39um rpD:3 bl:1 ------CG--------------bt-- [68.25um:89.555um] [68.25um:89.555um] 21.305um -----st>
+     68| &<id:1097357 Horizontal inputs(335) Metal4 [46um 71.5um] [53um 71.5um] 0.29um rpD:4 bl:0 ------CG--------------bb-- [45.75um:53.25um] [45.75um:53.25um] 7.5um -----s->
+     69| &<id:1098098 Vertical abc_4693_new_n2484 Metal3 [114.5um 0um] [114.5um 1.5um] 0.29um rpD:2 bl:0 ------C------wAS------tb-- [-0.25um:1.75um] [-0.25um:1.75um] 2um --S--st>
+     70| &<id:1098523 Vertical inputs(13) Metal3 [16.5um 264.25um] [16.5um 264.75um] 0.29um rpD:4 bl:0 ---a--C---------------tb-- [264.145um:264.855um] [264.145um:264.855um] 0.71um -----s->
+     71| &<id:1098550 Horizontal outputs(34) Metal4 [23.4um 47.5um] [29.5um 47.5um] 0.29um rpD:2 bl:0 ------C------wAS------tb-- [23.075um:29.75um] [23.075um:29.75um] 6.675um --S--st>
+     72| &<id:1098909 Vertical clk_root_bl_0 Metal5 [61.1um 4um] [61.1um 10.62um] 0.39um rpD:3 bl:1 ------CG--------------bt-- [3.75um:11.675um] [3.75um:11.675um] 7.925um -----st>
+     73| &<id:1099196 Horizontal inputs(299) Metal4 [22.5um 9.5um] [27.95um 9.5um] 0.29um rpD:3 bl:0 ------C-------AS------bt-- [22.25um:28.275um] [22.25um:28.275um] 6.025um --S--st>
+     74| &<id:1099273 Vertical inputs(166) Metal3 [90.5um 259um] [90.5um 264um] 0.29um rpD:4 bl:0 ------C---------------bt-- [258.75um:264.25um] [258.75um:264.25um] 5.5um -----s->
+     75| &<id:1099693 Horizontal inputs(261) Metal4 [8.45um 1um] [18.5um 1um] 0.29um rpD:3 bl:1 ------CG------A-------tb-- [8.125um:18.75um] [8.125um:18.75um] 10.625um -----s->
+     76| &<id:1099697 Vertical inputs(271) Metal3 [10um 13um] [10um 17.5um] 0.29um rpD:3 bl:0 ------C---------------tb-- [12.75um:17.75um] [12.75um:17.75um] 5um -----s->
+     77| &<id:1100073 Horizontal outputs(265) Metal2 [7um 6.5um] [22um 6.5um] 0.29um rpD:3 bl:1 ------CG------A-------tt-- [6.75um:22.25um] [6.75um:22.25um] 15.5um -----s->
+     78| &<id:1100649 Horizontal abc_4693_new_n1884 Metal4 [52.5um 84.5um] [58.5um 84.5um] 0.29um rpD:4 bl:0 ------C---------------bt-- [52.25um:58.825um] [52.25um:58.825um] 6.575um -----s->
+     79| &<id:1100656 Horizontal abc_4693_new_n1884 Metal4 [54um 84.5um] [58.5um 84.5um] 0.29um rpD:5 bl:0 ------C-------AS------bt-- [53.75um:58.825um] [53.75um:58.825um] 5.075um --S--st>
+     80| &<id:1101725 Horizontal outputs(318) Metal4 [27.3um 48.5um] [61.1um 48.5um] 0.29um rpD:6 bl:2 ------CG--------------tt-- [26.975um:61.425um] [26.975um:61.425um] 34.45um -----st>
+     81| &<id:1101937 Horizontal abc_4693_new_n2237 Metal4 [7.5um 21.5um] [10.4um 21.5um] 0.29um rpD:3 bl:0 ------C---------------bt-- [7.25um:10.725um] [7.25um:10.725um] 3.475um -----s->
+     82| &<id:1102184 Vertical abc_4693_new_n1884 Metal3 [16um 0um] [16um 4.5um] 0.29um rpD:3 bl:0 ------C-------AS------bb-- [-0.25um:4.75um] [-0.25um:4.75um] 5um --S--st>
+     83| &<id:1102369 Horizontal outputs(413) Metal4 [56.55um 69um] [90.35um 69um] 0.29um rpD:7 bl:3 ------CG--------------tt-- [56.225um:90.675um] [56.225um:90.675um] 34.45um -----st>
+     84| &<id:1102421 Horizontal inputs(284) Metal4 [46.15um 22.5um] [84.5um 22.5um] 0.29um rpD:5 bl:2 ------CG--------------tt-- [45.825um:84.825um] [45.825um:84.825um] 39um -----st>
+     85| &<id:1102425 Vertical inputs(280) Metal5 [14.3um 7.08um] [14.3um 20um] 0.39um rpD:4 bl:1 ------CG------A-------tb-- [6.025um:20.25um] [6.025um:20.25um] 14.225um -----s->
+     86| &<id:1102481 Horizontal outputs(291) Metal4 [11.05um 22um] [14.5um 22um] 0.29um rpD:4 bl:1 ------CG------A-------tb-- [10.725um:14.75um] [10.725um:14.75um] 4.025um -----s->
+     87| &<id:1102509 Horizontal abc_4693_new_n2706 Metal4 [61.75um 15.5um] [104um 15.5um] 0.29um rpD:4 bl:2 ------CG------A-------tt-- [61.425um:104.325um] [61.425um:104.325um] 42.9um -----s->
+     88| &<id:1102621 Horizontal inputs(491) Metal4 [124.8um 2um] [129um 2um] 0.29um rpD:3 bl:1 ------CG------A-------tb-- [124.475um:129.25um] [124.475um:129.25um] 4.775um -----s->
+     89| &<id:1102760 Horizontal outputs(309) Metal4 [46um 47um] [51um 47um] 0.29um rpD:2 bl:0 ------C------wAS------bb-- [45.75um:51.25um] [45.75um:51.25um] 5.5um --S--st>
+     90| &<id:1102785 Horizontal outputs(340) Metal4 [39um 45um] [48.1um 45um] 0.29um rpD:6 bl:2 ------CG------A-------tt-- [38.675um:48.425um] [38.675um:48.425um] 9.75um -----s->
+     91| &<id:1102905 Horizontal abc_4693_new_n2578 Metal4 [50.7um 69um] [73.45um 69um] 0.29um rpD:4 bl:1 ------CG------A-------tt-- [50.375um:73.775um] [50.375um:73.775um] 23.4um -----s->
+     92| &<id:1102925 Horizontal inputs(437) Metal4 [104.65um 13.5um] [120.9um 13.5um] 0.29um rpD:5 bl:2 ------CG--------------tt-- [104.325um:121.225um] [104.325um:121.225um] 16.9um -----st>
+     93| &<id:1104023 Vertical inputs(126) Metal3 [61um 260.5um] [61um 264um] 0.29um rpD:4 bl:1 ------C-------A-------tb-- [260.25um:264.25um] [260.25um:264.25um] 4um -----s->
+     94| &<id:1104177 Horizontal outputs(319) Metal4 [39um 49um] [50.5um 49um] 0.29um rpD:3 bl:1 ------CG------A-------tb-- [38.675um:50.75um] [38.675um:50.75um] 12.075um -----s->
+     95| &<id:1104273 Horizontal abc_4693_new_n3006 Metal4 [8.45um 95.5um] [45.5um 95.5um] 0.29um rpD:4 bl:2 ------CG--------------tt-- [8.125um:45.825um] [8.125um:45.825um] 37.7um -----st>
+     96| &<id:1104301 Horizontal outputs(331) Metal4 [58.5um 54um] [75um 54um] 0.29um rpD:3 bl:1 ------CG------A-------tb-- [58.175um:75.25um] [58.175um:75.25um] 17.075um -----s->
+     97| &<id:1104333 Horizontal outputs(394) Metal4 [43.55um 80.5um] [86.45um 80.5um] 0.29um rpD:8 bl:2 ------CG------A-------tt-- [43.225um:86.775um] [43.225um:86.775um] 43.55um ------t>
+     98| &<id:1104605 Vertical inputs(302) Metal5 [43.55um 31.86um] [43.55um 53um] 0.39um rpD:3 bl:1 ------CG------A-------tb-- [30.805um:53.25um] [30.805um:53.25um] 22.445um -----s->
+     99| &<id:1104649 Horizontal mem_inputs(428) Metal4 [68.9um 85.5um] [93um 85.5um] 0.29um rpD:2 bl:1 ------CG-----wA-------tb-- [68.575um:93.25um] [68.575um:93.25um] 24.675um -----s->
+    100| &<id:1104729 Horizontal outputs(361) Metal4 [28.6um 55.5um] [68.9um 55.5um] 0.29um rpD:4 bl:2 ------CG------A-------tt-- [28.275um:69.225um] [28.275um:69.225um] 40.95um -----s->
+    101| &<id:1104741 Horizontal outputs(489) Metal4 [99.45um 120.5um] [124.8um 120.5um] 0.29um rpD:4 bl:2 ------CG--------------tt-- [99.125um:125.125um] [99.125um:125.125um] 26um -----st>
+    102| &<id:1104789 Horizontal outputs(392) Metal4 [32.5um 70um] [58.5um 70um] 0.29um rpD:6 bl:2 ------CG--------------tt-- [32.175um:58.825um] [32.175um:58.825um] 26.65um -----st>
+    103| &<id:1104897 Horizontal outputs(394) Metal4 [20.8um 73.5um] [29.9um 73.5um] 0.29um rpD:4 bl:1 ------CG------A-------tt-- [20.475um:30.225um] [20.475um:30.225um] 9.75um -----s->
+    104| &<id:1105025 Horizontal outputs(374) Metal4 [87.75um 80.5um] [125.45um 80.5um] 0.29um rpD:4 bl:2 ------CG------A-------tt-- [87.425um:125.775um] [87.425um:125.775um] 38.35um -----s->
+    105| &<id:1105037 Vertical abc_4693_new_n2722 Metal5 [57.2um 7.08um] [57.2um 30.5um] 0.39um rpD:5 bl:1 ------CG------A-------tb-- [6.025um:30.75um] [6.025um:30.75um] 24.725um -----s->
+    106| &<id:1105045 Horizontal outputs(294) Metal4 [37.7um 33.5um] [51.5um 33.5um] 0.29um rpD:3 bl:1 ------CG------A-------tb-- [37.375um:51.75um] [37.375um:51.75um] 14.375um -----s->
+    107| &<id:1105053 Vertical outputs(165) Metal5 [196.95um 120.36um] [196.95um 127um] 0.39um rpD:5 bl:1 ------CG------A-------tb-- [119.305um:127.25um] [119.305um:127.25um] 7.945um -----s->
+    108| &<id:1105097 Vertical outputs(41) Metal5 [35.75um 60.18um] [35.75um 74.5um] 0.39um rpD:5 bl:1 ------CG------A-------tb-- [59.125um:74.75um] [59.125um:74.75um] 15.625um -----s->
+    109| &<id:1105405 Horizontal outputs(363) Metal4 [98.15um 74.5um] [101.5um 74.5um] 0.29um rpD:3 bl:1 ------CG------A-------tb-- [97.825um:101.75um] [97.825um:101.75um] 3.925um -----s->
+    110| &<id:1105697 Horizontal inputs(452) Metal4 [104um 10.5um] [146.9um 10.5um] 0.29um rpD:5 bl:2 ------CG------A-------tt-- [103.675um:147.225um] [103.675um:147.225um] 43.55um -----s->
+    111| &<id:1105701 Horizontal inputs(452) Metal4 [103.78um 10.5um] [104.28um 10.5um] 0.29um rpD:7 bl:3 ---a--CG------A-------tt-- [103.675um:104.385um] [103.675um:104.385um] 0.71um -----s->
+    112| &<id:1105781 Horizontal abc_4693_new_n2658 Metal4 [87.1um 45.5um] [119.5um 45.5um] 0.29um rpD:3 bl:2 ------CG------A-------tb-- [86.775um:119.75um] [86.775um:119.75um] 32.975um -----s->
+    113| &<id:1105825 Horizontal outputs(12) Metal4 [74.75um 27.5um] [95um 27.5um] 0.29um rpD:5 bl:1 ------CG------A-------tb-- [74.425um:95.25um] [74.425um:95.25um] 20.825um -----s->
+    114| &<id:1105845 Vertical inputs(353) Metal5 [48.75um 3.54um] [48.75um 28.32um] 0.39um rpD:4 bl:2 ------CG--------------tt-- [2.485um:29.375um] [2.485um:29.375um] 26.89um -----st>
+    115| &<id:1105953 Horizontal outputs(374) Metal4 [41.6um 80um] [87.75um 80um] 0.29um rpD:6 bl:3 ------CG------A-------tt-- [41.275um:88.075um] [41.275um:88.075um] 46.8um -----s->
+    116| &<id:1105973 Horizontal outputs(325) Metal4 [40.95um 61um] [48.5um 61um] 0.29um rpD:4 bl:1 ------CG------A-------tb-- [40.625um:48.75um] [40.625um:48.75um] 8.125um -----s->
+    117| &<id:1106297 Horizontal outputs(41) Metal2 [36.5um 74um] [47.5um 74um] 0.29um rpD:10 bl:1 ------CG------A-------tt-- [36.25um:47.75um] [36.25um:47.75um] 11.5um -----s->
+    118| &<id:1106332 Vertical inputs(362) Metal3 [71.5um 5.5um] [71.5um 11.5um] 0.29um rpD:7 bl:0 ------C-------AS------bb-- [5.25um:11.75um] [5.25um:11.75um] 6.5um --S--st>
+    119| &<id:1106393 Horizontal outputs(15) Metal4 [90.35um 62.5um] [120.25um 62.5um] 0.29um rpD:7 bl:3 ------CG--------------tt-- [90.025um:120.575um] [90.025um:120.575um] 30.55um -----st>
+    120| &<id:1106420 Horizontal inputs(297) Metal4 [45um 38um] [51um 38um] 0.29um rpD:5 bl:0 ------C-------AS------bb-- [44.75um:51.25um] [44.75um:51.25um] 6.5um --S--st>
+    121| &<id:1106421 Vertical inputs(297) Metal3 [51um 38um] [51um 44.5um] 0.29um rpD:4 bl:1 ------CG------A-------tb-- [37.75um:44.75um] [37.75um:44.75um] 7um -----s->
+    122| &<id:1106448 Horizontal outputs(335) Metal4 [39.5um 59.5um] [51um 59.5um] 0.29um rpD:2 bl:0 ------C------wAS------bb-- [39.25um:51.25um] [39.25um:51.25um] 12um --S--st>
+    123| &<id:1106621 Horizontal abc_4693_new_n2538 Metal4 [115.7um 69um] [133um 69um] 0.29um rpD:7 bl:2 ------CG------A-------tb-- [115.375um:133.25um] [115.375um:133.25um] 17.875um -----s->
+    124| &<id:1106761 Vertical outputs(344) Metal5 [9.1um 56.64um] [9.1um 67um] 0.39um rpD:7 bl:1 ------CG------A-------tb-- [55.585um:67.25um] [55.585um:67.25um] 11.665um -----s->
+    125| &<id:1106777 Horizontal outputs(489) Metal4 [124.8um 120.5um] [139.5um 120.5um] 0.29um rpD:6 bl:2 ------CG------A-------tb-- [124.475um:139.75um] [124.475um:139.75um] 15.275um -----s->
+    126| &<id:1106781 Horizontal outputs(131) Metal4 [58.5um 112um] [106um 112um] 0.29um rpD:8 bl:3 ------CG------A-------tb-- [58.175um:106.25um] [58.175um:106.25um] 48.075um -----s->
+    127| &<id:1106813 Vertical outputs(347) Metal3 [49.5um 74.5um] [49.5um 78.5um] 0.29um rpD:3 bl:1 ------CG------A-------tb-- [74.25um:78.75um] [74.25um:78.75um] 4.5um -----s->
+    128| &<id:1106957 Vertical outputs(308) Metal5 [46.8um 63.72um] [46.8um 80um] 0.39um rpD:6 bl:1 ------CG------A-------tb-- [62.665um:80.25um] [62.665um:80.25um] 17.585um -----s->
+    129| &<id:1107536 Horizontal inputs(350) Metal4 [46um 42um] [51.5um 42um] 0.29um rpD:9 bl:0 ------C-------AS------bb-- [45.75um:51.75um] [45.75um:51.75um] 6um --S--st>
+    130| &<id:1107712 Vertical outputs(331) Metal5 [27.3um 47um] [27.3um 54um] 0.39um rpD:3 bl:0 ------C-------AS------bb-- [46.75um:54.25um] [46.75um:54.25um] 7.5um --S--st>
+    131| &<id:1108161 Vertical outputs(296) Metal5 [63.7um 60.18um] [63.7um 79um] 0.39um rpD:5 bl:2 ------CG------A-------tb-- [59.125um:79.25um] [59.125um:79.25um] 20.125um -----s->
+    132| &<id:1108373 Vertical inputs(411) Metal5 [79.95um 28.32um] [79.95um 46um] 0.39um rpD:4 bl:1 ------CG------A-------tb-- [27.265um:46.25um] [27.265um:46.25um] 18.985um -----s->
+[WARNING] Track::repair(): Closing same net gap in <HorizontalTrack [309] Metal2 @154.5um [-0.395um:239.595um] [20/32]> near:
+          <id:1058674 Vertical outputs(260) Metal2 [9.115um 154um] [9.115um 154.5um] 0.21um rpD:0 bl:0 -X---UC---TD---------Pb--- [153.58um:154.92um] [8.905um:9.325um] 0.42um P--T--->
+[WARNING] Track::repair(): Closing same net gap in <HorizontalTrack [423] Metal2 @211.5um [-0.395um:239.595um] [40/64]> near:
+          <id:1063899 Vertical outputs(472) Metal2 [143.725um 211.5um] [143.725um 212um] 0.21um rpD:0 bl:0 -X---UC---TD---------Pb--- [211.0801um:212.42um] [143.515um:143.935um] 0.42um P--T--->
+[WARNING] Track::repair(): Enlarging narrow gap in <HorizontalTrack [445] Metal2 @222.5um [-0.395um:239.595um] [27/32]> near (shift left):
+          <id:1079761 Horizontal abc_4693_new_n2237 Metal2 [69.14um 222.5um] [69.645um 222.5um] 0.29um rpD:0 bl:0 ---a-UC---T------i----bt-- [69.25um:69.99um]>

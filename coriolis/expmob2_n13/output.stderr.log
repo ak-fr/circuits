@@ -1,0 +1,379 @@
+PyInit_Cfg() (Python3+template)
+Cfg.so loaded 0x7e26ac838d48 (std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+[ERROR] GdsStream::xyToComponent(): 56 offgrid points on layer "TopMetal2" (foundry grid: 0.005um).
+        | <Point 0um -22.5um>
+        | <Point -2.205um -22.392um> offgrid
+        | <Point -4.39um -22.068um> offgrid
+        | <Point -6.531um -21.531um> offgrid
+        | <Point -8.61um -20.787um> offgrid
+        | <Point -10.606um -19.843um> offgrid
+        | <Point -12.5um -18.708um> offgrid
+        | <Point -14.274um -17.393um> offgrid
+        | <Point -15.91um -15.91um>
+        | <Point -17.393um -14.274um> offgrid
+        | <Point -18.708um -12.5um> offgrid
+        | <Point -19.843um -10.606um> offgrid
+        | <Point -20.787um -8.61um> offgrid
+        | <Point -21.531um -6.531um> offgrid
+        | <Point -22.068um -4.39um> offgrid
+        | <Point -22.392um -2.205um> offgrid
+        | <Point -22.5um 0um>
+        | <Point -22.392um 2.205um> offgrid
+        | <Point -22.068um 4.39um> offgrid
+        | <Point -21.531um 6.531um> offgrid
+        | <Point -20.787um 8.61um> offgrid
+        | <Point -19.843um 10.606um> offgrid
+        | <Point -18.708um 12.5um> offgrid
+        | <Point -17.393um 14.274um> offgrid
+        | <Point -15.91um 15.91um>
+        | <Point -14.274um 17.393um> offgrid
+        | <Point -12.5um 18.708um> offgrid
+        | <Point -10.606um 19.843um> offgrid
+        | <Point -8.61um 20.787um> offgrid
+        | <Point -6.531um 21.531um> offgrid
+        | <Point -4.39um 22.068um> offgrid
+        | <Point -2.205um 22.392um> offgrid
+        | <Point 0um 22.5um>
+        | <Point 2.205um 22.392um> offgrid
+        | <Point 4.39um 22.068um> offgrid
+        | <Point 6.531um 21.531um> offgrid
+        | <Point 8.61um 20.787um> offgrid
+        | <Point 10.606um 19.843um> offgrid
+        | <Point 12.5um 18.708um> offgrid
+        | <Point 14.274um 17.393um> offgrid
+        | <Point 15.91um 15.91um>
+        | <Point 17.393um 14.274um> offgrid
+        | <Point 18.708um 12.5um> offgrid
+        | <Point 19.843um 10.606um> offgrid
+        | <Point 20.787um 8.61um> offgrid
+        | <Point 21.531um 6.531um> offgrid
+        | <Point 22.068um 4.39um> offgrid
+        | <Point 22.392um 2.205um> offgrid
+        | <Point 22.5um 0um>
+        | <Point 22.392um -2.205um> offgrid
+        | <Point 22.068um -4.39um> offgrid
+        | <Point 21.531um -6.531um> offgrid
+        | <Point 20.787um -8.61um> offgrid
+        | <Point 19.843um -10.606um> offgrid
+        | <Point 18.708um -12.5um> offgrid
+        | <Point 17.393um -14.274um> offgrid
+        | <Point 15.91um -15.91um>
+        | <Point 14.274um -17.393um> offgrid
+        | <Point 12.5um -18.708um> offgrid
+        | <Point 10.606um -19.843um> offgrid
+        | <Point 8.61um -20.787um> offgrid
+        | <Point 6.531um -21.531um> offgrid
+        | <Point 4.39um -22.068um> offgrid
+        | <Point 2.205um -22.392um> offgrid
+        | <Point 0um -22.5um>
+[ERROR] GdsStream::xyToComponent(): 52 offgrid points on layer "Passiv" (foundry grid: 0.005um).
+        | <Point 0um -12.5um>
+        | <Point -1.225um -12.44um>
+        | <Point -2.439um -12.26um> offgrid
+        | <Point -3.629um -11.962um> offgrid
+        | <Point -4.784um -11.548um> offgrid
+        | <Point -5.892um -11.024um> offgrid
+        | <Point -6.945um -10.393um> offgrid
+        | <Point -7.93um -9.663um> offgrid
+        | <Point -8.839um -8.839um> offgrid
+        | <Point -9.663um -7.93um> offgrid
+        | <Point -10.393um -6.945um> offgrid
+        | <Point -11.024um -5.892um> offgrid
+        | <Point -11.548um -4.784um> offgrid
+        | <Point -11.962um -3.629um> offgrid
+        | <Point -12.26um -2.439um> offgrid
+        | <Point -12.44um -1.225um>
+        | <Point -12.5um 0um>
+        | <Point -12.44um 1.225um>
+        | <Point -12.26um 2.439um> offgrid
+        | <Point -11.962um 3.629um> offgrid
+        | <Point -11.548um 4.784um> offgrid
+        | <Point -11.024um 5.892um> offgrid
+        | <Point -10.393um 6.945um> offgrid
+        | <Point -9.663um 7.93um> offgrid
+        | <Point -8.839um 8.839um> offgrid
+        | <Point -7.93um 9.663um> offgrid
+        | <Point -6.945um 10.393um> offgrid
+        | <Point -5.892um 11.024um> offgrid
+        | <Point -4.784um 11.548um> offgrid
+        | <Point -3.629um 11.962um> offgrid
+        | <Point -2.439um 12.26um> offgrid
+        | <Point -1.225um 12.44um>
+        | <Point 0um 12.5um>
+        | <Point 1.225um 12.44um>
+        | <Point 2.439um 12.26um> offgrid
+        | <Point 3.629um 11.962um> offgrid
+        | <Point 4.784um 11.548um> offgrid
+        | <Point 5.892um 11.024um> offgrid
+        | <Point 6.945um 10.393um> offgrid
+        | <Point 7.93um 9.663um> offgrid
+        | <Point 8.839um 8.839um> offgrid
+        | <Point 9.663um 7.93um> offgrid
+        | <Point 10.393um 6.945um> offgrid
+        | <Point 11.024um 5.892um> offgrid
+        | <Point 11.548um 4.784um> offgrid
+        | <Point 11.962um 3.629um> offgrid
+        | <Point 12.26um 2.439um> offgrid
+        | <Point 12.44um 1.225um>
+        | <Point 12.5um 0um>
+        | <Point 12.44um -1.225um>
+        | <Point 12.26um -2.439um> offgrid
+        | <Point 11.962um -3.629um> offgrid
+        | <Point 11.548um -4.784um> offgrid
+        | <Point 11.024um -5.892um> offgrid
+        | <Point 10.393um -6.945um> offgrid
+        | <Point 9.663um -7.93um> offgrid
+        | <Point 8.839um -8.839um> offgrid
+        | <Point 7.93um -9.663um> offgrid
+        | <Point 6.945um -10.393um> offgrid
+        | <Point 5.892um -11.024um> offgrid
+        | <Point 4.784um -11.548um> offgrid
+        | <Point 3.629um -11.962um> offgrid
+        | <Point 2.439um -12.26um> offgrid
+        | <Point 1.225um -12.44um>
+        | <Point 0um -12.5um>
+[ERROR] GdsStream::xyToComponent(): 56 offgrid points on layer "dfpad.pillar" (foundry grid: 0.005um).
+        | <Point 0um -22.5um>
+        | <Point -2.205um -22.392um> offgrid
+        | <Point -4.39um -22.068um> offgrid
+        | <Point -6.531um -21.531um> offgrid
+        | <Point -8.61um -20.787um> offgrid
+        | <Point -10.606um -19.843um> offgrid
+        | <Point -12.5um -18.708um> offgrid
+        | <Point -14.274um -17.393um> offgrid
+        | <Point -15.91um -15.91um>
+        | <Point -17.393um -14.274um> offgrid
+        | <Point -18.708um -12.5um> offgrid
+        | <Point -19.843um -10.606um> offgrid
+        | <Point -20.787um -8.61um> offgrid
+        | <Point -21.531um -6.531um> offgrid
+        | <Point -22.068um -4.39um> offgrid
+        | <Point -22.392um -2.205um> offgrid
+        | <Point -22.5um 0um>
+        | <Point -22.392um 2.205um> offgrid
+        | <Point -22.068um 4.39um> offgrid
+        | <Point -21.531um 6.531um> offgrid
+        | <Point -20.787um 8.61um> offgrid
+        | <Point -19.843um 10.606um> offgrid
+        | <Point -18.708um 12.5um> offgrid
+        | <Point -17.393um 14.274um> offgrid
+        | <Point -15.91um 15.91um>
+        | <Point -14.274um 17.393um> offgrid
+        | <Point -12.5um 18.708um> offgrid
+        | <Point -10.606um 19.843um> offgrid
+        | <Point -8.61um 20.787um> offgrid
+        | <Point -6.531um 21.531um> offgrid
+        | <Point -4.39um 22.068um> offgrid
+        | <Point -2.205um 22.392um> offgrid
+        | <Point 0um 22.5um>
+        | <Point 2.205um 22.392um> offgrid
+        | <Point 4.39um 22.068um> offgrid
+        | <Point 6.531um 21.531um> offgrid
+        | <Point 8.61um 20.787um> offgrid
+        | <Point 10.606um 19.843um> offgrid
+        | <Point 12.5um 18.708um> offgrid
+        | <Point 14.274um 17.393um> offgrid
+        | <Point 15.91um 15.91um>
+        | <Point 17.393um 14.274um> offgrid
+        | <Point 18.708um 12.5um> offgrid
+        | <Point 19.843um 10.606um> offgrid
+        | <Point 20.787um 8.61um> offgrid
+        | <Point 21.531um 6.531um> offgrid
+        | <Point 22.068um 4.39um> offgrid
+        | <Point 22.392um 2.205um> offgrid
+        | <Point 22.5um 0um>
+        | <Point 22.392um -2.205um> offgrid
+        | <Point 22.068um -4.39um> offgrid
+        | <Point 21.531um -6.531um> offgrid
+        | <Point 20.787um -8.61um> offgrid
+        | <Point 19.843um -10.606um> offgrid
+        | <Point 18.708um -12.5um> offgrid
+        | <Point 17.393um -14.274um> offgrid
+        | <Point 15.91um -15.91um>
+        | <Point 14.274um -17.393um> offgrid
+        | <Point 12.5um -18.708um> offgrid
+        | <Point 10.606um -19.843um> offgrid
+        | <Point 8.61um -20.787um> offgrid
+        | <Point 6.531um -21.531um> offgrid
+        | <Point 4.39um -22.068um> offgrid
+        | <Point 2.205um -22.392um> offgrid
+        | <Point 0um -22.5um>
+[ERROR] GdsStream::xyToComponent(): 112 offgrid points on layer "DeepVia" (foundry grid: 0.005um).
+        | <Point 0um -12.5um>
+        | <Point -1.225um -12.44um>
+        | <Point -2.439um -12.26um> offgrid
+        | <Point -3.629um -11.962um> offgrid
+        | <Point -4.784um -11.548um> offgrid
+        | <Point -5.892um -11.024um> offgrid
+        | <Point -6.945um -10.393um> offgrid
+        | <Point -7.93um -9.663um> offgrid
+        | <Point -8.839um -8.839um> offgrid
+        | <Point -9.663um -7.93um> offgrid
+        | <Point -10.393um -6.945um> offgrid
+        | <Point -11.024um -5.892um> offgrid
+        | <Point -11.548um -4.784um> offgrid
+        | <Point -11.962um -3.629um> offgrid
+        | <Point -12.26um -2.439um> offgrid
+        | <Point -12.44um -1.225um>
+        | <Point -12.5um 0um>
+        | <Point -12.44um 1.225um>
+        | <Point -12.26um 2.439um> offgrid
+        | <Point -11.962um 3.629um> offgrid
+        | <Point -11.548um 4.784um> offgrid
+        | <Point -11.024um 5.892um> offgrid
+        | <Point -10.393um 6.945um> offgrid
+        | <Point -9.663um 7.93um> offgrid
+        | <Point -8.839um 8.839um> offgrid
+        | <Point -7.93um 9.663um> offgrid
+        | <Point -6.945um 10.393um> offgrid
+        | <Point -5.892um 11.024um> offgrid
+        | <Point -4.784um 11.548um> offgrid
+        | <Point -3.629um 11.962um> offgrid
+        | <Point -2.439um 12.26um> offgrid
+        | <Point -1.225um 12.44um>
+        | <Point 0um 12.5um>
+        | <Point 1.225um 12.44um>
+        | <Point 2.439um 12.26um> offgrid
+        | <Point 3.629um 11.962um> offgrid
+        | <Point 4.784um 11.548um> offgrid
+        | <Point 5.892um 11.024um> offgrid
+        | <Point 6.945um 10.393um> offgrid
+        | <Point 7.93um 9.663um> offgrid
+        | <Point 8.839um 8.839um> offgrid
+        | <Point 9.663um 7.93um> offgrid
+        | <Point 10.393um 6.945um> offgrid
+        | <Point 11.024um 5.892um> offgrid
+        | <Point 11.548um 4.784um> offgrid
+        | <Point 11.962um 3.629um> offgrid
+        | <Point 12.26um 2.439um> offgrid
+        | <Point 12.44um 1.225um>
+        | <Point 12.5um 0um>
+        | <Point 9.5um 0um>
+        | <Point 9.454um 0.931um> offgrid
+        | <Point 9.317um 1.853um> offgrid
+        | <Point 9.091um 2.758um> offgrid
+        | <Point 8.777um 3.635um> offgrid
+        | <Point 8.378um 4.478um> offgrid
+        | <Point 7.899um 5.278um> offgrid
+        | <Point 7.344um 6.027um> offgrid
+        | <Point 6.718um 6.718um> offgrid
+        | <Point 6.027um 7.344um> offgrid
+        | <Point 5.278um 7.899um> offgrid
+        | <Point 4.478um 8.378um> offgrid
+        | <Point 3.635um 8.777um> offgrid
+        | <Point 2.758um 9.091um> offgrid
+        | <Point 1.853um 9.317um> offgrid
+        | <Point 0.931um 9.454um> offgrid
+        | <Point 0um 9.5um>
+        | <Point -0.931um 9.454um> offgrid
+        | <Point -1.853um 9.317um> offgrid
+        | <Point -2.758um 9.091um> offgrid
+        | <Point -3.635um 8.777um> offgrid
+        | <Point -4.478um 8.378um> offgrid
+        | <Point -5.278um 7.899um> offgrid
+        | <Point -6.027um 7.344um> offgrid
+        | <Point -6.718um 6.718um> offgrid
+        | <Point -7.344um 6.027um> offgrid
+        | <Point -7.899um 5.278um> offgrid
+        | <Point -8.378um 4.478um> offgrid
+        | <Point -8.777um 3.635um> offgrid
+        | <Point -9.091um 2.758um> offgrid
+        | <Point -9.317um 1.853um> offgrid
+        | <Point -9.454um 0.931um> offgrid
+        | <Point -9.5um 0um>
+        | <Point -9.454um -0.931um> offgrid
+        | <Point -9.317um -1.853um> offgrid
+        | <Point -9.091um -2.758um> offgrid
+        | <Point -8.777um -3.635um> offgrid
+        | <Point -8.378um -4.478um> offgrid
+        | <Point -7.899um -5.278um> offgrid
+        | <Point -7.344um -6.027um> offgrid
+        | <Point -6.718um -6.718um> offgrid
+        | <Point -6.027um -7.344um> offgrid
+        | <Point -5.278um -7.899um> offgrid
+        | <Point -4.478um -8.378um> offgrid
+        | <Point -3.635um -8.777um> offgrid
+        | <Point -2.758um -9.091um> offgrid
+        | <Point -1.853um -9.317um> offgrid
+        | <Point -0.931um -9.454um> offgrid
+        | <Point 0um -9.5um>
+        | <Point 0.931um -9.454um> offgrid
+        | <Point 1.853um -9.317um> offgrid
+        | <Point 2.758um -9.091um> offgrid
+        | <Point 3.635um -8.777um> offgrid
+        | <Point 4.478um -8.378um> offgrid
+        | <Point 5.278um -7.899um> offgrid
+        | <Point 6.027um -7.344um> offgrid
+        | <Point 6.718um -6.718um> offgrid
+        | <Point 7.344um -6.027um> offgrid
+        | <Point 7.899um -5.278um> offgrid
+        | <Point 8.378um -4.478um> offgrid
+        | <Point 8.777um -3.635um> offgrid
+        | <Point 9.091um -2.758um> offgrid
+        | <Point 9.317um -1.853um> offgrid
+        | <Point 9.454um -0.931um> offgrid
+        | <Point 9.5um 0um>
+        | <Point 12.5um 0um>
+        | <Point 12.44um -1.225um>
+        | <Point 12.26um -2.439um> offgrid
+        | <Point 11.962um -3.629um> offgrid
+        | <Point 11.548um -4.784um> offgrid
+        | <Point 11.024um -5.892um> offgrid
+        | <Point 10.393um -6.945um> offgrid
+        | <Point 9.663um -7.93um> offgrid
+        | <Point 8.839um -8.839um> offgrid
+        | <Point 7.93um -9.663um> offgrid
+        | <Point 6.945um -10.393um> offgrid
+        | <Point 5.892um -11.024um> offgrid
+        | <Point 4.784um -11.548um> offgrid
+        | <Point 3.629um -11.962um> offgrid
+        | <Point 2.439um -12.26um> offgrid
+        | <Point 1.225um -12.44um>
+        | <Point 0um -12.5um>
+[ERROR] GdsStream::xyToComponent(): 5 offgrid points on layer "gds236.datatype_0" (foundry grid: 0.005um).
+        | <Point -1.334um -0.5um> offgrid
+        | <Point -1.334um 1.02um> offgrid
+        | <Point 1.334um 1.02um> offgrid
+        | <Point 1.334um -0.5um> offgrid
+        | <Point -1.334um -0.5um> offgrid
+     - Precision: 0.001 (LEF MICRONS scale factor:1000)
+     - "Cont" map to "Cont"
+     - "Metal1" map to "Metal1"
+     - "Via1" map to "Via1"
+     - "Metal2" map to "Metal2"
+     - "Via2" map to "Via2"
+     - "Metal3" map to "Metal3"
+     - "Via3" map to "Via3"
+     - "Metal4" map to "Metal4"
+     - "Via4" map to "Via4"
+     - "Metal5" map to "Metal5"
+     - "TopVia1" map to "TopVia1"
+     - "TopMetal1" map to "TopMetal1"
+     - "TopVia2" map to "TopVia2"
+     - "TopMetal2" map to "TopMetal2"
+[WARNING] LefParser::parse(): No CORE site found in library, unable to check the Cell gauge.
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+[WARNING] LefParser::parse(): No CORE site found in library, unable to check the Cell gauge.
+[WARNING] In &<id:1168945 Instance subckt_24071_dff_x1 dff_x1>
+          Terminal i is connected to POWER/GROUND vdd through the alias $true.

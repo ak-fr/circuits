@@ -1,0 +1,670 @@
+  o  LEF: </home/ahmed/coriolis-2.x/release/install/lib/python3/dist-packages/pdks/ihpsg13g2/libs.ref/sg13g2_stdcell/lef/sg13g2_tech.lef>
+  o  LEF: </home/ahmed/coriolis-2.x/release/install/lib/python3/dist-packages/pdks/ihpsg13g2/libs.ref/sg13g2_io/lef/sg13g2_io.lef>
+     o sg13g2_Corner 180um 180um LEF.sg13g2_ioSite     o sg13g2_Filler200 1um 180um LEF.sg13g2_ioSite     o sg13g2_Filler400 2um 180um LEF.sg13g2_ioSite     o sg13g2_Filler1000 5um 180um LEF.sg13g2_ioSite     o sg13g2_Filler2000 10um 180um LEF.sg13g2_ioSite     o sg13g2_Filler4000 20um 180um LEF.sg13g2_ioSite     o sg13g2_Filler10000 50um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadIn 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadOut4mA 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadOut16mA 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadOut30mA 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadTriOut4mA 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadTriOut16mA 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadTriOut30mA 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadInOut4mA 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadInOut16mA 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadInOut30mA 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadAnalog 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadIOVss 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadIOVdd 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadVss 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadVdd 80um 180um LEF.sg13g2_ioSite     + expmob1 [blif]
+        + expmob1 [.model]
+  o  Configuration contents (CfgCache):
+     - misc.catchCore = False
+     - misc.minTraceLevel = 12300
+     - misc.maxTraceLevel = 12400
+     - misc.info = False
+     - misc.paranoid = False
+     - misc.bug = False
+     - misc.logMode = True
+     - misc.verboseLevel1 = True
+     - misc.verboseLevel2 = True
+  o  Configuration contents (CfgCache):
+     - gdsDriver.metricDbu = 1e-09
+     - gdsDriver.dbuPerUu = 0.001
+  o  Configuration contents (CfgCache):
+     - lefImport.minTerminalWidth = 0.0
+     - crlcore.groundName = "vss"
+     - crlcore.powerName = "vdd"
+     - etesian.aspectRatio = 1.0 [10:1000]
+     - etesian.spaceMargin = 0.1
+     - etesian.uniformDensity = True
+     - etesian.densityVariation = 0.05
+     - etesian.routingDriven = False
+     - etesian.latchUpDistance = 580000
+     - etesian.diodeName = "diode_w1"
+     - etesian.antennaInsertThreshold = 0.5
+     - etesian.tieName = None
+     - etesian.antennaGateMaxWL = 10000000
+     - etesian.antennaDiodeMaxWL = 1000000000
+     - etesian.feedNames = "tie,decap_w0"
+     - etesian.defaultFeed = "tie"
+     - etesian.cell.zero = "zero_x1"
+     - etesian.cell.one = "one_x1"
+     - etesian.bloat = "disabled"
+     - etesian.effort = 2 (1:"Fast", 2:"Standard", 3:"High", 4:"Extreme")
+     - etesian.graphics = 2 (1:"Show every step", 2:"Show lower bound", 3:"Show result only")
+     - anabatic.routingGauge = "StdCellLib"
+     - anabatic.globalLengthThreshold = 1450
+     - anabatic.saturateRatio = 0.9
+     - anabatic.saturateRp = 10
+     - anabatic.topRoutingLayer = "TopMetal1"
+     - anabatic.edgeLength = 24
+     - anabatic.edgeWidth = 4
+     - anabatic.edgeCostH = 9.0
+     - anabatic.edgeCostK = -10.0
+     - anabatic.edgeHInc = 1.0
+     - anabatic.edgeHScaling = 1.0
+     - anabatic.globalIterations = 20 [1:100]
+     - anabatic.gcell.displayMode = 1 (1:"Boundary", 2:"Density")
+     - anabatic.searchHalo = 2
+     - katana.trackFill = 0
+     - katana.runRealignStage = True
+     - katana.hTracksReservedMin = 4
+     - katana.hTracksReservedLocal = 20 [0:30]
+     - katana.vTracksReservedMin = 4
+     - katana.vTracksReservedLocal = 20 [0:30]
+     - katana.termSatReservedLocal = 8
+     - katana.termSatThreshold = 9
+     - katana.eventsLimit = 4000002
+     - katana.ripupCost = 3 [0:None]
+     - katana.strapRipupLimit = 16 [1:None]
+     - katana.localRipupLimit = 9 [1:None]
+     - katana.globalRipupLimit = 5 [1:None]
+     - katana.longGlobalRipupLimit = 5
+     - chip.padCoreSide = "South"
+  o  Configuration contents (CfgCache):
+     - viewer.minimumSize = 500
+     - viewer.pixelThreshold = 10
+     - chip.block.rails.count = 5
+     - chip.block.rails.hWidth = 53600
+     - chip.block.rails.vWidth = 53600
+     - chip.block.rails.hSpacing = 14000
+     - chip.block.rails.vSpacing = 14000
+     - chip.supplyRailWidth = 400000
+     - chip.supplyRailPitch = 800000
+     - clockTree.placerEngine = "Etesian"
+     - block.spareSide = 921600
+     - spares.buffer = "buf_x4"
+     - spares.hfnsBuffer = "buf_x4"
+     - spares.maxSinks = 31
+  o  Configuration contents (CfgCache):
+     - chip.block.rails.count = 2
+     - chip.block.rails.hWidth = 800000
+     - chip.block.rails.vWidth = 800000
+     - chip.block.rails.hSpacing = 120000
+     - chip.block.rails.vSpacing = 120000
+     - chip.padCoreSide = "North"
+  o  Setup IHP sg13g2 I/O library in iolib.
+     - Shifting sg13g2_Corner bottom left corner AB to (0,0).
+  o  Configuration contents (CfgCache):
+     - etesian.graphics = 3
+     - etesian.spaceMargin = 0.1
+     - katana.eventsLimit = 4000000
+  o  Preload standard plugins.
+     - "coriolis.plugins.chip" (module)
+     - "coriolis.plugins.harness" (module)
+     - "coriolis.plugins.sram" (module)
+     - "coriolis.plugins.core2chip" (module)
+     - "coriolis.plugins.macro" (module)
+     - "coriolis.plugins.aboutwindow.py"
+     - "coriolis.plugins.checks.py"
+     - "coriolis.plugins.conductor.py"
+     - "coriolis.plugins.matrixplacer.py"
+     - "coriolis.plugins.rsave.py"
+     - "coriolis.plugins.rsaveall.py"
+     - "coriolis.plugins.runDemo.py"
+     - "coriolis.plugins.s2r.py"
+     - "coriolis.plugins.stats.py"
+     - "coriolis.plugins.utils.py"
+     - No NDA protected plugins.
+[WARNING] timing.staticInit(): Library do not provides "inv_x8", skipped.
+[WARNING] timing.staticInit(): Library do not provides "buf_x8", skipped.
+-- yosys
+-- b2v
+.  gds
+TaskFailed - taskid:gds
+[ERROR] PnR.doTask(): The rule "gds" did *not* generate target "expmob1_cts_r.gds".
+
+########################################
+TaskFailed - taskid:gds
+gds <stderr>:
+
+gds <stdout>:
+PnR.doTask() on "expmob1_cts_r.gds"
+  o  Configuration contents (CfgCache):
+     - misc.catchCore = False
+     - misc.info = False
+     - misc.paranoid = False
+     - misc.bug = False
+     - misc.logMode = True
+     - misc.verboseLevel1 = True
+     - misc.verboseLevel2 = True
+     - misc.minTraceLevel = 16000
+     - misc.maxTraceLevel = 17000
+     - anabatic.routingGauge = "StdCellLib"
+  o  Looked up gauge/pitch values.
+     - hpitch:                0.5um.
+     - vpitch:                0.5um.
+     - sliceHeight:          5.76um.
+     - sliceStep:             0.8um.
+############################################ 29600000 
+ [3203, 3203, 4988, 4989] 
+ [0, 0, 0, 0]
+############################################ 29600000 
+ [3203, 3203, 4988, 4989] 
+ [0, 0, 0, 0]
+[(18, 'inputs({})', 0, 0, range(0, 3203)), (17, 'inputs({})', 0, 0, range(3203, 6406)), (20, 'inputs({})', 0, 0, range(6406, 8192)), (20, 'outputs({})', 0, 0, range(1, 3203)), (24, 'outputs({})', 0, 0, range(3203, 8192))]
+  o  Block "expmob1" will be generated.
+  o  Building block "expmob1".
+
+[ERROR] Side.place(IoPin): Pin "inputs(3120).0" is outside north or south abutment box side.
+        (x:1560.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3121).0" is outside north or south abutment box side.
+        (x:1561um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3122).0" is outside north or south abutment box side.
+        (x:1561.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3123).0" is outside north or south abutment box side.
+        (x:1562um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3124).0" is outside north or south abutment box side.
+        (x:1562.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3125).0" is outside north or south abutment box side.
+        (x:1563um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3126).0" is outside north or south abutment box side.
+        (x:1563.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3127).0" is outside north or south abutment box side.
+        (x:1564um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3128).0" is outside north or south abutment box side.
+        (x:1564.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3129).0" is outside north or south abutment box side.
+        (x:1565um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3130).0" is outside north or south abutment box side.
+        (x:1565.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3131).0" is outside north or south abutment box side.
+        (x:1566um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3132).0" is outside north or south abutment box side.
+        (x:1566.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3133).0" is outside north or south abutment box side.
+        (x:1567um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3134).0" is outside north or south abutment box side.
+        (x:1567.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3135).0" is outside north or south abutment box side.
+        (x:1568um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3136).0" is outside north or south abutment box side.
+        (x:1568.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3137).0" is outside north or south abutment box side.
+        (x:1569um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3138).0" is outside north or south abutment box side.
+        (x:1569.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3139).0" is outside north or south abutment box side.
+        (x:1570um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3140).0" is outside north or south abutment box side.
+        (x:1570.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3141).0" is outside north or south abutment box side.
+        (x:1571um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3142).0" is outside north or south abutment box side.
+        (x:1571.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3143).0" is outside north or south abutment box side.
+        (x:1572um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3144).0" is outside north or south abutment box side.
+        (x:1572.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3145).0" is outside north or south abutment box side.
+        (x:1573um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3146).0" is outside north or south abutment box side.
+        (x:1573.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3147).0" is outside north or south abutment box side.
+        (x:1574um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3148).0" is outside north or south abutment box side.
+        (x:1574.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3149).0" is outside north or south abutment box side.
+        (x:1575um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3150).0" is outside north or south abutment box side.
+        (x:1575.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3151).0" is outside north or south abutment box side.
+        (x:1576um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3152).0" is outside north or south abutment box side.
+        (x:1576.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3153).0" is outside north or south abutment box side.
+        (x:1577um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3154).0" is outside north or south abutment box side.
+        (x:1577.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3155).0" is outside north or south abutment box side.
+        (x:1578um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3156).0" is outside north or south abutment box side.
+        (x:1578.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3157).0" is outside north or south abutment box side.
+        (x:1579um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3158).0" is outside north or south abutment box side.
+        (x:1579.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3159).0" is outside north or south abutment box side.
+        (x:1580um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3160).0" is outside north or south abutment box side.
+        (x:1580.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3161).0" is outside north or south abutment box side.
+        (x:1581um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3162).0" is outside north or south abutment box side.
+        (x:1581.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3163).0" is outside north or south abutment box side.
+        (x:1582um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3164).0" is outside north or south abutment box side.
+        (x:1582.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3165).0" is outside north or south abutment box side.
+        (x:1583um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3166).0" is outside north or south abutment box side.
+        (x:1583.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3167).0" is outside north or south abutment box side.
+        (x:1584um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3168).0" is outside north or south abutment box side.
+        (x:1584.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3169).0" is outside north or south abutment box side.
+        (x:1585um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3170).0" is outside north or south abutment box side.
+        (x:1585.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3171).0" is outside north or south abutment box side.
+        (x:1586um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3172).0" is outside north or south abutment box side.
+        (x:1586.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3173).0" is outside north or south abutment box side.
+        (x:1587um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3174).0" is outside north or south abutment box side.
+        (x:1587.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3175).0" is outside north or south abutment box side.
+        (x:1588um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3176).0" is outside north or south abutment box side.
+        (x:1588.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3177).0" is outside north or south abutment box side.
+        (x:1589um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3178).0" is outside north or south abutment box side.
+        (x:1589.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3179).0" is outside north or south abutment box side.
+        (x:1590um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3180).0" is outside north or south abutment box side.
+        (x:1590.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3181).0" is outside north or south abutment box side.
+        (x:1591um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3182).0" is outside north or south abutment box side.
+        (x:1591.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3183).0" is outside north or south abutment box side.
+        (x:1592um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3184).0" is outside north or south abutment box side.
+        (x:1592.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3185).0" is outside north or south abutment box side.
+        (x:1593um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3186).0" is outside north or south abutment box side.
+        (x:1593.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3187).0" is outside north or south abutment box side.
+        (x:1594um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3188).0" is outside north or south abutment box side.
+        (x:1594.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3189).0" is outside north or south abutment box side.
+        (x:1595um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3190).0" is outside north or south abutment box side.
+        (x:1595.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3191).0" is outside north or south abutment box side.
+        (x:1596um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3192).0" is outside north or south abutment box side.
+        (x:1596.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3193).0" is outside north or south abutment box side.
+        (x:1597um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3194).0" is outside north or south abutment box side.
+        (x:1597.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3195).0" is outside north or south abutment box side.
+        (x:1598um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3196).0" is outside north or south abutment box side.
+        (x:1598.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3197).0" is outside north or south abutment box side.
+        (x:1599um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3198).0" is outside north or south abutment box side.
+        (x:1599.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3199).0" is outside north or south abutment box side.
+        (x:1600um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3200).0" is outside north or south abutment box side.
+        (x:1600.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3201).0" is outside north or south abutment box side.
+        (x:1601um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(3202).0" is outside north or south abutment box side.
+        (x:1601.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6323).0" is outside north or south abutment box side.
+        (x:1560.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6324).0" is outside north or south abutment box side.
+        (x:1561um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6325).0" is outside north or south abutment box side.
+        (x:1561.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6326).0" is outside north or south abutment box side.
+        (x:1562um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6327).0" is outside north or south abutment box side.
+        (x:1562.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6328).0" is outside north or south abutment box side.
+        (x:1563um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6329).0" is outside north or south abutment box side.
+        (x:1563.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6330).0" is outside north or south abutment box side.
+        (x:1564um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6331).0" is outside north or south abutment box side.
+        (x:1564.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6332).0" is outside north or south abutment box side.
+        (x:1565um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6333).0" is outside north or south abutment box side.
+        (x:1565.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6334).0" is outside north or south abutment box side.
+        (x:1566um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6335).0" is outside north or south abutment box side.
+        (x:1566.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6336).0" is outside north or south abutment box side.
+        (x:1567um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6337).0" is outside north or south abutment box side.
+        (x:1567.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6338).0" is outside north or south abutment box side.
+        (x:1568um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6339).0" is outside north or south abutment box side.
+        (x:1568.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6340).0" is outside north or south abutment box side.
+        (x:1569um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6341).0" is outside north or south abutment box side.
+        (x:1569.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6342).0" is outside north or south abutment box side.
+        (x:1570um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6343).0" is outside north or south abutment box side.
+        (x:1570.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6344).0" is outside north or south abutment box side.
+        (x:1571um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6345).0" is outside north or south abutment box side.
+        (x:1571.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6346).0" is outside north or south abutment box side.
+        (x:1572um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6347).0" is outside north or south abutment box side.
+        (x:1572.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6348).0" is outside north or south abutment box side.
+        (x:1573um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6349).0" is outside north or south abutment box side.
+        (x:1573.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6350).0" is outside north or south abutment box side.
+        (x:1574um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6351).0" is outside north or south abutment box side.
+        (x:1574.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6352).0" is outside north or south abutment box side.
+        (x:1575um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6353).0" is outside north or south abutment box side.
+        (x:1575.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6354).0" is outside north or south abutment box side.
+        (x:1576um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6355).0" is outside north or south abutment box side.
+        (x:1576.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6356).0" is outside north or south abutment box side.
+        (x:1577um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6357).0" is outside north or south abutment box side.
+        (x:1577.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6358).0" is outside north or south abutment box side.
+        (x:1578um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6359).0" is outside north or south abutment box side.
+        (x:1578.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6360).0" is outside north or south abutment box side.
+        (x:1579um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6361).0" is outside north or south abutment box side.
+        (x:1579.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6362).0" is outside north or south abutment box side.
+        (x:1580um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6363).0" is outside north or south abutment box side.
+        (x:1580.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6364).0" is outside north or south abutment box side.
+        (x:1581um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6365).0" is outside north or south abutment box side.
+        (x:1581.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6366).0" is outside north or south abutment box side.
+        (x:1582um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6367).0" is outside north or south abutment box side.
+        (x:1582.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6368).0" is outside north or south abutment box side.
+        (x:1583um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6369).0" is outside north or south abutment box side.
+        (x:1583.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6370).0" is outside north or south abutment box side.
+        (x:1584um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6371).0" is outside north or south abutment box side.
+        (x:1584.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6372).0" is outside north or south abutment box side.
+        (x:1585um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6373).0" is outside north or south abutment box side.
+        (x:1585.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6374).0" is outside north or south abutment box side.
+        (x:1586um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6375).0" is outside north or south abutment box side.
+        (x:1586.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6376).0" is outside north or south abutment box side.
+        (x:1587um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6377).0" is outside north or south abutment box side.
+        (x:1587.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6378).0" is outside north or south abutment box side.
+        (x:1588um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6379).0" is outside north or south abutment box side.
+        (x:1588.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6380).0" is outside north or south abutment box side.
+        (x:1589um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6381).0" is outside north or south abutment box side.
+        (x:1589.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6382).0" is outside north or south abutment box side.
+        (x:1590um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6383).0" is outside north or south abutment box side.
+        (x:1590.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6384).0" is outside north or south abutment box side.
+        (x:1591um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6385).0" is outside north or south abutment box side.
+        (x:1591.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6386).0" is outside north or south abutment box side.
+        (x:1592um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6387).0" is outside north or south abutment box side.
+        (x:1592.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6388).0" is outside north or south abutment box side.
+        (x:1593um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6389).0" is outside north or south abutment box side.
+        (x:1593.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6390).0" is outside north or south abutment box side.
+        (x:1594um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6391).0" is outside north or south abutment box side.
+        (x:1594.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6392).0" is outside north or south abutment box side.
+        (x:1595um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6393).0" is outside north or south abutment box side.
+        (x:1595.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6394).0" is outside north or south abutment box side.
+        (x:1596um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6395).0" is outside north or south abutment box side.
+        (x:1596.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6396).0" is outside north or south abutment box side.
+        (x:1597um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6397).0" is outside north or south abutment box side.
+        (x:1597.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6398).0" is outside north or south abutment box side.
+        (x:1598um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6399).0" is outside north or south abutment box side.
+        (x:1598.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6400).0" is outside north or south abutment box side.
+        (x:1599um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6401).0" is outside north or south abutment box side.
+        (x:1599.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6402).0" is outside north or south abutment box side.
+        (x:1600um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6403).0" is outside north or south abutment box side.
+        (x:1600.5um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6404).0" is outside north or south abutment box side.
+        (x:1601um, xAB: [0um:1560um])
+
+[ERROR] Side.place(IoPin): Pin "inputs(6405).0" is outside north or south abutment box side.
+        (x:1601.5um, xAB: [0um:1560um])
+[ERROR] Block.placeIoPins(): Cell "expmob1" has 166 badly placed pins.
+        Python stack trace:
+        #0 in                  __init__() at .../install/lib/python3/dist-packages/coriolis/helpers/io.py:95
+        #1 in               placeIoPins() at .../lib/python3/dist-packages/coriolis/plugins/block/block.py:642
+        #2 in                     doPnR() at .../lib/python3/dist-packages/coriolis/plugins/block/block.py:848
+        #3 in                scriptMain() at /home/ahmed/circuits/coriolis/expmob1_n13/doDesign.py:249
+        #4 in                    doTask() at .../lib/python3/dist-packages/coriolis/designflow/pnr.py:78
+        #5 in                   execute() at /usr/lib/python3/dist-packages/doit/action.py:424
+        #6 in                   execute() at /usr/lib/python3/dist-packages/doit/task.py:449
+        #7 in              execute_task() at /usr/lib/python3/dist-packages/doit/runner.py:177
+        #8 in                 run_tasks() at /usr/lib/python3/dist-packages/doit/runner.py:222
+        #9 in                   run_all() at /usr/lib/python3/dist-packages/doit/runner.py:256
+        #10 in                  _execute() at /usr/lib/python3/dist-packages/doit/cmd_run.py:260
+        #11 in                   execute() at /usr/lib/python3/dist-packages/doit/cmd_base.py:420
+        #12 in             parse_execute() at /usr/lib/python3/dist-packages/doit/cmd_base.py:127
+        #13 in                       run() at /usr/lib/python3/dist-packages/doit/doit_cmd.py:177
+        #14 in                      main() at /usr/lib/python3/dist-packages/doit/__main__.py:8
+        #15 in                  <module>() at /usr/bin/doit:11
+
+

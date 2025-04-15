@@ -1,0 +1,242 @@
+  o  LEF: </home/ahmed/coriolis-2.x/release/install/lib/python3/dist-packages/pdks/ihpsg13g2/libs.ref/sg13g2_stdcell/lef/sg13g2_tech.lef>
+  o  LEF: </home/ahmed/coriolis-2.x/release/install/lib/python3/dist-packages/pdks/ihpsg13g2/libs.ref/sg13g2_io/lef/sg13g2_io.lef>
+     o sg13g2_Corner 180um 180um LEF.sg13g2_ioSite     o sg13g2_Filler200 1um 180um LEF.sg13g2_ioSite     o sg13g2_Filler400 2um 180um LEF.sg13g2_ioSite     o sg13g2_Filler1000 5um 180um LEF.sg13g2_ioSite     o sg13g2_Filler2000 10um 180um LEF.sg13g2_ioSite     o sg13g2_Filler4000 20um 180um LEF.sg13g2_ioSite     o sg13g2_Filler10000 50um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadIn 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadOut4mA 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadOut16mA 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadOut30mA 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadTriOut4mA 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadTriOut16mA 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadTriOut30mA 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadInOut4mA 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadInOut16mA 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadInOut30mA 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadAnalog 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadIOVss 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadIOVdd 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadVss 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadVdd 80um 180um LEF.sg13g2_ioSite     + expmob2 [blif]
+        + expmob2 [.model]
+  o  Configuration contents (CfgCache):
+     - misc.catchCore = False
+     - misc.minTraceLevel = 12300
+     - misc.maxTraceLevel = 12400
+     - misc.info = False
+     - misc.paranoid = False
+     - misc.bug = False
+     - misc.logMode = True
+     - misc.verboseLevel1 = True
+     - misc.verboseLevel2 = True
+  o  Configuration contents (CfgCache):
+     - gdsDriver.metricDbu = 1e-09
+     - gdsDriver.dbuPerUu = 0.001
+  o  Configuration contents (CfgCache):
+     - lefImport.minTerminalWidth = 0.0
+     - crlcore.groundName = "vss"
+     - crlcore.powerName = "vdd"
+     - etesian.aspectRatio = 1.0 [10:1000]
+     - etesian.spaceMargin = 0.1
+     - etesian.uniformDensity = True
+     - etesian.densityVariation = 0.05
+     - etesian.routingDriven = False
+     - etesian.latchUpDistance = 580000
+     - etesian.diodeName = "diode_w1"
+     - etesian.antennaInsertThreshold = 0.5
+     - etesian.tieName = None
+     - etesian.antennaGateMaxWL = 10000000
+     - etesian.antennaDiodeMaxWL = 1000000000
+     - etesian.feedNames = "tie,decap_w0"
+     - etesian.defaultFeed = "tie"
+     - etesian.cell.zero = "zero_x1"
+     - etesian.cell.one = "one_x1"
+     - etesian.bloat = "disabled"
+     - etesian.effort = 2 (1:"Fast", 2:"Standard", 3:"High", 4:"Extreme")
+     - etesian.graphics = 2 (1:"Show every step", 2:"Show lower bound", 3:"Show result only")
+     - anabatic.routingGauge = "StdCellLib"
+     - anabatic.globalLengthThreshold = 1450
+     - anabatic.saturateRatio = 0.9
+     - anabatic.saturateRp = 10
+     - anabatic.topRoutingLayer = "TopMetal1"
+     - anabatic.edgeLength = 24
+     - anabatic.edgeWidth = 4
+     - anabatic.edgeCostH = 9.0
+     - anabatic.edgeCostK = -10.0
+     - anabatic.edgeHInc = 1.0
+     - anabatic.edgeHScaling = 1.0
+     - anabatic.globalIterations = 20 [1:100]
+     - anabatic.gcell.displayMode = 1 (1:"Boundary", 2:"Density")
+     - anabatic.searchHalo = 2
+     - katana.trackFill = 0
+     - katana.runRealignStage = True
+     - katana.hTracksReservedMin = 4
+     - katana.hTracksReservedLocal = 20 [0:30]
+     - katana.vTracksReservedMin = 4
+     - katana.vTracksReservedLocal = 20 [0:30]
+     - katana.termSatReservedLocal = 8
+     - katana.termSatThreshold = 9
+     - katana.eventsLimit = 4000002
+     - katana.ripupCost = 3 [0:None]
+     - katana.strapRipupLimit = 16 [1:None]
+     - katana.localRipupLimit = 9 [1:None]
+     - katana.globalRipupLimit = 5 [1:None]
+     - katana.longGlobalRipupLimit = 5
+     - chip.padCoreSide = "South"
+  o  Configuration contents (CfgCache):
+     - viewer.minimumSize = 500
+     - viewer.pixelThreshold = 10
+     - chip.block.rails.count = 5
+     - chip.block.rails.hWidth = 53600
+     - chip.block.rails.vWidth = 53600
+     - chip.block.rails.hSpacing = 14000
+     - chip.block.rails.vSpacing = 14000
+     - chip.supplyRailWidth = 400000
+     - chip.supplyRailPitch = 800000
+     - clockTree.placerEngine = "Etesian"
+     - block.spareSide = 921600
+     - spares.buffer = "buf_x4"
+     - spares.hfnsBuffer = "buf_x4"
+     - spares.maxSinks = 31
+  o  Configuration contents (CfgCache):
+     - chip.block.rails.count = 2
+     - chip.block.rails.hWidth = 800000
+     - chip.block.rails.vWidth = 800000
+     - chip.block.rails.hSpacing = 120000
+     - chip.block.rails.vSpacing = 120000
+     - chip.padCoreSide = "North"
+  o  Setup IHP sg13g2 I/O library in iolib.
+     - Shifting sg13g2_Corner bottom left corner AB to (0,0).
+  o  Configuration contents (CfgCache):
+     - etesian.graphics = 3
+     - etesian.spaceMargin = 0.1
+     - katana.eventsLimit = 4000000
+  o  Preload standard plugins.
+     - "coriolis.plugins.chip" (module)
+     - "coriolis.plugins.harness" (module)
+     - "coriolis.plugins.sram" (module)
+     - "coriolis.plugins.core2chip" (module)
+     - "coriolis.plugins.macro" (module)
+     - "coriolis.plugins.aboutwindow.py"
+     - "coriolis.plugins.checks.py"
+     - "coriolis.plugins.conductor.py"
+     - "coriolis.plugins.matrixplacer.py"
+     - "coriolis.plugins.rsave.py"
+     - "coriolis.plugins.rsaveall.py"
+     - "coriolis.plugins.runDemo.py"
+     - "coriolis.plugins.s2r.py"
+     - "coriolis.plugins.stats.py"
+     - "coriolis.plugins.utils.py"
+     - No NDA protected plugins.
+[WARNING] timing.staticInit(): Library do not provides "inv_x8", skipped.
+[WARNING] timing.staticInit(): Library do not provides "buf_x8", skipped.
+libName is located at: /home/ahmed/circuits/coriolis/expmob2_n11/doDesign.py
+-- yosys
+-- b2v
+.  gds
+TaskFailed - taskid:gds
+[ERROR] PnR.doTask(): The rule "gds" did *not* generate target "expmob2_cts_r.gds".
+
+########################################
+TaskFailed - taskid:gds
+gds <stderr>:
+
+gds <stdout>:
+PnR.doTask() on "expmob2_cts_r.gds"
+DEBUG entry scriptmain
+  o  Configuration contents (CfgCache):
+     - misc.catchCore = False
+     - misc.info = False
+     - misc.paranoid = False
+     - misc.bug = False
+     - misc.logMode = True
+     - misc.verboseLevel1 = True
+     - misc.verboseLevel2 = True
+     - misc.minTraceLevel = 16000
+     - misc.maxTraceLevel = 17000
+     - anabatic.routingGauge = "StdCellLib"
+  o  Looked up gauge/pitch values.
+     - hpitch:                0.5um.
+     - vpitch:                0.5um.
+     - sliceHeight:          5.76um.
+     - sliceStep:             0.8um.
+DEBUG: vpitchedSliceHeight=110000, hpitchedSliceHeight=110000
+############################################ 9856000 
+ [1009, 1009, 1039, 1040] 
+ [0, 0, 0, 0]
+############################################ 9856000 
+ [1009, 1009, 1039, 1040] 
+ [0, 0, 0, 0]
+DEBUG: m2pitch=110000, m1pitch=110000
+[(18, 'outputs({})', 0, 0, range(0, 1009)), (17, 'outputs({})', 0, 0, range(1009, 2018)), (20, 'outputs({})', 0, 0, range(2018, 2048)), (20, 'inputs({})', 0, 0, range(0, 1009)), (24, 'inputs({})', 0, 0, range(1009, 2048)), (24, 'clk', 0, 0, range(0, 1))]
+  o  Block "expmob2" will be generated.
+  o  Building block "expmob2".
+
+[ERROR] Side.place(IoPin): Pin "outputs(998).0" is outside north or south abutment box side.
+        (x:499.5um, xAB: [0um:499.2um])
+
+[ERROR] Side.place(IoPin): Pin "outputs(999).0" is outside north or south abutment box side.
+        (x:500um, xAB: [0um:499.2um])
+
+[ERROR] Side.place(IoPin): Pin "outputs(1000).0" is outside north or south abutment box side.
+        (x:500.5um, xAB: [0um:499.2um])
+
+[ERROR] Side.place(IoPin): Pin "outputs(1001).0" is outside north or south abutment box side.
+        (x:501um, xAB: [0um:499.2um])
+
+[ERROR] Side.place(IoPin): Pin "outputs(1002).0" is outside north or south abutment box side.
+        (x:501.5um, xAB: [0um:499.2um])
+
+[ERROR] Side.place(IoPin): Pin "outputs(1003).0" is outside north or south abutment box side.
+        (x:502um, xAB: [0um:499.2um])
+
+[ERROR] Side.place(IoPin): Pin "outputs(1004).0" is outside north or south abutment box side.
+        (x:502.5um, xAB: [0um:499.2um])
+
+[ERROR] Side.place(IoPin): Pin "outputs(1005).0" is outside north or south abutment box side.
+        (x:503um, xAB: [0um:499.2um])
+
+[ERROR] Side.place(IoPin): Pin "outputs(1006).0" is outside north or south abutment box side.
+        (x:503.5um, xAB: [0um:499.2um])
+
+[ERROR] Side.place(IoPin): Pin "outputs(1007).0" is outside north or south abutment box side.
+        (x:504um, xAB: [0um:499.2um])
+
+[ERROR] Side.place(IoPin): Pin "outputs(1008).0" is outside north or south abutment box side.
+        (x:504.5um, xAB: [0um:499.2um])
+
+[ERROR] Side.place(IoPin): Pin "outputs(2007).0" is outside north or south abutment box side.
+        (x:499.5um, xAB: [0um:499.2um])
+
+[ERROR] Side.place(IoPin): Pin "outputs(2008).0" is outside north or south abutment box side.
+        (x:500um, xAB: [0um:499.2um])
+
+[ERROR] Side.place(IoPin): Pin "outputs(2009).0" is outside north or south abutment box side.
+        (x:500.5um, xAB: [0um:499.2um])
+
+[ERROR] Side.place(IoPin): Pin "outputs(2010).0" is outside north or south abutment box side.
+        (x:501um, xAB: [0um:499.2um])
+
+[ERROR] Side.place(IoPin): Pin "outputs(2011).0" is outside north or south abutment box side.
+        (x:501.5um, xAB: [0um:499.2um])
+
+[ERROR] Side.place(IoPin): Pin "outputs(2012).0" is outside north or south abutment box side.
+        (x:502um, xAB: [0um:499.2um])
+
+[ERROR] Side.place(IoPin): Pin "outputs(2013).0" is outside north or south abutment box side.
+        (x:502.5um, xAB: [0um:499.2um])
+
+[ERROR] Side.place(IoPin): Pin "outputs(2014).0" is outside north or south abutment box side.
+        (x:503um, xAB: [0um:499.2um])
+
+[ERROR] Side.place(IoPin): Pin "outputs(2015).0" is outside north or south abutment box side.
+        (x:503.5um, xAB: [0um:499.2um])
+
+[ERROR] Side.place(IoPin): Pin "outputs(2016).0" is outside north or south abutment box side.
+        (x:504um, xAB: [0um:499.2um])
+
+[ERROR] Side.place(IoPin): Pin "outputs(2017).0" is outside north or south abutment box side.
+        (x:504.5um, xAB: [0um:499.2um])
+[ERROR] Block.placeIoPins(): Cell "expmob2" has 22 badly placed pins.
+        Python stack trace:
+        #0 in                  __init__() at .../install/lib/python3/dist-packages/coriolis/helpers/io.py:95
+        #1 in               placeIoPins() at .../lib/python3/dist-packages/coriolis/plugins/block/block.py:642
+        #2 in                     doPnR() at .../lib/python3/dist-packages/coriolis/plugins/block/block.py:848
+        #3 in                scriptMain() at /home/ahmed/circuits/coriolis/expmob2_n11/MydoDesign.py:256
+        #4 in                    doTask() at .../lib/python3/dist-packages/coriolis/designflow/pnr.py:78
+        #5 in                   execute() at /usr/lib/python3/dist-packages/doit/action.py:424
+        #6 in                   execute() at /usr/lib/python3/dist-packages/doit/task.py:449
+        #7 in              execute_task() at /usr/lib/python3/dist-packages/doit/runner.py:177
+        #8 in                 run_tasks() at /usr/lib/python3/dist-packages/doit/runner.py:222
+        #9 in                   run_all() at /usr/lib/python3/dist-packages/doit/runner.py:256
+        #10 in                  _execute() at /usr/lib/python3/dist-packages/doit/cmd_run.py:260
+        #11 in                   execute() at /usr/lib/python3/dist-packages/doit/cmd_base.py:420
+        #12 in             parse_execute() at /usr/lib/python3/dist-packages/doit/cmd_base.py:127
+        #13 in                       run() at /usr/lib/python3/dist-packages/doit/doit_cmd.py:177
+        #14 in                      main() at /usr/lib/python3/dist-packages/doit/__main__.py:8
+        #15 in                  <module>() at /usr/bin/doit:11
+
+

@@ -1,0 +1,444 @@
+  o  LEF: </home/ahmed/coriolis-2.x/release/install/lib/python3/dist-packages/pdks/ihpsg13g2/libs.ref/sg13g2_stdcell/lef/sg13g2_tech.lef>
+  o  LEF: </home/ahmed/coriolis-2.x/release/install/lib/python3/dist-packages/pdks/ihpsg13g2/libs.ref/sg13g2_io/lef/sg13g2_io.lef>
+     o sg13g2_Corner 180um 180um LEF.sg13g2_ioSite     o sg13g2_Filler200 1um 180um LEF.sg13g2_ioSite     o sg13g2_Filler400 2um 180um LEF.sg13g2_ioSite     o sg13g2_Filler1000 5um 180um LEF.sg13g2_ioSite     o sg13g2_Filler2000 10um 180um LEF.sg13g2_ioSite     o sg13g2_Filler4000 20um 180um LEF.sg13g2_ioSite     o sg13g2_Filler10000 50um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadIn 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadOut4mA 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadOut16mA 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadOut30mA 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadTriOut4mA 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadTriOut16mA 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadTriOut30mA 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadInOut4mA 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadInOut16mA 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadInOut30mA 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadAnalog 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadIOVss 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadIOVdd 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadVss 80um 180um LEF.sg13g2_ioSite     o sg13g2_IOPadVdd 80um 180um LEF.sg13g2_ioSite     + expmob2 [blif]
+        + expmob2 [.model]
+  o  Creating ToolEngine<Etesian> for Cell <expmob2>
+     - Initial memory .................................................. 407.3Mb
+  o  Configuration of ToolEngine<Etesian> for Cell <expmob2>
+     - Cell Gauge ................................................. <StdCellLib>
+     - Place Effort .......................................................... 2
+     - Update Conf ........................................................... 3
+     - Routing driven .................................................... false
+     - Space Margin ........................................................ 10%
+     - Spread Margin ........................................................ 5%
+     - Aspect Ratio ....................................................... 100%
+     - Bloat model .................................................... disabled
+     - Antenna gate Max. WL .............................................. 500um
+     - Antenna diode Max. WL ........................................... 50000um
+     - Latch up Distance .................................................. 29um
+  o  Clearing Coloquinte data-structures on <expmob2>
+  o  Converting "expmob2" into Coloquinte.
+     - H-pitch ........................................................... 0.8um
+     - V-pitch ......................................................... 0.576um
+     - Slice height ..................................................... 5.76um
+     o  Looking through the hierarchy.
+        - Whole place area: <Box 0um 0um 322.4um 368.64um>.
+        - Sub-place Area: <Box 0um 0um 322.4um 368.64um>.
+     - Effective density ................................................. 92.8%
+     - Effective space margin ............................................ 7.16%
+     - Number of instances  ............................................... 3796
+     - Registers (DFF)  .......................................... 1057 (27.85%)
+     - Registers (DFF) density  .......................................... 41.1%
+     - Coloquinte cell bloat factor  .................................... x 1.02
+     - Building RoutingPads (transhierarchical)
+       ...
+     - Converting 4780 nets
+       ....
+     - Standard cells widths:
+       +-------+-------------+-----+
+       | Width |    Count    |  %  |
+       +-------+-------------+-----+
+       |     1 |          20 |   0 | 
+       |     2 |          33 |   0 | 
+       |     3 |          32 |   0 | 
+       |     4 |          69 |   1 | 
+       |     5 |        2585 |  68 | **********************************
+       |    10 |        1057 |  27 | *************
+       +-------+-------------+-----+
+
+  o  Running Coloquinte.
+Circuit report:
+	3756 cells (3756 single-row cells, no placeable macro block)
+	4780 nets, 12316 pins + 2048 fixed, 3.0 pins/net
+	64 rows (2 orientations)
+	0.4% fixed macro blocks, 93.1% density
+
+  o  Global placement (effort 2)
+Global placement starting
+#0:	LB 8.162e+05
+#1:	UB 1.123e+06	Dist 126.7	LB 7.468e+05
+#2:	UB 9.816e+05	Dist 122.9	LB 7.256e+05
+#3:	UB 9.416e+05	Dist 116.5	LB 7.151e+05
+#4:	UB 9.313e+05	Dist 116.5	LB 7.095e+05
+#5:	UB 9.422e+05	Dist 117.5	LB 7.067e+05
+#6:	UB 9.491e+05	Dist 118.5	LB 7.053e+05
+#7:	UB 9.528e+05	Dist 119.2	LB 7.041e+05
+#8:	UB 9.488e+05	Dist 119.7	LB 7.037e+05
+#9:	UB 9.545e+05	Dist 119.2	LB 7.032e+05
+#10:	UB 9.437e+05	Dist 117.9	LB 7.033e+05
+#11:	UB 9.391e+05	Dist 116.3	LB 7.031e+05
+#12:	UB 9.246e+05	Dist 113.6	LB 7.037e+05
+#13:	UB 9.163e+05	Dist 109.6	LB 7.04e+05
+#14:	UB 9.035e+05	Dist 105.5	LB 7.051e+05
+#15:	UB 8.892e+05	Dist 100.0	LB 7.062e+05
+#16:	UB 8.74e+05	Dist 93.9	LB 7.081e+05
+#17:	UB 8.716e+05	Dist 88.3	LB 7.101e+05
+#18:	UB 8.575e+05	Dist 81.9	LB 7.13e+05
+#19:	UB 8.518e+05	Dist 76.1	LB 7.164e+05
+#20:	UB 8.426e+05	Dist 69.8	LB 7.209e+05
+#21:	UB 8.353e+05	Dist 63.5	LB 7.259e+05
+#22:	UB 8.293e+05	Dist 57.8
+Global placement done in 0.68s
+  o  Detailed Placement (effort 2)
+Legalization starting (WL 828094)
+Legalization done (WL 850151, dist 13.0) in 0.00s
+Detailed placement starting
+#1:	Swaps 831764	Shifts 831206
+#2:	Swaps 823264	Shifts 823054
+Detailed placement done (WL 823069) in 1.04s
+  o  Placement finished.
+     - Done in .................................................. 1.82s, 145.7Mb
+     - Raw measurements ............................. 1.8222s, +149188Kb/555.9Mb
+  o  Clearing Coloquinte data-structures on <expmob2>
+  o  Adding feed cells.
+  o  Looking for powers/grounds & clocks.
+  o  Building power rails.
+     - PowerRails in Metal1 ...
+     - PowerRails in Metal2 ...
+     - PowerRails in Metal3 ...
+     - PowerRails in Metal4 ...
+     - PowerRails in Metal5 ...
+     - PowerRails in TopMetal1 ...
+     - PowerRails in TopMetal2 ...
+     - 9616 power rails elements found.
+     - Done in .................................................. 1.82s, 145.7Mb
+     - Raw measurements ............................. 1.8222s, +149188Kb/555.9Mb
+  o  Creating ToolEngine<Katana> for Cell <expmob2>
+     - Initial memory .................................................. 555.9Mb
+  o  Configuration of ToolEngine<Katana> for Cell <expmob2>
+     - Net builder style ............................................... HV,3RL+
+     - Routing style .............................................. HV|OTH (0x5)
+     - Dijkstra GR search halo ............................................... 1
+     - Use GR density estimate ........................................... false
+     - Use static bloat profile ........................................... true
+     - GCell terminal(RP) saturate number ................................... 10
+     - GCell saturate ratio (LA) ........................................... 0.9
+     - Long wire threshold1 for move up ..................................... 60
+     - Long wire reserved1 for move up ....................................... 1
+     - Edge min H reserved local ............................................. 6
+     - Edge min V reserved local ............................................. 6
+     - Edge max H reserved local ............................................ 15
+     - Edge max V reserved local ............................................ 15
+     - Terminal saturated edge capacity ...................................... 8
+     - Terminal saturated GCell threshold .................................... 9
+     - Events limit (iterations) ....................................... 4000000
+     - Ripup limit, straps & unbreakables ................................... 16
+     - Ripup limit, locals ................................................... 9
+     - Ripup limit, globals .................................................. 5
+     - Ripup limit, long globals ............................................. 5
+     - Bloat overload additional penalty ..................................... 4
+     - Fill every nth track .................................................. 0
+  o  Configuration of ToolEngine<Anabatic> for Cell <expmob2>
+     - Routing Gauge .............................................. <StdCellLib>
+     - Top routing layer ............................................. TopMetal1
+     - Maximum GR iterations ................................................. 6
+  o  Building regular grid...
+     o  East capacities of south west GCell (Horizontal).
+        - [0] V Metal1 ....................................................... 0
+        - [1] H Metal2 ...................................................... 12
+        - [2] V Metal3 ....................................................... 0
+        - [3] H Metal4 ...................................................... 12
+        - [4] V Metal5 ....................................................... 0
+        - [5] H TopMetal1 .................................................... 0
+        - Whole GR/H edge ................................................... 24
+     o  North capacities of south west GCell (Vertical).
+        - [0] V Metal1 ....................................................... 0
+        - [1] H Metal2 ....................................................... 0
+        - [2] V Metal3 ...................................................... 13
+        - [3] H Metal4 ....................................................... 0
+        - [4] V Metal5 ...................................................... 10
+        - [5] H TopMetal1 .................................................... 0
+        - Whole GR/V edge ................................................... 23
+     - GCells ............................................................. 3264
+     - Edge capacities .............................................. 115 (115u)
+     - Done in .................................................... 0.09s, 3.5Mb
+     - Raw measurements ............................. 0.087007s, +3564Kb/573.1Mb
+  o  Nets Histogram.
+       +-------------+-------------+-----+
+       | RoutingPads |    Count    |  %  |
+       +-------------+-------------+-----+
+       |           0 |           3 |   0 | 
+       |           2 |        3183 |  66 | *********************************
+       |           3 |        1040 |  21 | **********
+       |           4 |          12 |   0 | 
+       |           5 |         522 |  10 | *****
+       |           6 |           8 |   0 | 
+       |           7 |           4 |   0 | 
+       |           8 |           5 |   0 | 
+       |           9 |           2 |   0 | 
+       |          11 |           1 |   0 | 
+       |          13 |           1 |   0 | 
+       |          15 |           1 |   0 | 
+       |          74 |           2 |   0 | 
+       |          76 |           1 |   0 | 
+       |          86 |           2 |   0 | 
+       |          88 |           1 |   0 | 
+       |          92 |           1 |   0 | 
+       |          93 |           2 |   0 | 
+       |         101 |           1 |   0 | 
+       |         102 |           1 |   0 | 
+       |         104 |           1 |   0 | 
+       |         513 |           1 |   0 | 
+       |         525 |           1 |   0 | 
+       |        1024 |           1 |   0 | 
+       +-------------+-------------+-----+
+
+  o  Looking for fixed or manually global routed nets.
+     - <clk_root_0> is fixed.
+  o  Looking for powers/grounds & clocks.
+  o  Building power rails.
+     - PowerRails in Metal1 ...
+     - PowerRails in Metal2 ...
+     - PowerRails in Metal2.nofill ...
+     - PowerRails in Metal3 ...
+     - PowerRails in Metal3.nofill ...
+     - PowerRails in Metal4 ...
+     - PowerRails in Metal4.nofill ...
+     - PowerRails in Metal5 ...
+     - PowerRails in Metal5.nofill ...
+     - PowerRails in TopMetal1 ...
+     - PowerRails in TopMetal1.nofill ...
+     - PowerRails in TopMetal2 ...
+     - PowerRails in TopMetal2.nofill ...
+     - 276 power rails elements found.
+     - Track Segment Completion Ratio .............................. -nan% [0+0]
+     - Wire Length Completion Ratio .............................. -nan% [0um+0]
+     - Metal1 WL usage ................................................... 0.25%
+     - Metal2 WL usage ................................................... 0.01%
+     - Metal3 WL usage ................................................... 0.00%
+     - Metal4 WL usage ................................................... 0.07%
+     - Metal5 WL usage ................................................... 0.21%
+     - TopMetal1 WL usage ................................................ 0.00%
+     - TopMetal2 WL usage ................................................ 0.00%
+     - Normed Wire Length .................................................... 0
+     - Normed Wire Length / Net .............................................. 0
+     - Moved up segments ............................................ 0 ( -nan%)
+     - Unrouted horizontals .......................................... 0.00% [0]
+     - Unrouted verticals ............................................ 0.00% [0]
+  o  Protect external components not useds as RoutingPads.
+  o  Back annotate global routing graph.
+     - Edge capacities .............................................. 211 (115u)
+  o  Running global routing.
+     [  0] nets:4794   nWL:100072  VIAs:15915   ovE:2881 ovWL:10479 ripup:1541  15.4Mb   3.1s
+     [  1] nets:1541   nWL:100147  VIAs:16310   ovE:2898 ovWL:9829  ripup:1489  22.6Mb  5.07s
+     [  2] nets:1489   nWL:100042  VIAs:16329   ovE:2876 ovWL:9586  ripup:1491  29.7Mb  7.08s
+     [  3] nets:1491   nWL:100065  VIAs:16427   ovE:2864 ovWL:9380  ripup:1482  36.7Mb  9.04s
+     [  4] nets:1482   nWL:100782  VIAs:16699   ovE:2961 ovWL:9308  ripup:1463  43.9Mb 11.55s
+     [  5] nets:1463   nWL:100870  VIAs:16799   ovE:2977 ovWL:0     ripup:0     46.2Mb 13.92s
+     - Done in .................................................. 13.93s, 46.2Mb
+     - Raw measurements ............................. 13.9253s, +47360Kb/620.6Mb
+     - Unsatisfied nets .................................................... 943
+     - Unsatisfied segments .................................................. 0
+     - Overflowed edges ................................................... 2977
+     - H-overflow length ......................................... 22.76% [2111]
+     - V-overflow length ......................................... 77.24% [7163]
+  o  Overflowed edges Histogram.
+       +------------+-------------+-----+
+       | Overflowed |    Count    |  %  |
+       +------------+-------------+-----+
+       |          1 |         764 |  25 | ************
+       |          2 |         623 |  20 | **********
+       |          3 |         503 |  16 | ********
+       |          4 |         415 |  13 | ******
+       |          5 |         290 |   9 | ****
+       |          6 |         177 |   5 | **
+       |          7 |         114 |   3 | *
+       |          8 |          56 |   1 | 
+       |          9 |          22 |   0 | 
+       |         10 |           7 |   0 | 
+       |         11 |           3 |   0 | 
+       |         12 |           3 |   0 | 
+       +------------+-------------+-----+
+
+  o  Antenna effect protection.
+     - Antenna gate maximum WL ........................................... 500um
+     - Antenna diode maximum WL ........................................ 50000um
+     - Antenna segment maximum WL ...................................... 25000um
+     - Total needed diodes ................................................ 1042
+     - Failed to allocate .................................................. 210
+     - Success ratio ..................................................... 79.8%
+     - Done in ................................................. 0.51s, 405504Kb
+     - Raw measurements .............................. 0.506529s, +396Kb/621.0Mb
+  o  Building detailed routing from global. 
+  o  Configuration contents (CfgCache):
+     - misc.catchCore = False
+     - misc.minTraceLevel = 12300
+     - misc.maxTraceLevel = 12400
+     - misc.info = False
+     - misc.paranoid = False
+     - misc.bug = False
+     - misc.logMode = True
+     - misc.verboseLevel1 = True
+     - misc.verboseLevel2 = True
+  o  Configuration contents (CfgCache):
+     - gdsDriver.metricDbu = 1e-09
+     - gdsDriver.dbuPerUu = 0.001
+  o  Configuration contents (CfgCache):
+     - lefImport.minTerminalWidth = 0.0
+     - crlcore.groundName = "vss"
+     - crlcore.powerName = "vdd"
+     - etesian.aspectRatio = 1.0 [10:1000]
+     - etesian.spaceMargin = 0.1
+     - etesian.uniformDensity = True
+     - etesian.densityVariation = 0.05
+     - etesian.routingDriven = False
+     - etesian.latchUpDistance = 580000
+     - etesian.diodeName = "diode_w1"
+     - etesian.antennaInsertThreshold = 0.5
+     - etesian.tieName = None
+     - etesian.antennaGateMaxWL = 10000000
+     - etesian.antennaDiodeMaxWL = 1000000000
+     - etesian.feedNames = "tie,decap_w0"
+     - etesian.defaultFeed = "tie"
+     - etesian.cell.zero = "zero_x1"
+     - etesian.cell.one = "one_x1"
+     - etesian.bloat = "disabled"
+     - etesian.effort = 2 (1:"Fast", 2:"Standard", 3:"High", 4:"Extreme")
+     - etesian.graphics = 2 (1:"Show every step", 2:"Show lower bound", 3:"Show result only")
+     - anabatic.routingGauge = "StdCellLib"
+     - anabatic.globalLengthThreshold = 1450
+     - anabatic.saturateRatio = 0.9
+     - anabatic.saturateRp = 10
+     - anabatic.topRoutingLayer = "TopMetal1"
+     - anabatic.edgeLength = 24
+     - anabatic.edgeWidth = 4
+     - anabatic.edgeCostH = 9.0
+     - anabatic.edgeCostK = -10.0
+     - anabatic.edgeHInc = 1.0
+     - anabatic.edgeHScaling = 1.0
+     - anabatic.globalIterations = 20 [1:100]
+     - anabatic.gcell.displayMode = 1 (1:"Boundary", 2:"Density")
+     - anabatic.searchHalo = 2
+     - katana.trackFill = 0
+     - katana.runRealignStage = True
+     - katana.hTracksReservedMin = 4
+     - katana.hTracksReservedLocal = 20 [0:30]
+     - katana.vTracksReservedMin = 4
+     - katana.vTracksReservedLocal = 20 [0:30]
+     - katana.termSatReservedLocal = 8
+     - katana.termSatThreshold = 9
+     - katana.eventsLimit = 4000002
+     - katana.ripupCost = 3 [0:None]
+     - katana.strapRipupLimit = 16 [1:None]
+     - katana.localRipupLimit = 9 [1:None]
+     - katana.globalRipupLimit = 5 [1:None]
+     - katana.longGlobalRipupLimit = 5
+     - chip.padCoreSide = "South"
+  o  Configuration contents (CfgCache):
+     - viewer.minimumSize = 500
+     - viewer.pixelThreshold = 10
+     - chip.block.rails.count = 5
+     - chip.block.rails.hWidth = 53600
+     - chip.block.rails.vWidth = 53600
+     - chip.block.rails.hSpacing = 14000
+     - chip.block.rails.vSpacing = 14000
+     - chip.supplyRailWidth = 400000
+     - chip.supplyRailPitch = 800000
+     - clockTree.placerEngine = "Etesian"
+     - block.spareSide = 921600
+     - spares.buffer = "buf_x4"
+     - spares.hfnsBuffer = "buf_x4"
+     - spares.maxSinks = 31
+  o  Configuration contents (CfgCache):
+     - chip.block.rails.count = 2
+     - chip.block.rails.hWidth = 800000
+     - chip.block.rails.vWidth = 800000
+     - chip.block.rails.hSpacing = 120000
+     - chip.block.rails.vSpacing = 120000
+     - chip.padCoreSide = "North"
+  o  Setup IHP sg13g2 I/O library in iolib.
+     - Shifting sg13g2_Corner bottom left corner AB to (0,0).
+  o  Configuration contents (CfgCache):
+     - etesian.graphics = 3
+     - etesian.spaceMargin = 0.1
+     - katana.eventsLimit = 4000000
+  o  Preload standard plugins.
+     - "coriolis.plugins.chip" (module)
+     - "coriolis.plugins.harness" (module)
+     - "coriolis.plugins.sram" (module)
+     - "coriolis.plugins.core2chip" (module)
+     - "coriolis.plugins.macro" (module)
+     - "coriolis.plugins.aboutwindow.py"
+     - "coriolis.plugins.checks.py"
+     - "coriolis.plugins.conductor.py"
+     - "coriolis.plugins.matrixplacer.py"
+     - "coriolis.plugins.rsave.py"
+     - "coriolis.plugins.rsaveall.py"
+     - "coriolis.plugins.runDemo.py"
+     - "coriolis.plugins.s2r.py"
+     - "coriolis.plugins.stats.py"
+     - "coriolis.plugins.utils.py"
+     - No NDA protected plugins.
+[WARNING] timing.staticInit(): Library do not provides "inv_x8", skipped.
+[WARNING] timing.staticInit(): Library do not provides "buf_x8", skipped.
+libName is located at: /home/ahmed/circuits/coriolis/expmob2_n10/doDesign.py
+-- yosys
+-- b2v
+.  gds
+TaskFailed - taskid:gds
+[ERROR] PnR.doTask(): The rule "gds" did *not* generate target "expmob2_cts_r.gds".
+
+########################################
+TaskFailed - taskid:gds
+gds <stderr>:
+
+gds <stdout>:
+PnR.doTask() on "expmob2_cts_r.gds"
+DEBUG entry scriptmain
+  o  Configuration contents (CfgCache):
+     - misc.catchCore = False
+     - misc.info = False
+     - misc.paranoid = False
+     - misc.bug = False
+     - misc.logMode = True
+     - misc.verboseLevel1 = True
+     - misc.verboseLevel2 = True
+     - misc.minTraceLevel = 16000
+     - misc.maxTraceLevel = 17000
+     - anabatic.routingGauge = "StdCellLib"
+  o  Looked up gauge/pitch values.
+     - hpitch:                0.5um.
+     - vpitch:                0.5um.
+     - sliceHeight:          5.76um.
+     - sliceStep:             0.8um.
+DEBUG: vpitchedSliceHeight=110000, hpitchedSliceHeight=110000
+############################################ 6384000 
+ [491, 491, 533, 534] 
+ [0, 0, 0, 0]
+############################################ 6384000 
+ [491, 491, 533, 534] 
+ [0, 0, 0, 0]
+DEBUG: m2pitch=110000, m1pitch=110000
+[(18, 'outputs({})', 0, 0, range(0, 491)), (17, 'outputs({})', 0, 0, range(491, 982)), (20, 'outputs({})', 0, 0, range(982, 1024)), (20, 'inputs({})', 0, 0, range(0, 491)), (24, 'inputs({})', 0, 0, range(491, 1024)), (24, 'clk', 0, 0, range(0, 1))]
+  o  Block "expmob2" will be generated.
+  o  Building block "expmob2".
+  o  Building H-Tree(s).
+[ERROR] Block.addHTrees(): Cell "expmob2" has no H-Tree net "resetn".
+     - "clk".
+[WARNING] QuadTree.splitNetlist(): More than 31 sink points (90) on "clk_root_bl_0".
+[WARNING] QuadTree.splitNetlist(): More than 31 sink points (92) on "clk_root_bl_1".
+[WARNING] QuadTree.splitNetlist(): More than 31 sink points (93) on "clk_root_bl_2".
+[WARNING] QuadTree.splitNetlist(): More than 31 sink points (100) on "clk_root_br_0".
+[WARNING] QuadTree.splitNetlist(): More than 31 sink points (100) on "clk_root_br_1".
+[WARNING] QuadTree.splitNetlist(): More than 31 sink points (104) on "clk_root_br_2".
+[WARNING] QuadTree.splitNetlist(): More than 31 sink points (86) on "clk_root_tl_0".
+[WARNING] QuadTree.splitNetlist(): More than 31 sink points (85) on "clk_root_tl_1".
+[WARNING] QuadTree.splitNetlist(): More than 31 sink points (86) on "clk_root_tl_2".
+[WARNING] QuadTree.splitNetlist(): More than 31 sink points (72) on "clk_root_tr_0".
+[WARNING] QuadTree.splitNetlist(): More than 31 sink points (73) on "clk_root_tr_1".
+[WARNING] QuadTree.splitNetlist(): More than 31 sink points (76) on "clk_root_tr_2".
+
+[ERROR] 
+        [ERROR] In topology of &<id:1231338 ContactVTee outputs(434) Metal2_Via2_Metal3 [214.4um 365.76um] 0.19um x 0.19um ----vi-ct>
+                G: &<id:1049572 Horizontal outputs(434) Metal2 [208um 365.76um] [214.4um 365.76um] 0.29um rpD:15 bl:0 --u----G---------i-------- [207.79um:214.61um]>
+                L: &<id:1231339 Vertical outputs(434) Metal3 [214.4um 365.76um] [214.4um 365.76um] 0.29um rpD:15 bl:0 --u--------------i-------- [365.555um:365.965um]>
+                L: &<id:1231341 Vertical outputs(434) Metal3 [214.4um 365.76um] [214.4um 365.76um] 0.29um rpD:15 bl:0 --u--------------i-------- [365.555um:365.965um]>
+                G: &<id:1161020 Vertical outputs(434) Metal3 [214.4um 342.72um] [214.4um 365.76um] 0.29um rpD:15 bl:0 --u----G---------i-------- [342.515um:365.965um]>
+                VTee has more than two vertical segments.
+        
+        Python stack trace:
+        #0 in                     route() at .../lib/python3/dist-packages/coriolis/plugins/block/block.py:780
+        #1 in                     doPnR() at .../lib/python3/dist-packages/coriolis/plugins/block/block.py:868
+        #2 in                scriptMain() at /home/ahmed/circuits/coriolis/expmob2_n10/MydoDesign.py:256
+
+

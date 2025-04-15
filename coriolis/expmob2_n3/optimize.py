@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-scalar_a, scalar_b, connectors_margin = 650//4 - 10, 100//4 - 5, 4
+scalar_a, scalar_b, connectors_margin = 650//6, 100//6, 4
 
 def format_time(seconds):
     hours = int(seconds // 3600)
@@ -132,7 +132,7 @@ def run_gds():
 
 
 def update_doDesign(scalar_a, scalar_b, connectors_margin):
-    filename="doDesign.py"
+    filename="MydoDesign.py"
     
     with open(filename, "r") as file:
         lines = file.readlines()
@@ -167,12 +167,16 @@ threshold_min, threshold_max = 70, 100
 update_doDesign(scalar_a, scalar_b, connectors_margin)
 density = 0
 
-history_wire_lengths = []
-history_density = []
-history_dimensions = []
+# history_wire_lengths = []
+# history_density = []
+# history_dimensions = []
 # reduce or increase the density
-while density < 60 or  density >= 70 or density > 100:
+height_or_length = 1
+history = []
+while True:
+    
     print(f"Going to try with a={scalar_a}, b={scalar_b}")
+    run_yosys(verbose=False)
     update_doDesign(scalar_a, scalar_b, connectors_margin)
     density, wire_length, dimensions = run_gds()
     #print(f"Trying with a={scalar_a}, b={scalar_b}")
@@ -198,17 +202,27 @@ while density < 60 or  density >= 70 or density > 100:
 
     # test only substract and add
     # increase the chip by adding 10, and 5
-    if  density < 100:
-        scalar_a = scalar_a - 13
-        scalar_b = scalar_b - 2
-    
-    elif density > 100:
-        scalar_a = scalar_a + 13
-        scalar_b = scalar_b + 2
-    else:
-        print(f"Missed a case with density at = {density}")
 
-    #run_yosys(verbose=False)
+        
+    if  density < 90:
+        history.append("+")
+        if height_or_length:
+            scalar_a = scalar_a - 13
+            height_or_length ^= 1
+        else:
+            scalar_b = scalar_b - 2
+            height_or_length ^= 1
+            
+    elif density > 90:
+        history.append("-")
+        if height_or_length:
+            scalar_a = scalar_a + 13
+            height_or_length ^= 1
+        else:
+            scalar_b = scalar_b + 2
+            height_or_length ^= 1
+
+
 
     if isinstance(wire_length, int):
         with open("gds_stat.log", "a") as f:

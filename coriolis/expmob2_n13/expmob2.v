@@ -63,7 +63,7 @@ endmodule // Round
 
 
 module expmob2
-  #(parameter N=2048, parameter log2_N=11)
+  #(parameter N=8192, parameter log2_N=13)
    (input clk,
      input wire [0:N-1]	 inputs,
      output wire [0:N-1] outputs);

@@ -1,72 +1,104 @@
+/// Implementation of expmob2 using the description found in
+/// "Compact Circuits for Efficient Mobius Transform" 
+///  by Subhadeep Banik and Francesco Regazzoni
+/// This circuit is clocked 
+/// Note: For larger circuits adjust the size of n_blocks, and n_elements_block
 
-import os
-from   pathlib import Path
-from   pdks.ihpsg13g2_c4m import setup
+// Permute module
+module Permute #(parameter N=64) (input wire [0:N-1]  inputs,
+				  output wire [0:N-1] outputs);
+   genvar i;
+   generate
+      for (i = 0; i < (N>>1);  i = i + 1) begin
 
-setup( checkToolkit=Path('../../..') )
+	 assign outputs[2*i] = inputs[i];
+	 assign outputs[2*i + 1] = inputs[i + (N>>1)];
+/* -----\/----- EXCLUDED -----\/-----
+	 always @(*) begin
+            $display("Permute: T = %0t, N = %0d, inputs[%0d] = %0b, outputs[%0d] = %0b, inputs[%0d] = %0b, outputs[%0d] = %0b", 
+                     $time, N , i, inputs[i], 2*i,  outputs[2*i], 2*i + 1, inputs[2*i+1], i + (N>>1), outputs[i + (N>>1)]);
+	 end
+ -----/\----- EXCLUDED -----/\----- */
+      end
+   endgenerate 
+endmodule // Permute
 
-DOIT_CONFIG = { 'verbosity' :0 }
 
-from coriolis                               import CRL
-from coriolis.designflow.task               import ShellEnv, Tasks
-from coriolis.designflow.yosys              import Yosys
-from coriolis.designflow.blif2vst           import Blif2Vst
-from coriolis.designflow.klayout            import Klayout
-from coriolis.designflow.pnr                import PnR
-from coriolis.designflow.lvx                import Lvx
-from coriolis.designflow.tasyagle           import TasYagle, STA, XTas
-from coriolis.designflow.alias              import Alias
-from coriolis.designflow.clean              import Clean
-from pdks.ihpsg13g2_c4m.designflow.filler   import Filler
-from pdks.ihpsg13g2_c4m.designflow.sealring import SealRing
-from pdks.ihpsg13g2_c4m.designflow.drc      import DRC
-from doDesign                               import scriptMain
+// First stage butterfly
+module Butterfly
+  #(parameter N=8)
+   (input wire [0:N-1]  inputs,
+     output wire [0:N-1] outputs);
+   
+   genvar i;
+   generate
+      for (i = 0; i < (N>>1);  i = i + 1) begin
+	 assign outputs[i] = inputs[i];
+	 assign outputs[i + (N>>1)] = inputs[i + (N>>1)] ^ inputs[i];
+      end
+   endgenerate
+   
 
-buildChip          = False
-PnR.textMode       = True
-pnrSuffix          = '_cts_r'
-topName            = 'expmob2'
-TasYagle.ClockName = 'clk'
+endmodule // Butterfly
 
-ruleYosys = Yosys   .mkRule( 'yosys', f'{topName}.v' )
-ruleB2V   = Blif2Vst.mkRule( 'b2v'  , f'{topName}.vst', [ruleYosys], flags=0 )
 
-if buildChip:
-    # Rule for chip generation.
-    ruleSeal  = SealRing.mkRule( 'sealring', targets=[ 'chip_r_seal.gds' ] , size=[2200.0, 2200.0] )
-    rulePnR   = PnR.mkRule( 'gds'  , [ 'chip_r.gds'
-                                     , 'chip_r.vst'
-                                     , 'chip_r.spi'
-                                     , 'chip.vst'
-                                     , 'chip.spi'
-                                     , 'corona_cts_r.vst'
-                                     , 'corona_cts_r.spi'
-                                     , 'corona.vst'
-                                     , 'corona.spi'
-                                     , f'{topName}_cts.spi'
-                                     , f'{topName}_cts.vst' ]
-                                     , [ruleB2V, ruleSeal]
-                                   , scriptMain
-                                   , topName=topName )
-    staLayout = rulePnR.file_target( 6 )
-else:
-    # Rule for block generation.
-    rulePnR = PnR.mkRule( 'gds'    , [ f'{topName}_cts_r.gds'
-                                     , f'{topName}_cts_r.vst'
-                                     , f'{topName}_cts_r.spi' ]
-                                     , [ruleB2V]
-                                   , scriptMain
-                                   , topName=topName )
-    ruleLvx = Lvx.mkRule( 'lvx_spi', [ f'{topName}_cts_r.vst'
-                                     , f'{topName}_cts_r.spi' ]
-                                   , Lvx.MergeSupply|Lvx.Flatten )
-    staLayout = rulePnR.file_target( 2 )
+module Round
+  #(parameter N=8)
+   (input wire [0:N-1]  inputs,
+     output wire [0:N-1] outputs);
 
-ruleDrcMin  = DRC    .mkRule( 'drc_min', rulePnR.file_target(0), DRC.Minimal )
-ruleDrcMax  = DRC    .mkRule( 'drc_max', rulePnR.file_target(0), DRC.Maximal )
-ruleDrcC4M  = DRC    .mkRule( 'drc_c4m', rulePnR.file_target(0), DRC.C4M )
-ruleSTA     = STA    .mkRule( 'sta'    , staLayout )
-ruleXTas    = XTas   .mkRule( 'xtas'   , ruleSTA.file_target(0) )
-ruleCgt     = PnR    .mkRule( 'cgt' )
-ruleKlayout = Klayout.mkRule( 'klayout', depends=rulePnR.file_target(0) )
-ruleClean   = Clean  .mkRule( [ 'lefRWarning.log', 'cgt.log' ] )
+   wire [0:N-1] middle;
+   Butterfly #(.N(N)) Bn (.inputs(inputs), .outputs(middle));
+   Permute   #(.N(N)) Pn (.inputs(middle), .outputs(outputs));
+   
+endmodule // Round
+
+
+
+
+
+
+module expmob2
+  #(parameter N=8, parameter log2_N=3)
+   (input clk,
+     input wire [0:N-1]	 inputs,
+     output wire [0:N-1] outputs);
+
+   reg [0:N-1] mem_inputs;
+   reg [0:N-1] mem_outputs;
+
+   integer     n = 1;
+   reg [0:0]   init = 0;
+   // integer ncycles = 0; 
+
+   // For each clock cyle execute one layer of mobius
+   Round #(.N(N)) R (.inputs(mem_inputs), .outputs(mem_outputs));
+   assign outputs = mem_outputs; // the outputs are
+
+
+   
+   // Count the number of rounds, not sure how to end the module
+   always @(posedge clk) begin
+      // ncycles = ncycles + 1;
+      if (~init) begin    // Copy the input only once
+	 mem_inputs <= inputs;
+	 init = 1;
+      end
+
+      else if ( (n < log2_N)  && init  ) begin
+         n = n + 1;
+         mem_inputs <= mem_outputs;
+      end  // end if-else  
+
+   end // end always
+   
+
+   /* -----\/----- EXCLUDED -----\/-----
+    always @(*) begin 
+    $display("T = %0t, N = %0d, log2(N) = %0d, Stage = %0d | inputs = %0b | mem_inputs = %0b, mem_outputs = %0b", $time, N, log2_N, n, inputs, mem_inputs, mem_outputs);
+   end
+    -----/\----- EXCLUDED -----/\----- */
+   
+   
+endmodule // expmob2
+

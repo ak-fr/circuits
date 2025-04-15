@@ -19,7 +19,7 @@ af = CRL.AllianceFramework.get()
 
 
 CoreName = 'expmob2'
-scalar_a, scalar_b = 133, 17  # updated values
+scalar_a, scalar_b = 650, 100
 connectors_margin = 4  # updated value
 
 
@@ -60,8 +60,11 @@ def get_signals_hurricane(entity):
  return signals_sorted
 combinational =0
 
+
+
 def scriptMain ( **kw ):
     """The mandatory function to be called by Coriolis CGT/Unicorn."""
+    print("DEBUG entry scriptmain")
     global af,CoreName
     dico = get_signals_hurricane(CoreName)
     gaugeName = None
@@ -97,7 +100,7 @@ def scriptMain ( **kw ):
     print( '     - vpitch: {:>20}.'     .format( DbU.getValueString( vpitch ) ))
     print( '     - sliceHeight: {:>15}.'.format( DbU.getValueString( sliceHeight ) ))
     print( '     - sliceStep: {:>17}.'  .format( DbU.getValueString( sliceStep ) ))
-    
+
     rvalue = True
     try:
         #setTraceLevel( 550 )
@@ -107,6 +110,7 @@ def scriptMain ( **kw ):
         buildChip = False
         cell, editor = plugins.kwParseMain( **kw )
         cell = af.getCell( CoreName, CRL.Catalog.State.Logical )
+
         if not cell:
             cell = CRL.Blif.load( CoreName )
         if editor:
@@ -166,10 +170,13 @@ def scriptMain ( **kw ):
 
         vpitchedSliceHeight = sliceHeight - sliceHeight%hpitch
         hpitchedSliceHeight = sliceHeight - sliceHeight%vpitch
+        print(f"DEBUG: vpitchedSliceHeight={vpitchedSliceHeight}, hpitchedSliceHeight={hpitchedSliceHeight}")
         h,v =  ( (scalar_a - connectors_margin) * sliceStep,  (scalar_b - connectors_margin) * sliceHeight )
+
         L = generate_ioPinsSpec_list(dico,h,v,vpitchedSliceHeight,hpitchedSliceHeight)
         m2pitch=vpitchedSliceHeight
         m1pitch=hpitchedSliceHeight
+        print(f"DEBUG: m2pitch={m2pitch}, m1pitch={m1pitch}")
         M =[]
         for i in range(len(L)):
             S= L[i]

@@ -1,0 +1,930 @@
+PyInit_Cfg() (Python3+template)
+Cfg.so loaded 0x79c03ee0cd48 (std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+[ERROR] GdsStream::xyToComponent(): 56 offgrid points on layer "TopMetal2" (foundry grid: 0.005um).
+        | <Point 0um -22.5um>
+        | <Point -2.205um -22.392um> offgrid
+        | <Point -4.39um -22.068um> offgrid
+        | <Point -6.531um -21.531um> offgrid
+        | <Point -8.61um -20.787um> offgrid
+        | <Point -10.606um -19.843um> offgrid
+        | <Point -12.5um -18.708um> offgrid
+        | <Point -14.274um -17.393um> offgrid
+        | <Point -15.91um -15.91um>
+        | <Point -17.393um -14.274um> offgrid
+        | <Point -18.708um -12.5um> offgrid
+        | <Point -19.843um -10.606um> offgrid
+        | <Point -20.787um -8.61um> offgrid
+        | <Point -21.531um -6.531um> offgrid
+        | <Point -22.068um -4.39um> offgrid
+        | <Point -22.392um -2.205um> offgrid
+        | <Point -22.5um 0um>
+        | <Point -22.392um 2.205um> offgrid
+        | <Point -22.068um 4.39um> offgrid
+        | <Point -21.531um 6.531um> offgrid
+        | <Point -20.787um 8.61um> offgrid
+        | <Point -19.843um 10.606um> offgrid
+        | <Point -18.708um 12.5um> offgrid
+        | <Point -17.393um 14.274um> offgrid
+        | <Point -15.91um 15.91um>
+        | <Point -14.274um 17.393um> offgrid
+        | <Point -12.5um 18.708um> offgrid
+        | <Point -10.606um 19.843um> offgrid
+        | <Point -8.61um 20.787um> offgrid
+        | <Point -6.531um 21.531um> offgrid
+        | <Point -4.39um 22.068um> offgrid
+        | <Point -2.205um 22.392um> offgrid
+        | <Point 0um 22.5um>
+        | <Point 2.205um 22.392um> offgrid
+        | <Point 4.39um 22.068um> offgrid
+        | <Point 6.531um 21.531um> offgrid
+        | <Point 8.61um 20.787um> offgrid
+        | <Point 10.606um 19.843um> offgrid
+        | <Point 12.5um 18.708um> offgrid
+        | <Point 14.274um 17.393um> offgrid
+        | <Point 15.91um 15.91um>
+        | <Point 17.393um 14.274um> offgrid
+        | <Point 18.708um 12.5um> offgrid
+        | <Point 19.843um 10.606um> offgrid
+        | <Point 20.787um 8.61um> offgrid
+        | <Point 21.531um 6.531um> offgrid
+        | <Point 22.068um 4.39um> offgrid
+        | <Point 22.392um 2.205um> offgrid
+        | <Point 22.5um 0um>
+        | <Point 22.392um -2.205um> offgrid
+        | <Point 22.068um -4.39um> offgrid
+        | <Point 21.531um -6.531um> offgrid
+        | <Point 20.787um -8.61um> offgrid
+        | <Point 19.843um -10.606um> offgrid
+        | <Point 18.708um -12.5um> offgrid
+        | <Point 17.393um -14.274um> offgrid
+        | <Point 15.91um -15.91um>
+        | <Point 14.274um -17.393um> offgrid
+        | <Point 12.5um -18.708um> offgrid
+        | <Point 10.606um -19.843um> offgrid
+        | <Point 8.61um -20.787um> offgrid
+        | <Point 6.531um -21.531um> offgrid
+        | <Point 4.39um -22.068um> offgrid
+        | <Point 2.205um -22.392um> offgrid
+        | <Point 0um -22.5um>
+[ERROR] GdsStream::xyToComponent(): 52 offgrid points on layer "Passiv" (foundry grid: 0.005um).
+        | <Point 0um -12.5um>
+        | <Point -1.225um -12.44um>
+        | <Point -2.439um -12.26um> offgrid
+        | <Point -3.629um -11.962um> offgrid
+        | <Point -4.784um -11.548um> offgrid
+        | <Point -5.892um -11.024um> offgrid
+        | <Point -6.945um -10.393um> offgrid
+        | <Point -7.93um -9.663um> offgrid
+        | <Point -8.839um -8.839um> offgrid
+        | <Point -9.663um -7.93um> offgrid
+        | <Point -10.393um -6.945um> offgrid
+        | <Point -11.024um -5.892um> offgrid
+        | <Point -11.548um -4.784um> offgrid
+        | <Point -11.962um -3.629um> offgrid
+        | <Point -12.26um -2.439um> offgrid
+        | <Point -12.44um -1.225um>
+        | <Point -12.5um 0um>
+        | <Point -12.44um 1.225um>
+        | <Point -12.26um 2.439um> offgrid
+        | <Point -11.962um 3.629um> offgrid
+        | <Point -11.548um 4.784um> offgrid
+        | <Point -11.024um 5.892um> offgrid
+        | <Point -10.393um 6.945um> offgrid
+        | <Point -9.663um 7.93um> offgrid
+        | <Point -8.839um 8.839um> offgrid
+        | <Point -7.93um 9.663um> offgrid
+        | <Point -6.945um 10.393um> offgrid
+        | <Point -5.892um 11.024um> offgrid
+        | <Point -4.784um 11.548um> offgrid
+        | <Point -3.629um 11.962um> offgrid
+        | <Point -2.439um 12.26um> offgrid
+        | <Point -1.225um 12.44um>
+        | <Point 0um 12.5um>
+        | <Point 1.225um 12.44um>
+        | <Point 2.439um 12.26um> offgrid
+        | <Point 3.629um 11.962um> offgrid
+        | <Point 4.784um 11.548um> offgrid
+        | <Point 5.892um 11.024um> offgrid
+        | <Point 6.945um 10.393um> offgrid
+        | <Point 7.93um 9.663um> offgrid
+        | <Point 8.839um 8.839um> offgrid
+        | <Point 9.663um 7.93um> offgrid
+        | <Point 10.393um 6.945um> offgrid
+        | <Point 11.024um 5.892um> offgrid
+        | <Point 11.548um 4.784um> offgrid
+        | <Point 11.962um 3.629um> offgrid
+        | <Point 12.26um 2.439um> offgrid
+        | <Point 12.44um 1.225um>
+        | <Point 12.5um 0um>
+        | <Point 12.44um -1.225um>
+        | <Point 12.26um -2.439um> offgrid
+        | <Point 11.962um -3.629um> offgrid
+        | <Point 11.548um -4.784um> offgrid
+        | <Point 11.024um -5.892um> offgrid
+        | <Point 10.393um -6.945um> offgrid
+        | <Point 9.663um -7.93um> offgrid
+        | <Point 8.839um -8.839um> offgrid
+        | <Point 7.93um -9.663um> offgrid
+        | <Point 6.945um -10.393um> offgrid
+        | <Point 5.892um -11.024um> offgrid
+        | <Point 4.784um -11.548um> offgrid
+        | <Point 3.629um -11.962um> offgrid
+        | <Point 2.439um -12.26um> offgrid
+        | <Point 1.225um -12.44um>
+        | <Point 0um -12.5um>
+[ERROR] GdsStream::xyToComponent(): 56 offgrid points on layer "dfpad.pillar" (foundry grid: 0.005um).
+        | <Point 0um -22.5um>
+        | <Point -2.205um -22.392um> offgrid
+        | <Point -4.39um -22.068um> offgrid
+        | <Point -6.531um -21.531um> offgrid
+        | <Point -8.61um -20.787um> offgrid
+        | <Point -10.606um -19.843um> offgrid
+        | <Point -12.5um -18.708um> offgrid
+        | <Point -14.274um -17.393um> offgrid
+        | <Point -15.91um -15.91um>
+        | <Point -17.393um -14.274um> offgrid
+        | <Point -18.708um -12.5um> offgrid
+        | <Point -19.843um -10.606um> offgrid
+        | <Point -20.787um -8.61um> offgrid
+        | <Point -21.531um -6.531um> offgrid
+        | <Point -22.068um -4.39um> offgrid
+        | <Point -22.392um -2.205um> offgrid
+        | <Point -22.5um 0um>
+        | <Point -22.392um 2.205um> offgrid
+        | <Point -22.068um 4.39um> offgrid
+        | <Point -21.531um 6.531um> offgrid
+        | <Point -20.787um 8.61um> offgrid
+        | <Point -19.843um 10.606um> offgrid
+        | <Point -18.708um 12.5um> offgrid
+        | <Point -17.393um 14.274um> offgrid
+        | <Point -15.91um 15.91um>
+        | <Point -14.274um 17.393um> offgrid
+        | <Point -12.5um 18.708um> offgrid
+        | <Point -10.606um 19.843um> offgrid
+        | <Point -8.61um 20.787um> offgrid
+        | <Point -6.531um 21.531um> offgrid
+        | <Point -4.39um 22.068um> offgrid
+        | <Point -2.205um 22.392um> offgrid
+        | <Point 0um 22.5um>
+        | <Point 2.205um 22.392um> offgrid
+        | <Point 4.39um 22.068um> offgrid
+        | <Point 6.531um 21.531um> offgrid
+        | <Point 8.61um 20.787um> offgrid
+        | <Point 10.606um 19.843um> offgrid
+        | <Point 12.5um 18.708um> offgrid
+        | <Point 14.274um 17.393um> offgrid
+        | <Point 15.91um 15.91um>
+        | <Point 17.393um 14.274um> offgrid
+        | <Point 18.708um 12.5um> offgrid
+        | <Point 19.843um 10.606um> offgrid
+        | <Point 20.787um 8.61um> offgrid
+        | <Point 21.531um 6.531um> offgrid
+        | <Point 22.068um 4.39um> offgrid
+        | <Point 22.392um 2.205um> offgrid
+        | <Point 22.5um 0um>
+        | <Point 22.392um -2.205um> offgrid
+        | <Point 22.068um -4.39um> offgrid
+        | <Point 21.531um -6.531um> offgrid
+        | <Point 20.787um -8.61um> offgrid
+        | <Point 19.843um -10.606um> offgrid
+        | <Point 18.708um -12.5um> offgrid
+        | <Point 17.393um -14.274um> offgrid
+        | <Point 15.91um -15.91um>
+        | <Point 14.274um -17.393um> offgrid
+        | <Point 12.5um -18.708um> offgrid
+        | <Point 10.606um -19.843um> offgrid
+        | <Point 8.61um -20.787um> offgrid
+        | <Point 6.531um -21.531um> offgrid
+        | <Point 4.39um -22.068um> offgrid
+        | <Point 2.205um -22.392um> offgrid
+        | <Point 0um -22.5um>
+[ERROR] GdsStream::xyToComponent(): 112 offgrid points on layer "DeepVia" (foundry grid: 0.005um).
+        | <Point 0um -12.5um>
+        | <Point -1.225um -12.44um>
+        | <Point -2.439um -12.26um> offgrid
+        | <Point -3.629um -11.962um> offgrid
+        | <Point -4.784um -11.548um> offgrid
+        | <Point -5.892um -11.024um> offgrid
+        | <Point -6.945um -10.393um> offgrid
+        | <Point -7.93um -9.663um> offgrid
+        | <Point -8.839um -8.839um> offgrid
+        | <Point -9.663um -7.93um> offgrid
+        | <Point -10.393um -6.945um> offgrid
+        | <Point -11.024um -5.892um> offgrid
+        | <Point -11.548um -4.784um> offgrid
+        | <Point -11.962um -3.629um> offgrid
+        | <Point -12.26um -2.439um> offgrid
+        | <Point -12.44um -1.225um>
+        | <Point -12.5um 0um>
+        | <Point -12.44um 1.225um>
+        | <Point -12.26um 2.439um> offgrid
+        | <Point -11.962um 3.629um> offgrid
+        | <Point -11.548um 4.784um> offgrid
+        | <Point -11.024um 5.892um> offgrid
+        | <Point -10.393um 6.945um> offgrid
+        | <Point -9.663um 7.93um> offgrid
+        | <Point -8.839um 8.839um> offgrid
+        | <Point -7.93um 9.663um> offgrid
+        | <Point -6.945um 10.393um> offgrid
+        | <Point -5.892um 11.024um> offgrid
+        | <Point -4.784um 11.548um> offgrid
+        | <Point -3.629um 11.962um> offgrid
+        | <Point -2.439um 12.26um> offgrid
+        | <Point -1.225um 12.44um>
+        | <Point 0um 12.5um>
+        | <Point 1.225um 12.44um>
+        | <Point 2.439um 12.26um> offgrid
+        | <Point 3.629um 11.962um> offgrid
+        | <Point 4.784um 11.548um> offgrid
+        | <Point 5.892um 11.024um> offgrid
+        | <Point 6.945um 10.393um> offgrid
+        | <Point 7.93um 9.663um> offgrid
+        | <Point 8.839um 8.839um> offgrid
+        | <Point 9.663um 7.93um> offgrid
+        | <Point 10.393um 6.945um> offgrid
+        | <Point 11.024um 5.892um> offgrid
+        | <Point 11.548um 4.784um> offgrid
+        | <Point 11.962um 3.629um> offgrid
+        | <Point 12.26um 2.439um> offgrid
+        | <Point 12.44um 1.225um>
+        | <Point 12.5um 0um>
+        | <Point 9.5um 0um>
+        | <Point 9.454um 0.931um> offgrid
+        | <Point 9.317um 1.853um> offgrid
+        | <Point 9.091um 2.758um> offgrid
+        | <Point 8.777um 3.635um> offgrid
+        | <Point 8.378um 4.478um> offgrid
+        | <Point 7.899um 5.278um> offgrid
+        | <Point 7.344um 6.027um> offgrid
+        | <Point 6.718um 6.718um> offgrid
+        | <Point 6.027um 7.344um> offgrid
+        | <Point 5.278um 7.899um> offgrid
+        | <Point 4.478um 8.378um> offgrid
+        | <Point 3.635um 8.777um> offgrid
+        | <Point 2.758um 9.091um> offgrid
+        | <Point 1.853um 9.317um> offgrid
+        | <Point 0.931um 9.454um> offgrid
+        | <Point 0um 9.5um>
+        | <Point -0.931um 9.454um> offgrid
+        | <Point -1.853um 9.317um> offgrid
+        | <Point -2.758um 9.091um> offgrid
+        | <Point -3.635um 8.777um> offgrid
+        | <Point -4.478um 8.378um> offgrid
+        | <Point -5.278um 7.899um> offgrid
+        | <Point -6.027um 7.344um> offgrid
+        | <Point -6.718um 6.718um> offgrid
+        | <Point -7.344um 6.027um> offgrid
+        | <Point -7.899um 5.278um> offgrid
+        | <Point -8.378um 4.478um> offgrid
+        | <Point -8.777um 3.635um> offgrid
+        | <Point -9.091um 2.758um> offgrid
+        | <Point -9.317um 1.853um> offgrid
+        | <Point -9.454um 0.931um> offgrid
+        | <Point -9.5um 0um>
+        | <Point -9.454um -0.931um> offgrid
+        | <Point -9.317um -1.853um> offgrid
+        | <Point -9.091um -2.758um> offgrid
+        | <Point -8.777um -3.635um> offgrid
+        | <Point -8.378um -4.478um> offgrid
+        | <Point -7.899um -5.278um> offgrid
+        | <Point -7.344um -6.027um> offgrid
+        | <Point -6.718um -6.718um> offgrid
+        | <Point -6.027um -7.344um> offgrid
+        | <Point -5.278um -7.899um> offgrid
+        | <Point -4.478um -8.378um> offgrid
+        | <Point -3.635um -8.777um> offgrid
+        | <Point -2.758um -9.091um> offgrid
+        | <Point -1.853um -9.317um> offgrid
+        | <Point -0.931um -9.454um> offgrid
+        | <Point 0um -9.5um>
+        | <Point 0.931um -9.454um> offgrid
+        | <Point 1.853um -9.317um> offgrid
+        | <Point 2.758um -9.091um> offgrid
+        | <Point 3.635um -8.777um> offgrid
+        | <Point 4.478um -8.378um> offgrid
+        | <Point 5.278um -7.899um> offgrid
+        | <Point 6.027um -7.344um> offgrid
+        | <Point 6.718um -6.718um> offgrid
+        | <Point 7.344um -6.027um> offgrid
+        | <Point 7.899um -5.278um> offgrid
+        | <Point 8.378um -4.478um> offgrid
+        | <Point 8.777um -3.635um> offgrid
+        | <Point 9.091um -2.758um> offgrid
+        | <Point 9.317um -1.853um> offgrid
+        | <Point 9.454um -0.931um> offgrid
+        | <Point 9.5um 0um>
+        | <Point 12.5um 0um>
+        | <Point 12.44um -1.225um>
+        | <Point 12.26um -2.439um> offgrid
+        | <Point 11.962um -3.629um> offgrid
+        | <Point 11.548um -4.784um> offgrid
+        | <Point 11.024um -5.892um> offgrid
+        | <Point 10.393um -6.945um> offgrid
+        | <Point 9.663um -7.93um> offgrid
+        | <Point 8.839um -8.839um> offgrid
+        | <Point 7.93um -9.663um> offgrid
+        | <Point 6.945um -10.393um> offgrid
+        | <Point 5.892um -11.024um> offgrid
+        | <Point 4.784um -11.548um> offgrid
+        | <Point 3.629um -11.962um> offgrid
+        | <Point 2.439um -12.26um> offgrid
+        | <Point 1.225um -12.44um>
+        | <Point 0um -12.5um>
+[ERROR] GdsStream::xyToComponent(): 5 offgrid points on layer "gds236.datatype_0" (foundry grid: 0.005um).
+        | <Point -1.334um -0.5um> offgrid
+        | <Point -1.334um 1.02um> offgrid
+        | <Point 1.334um 1.02um> offgrid
+        | <Point 1.334um -0.5um> offgrid
+        | <Point -1.334um -0.5um> offgrid
+     - Precision: 0.001 (LEF MICRONS scale factor:1000)
+     - "Cont" map to "Cont"
+     - "Metal1" map to "Metal1"
+     - "Via1" map to "Via1"
+     - "Metal2" map to "Metal2"
+     - "Via2" map to "Via2"
+     - "Metal3" map to "Metal3"
+     - "Via3" map to "Via3"
+     - "Metal4" map to "Metal4"
+     - "Via4" map to "Via4"
+     - "Metal5" map to "Metal5"
+     - "TopVia1" map to "TopVia1"
+     - "TopMetal1" map to "TopMetal1"
+     - "TopVia2" map to "TopVia2"
+     - "TopMetal2" map to "TopMetal2"
+[WARNING] LefParser::parse(): No CORE site found in library, unable to check the Cell gauge.
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+ (PAD)
+[WARNING] LefParser::parse(): No CORE site found in library, unable to check the Cell gauge.
+[WARNING] In &<id:994645 Instance subckt_3381_dff_x1 dff_x1>
+          Terminal i is connected to POWER/GROUND vdd through the alias $true.
+[WARNING] EtesianEngine::_postCreate() Unable to find "None" tie cell.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[WARNING] RawGCellsUnder::commonCtor(): Area is completly outside the GCells area (ignored).
+          * GCells area: <Box 0um 0um 322.4um 368.64um>
+          * Obstacle area: [0um 0um 0um 1.12um]
+  o  Global routing did not complete.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968840 Net "outputs(168)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:999153 RoutingPad outputs(168) [289.915um 106.835um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2337_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968246 Net "outputs(762)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:999399 RoutingPad outputs(762) [157.115um 261.805um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1743_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968242 Net "outputs(766)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:999415 RoutingPad outputs(766) [149.915um 268.115um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1739_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968041 Net "outputs(967)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:999437 RoutingPad outputs(967) [17.915um 233.555um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_9_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968047 Net "outputs(961)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:999461 RoutingPad outputs(961) [1.115um 227.245um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_21_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968140 Net "outputs(868)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:999474 RoutingPad outputs(868) [192.315um 342.445um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1637_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968144 Net "outputs(864)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:999488 RoutingPad outputs(864) [106.675um 192.96um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_215_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968146 Net "outputs(862)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:999498 RoutingPad outputs(862) [199.515um 319.405um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1643_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968981 Net "outputs(27)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:999973 RoutingPad outputs(27) [286.715um 42.925um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2450_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968736 Net "outputs(272)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1000026 RoutingPad outputs(272) [171.005um 112.32um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_981_xor2_x0:<id:6317 Vertical i1 Metal1 [3.005um 1.34um] [3.005um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968921 Net "outputs(87)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1000111 RoutingPad outputs(87) [269.915um 123.565um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2330_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968036 Net "outputs(972)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1000263 RoutingPad outputs(972) [26.205um 308.16um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_631_xor2_x0:<id:6317 Vertical i1 Metal1 [3.005um 1.34um] [3.005um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968130 Net "outputs(878)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1000279 RoutingPad outputs(878) [102.675um 227.52um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_187_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968132 Net "outputs(876)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1000289 RoutingPad outputs(876) [197.115um 348.755um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1629_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968136 Net "outputs(872)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1000305 RoutingPad outputs(872) [241.915um 250.285um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1633_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968138 Net "outputs(870)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1000313 RoutingPad outputs(870) [195.515um 337.235um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1635_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968234 Net "outputs(774)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1000337 RoutingPad outputs(774) [161.115um 273.325um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1731_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968238 Net "outputs(770)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1000353 RoutingPad outputs(770) [181.115um 261.805um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1735_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968960 Net "outputs(48)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1000712 RoutingPad outputs(48) [317.075um 60.48um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2408_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968940 Net "outputs(68)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1000721 RoutingPad outputs(68) [127.005um 37.44um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1083_xor2_x0:<id:6317 Vertical i1 Metal1 [3.005um 1.34um] [3.005um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968930 Net "outputs(78)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1000726 RoutingPad outputs(78) [87.805um 66.24um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1078_xor2_x0:<id:6317 Vertical i1 Metal1 [3.005um 1.34um] [3.005um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968910 Net "outputs(98)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1000737 RoutingPad outputs(98) [275.475um 77.76um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2308_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968019 Net "outputs(989)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1000861 RoutingPad outputs(989) [81.915um 308.435um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_623_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968020 Net "outputs(988)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1000864 RoutingPad outputs(988) [83.805um 308.16um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_623_xor2_x0:<id:6317 Vertical i1 Metal1 [3.005um 1.34um] [3.005um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968023 Net "outputs(985)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1000877 RoutingPad outputs(985) [73.915um 308.435um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_625_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968025 Net "outputs(983)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1000885 RoutingPad outputs(983) [54.715um 296.915um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_626_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968026 Net "outputs(982)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1000888 RoutingPad outputs(982) [56.605um 296.64um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_626_xor2_x0:<id:6317 Vertical i1 Metal1 [3.005um 1.34um] [3.005um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968124 Net "outputs(884)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1000922 RoutingPad outputs(884) [209.115um 348.755um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1621_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968220 Net "outputs(788)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1000946 RoutingPad outputs(788) [141.115um 284.845um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1717_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968220 Net "outputs(788)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1000944 RoutingPad outputs(788) [18.675um 141.12um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_367_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968222 Net "outputs(786)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1000954 RoutingPad outputs(786) [173.115um 284.845um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1719_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968222 Net "outputs(786)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1000952 RoutingPad outputs(786) [10.675um 146.88um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_371_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968224 Net "outputs(784)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1000960 RoutingPad outputs(784) [15.475um 146.88um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_375_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968226 Net "outputs(782)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1000970 RoutingPad outputs(782) [157.115um 279.635um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1723_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968226 Net "outputs(782)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1000968 RoutingPad outputs(782) [19.475um 146.88um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_379_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:969007 Net "outputs(1)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1001059 RoutingPad outputs(1) [89.115um 14.125um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1117_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:969006 Net "outputs(2)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1001063 RoutingPad outputs(2) [263.475um 2.88um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2500_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:969005 Net "outputs(3)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1001067 RoutingPad outputs(3) [37.115um 14.125um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1116_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968989 Net "outputs(19)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1001070 RoutingPad outputs(19) [93.115um 14.125um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1108_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968969 Net "outputs(39)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1001076 RoutingPad outputs(39) [70.715um 31.955um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1098_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968816 Net "outputs(192)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1001089 RoutingPad outputs(192) [301.915um 112.045um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2313_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968999 Net "outputs(9)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1001346 RoutingPad outputs(9) [57.115um 2.605um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1113_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968959 Net "outputs(49)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1001349 RoutingPad outputs(49) [33.115um 54.995um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1093_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968939 Net "outputs(69)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1001356 RoutingPad outputs(69) [225.915um 42.925um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2366_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968909 Net "outputs(99)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1001365 RoutingPad outputs(99) [277.915um 123.565um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2306_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968009 Net "outputs(999)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1001487 RoutingPad outputs(999) [28.315um 308.435um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_618_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968013 Net "outputs(995)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1001503 RoutingPad outputs(995) [21.915um 273.875um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_620_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968018 Net "outputs(990)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1001522 RoutingPad outputs(990) [36.605um 302.4um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_622_xor2_x0:<id:6317 Vertical i1 Metal1 [3.005um 1.34um] [3.005um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968112 Net "outputs(896)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1001538 RoutingPad outputs(896) [2.675um 210.24um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_151_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968114 Net "outputs(894)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1001546 RoutingPad outputs(894) [38.675um 198.72um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_155_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968116 Net "outputs(892)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1001556 RoutingPad outputs(892) [229.115um 291.155um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1613_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968118 Net "outputs(890)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1001562 RoutingPad outputs(890) [94.675um 239.04um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_163_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968210 Net "outputs(798)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1001572 RoutingPad outputs(798) [150.715um 302.675um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1707_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968210 Net "outputs(798)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1001570 RoutingPad outputs(798) [18.675um 158.4um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_347_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968212 Net "outputs(796)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1001580 RoutingPad outputs(796) [178.715um 296.365um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1709_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968212 Net "outputs(796)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1001578 RoutingPad outputs(796) [22.675um 152.64um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_351_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968214 Net "outputs(794)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1001588 RoutingPad outputs(794) [177.115um 284.845um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1711_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968214 Net "outputs(794)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1001586 RoutingPad outputs(794) [14.675um 158.4um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_355_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968216 Net "outputs(792)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1001594 RoutingPad outputs(792) [6.675um 152.64um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_359_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968218 Net "outputs(790)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1001604 RoutingPad outputs(790) [169.115um 291.155um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1715_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:970040 Net "abc_7880_new_n4210" ---- LOGICAL ---- (UNDEFINED)> (rps:1024, clusters:27)
+        Cannot find a diode nearby <id:1003332 RoutingPad abc_7880_new_n4210 [48.685um 3.155um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1513_mux2_x1:<id:5275 Vertical cmd Metal1 [0.685um 1.89um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:970040 Net "abc_7880_new_n4210" ---- LOGICAL ---- (UNDEFINED)> (rps:1024, clusters:27)
+        Cannot find a diode nearby <id:1003331 RoutingPad abc_7880_new_n4210 [160.685um 3.155um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1515_mux2_x1:<id:5275 Vertical cmd Metal1 [0.685um 1.89um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:970040 Net "abc_7880_new_n4210" ---- LOGICAL ---- (UNDEFINED)> (rps:1024, clusters:27)
+        Cannot find a diode nearby <id:1003327 RoutingPad abc_7880_new_n4210 [52.685um 77.485um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_362_mux2_x1:<id:5275 Vertical cmd Metal1 [0.685um 1.89um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:970040 Net "abc_7880_new_n4210" ---- LOGICAL ---- (UNDEFINED)> (rps:1024, clusters:27)
+        Cannot find a diode nearby <id:1003185 RoutingPad abc_7880_new_n4210 [8.685um 238.765um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2656_mux2_x1:<id:5275 Vertical cmd Metal1 [0.685um 1.89um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:970040 Net "abc_7880_new_n4210" ---- LOGICAL ---- (UNDEFINED)> (rps:1024, clusters:27)
+        Cannot find a diode nearby <id:1003069 RoutingPad abc_7880_new_n4210 [215.085um 100.525um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_572_mux2_x1:<id:5275 Vertical cmd Metal1 [0.685um 1.89um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968906 Net "outputs(102)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1006123 RoutingPad outputs(102) [284.275um 95.04um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2300_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968902 Net "outputs(106)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1006139 RoutingPad outputs(106) [287.475um 112.32um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2292_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968958 Net "outputs(50)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:4)
+        Cannot find a diode nearby <id:1006365 RoutingPad outputs(50) [15.005um 54.72um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1092_xor2_x0:<id:6317 Vertical i1 Metal1 [3.005um 1.34um] [3.005um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968958 Net "outputs(50)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:4)
+        Cannot find a diode nearby <id:1006366 RoutingPad outputs(50) [282.675um 54.72um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2404_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968938 Net "outputs(70)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1006376 RoutingPad outputs(70) [250.675um 31.68um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2364_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968918 Net "outputs(90)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1006386 RoutingPad outputs(90) [267.475um 72um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2324_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968404 Net "outputs(604)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1006487 RoutingPad outputs(604) [150.675um 43.2um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1296_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968404 Net "outputs(604)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1006486 RoutingPad outputs(604) [59.805um 118.08um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_815_xor2_x0:<id:6317 Vertical i1 Metal1 [3.005um 1.34um] [3.005um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968100 Net "outputs(908)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1006553 RoutingPad outputs(908) [35.475um 210.24um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_127_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968102 Net "outputs(906)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1006561 RoutingPad outputs(906) [14.675um 221.76um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_131_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968104 Net "outputs(904)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1006569 RoutingPad outputs(904) [27.475um 210.24um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_135_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968106 Net "outputs(902)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1006579 RoutingPad outputs(902) [215.515um 337.235um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1603_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968108 Net "outputs(900)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1006587 RoutingPad outputs(900) [218.715um 307.885um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1605_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968200 Net "outputs(808)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1006595 RoutingPad outputs(808) [249.115um 227.245um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1697_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968202 Net "outputs(806)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1006603 RoutingPad outputs(806) [162.715um 307.885um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1699_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968202 Net "outputs(806)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1006601 RoutingPad outputs(806) [26.675um 169.92um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_331_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968204 Net "outputs(804)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1006611 RoutingPad outputs(804) [170.715um 302.675um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1701_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968204 Net "outputs(804)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1006609 RoutingPad outputs(804) [26.675um 164.16um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_335_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968206 Net "outputs(802)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1006617 RoutingPad outputs(802) [10.675um 164.16um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_339_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968206 Net "outputs(802)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1006619 RoutingPad outputs(802) [205.915um 250.285um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1703_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968208 Net "outputs(800)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1006625 RoutingPad outputs(800) [26.675um 152.64um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_343_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968208 Net "outputs(800)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1006627 RoutingPad outputs(800) [274.715um 222.035um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1705_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:967998 Net "outputs(1010)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1006681 RoutingPad outputs(1010) [18.205um 319.68um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_612_xor2_x0:<id:6317 Vertical i1 Metal1 [3.005um 1.34um] [3.005um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:967999 Net "outputs(1009)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1006686 RoutingPad outputs(1009) [9.115um 290.605um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_613_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968007 Net "outputs(1001)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1006718 RoutingPad outputs(1001) [34.715um 313.645um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_617_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968008 Net "outputs(1000)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1006721 RoutingPad outputs(1000) [36.605um 313.92um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_617_xor2_x0:<id:6317 Vertical i1 Metal1 [3.005um 1.34um] [3.005um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968997 Net "outputs(11)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1007603 RoutingPad outputs(11) [65.115um 20.435um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1112_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968987 Net "outputs(21)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1007606 RoutingPad outputs(21) [37.115um 37.165um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1107_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968977 Net "outputs(31)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1007609 RoutingPad outputs(31) [45.115um 25.645um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1102_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968898 Net "outputs(110)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1007613 RoutingPad outputs(110) [297.075um 123.84um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2284_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968894 Net "outputs(114)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1007630 RoutingPad outputs(114) [283.515um 60.755um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2391_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968890 Net "outputs(118)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1007646 RoutingPad outputs(118) [291.515um 100.525um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2387_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968967 Net "outputs(41)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1007858 RoutingPad outputs(41) [65.115um 25.645um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1097_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968957 Net "outputs(51)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:4)
+        Cannot find a diode nearby <id:1007862 RoutingPad outputs(51) [271.515um 60.755um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2402_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968947 Net "outputs(61)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1007864 RoutingPad outputs(61) [105.915um 60.205um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1087_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968937 Net "outputs(71)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1007867 RoutingPad outputs(71) [85.115um 60.205um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1082_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968927 Net "outputs(81)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1007871 RoutingPad outputs(81) [241.115um 83.795um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2342_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968098 Net "outputs(910)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1008071 RoutingPad outputs(910) [23.475um 233.28um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_123_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968190 Net "outputs(818)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1008081 RoutingPad outputs(818) [185.115um 284.845um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1687_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968190 Net "outputs(818)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1008079 RoutingPad outputs(818) [58.675um 164.16um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_307_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968192 Net "outputs(816)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1008088 RoutingPad outputs(816) [51.805um 233.28um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_709_xor2_x0:<id:6317 Vertical i1 Metal1 [3.005um 1.34um] [3.005um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968192 Net "outputs(816)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1008087 RoutingPad outputs(816) [58.675um 158.4um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_311_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968194 Net "outputs(814)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1008097 RoutingPad outputs(814) [158.715um 307.885um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1691_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968194 Net "outputs(814)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1008095 RoutingPad outputs(814) [42.675um 169.92um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_315_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968196 Net "outputs(812)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1008105 RoutingPad outputs(812) [225.915um 268.115um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1693_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968196 Net "outputs(812)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1008103 RoutingPad outputs(812) [46.675um 158.4um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_319_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968198 Net "outputs(810)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1008113 RoutingPad outputs(810) [221.115um 245.075um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1695_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968198 Net "outputs(810)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1008111 RoutingPad outputs(810) [30.675um 164.16um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_323_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968886 Net "outputs(122)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1008643 RoutingPad outputs(122) [111.805um 72um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1056_xor2_x0:<id:6317 Vertical i1 Metal1 [3.005um 1.34um] [3.005um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968884 Net "outputs(124)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1008651 RoutingPad outputs(124) [147.005um 54.72um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1055_xor2_x0:<id:6317 Vertical i1 Metal1 [3.005um 1.34um] [3.005um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968882 Net "outputs(126)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1008660 RoutingPad outputs(126) [247.475um 77.76um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2252_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968966 Net "outputs(42)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1008756 RoutingPad outputs(42) [284.275um 43.2um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2420_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968956 Net "outputs(52)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1008761 RoutingPad outputs(52) [303.475um 66.24um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2400_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968946 Net "outputs(62)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1008765 RoutingPad outputs(62) [116.605um 31.68um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1086_xor2_x0:<id:6317 Vertical i1 Metal1 [3.005um 1.34um] [3.005um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968936 Net "outputs(72)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1008770 RoutingPad outputs(72) [91.805um 60.48um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1081_xor2_x0:<id:6317 Vertical i1 Metal1 [3.005um 1.34um] [3.005um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968926 Net "outputs(82)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1008776 RoutingPad outputs(82) [271.475um 66.24um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2340_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968916 Net "outputs(92)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1008781 RoutingPad outputs(92) [297.075um 89.28um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2320_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968081 Net "outputs(927)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1008953 RoutingPad outputs(927) [49.115um 215.725um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_89_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968088 Net "outputs(920)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1008980 RoutingPad outputs(920) [30.675um 250.56um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_103_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968180 Net "outputs(828)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1008990 RoutingPad outputs(828) [170.715um 307.885um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1677_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968184 Net "outputs(824)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1009006 RoutingPad outputs(824) [237.915um 233.555um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1681_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968184 Net "outputs(824)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1009004 RoutingPad outputs(824) [66.675um 152.64um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_295_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968186 Net "outputs(822)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1009014 RoutingPad outputs(822) [166.715um 307.885um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1683_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968985 Net "outputs(23)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1009710 RoutingPad outputs(23) [269.115um 31.405um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2458_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968975 Net "outputs(33)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1009712 RoutingPad outputs(33) [101.115um 20.435um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1101_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968876 Net "outputs(132)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1009724 RoutingPad outputs(132) [258.675um 83.52um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2240_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968872 Net "outputs(136)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1009739 RoutingPad outputs(136) [115.005um 106.56um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1049_xor2_x0:<id:6317 Vertical i1 Metal1 [3.005um 1.34um] [3.005um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968870 Net "outputs(138)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1009749 RoutingPad outputs(138) [229.115um 49.235um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2367_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968965 Net "outputs(43)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1009835 RoutingPad outputs(43) [21.115um 48.685um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1096_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968955 Net "outputs(53)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1009838 RoutingPad outputs(53) [45.115um 54.995um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1091_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968945 Net "outputs(63)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1009842 RoutingPad outputs(63) [225.115um 26.195um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2378_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968935 Net "outputs(73)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1009844 RoutingPad outputs(73) [89.915um 60.205um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1081_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968925 Net "outputs(83)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1009848 RoutingPad outputs(83) [247.515um 100.525um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2338_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968170 Net "outputs(838)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1010058 RoutingPad outputs(838) [188.315um 314.195um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1667_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968170 Net "outputs(838)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1010056 RoutingPad outputs(838) [62.675um 198.72um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_267_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968172 Net "outputs(836)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1010066 RoutingPad outputs(836) [175.515um 319.405um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1669_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968174 Net "outputs(834)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1010074 RoutingPad outputs(834) [221.115um 261.805um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1671_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968174 Net "outputs(834)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1010072 RoutingPad outputs(834) [70.675um 169.92um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_275_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968176 Net "outputs(832)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1010080 RoutingPad outputs(832) [70.675um 175.68um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_279_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968178 Net "outputs(830)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1010090 RoutingPad outputs(830) [201.115um 279.635um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1675_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:970050 Net "abc_7880_new_n3676" ---- LOGICAL ---- (UNDEFINED)> (rps:513, clusters:16)
+        Cannot find a diode nearby <id:1010976 RoutingPad abc_7880_new_n3676 [45.485um 31.405um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1394_mux2_x1:<id:5275 Vertical cmd Metal1 [0.685um 1.89um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:970050 Net "abc_7880_new_n3676" ---- LOGICAL ---- (UNDEFINED)> (rps:513, clusters:16)
+        Cannot find a diode nearby <id:1010816 RoutingPad abc_7880_new_n3676 [8.685um 100.525um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_421_mux2_x1:<id:5275 Vertical cmd Metal1 [0.685um 1.89um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:970050 Net "abc_7880_new_n3676" ---- LOGICAL ---- (UNDEFINED)> (rps:513, clusters:16)
+        Cannot find a diode nearby <id:1010630 RoutingPad abc_7880_new_n3676 [229.485um 65.965um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2254_mux2_x1:<id:5275 Vertical cmd Metal1 [0.685um 1.89um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:970050 Net "abc_7880_new_n3676" ---- LOGICAL ---- (UNDEFINED)> (rps:513, clusters:16)
+        Cannot find a diode nearby <id:1010683 RoutingPad abc_7880_new_n3676 [12.685um 256.595um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_25_mux2_x1:<id:5275 Vertical cmd Metal1 [0.685um 1.89um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:970050 Net "abc_7880_new_n3676" ---- LOGICAL ---- (UNDEFINED)> (rps:513, clusters:16)
+        Cannot find a diode nearby <id:1010619 RoutingPad abc_7880_new_n3676 [89.485um 72.275um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1238_mux2_x1:<id:5275 Vertical cmd Metal1 [0.685um 1.89um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968974 Net "outputs(34)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1011200 RoutingPad outputs(34) [51.005um 25.92um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1100_xor2_x0:<id:6317 Vertical i1 Metal1 [3.005um 1.34um] [3.005um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968868 Net "outputs(140)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1011205 RoutingPad outputs(140) [123.005um 106.56um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1047_xor2_x0:<id:6317 Vertical i1 Metal1 [3.005um 1.34um] [3.005um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968866 Net "outputs(142)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1011214 RoutingPad outputs(142) [245.075um 100.8um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2220_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968864 Net "outputs(144)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1011221 RoutingPad outputs(144) [127.005um 106.56um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1045_xor2_x0:<id:6317 Vertical i1 Metal1 [3.005um 1.34um] [3.005um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968862 Net "outputs(146)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1011230 RoutingPad outputs(146) [273.075um 100.8um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2212_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968860 Net "outputs(148)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1011238 RoutingPad outputs(148) [275.475um 123.84um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2208_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968964 Net "outputs(44)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1011326 RoutingPad outputs(44) [301.075um 60.48um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2416_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968954 Net "outputs(54)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1011331 RoutingPad outputs(54) [300.275um 77.76um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2396_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968944 Net "outputs(64)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1011335 RoutingPad outputs(64) [135.005um 43.2um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1085_xor2_x0:<id:6317 Vertical i1 Metal1 [3.005um 1.34um] [3.005um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968934 Net "outputs(74)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1011341 RoutingPad outputs(74) [251.475um 66.24um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2356_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968924 Net "outputs(84)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1011346 RoutingPad outputs(84) [292.275um 89.28um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2336_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968914 Net "outputs(94)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1011351 RoutingPad outputs(94) [280.275um 89.28um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2316_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968062 Net "outputs(946)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1011526 RoutingPad outputs(946) [87.475um 267.84um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_51_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968064 Net "outputs(944)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1011534 RoutingPad outputs(944) [86.675um 273.6um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_55_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968160 Net "outputs(848)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1011558 RoutingPad outputs(848) [82.675um 198.72um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_247_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968160 Net "outputs(848)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1011559 RoutingPad outputs(848) [87.005um 239.04um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_693_xor2_x0:<id:6317 Vertical i1 Metal1 [3.005um 1.34um] [3.005um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968162 Net "outputs(846)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1011568 RoutingPad outputs(846) [189.115um 284.845um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1659_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968164 Net "outputs(844)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1011576 RoutingPad outputs(844) [191.515um 296.365um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1661_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968166 Net "outputs(842)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1011582 RoutingPad outputs(842) [66.675um 187.2um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_259_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968168 Net "outputs(840)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1011592 RoutingPad outputs(840) [241.115um 238.765um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1665_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:1013594 Net "clk_root_br_2" ---- LOGICAL ---- (UNDEFINED)> (rps:104, clusters:3)
+        Cannot find a diode nearby <id:1017285 RoutingPad clk_root_br_2 [173.485um 146.88um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_3093_dff_x1:<id:7406 Vertical clk Metal1 [0.685um 1.34um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:1013594 Net "clk_root_br_2" ---- LOGICAL ---- (UNDEFINED)> (rps:104, clusters:3)
+        Cannot find a diode nearby <id:1017275 RoutingPad clk_root_br_2 [245.485um 106.56um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_3299_dff_x1:<id:7406 Vertical clk Metal1 [0.685um 1.34um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:1013594 Net "clk_root_br_2" ---- LOGICAL ---- (UNDEFINED)> (rps:104, clusters:3)
+        Cannot find a diode nearby <id:1017276 RoutingPad clk_root_br_2 [249.485um 175.68um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_3283_dff_x1:<id:7406 Vertical clk Metal1 [0.685um 1.34um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:1013592 Net "clk_root_br_0" ---- LOGICAL ---- (UNDEFINED)> (rps:102, clusters:3)
+        Cannot find a diode nearby <id:1017492 RoutingPad clk_root_br_0 [192.685um 8.64um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_3134_dff_x1:<id:7406 Vertical clk Metal1 [0.685um 1.34um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:1013592 Net "clk_root_br_0" ---- LOGICAL ---- (UNDEFINED)> (rps:102, clusters:3)
+        Cannot find a diode nearby <id:1017482 RoutingPad clk_root_br_0 [217.485um 37.44um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2804_dff_x1:<id:7406 Vertical clk Metal1 [0.685um 1.34um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:1013592 Net "clk_root_br_0" ---- LOGICAL ---- (UNDEFINED)> (rps:102, clusters:3)
+        Cannot find a diode nearby <id:1017480 RoutingPad clk_root_br_0 [229.485um 43.2um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_3315_dff_x1:<id:7406 Vertical clk Metal1 [0.685um 1.34um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:1013591 Net "clk_root_bl_2" ---- LOGICAL ---- (UNDEFINED)> (rps:93, clusters:3)
+        Cannot find a diode nearby <id:1017645 RoutingPad clk_root_bl_2 [92.685um 175.68um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_3599_dff_x1:<id:7406 Vertical clk Metal1 [0.685um 1.34um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:1013591 Net "clk_root_bl_2" ---- LOGICAL ---- (UNDEFINED)> (rps:93, clusters:3)
+        Cannot find a diode nearby <id:1017597 RoutingPad clk_root_bl_2 [0.685um 187.2um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_3476_dff_x1:<id:7406 Vertical clk Metal1 [0.685um 1.34um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:1013591 Net "clk_root_bl_2" ---- LOGICAL ---- (UNDEFINED)> (rps:93, clusters:3)
+        Cannot find a diode nearby <id:1017582 RoutingPad clk_root_bl_2 [16.685um 118.08um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_3657_dff_x1:<id:7406 Vertical clk Metal1 [0.685um 1.34um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:1013590 Net "clk_root_bl_1" ---- LOGICAL ---- (UNDEFINED)> (rps:93, clusters:3)
+        Cannot find a diode nearby <id:1017677 RoutingPad clk_root_bl_1 [116.685um 54.72um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2803_dff_x1:<id:7406 Vertical clk Metal1 [0.685um 1.34um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:1013590 Net "clk_root_bl_1" ---- LOGICAL ---- (UNDEFINED)> (rps:93, clusters:3)
+        Cannot find a diode nearby <id:1017675 RoutingPad clk_root_bl_1 [124.685um 54.72um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2801_dff_x1:<id:7406 Vertical clk Metal1 [0.685um 1.34um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:1013589 Net "clk_root_bl_0" ---- LOGICAL ---- (UNDEFINED)> (rps:92, clusters:2)
+        Cannot find a diode nearby <id:1017771 RoutingPad clk_root_bl_0 [36.685um 72um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_3654_dff_x1:<id:7406 Vertical clk Metal1 [0.685um 1.34um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:1013589 Net "clk_root_bl_0" ---- LOGICAL ---- (UNDEFINED)> (rps:92, clusters:2)
+        Cannot find a diode nearby <id:1017768 RoutingPad clk_root_bl_0 [112.685um 37.44um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2805_dff_x1:<id:7406 Vertical clk Metal1 [0.685um 1.34um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:970067 Net "init" ---- LOGICAL ---- (UNDEFINED)> (rps:525, clusters:20)
+        Cannot find a diode nearby <id:1012048 RoutingPad init [20.685um 3.155um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1512_mux2_x1:<id:5275 Vertical cmd Metal1 [0.685um 1.89um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:970067 Net "init" ---- LOGICAL ---- (UNDEFINED)> (rps:525, clusters:20)
+        Cannot find a diode nearby <id:1011989 RoutingPad init [0.685um 106.835um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_427_mux2_x1:<id:5275 Vertical cmd Metal1 [0.685um 1.89um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:970067 Net "init" ---- LOGICAL ---- (UNDEFINED)> (rps:525, clusters:20)
+        Cannot find a diode nearby <id:1011797 RoutingPad init [92.685um 106.835um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1244_mux2_x1:<id:5275 Vertical cmd Metal1 [0.685um 1.89um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:970067 Net "init" ---- LOGICAL ---- (UNDEFINED)> (rps:525, clusters:20)
+        Cannot find a diode nearby <id:1011799 RoutingPad init [64.685um 238.765um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_83_mux2_x1:<id:5275 Vertical cmd Metal1 [0.685um 1.89um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:970067 Net "init" ---- LOGICAL ---- (UNDEFINED)> (rps:525, clusters:20)
+        Cannot find a diode nearby <id:1011806 RoutingPad init [188.685um 37.715um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1232_mux2_x1:<id:5275 Vertical cmd Metal1 [0.685um 1.89um] [0.685um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968993 Net "outputs(15)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1012776 RoutingPad outputs(15) [33.915um 31.955um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1110_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968983 Net "outputs(25)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1012779 RoutingPad outputs(25) [29.115um 54.995um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1105_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968973 Net "outputs(35)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1012782 RoutingPad outputs(35) [49.115um 25.645um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1100_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968858 Net "outputs(150)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1012787 RoutingPad outputs(150) [245.115um 83.795um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2355_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968856 Net "outputs(152)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1012795 RoutingPad outputs(152) [285.915um 72.275um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2353_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968854 Net "outputs(154)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1012803 RoutingPad outputs(154) [261.115um 83.795um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2351_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968852 Net "outputs(156)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1012811 RoutingPad outputs(156) [257.915um 77.485um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2349_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968752 Net "outputs(256)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1012850 RoutingPad outputs(256) [289.075um 123.84um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1992_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968963 Net "outputs(45)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1012905 RoutingPad outputs(45) [37.115um 60.205um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1095_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968953 Net "outputs(55)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1012909 RoutingPad outputs(55) [286.715um 89.005um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_2394_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968943 Net "outputs(65)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1012911 RoutingPad outputs(65) [133.115um 43.475um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1085_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968923 Net "outputs(85)" -e-- LOGICAL -o-- (OUT)> (rps:3, clusters:3)
+        Cannot find a diode nearby <id:1012917 RoutingPad outputs(85) [85.115um 101.075um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1075_xor2_x0:<id:6292 Vertical q Metal1 [1.115um 1.34um] [1.115um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968256 Net "outputs(752)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1013051 RoutingPad outputs(752) [138.675um 273.6um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_439_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968250 Net "outputs(758)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1013077 RoutingPad outputs(758) [153.115um 284.845um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1747_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968250 Net "outputs(758)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1013075 RoutingPad outputs(758) [2.675um 106.56um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_427_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968054 Net "outputs(954)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1013102 RoutingPad outputs(954) [102.675um 290.88um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_35_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968058 Net "outputs(950)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1013118 RoutingPad outputs(950) [92.275um 296.64um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_43_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968150 Net "outputs(858)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1013128 RoutingPad outputs(858) [222.715um 302.675um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1647_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968150 Net "outputs(858)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1013126 RoutingPad outputs(858) [71.475um 216um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_227_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968152 Net "outputs(856)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1013134 RoutingPad outputs(856) [74.675um 198.72um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_231_mux2_x1:<id:5344 Vertical i1 Metal1 [2.675um 1.89um] [2.675um 3.87um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968152 Net "outputs(856)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1013135 RoutingPad outputs(856) [79.005um 227.52um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_689_xor2_x0:<id:6317 Vertical i1 Metal1 [3.005um 1.34um] [3.005um 4.42um] 0.21um>>>.
+[ERROR] EtesianEngine::antennaProtect(): For <id:968158 Net "outputs(850)" -e-- LOGICAL -o-- (OUT)> (rps:5, clusters:3)
+        Cannot find a diode nearby <id:1013160 RoutingPad outputs(850) [221.115um 291.155um] Sh--- <Occurrence <id:966957 Cell expmob2>:subckt_1655_mux2_x1:<id:5294 Vertical i0 Metal1 [1.115um 1.89um] [1.115um 4.42um] 0.21um>>>.
+
+[ERROR] In topology of &<id:1231338 ContactVTee outputs(434) Metal2_Via2_Metal3 [214.4um 365.76um] 0.19um x 0.19um ----vi-ct>
+        G: &<id:1049572 Horizontal outputs(434) Metal2 [208um 365.76um] [214.4um 365.76um] 0.29um rpD:15 bl:0 --u----G---------i-------- [207.79um:214.61um]>
+        L: &<id:1231339 Vertical outputs(434) Metal3 [214.4um 365.76um] [214.4um 365.76um] 0.29um rpD:15 bl:0 --u--------------i-------- [365.555um:365.965um]>
+        L: &<id:1231341 Vertical outputs(434) Metal3 [214.4um 365.76um] [214.4um 365.76um] 0.29um rpD:15 bl:0 --u--------------i-------- [365.555um:365.965um]>
+        G: &<id:1161020 Vertical outputs(434) Metal3 [214.4um 342.72um] [214.4um 365.76um] 0.29um rpD:15 bl:0 --u----G---------i-------- [342.515um:365.965um]>
+        VTee has more than two vertical segments.
+

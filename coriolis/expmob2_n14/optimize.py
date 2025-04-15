@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-scalar_a, scalar_b, connectors_margin = 650//2 - 10, 100//2 - 5, 4
+scalar_a, scalar_b, connectors_margin = 650*8, 100*8, 32
 
 def format_time(seconds):
     hours = int(seconds // 3600)
@@ -132,7 +132,7 @@ def run_gds():
 
 
 def update_doDesign(scalar_a, scalar_b, connectors_margin):
-    filename="doDesign.py"
+    filename="MydoDesign.py"
     
     with open(filename, "r") as file:
         lines = file.readlines()
@@ -167,14 +167,27 @@ threshold_min, threshold_max = 70, 100
 update_doDesign(scalar_a, scalar_b, connectors_margin)
 density = 0
 
-history_wire_lengths = []
-history_density = []
-history_dimensions = []
+# history_wire_lengths = []
+# history_density = []
+# history_dimensions = []
 # reduce or increase the density
-while density < 60 or  density >= 70 or density > 100:
+height_or_length = 1
+history = []
+while True:
+    
     print(f"Going to try with a={scalar_a}, b={scalar_b}")
+    run_yosys(verbose=False)
     update_doDesign(scalar_a, scalar_b, connectors_margin)
     density, wire_length, dimensions = run_gds()
+
+    if isinstance(wire_length, int):
+        with open("gds_stat.log", "a") as f:
+            f.write(f"effective_density = {density}\n")
+            f.write(f"wire_length = {wire_length}\n")
+            f.write(f"dimensions = {dimensions}\n")
+            f.write("\n")
+
+
     #print(f"Trying with a={scalar_a}, b={scalar_b}")
     # # use multiplication here to get a better density
     # if density < 25:# or density > 120:
@@ -198,26 +211,26 @@ while density < 60 or  density >= 70 or density > 100:
 
     # test only substract and add
     # increase the chip by adding 10, and 5
-    if  density < 100:
-        scalar_a = scalar_a - 13
-        scalar_b = scalar_b - 2
-    
+    if  density < 90:
+        history.append("+")
+        if height_or_length:
+            scalar_a = scalar_a - 13
+            height_or_length ^= 1
+        else:
+            scalar_b = scalar_b - 2
+            height_or_length ^= 1
+                
     elif density > 100:
-        scalar_a = scalar_a + 13
-        scalar_b = scalar_b + 2
-    else:
-        print(f"Missed a case with density at = {density}")
+        history.append("-")
+        if height_or_length:
+            scalar_a = scalar_a + 13
+            height_or_length ^= 1
+        else:
+            scalar_b = scalar_b + 2
+            height_or_length ^= 1
 
-    #run_yosys(verbose=False)
 
-    if isinstance(wire_length, int):
-        with open("gds_stat.log", "a") as f:
-            f.write(f"effective_density = {density}\n")
-            f.write(f"wire_length = {wire_length}\n")
-            f.write(f"dimensions = {dimensions}\n")
-            f.write("\n")
 
-    scalar_a, scalar_b = int(scalar_a), int(scalar_b)
 
 
 # In[ ]:
