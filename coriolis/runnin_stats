@@ -1,3 +1,49 @@
+Expmob1:
+n=3
+GDS: took = 8.99s . Effective desnsity =  88.6, Wire length = 401
+
+n=4
+It took yosys = 7.97s
+GDS: took = 8.43s . Effective desnsity =  81.8, Wire length = 1221
+
+n=5
+It took yosys = 9.86s
+GDS: took = 8.48s . Effective desnsity =  79.6, Wire length = 4016
+
+n=6
+It took yosys = 8.86s
+GDS: took = 16.40s . Effective desnsity =  84.2, Wire length = 11970
+
+
+
+n=7
+It took yosys = 8.49s
+GDS: took = 19.05s . Effective desnsity =  98.4, Wire length = 34005
+n=8
+It took yosys = 16.87s
+GDS: took = 22.75s . Effective desnsity =  90.8, Wire length = 98446
+n=9
+It took yosys = 12.18s
+GDS: took = 1m 7.17s . Effective desnsity =  93.9, Wire length = 296062
+
+n=10
+It took yosys = 21.75s
+GDS: took = 8m 22.56s . Effective desnsity =  91.7, Wire length = 1137948
+n=11
+It took yosys = 40.17s
+GDS: took = 16m 9.99s . Effective desnsity =  98.2, Wire length = 2550378
+n=12
+It took yosys = 43.13s
+GDS: took = 12m 34.99s . Effective desnsity =  63.2, Wire length = 8675264
+n=13
+It took yosys = 2m 43.22s
+GDS: took = 1h 1m 17.45s . Effective desnsity =  34.7, Wire length = 33872366
+n=14
+It took yosys = 9m 19.76s
+GDS: took = 7h 32m 6.62s . Effective desnsity =  18.1, Wire length = 139500769
+
+
+
 Expmob2:
 n = 3
 It took yosys = 17.96s
@@ -31,3 +77,42 @@ GDS: took = 15m 16.93s . Effective desnsity =  72.6, Wire length = 2255829
 n=12
 It took yosys = 26.55s
 GDS: took = 36m 20.15s . Effective desnsity =  36.4, Wire length = 8130420
+
+
+rot
+n=3
+It took yosys = 4.69s
+GDS: took = 4.97s . Effective desnsity =  48.6, Wire length = 1123
+n=4
+It took yosys = 4.69s
+GDS: took = 15.56s . Effective desnsity =  71.5, Wire length = 2947
+n=5
+It took yosys = 8.17s
+GDS: took = 9.67s . Effective desnsity =  89.4, Wire length = 7985
+n=6
+It took yosys = 7.94s
+GDS: took = 9.53s . Effective desnsity =  90.1, Wire length = 22716
+n=7
+It took yosys = 9.31s
+GDS: took = 12.37s . Effective desnsity =  49.3, Wire length = 79221
+n=8
+It took yosys = 8.50s
+GDS: took = 25.77s . Effective desnsity =  96.2, Wire length = 182857
+n=9
+It took yosys = 11.37s
+GDS: took = 1m 9.05s . Effective desnsity =  85.0, Wire length = 488402
+n=10
+It took yosys = 18.88s
+GDS: took = 8m 59.31s . Effective desnsity =  82.6, Wire length = 1451895
+n=11
+It took yosys = 37.24s
+GDS: took = 17m 34.50s . Effective desnsity =  80.1, Wire length = 3974767
+n=12
+It took yosys = 2m 1.13s
+GDS: took = 27m 48.83s . Effective desnsity =  95.1, Wire length = 9408819
+n=13
+It took yosys = 2m 30.31s
+GDS: took = 2h 4m 13.09s . Effective desnsity =  57.8, Wire length = 33133738
+n=14
+It took yosys = 24m 46.17s
+GDS: took = 7h 14m 9.59s . Effective desnsity =  28.0, Wire length = 132923560
