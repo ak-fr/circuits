@@ -20,8 +20,11 @@ from coriolis.designflow.clean              import Clean
 from pdks.ihpsg13g2_c4m.designflow.filler   import Filler
 from pdks.ihpsg13g2_c4m.designflow.sealring import SealRing
 from pdks.ihpsg13g2_c4m.designflow.drc      import DRC
-from doDesign                               import scriptMain
+from MydoDesign                               import scriptMain
+#from doDesign                               import scriptMain
+import doDesign
 
+print(f"libName is located at: {os.path.abspath(doDesign.__file__)}")
 buildChip          = False
 PnR.textMode       = True
 pnrSuffix          = '_cts_r'

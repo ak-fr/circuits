@@ -18,7 +18,7 @@ from   connectors_placement                 import *
 af = CRL.AllianceFramework.get()
 
 
-CoreName = 'expmob2'
+CoreName = 'rot'
 scalar_a, scalar_b = 224, 33  # updated values
 connectors_margin = 4  # updated value
 

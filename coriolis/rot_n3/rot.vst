@@ -1,7 +1,7 @@
 
 -- =======================================================================
 -- Coriolis Structural VHDL Driver
--- Generated on Apr 13, 2025, 00:43
+-- Generated on Apr 16, 2025, 16:50
 -- 
 -- To be interoperable with Alliance, it uses it's special VHDL subset.
 -- ("man vhdl" under Alliance for more informations)
@@ -36,32 +36,32 @@ architecture structural of rot is
          );
   end component;
 
-  signal abc_171_new_n20 :  bit;
-  signal abc_171_new_n21 :  bit;
-  signal abc_171_new_n22 :  bit;
-  signal abc_171_new_n23 :  bit;
-  signal abc_171_new_n24 :  bit;
-  signal abc_171_new_n25 :  bit;
-  signal abc_171_new_n26 :  bit;
-  signal abc_171_new_n27 :  bit;
-  signal abc_171_new_n29 :  bit;
-  signal abc_171_new_n30 :  bit;
-  signal abc_171_new_n32 :  bit;
-  signal abc_171_new_n33 :  bit;
-  signal abc_171_new_n35 :  bit;
-  signal abc_171_new_n36 :  bit;
-  signal abc_171_new_n38 :  bit;
-  signal abc_171_new_n39 :  bit;
-  signal abc_171_new_n41 :  bit;
-  signal abc_171_new_n43 :  bit;
+  signal abc_174_new_n20 :  bit;
+  signal abc_174_new_n21 :  bit;
+  signal abc_174_new_n22 :  bit;
+  signal abc_174_new_n23 :  bit;
+  signal abc_174_new_n24 :  bit;
+  signal abc_174_new_n25 :  bit;
+  signal abc_174_new_n26 :  bit;
+  signal abc_174_new_n27 :  bit;
+  signal abc_174_new_n29 :  bit;
+  signal abc_174_new_n30 :  bit;
+  signal abc_174_new_n32 :  bit;
+  signal abc_174_new_n33 :  bit;
+  signal abc_174_new_n35 :  bit;
+  signal abc_174_new_n36 :  bit;
+  signal abc_174_new_n38 :  bit;
+  signal abc_174_new_n39 :  bit;
+  signal abc_174_new_n41 :  bit;
+  signal abc_174_new_n43 :  bit;
 
 
 begin
 
   subckt_25_mux2_x1 : mux2_x1
-  port map ( cmd => abc_171_new_n21
-           , i0  => abc_171_new_n43
-           , i1  => abc_171_new_n27
+  port map ( cmd => abc_174_new_n21
+           , i0  => abc_174_new_n43
+           , i1  => abc_174_new_n27
            , q   => rotated_bits(7)
            , vdd => vdd
            , vss => vss
@@ -69,17 +69,17 @@ begin
 
   subckt_22_mux2_x1 : mux2_x1
   port map ( cmd => k(2)
-           , i0  => abc_171_new_n41
-           , i1  => abc_171_new_n39
+           , i0  => abc_174_new_n41
+           , i1  => abc_174_new_n39
            , q   => rotated_bits(5)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_8_mux2_x1 : mux2_x1
-  port map ( cmd => abc_171_new_n21
-           , i0  => abc_171_new_n27
-           , i1  => abc_171_new_n24
+  port map ( cmd => abc_174_new_n21
+           , i0  => abc_174_new_n27
+           , i1  => abc_174_new_n24
            , q   => rotated_bits(0)
            , vdd => vdd
            , vss => vss
@@ -89,7 +89,7 @@ begin
   port map ( cmd => k(0)
            , i0  => bits(7)
            , i1  => bits(3)
-           , q   => abc_171_new_n25
+           , q   => abc_174_new_n25
            , vdd => vdd
            , vss => vss
            );
@@ -98,15 +98,15 @@ begin
   port map ( cmd => k(0)
            , i0  => bits(0)
            , i1  => bits(4)
-           , q   => abc_171_new_n22
+           , q   => abc_174_new_n22
            , vdd => vdd
            , vss => vss
            );
 
   subckt_11_mux2_x1 : mux2_x1
   port map ( cmd => k(2)
-           , i0  => abc_171_new_n30
-           , i1  => abc_171_new_n24
+           , i0  => abc_174_new_n30
+           , i1  => abc_174_new_n24
            , q   => rotated_bits(1)
            , vdd => vdd
            , vss => vss
@@ -114,8 +114,8 @@ begin
 
   subckt_14_mux2_x1 : mux2_x1
   port map ( cmd => k(2)
-           , i0  => abc_171_new_n33
-           , i1  => abc_171_new_n30
+           , i0  => abc_174_new_n33
+           , i1  => abc_174_new_n30
            , q   => rotated_bits(2)
            , vdd => vdd
            , vss => vss
@@ -123,86 +123,86 @@ begin
 
   subckt_19_mux2_x1 : mux2_x1
   port map ( cmd => k(1)
-           , i0  => abc_171_new_n38
-           , i1  => abc_171_new_n32
-           , q   => abc_171_new_n39
+           , i0  => abc_174_new_n38
+           , i1  => abc_174_new_n32
+           , q   => abc_174_new_n39
            , vdd => vdd
            , vss => vss
            );
 
   subckt_24_mux2_x1 : mux2_x1
   port map ( cmd => k(2)
-           , i0  => abc_171_new_n43
-           , i1  => abc_171_new_n41
+           , i0  => abc_174_new_n43
+           , i1  => abc_174_new_n41
            , q   => rotated_bits(6)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_7_mux2_x1 : mux2_x1
-  port map ( cmd => abc_171_new_n20
-           , i0  => abc_171_new_n26
-           , i1  => abc_171_new_n25
-           , q   => abc_171_new_n27
+  port map ( cmd => abc_174_new_n20
+           , i0  => abc_174_new_n26
+           , i1  => abc_174_new_n25
+           , q   => abc_174_new_n27
            , vdd => vdd
            , vss => vss
            );
 
   subckt_4_mux2_x1 : mux2_x1
-  port map ( cmd => abc_171_new_n20
-           , i0  => abc_171_new_n23
-           , i1  => abc_171_new_n22
-           , q   => abc_171_new_n24
+  port map ( cmd => abc_174_new_n20
+           , i0  => abc_174_new_n23
+           , i1  => abc_174_new_n22
+           , q   => abc_174_new_n24
            , vdd => vdd
            , vss => vss
            );
 
   subckt_1_inv_x0 : inv_x0
   port map ( i   => k(2)
-           , nq  => abc_171_new_n21
+           , nq  => abc_174_new_n21
            , vdd => vdd
            , vss => vss
            );
 
   subckt_0_inv_x0 : inv_x0
   port map ( i   => k(1)
-           , nq  => abc_171_new_n20
+           , nq  => abc_174_new_n20
            , vdd => vdd
            , vss => vss
            );
 
   subckt_13_mux2_x1 : mux2_x1
   port map ( cmd => k(1)
-           , i0  => abc_171_new_n32
-           , i1  => abc_171_new_n22
-           , q   => abc_171_new_n33
+           , i0  => abc_174_new_n32
+           , i1  => abc_174_new_n22
+           , q   => abc_174_new_n33
            , vdd => vdd
            , vss => vss
            );
 
   subckt_16_mux2_x1 : mux2_x1
   port map ( cmd => k(1)
-           , i0  => abc_171_new_n35
-           , i1  => abc_171_new_n29
-           , q   => abc_171_new_n36
+           , i0  => abc_174_new_n35
+           , i1  => abc_174_new_n29
+           , q   => abc_174_new_n36
            , vdd => vdd
            , vss => vss
            );
 
   subckt_21_mux2_x1 : mux2_x1
-  port map ( cmd => abc_171_new_n20
-           , i0  => abc_171_new_n35
-           , i1  => abc_171_new_n26
-           , q   => abc_171_new_n41
+  port map ( cmd => abc_174_new_n20
+           , i0  => abc_174_new_n35
+           , i1  => abc_174_new_n26
+           , q   => abc_174_new_n41
            , vdd => vdd
            , vss => vss
            );
 
   subckt_10_mux2_x1 : mux2_x1
   port map ( cmd => k(1)
-           , i0  => abc_171_new_n29
-           , i1  => abc_171_new_n25
-           , q   => abc_171_new_n30
+           , i0  => abc_174_new_n29
+           , i1  => abc_174_new_n25
+           , q   => abc_174_new_n30
            , vdd => vdd
            , vss => vss
            );
@@ -211,7 +211,7 @@ begin
   port map ( cmd => k(0)
            , i0  => bits(1)
            , i1  => bits(5)
-           , q   => abc_171_new_n29
+           , q   => abc_174_new_n29
            , vdd => vdd
            , vss => vss
            );
@@ -220,7 +220,7 @@ begin
   port map ( cmd => k(0)
            , i0  => bits(5)
            , i1  => bits(1)
-           , q   => abc_171_new_n26
+           , q   => abc_174_new_n26
            , vdd => vdd
            , vss => vss
            );
@@ -229,7 +229,7 @@ begin
   port map ( cmd => k(0)
            , i0  => bits(3)
            , i1  => bits(7)
-           , q   => abc_171_new_n35
+           , q   => abc_174_new_n35
            , vdd => vdd
            , vss => vss
            );
@@ -238,16 +238,16 @@ begin
   port map ( cmd => k(0)
            , i0  => bits(4)
            , i1  => bits(0)
-           , q   => abc_171_new_n38
+           , q   => abc_174_new_n38
            , vdd => vdd
            , vss => vss
            );
 
   subckt_23_mux2_x1 : mux2_x1
-  port map ( cmd => abc_171_new_n20
-           , i0  => abc_171_new_n38
-           , i1  => abc_171_new_n23
-           , q   => abc_171_new_n43
+  port map ( cmd => abc_174_new_n20
+           , i0  => abc_174_new_n38
+           , i1  => abc_174_new_n23
+           , q   => abc_174_new_n43
            , vdd => vdd
            , vss => vss
            );
@@ -256,7 +256,7 @@ begin
   port map ( cmd => k(0)
            , i0  => bits(6)
            , i1  => bits(2)
-           , q   => abc_171_new_n23
+           , q   => abc_174_new_n23
            , vdd => vdd
            , vss => vss
            );
@@ -265,15 +265,15 @@ begin
   port map ( cmd => k(0)
            , i0  => bits(2)
            , i1  => bits(6)
-           , q   => abc_171_new_n32
+           , q   => abc_174_new_n32
            , vdd => vdd
            , vss => vss
            );
 
   subckt_17_mux2_x1 : mux2_x1
   port map ( cmd => k(2)
-           , i0  => abc_171_new_n36
-           , i1  => abc_171_new_n33
+           , i0  => abc_174_new_n36
+           , i1  => abc_174_new_n33
            , q   => rotated_bits(3)
            , vdd => vdd
            , vss => vss
@@ -281,8 +281,8 @@ begin
 
   subckt_20_mux2_x1 : mux2_x1
   port map ( cmd => k(2)
-           , i0  => abc_171_new_n39
-           , i1  => abc_171_new_n36
+           , i0  => abc_174_new_n39
+           , i1  => abc_174_new_n36
            , q   => rotated_bits(4)
            , vdd => vdd
            , vss => vss

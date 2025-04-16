@@ -28,7 +28,7 @@ print(f"libName is located at: {os.path.abspath(doDesign.__file__)}")
 buildChip          = False
 PnR.textMode       = True
 pnrSuffix          = '_cts_r'
-topName            = 'expmob2'
+topName            = 'rot'
 TasYagle.ClockName = 'clk'
 
 ruleYosys = Yosys   .mkRule( 'yosys', f'{topName}.v' )

@@ -1,5 +1,5 @@
 * Coriolis Structural SPICE Driver
-* Generated on Apr 13, 2025, 00:43
+* Generated on Apr 16, 2025, 16:50
 * Cell/Subckt "rot".
 * 
 * INTERF vss
@@ -52,24 +52,24 @@
 * NET    18 = bits[2]
 * NET    19 = bits[1]
 * NET    20 = bits[0]
-* NET    21 = abc_171_new_n43
-* NET    22 = abc_171_new_n41
-* NET    23 = abc_171_new_n39
-* NET    24 = abc_171_new_n38
-* NET    25 = abc_171_new_n36
-* NET    26 = abc_171_new_n35
-* NET    27 = abc_171_new_n33
-* NET    28 = abc_171_new_n32
-* NET    29 = abc_171_new_n30
-* NET    30 = abc_171_new_n29
-* NET    31 = abc_171_new_n27
-* NET    32 = abc_171_new_n26
-* NET    33 = abc_171_new_n25
-* NET    34 = abc_171_new_n24
-* NET    35 = abc_171_new_n23
-* NET    36 = abc_171_new_n22
-* NET    37 = abc_171_new_n21
-* NET    38 = abc_171_new_n20
+* NET    21 = abc_174_new_n43
+* NET    22 = abc_174_new_n41
+* NET    23 = abc_174_new_n39
+* NET    24 = abc_174_new_n38
+* NET    25 = abc_174_new_n36
+* NET    26 = abc_174_new_n35
+* NET    27 = abc_174_new_n33
+* NET    28 = abc_174_new_n32
+* NET    29 = abc_174_new_n30
+* NET    30 = abc_174_new_n29
+* NET    31 = abc_174_new_n27
+* NET    32 = abc_174_new_n26
+* NET    33 = abc_174_new_n25
+* NET    34 = abc_174_new_n24
+* NET    35 = abc_174_new_n23
+* NET    36 = abc_174_new_n22
+* NET    37 = abc_174_new_n21
+* NET    38 = abc_174_new_n20
 
 xsubckt_25_mux2_x1 1 0 21 31 37 2 mux2_x1
 xsubckt_22_mux2_x1 1 0 22 23 10 4 mux2_x1

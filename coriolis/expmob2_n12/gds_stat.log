@@ -10,3 +10,15 @@ effective_density = 36.7
 wire_length = 8124053
 dimensions = (1029.6, 1140.48)
 
+effective_density = 37.1
+wire_length = 8121166
+dimensions = (1019.2, 1140.48)
+
+effective_density = 37.5
+wire_length = 8029247
+dimensions = (1019.2, 1128.96)
+
+effective_density = 37.9
+wire_length = 8031226
+dimensions = (1008.8, 1128.96)
+

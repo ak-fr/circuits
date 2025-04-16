@@ -1,7 +1,7 @@
 
 -- =======================================================================
 -- Coriolis Structural VHDL Driver
--- Generated on Apr 13, 2025, 01:22
+-- Generated on Apr 16, 2025, 17:41
 -- 
 -- To be interoperable with Alliance, it uses it's special VHDL subset.
 -- ("man vhdl" under Alliance for more informations)
@@ -43,189 +43,189 @@ architecture structural of expmob1 is
          );
   end component;
 
-  signal abc_689_new_n128        :  bit;
-  signal abc_689_new_n130        :  bit;
-  signal abc_689_new_n132        :  bit;
-  signal abc_689_new_n133        :  bit;
-  signal abc_689_new_n135        :  bit;
-  signal abc_689_new_n137        :  bit;
-  signal abc_689_new_n138        :  bit;
-  signal abc_689_new_n140        :  bit;
-  signal abc_689_new_n141        :  bit;
-  signal abc_689_new_n143        :  bit;
-  signal abc_689_new_n144        :  bit;
-  signal abc_689_new_n145        :  bit;
-  signal abc_689_new_n147        :  bit;
-  signal abc_689_new_n149        :  bit;
-  signal abc_689_new_n150        :  bit;
-  signal abc_689_new_n152        :  bit;
-  signal abc_689_new_n153        :  bit;
-  signal abc_689_new_n154        :  bit;
-  signal abc_689_new_n156        :  bit;
-  signal abc_689_new_n157        :  bit;
-  signal abc_689_new_n158        :  bit;
-  signal abc_689_new_n160        :  bit;
-  signal abc_689_new_n161        :  bit;
-  signal abc_689_new_n162        :  bit;
-  signal abc_689_new_n164        :  bit;
-  signal abc_689_new_n165        :  bit;
-  signal abc_689_new_n166        :  bit;
-  signal abc_689_new_n168        :  bit;
-  signal abc_689_new_n169        :  bit;
-  signal abc_689_new_n170        :  bit;
-  signal abc_689_new_n171        :  bit;
-  signal abc_689_new_n173        :  bit;
-  signal abc_689_new_n174        :  bit;
-  signal abc_689_new_n175        :  bit;
-  signal abc_689_new_n177        :  bit;
-  signal abc_689_new_n179        :  bit;
-  signal abc_689_new_n180        :  bit;
-  signal abc_689_new_n182        :  bit;
-  signal abc_689_new_n183        :  bit;
-  signal abc_689_new_n185        :  bit;
-  signal abc_689_new_n186        :  bit;
-  signal abc_689_new_n188        :  bit;
-  signal abc_689_new_n189        :  bit;
-  signal abc_689_new_n190        :  bit;
-  signal abc_689_new_n192        :  bit;
-  signal abc_689_new_n193        :  bit;
-  signal abc_689_new_n194        :  bit;
-  signal abc_689_new_n195        :  bit;
-  signal abc_689_new_n197        :  bit;
-  signal abc_689_new_n198        :  bit;
-  signal abc_689_new_n199        :  bit;
-  signal abc_689_new_n200        :  bit;
-  signal abc_689_new_n202        :  bit;
-  signal abc_689_new_n203        :  bit;
-  signal abc_689_new_n204        :  bit;
-  signal abc_689_new_n206        :  bit;
-  signal abc_689_new_n207        :  bit;
-  signal abc_689_new_n208        :  bit;
-  signal abc_689_new_n210        :  bit;
-  signal abc_689_new_n211        :  bit;
-  signal abc_689_new_n212        :  bit;
-  signal abc_689_new_n214        :  bit;
-  signal abc_689_new_n215        :  bit;
-  signal abc_689_new_n216        :  bit;
-  signal abc_689_new_n218        :  bit;
-  signal abc_689_new_n219        :  bit;
-  signal abc_689_new_n220        :  bit;
-  signal abc_689_new_n221        :  bit;
-  signal abc_689_new_n223        :  bit;
-  signal abc_689_new_n224        :  bit;
-  signal abc_689_new_n225        :  bit;
-  signal abc_689_new_n226        :  bit;
-  signal abc_689_new_n228        :  bit;
-  signal abc_689_new_n229        :  bit;
-  signal abc_689_new_n230        :  bit;
-  signal abc_689_new_n232        :  bit;
-  signal abc_689_new_n233        :  bit;
-  signal abc_689_new_n234        :  bit;
-  signal abc_689_new_n236        :  bit;
-  signal abc_689_new_n237        :  bit;
-  signal abc_689_new_n238        :  bit;
-  signal abc_689_new_n239        :  bit;
-  signal abc_689_new_n241        :  bit;
-  signal abc_689_new_n243        :  bit;
-  signal abc_689_new_n245        :  bit;
-  signal abc_689_new_n246        :  bit;
-  signal abc_689_new_n248        :  bit;
-  signal abc_689_new_n249        :  bit;
-  signal abc_689_new_n251        :  bit;
-  signal abc_689_new_n252        :  bit;
-  signal abc_689_new_n254        :  bit;
-  signal abc_689_new_n255        :  bit;
-  signal abc_689_new_n257        :  bit;
-  signal abc_689_new_n258        :  bit;
-  signal abc_689_new_n260        :  bit;
-  signal abc_689_new_n261        :  bit;
-  signal abc_689_new_n262        :  bit;
-  signal abc_689_new_n264        :  bit;
-  signal abc_689_new_n265        :  bit;
-  signal abc_689_new_n267        :  bit;
-  signal abc_689_new_n268        :  bit;
-  signal abc_689_new_n269        :  bit;
-  signal abc_689_new_n271        :  bit;
-  signal abc_689_new_n272        :  bit;
-  signal abc_689_new_n273        :  bit;
-  signal abc_689_new_n275        :  bit;
-  signal abc_689_new_n276        :  bit;
-  signal abc_689_new_n277        :  bit;
-  signal abc_689_new_n278        :  bit;
-  signal abc_689_new_n280        :  bit;
-  signal abc_689_new_n281        :  bit;
-  signal abc_689_new_n282        :  bit;
-  signal abc_689_new_n284        :  bit;
-  signal abc_689_new_n285        :  bit;
-  signal abc_689_new_n286        :  bit;
-  signal abc_689_new_n287        :  bit;
-  signal abc_689_new_n289        :  bit;
-  signal abc_689_new_n290        :  bit;
-  signal abc_689_new_n291        :  bit;
-  signal abc_689_new_n292        :  bit;
-  signal abc_689_new_n294        :  bit;
-  signal abc_689_new_n295        :  bit;
-  signal abc_689_new_n296        :  bit;
-  signal abc_689_new_n297        :  bit;
-  signal abc_689_new_n299        :  bit;
-  signal abc_689_new_n300        :  bit;
-  signal abc_689_new_n302        :  bit;
-  signal abc_689_new_n303        :  bit;
-  signal abc_689_new_n304        :  bit;
-  signal abc_689_new_n306        :  bit;
-  signal abc_689_new_n307        :  bit;
-  signal abc_689_new_n308        :  bit;
-  signal abc_689_new_n310        :  bit;
-  signal abc_689_new_n311        :  bit;
-  signal abc_689_new_n312        :  bit;
-  signal abc_689_new_n313        :  bit;
-  signal abc_689_new_n315        :  bit;
-  signal abc_689_new_n316        :  bit;
-  signal abc_689_new_n317        :  bit;
-  signal abc_689_new_n319        :  bit;
-  signal abc_689_new_n320        :  bit;
-  signal abc_689_new_n321        :  bit;
-  signal abc_689_new_n323        :  bit;
-  signal abc_689_new_n324        :  bit;
-  signal abc_689_new_n325        :  bit;
-  signal abc_689_new_n327        :  bit;
-  signal abc_689_new_n328        :  bit;
-  signal abc_689_new_n329        :  bit;
-  signal abc_689_new_n330        :  bit;
-  signal abc_689_new_n332        :  bit;
-  signal abc_689_new_n333        :  bit;
-  signal abc_689_new_n334        :  bit;
-  signal abc_689_new_n336        :  bit;
-  signal abc_689_new_n337        :  bit;
-  signal abc_689_new_n338        :  bit;
-  signal abc_689_new_n339        :  bit;
-  signal abc_689_new_n341        :  bit;
-  signal abc_689_new_n342        :  bit;
-  signal abc_689_new_n343        :  bit;
-  signal abc_689_new_n344        :  bit;
-  signal abc_689_new_n346        :  bit;
-  signal abc_689_new_n347        :  bit;
-  signal abc_689_new_n348        :  bit;
-  signal abc_689_new_n349        :  bit;
-  signal abc_689_new_n351        :  bit;
-  signal abc_689_new_n352        :  bit;
-  signal abc_689_new_n353        :  bit;
-  signal abc_689_new_n355        :  bit;
-  signal abc_689_new_n356        :  bit;
-  signal abc_689_new_n357        :  bit;
-  signal abc_689_new_n358        :  bit;
-  signal abc_689_new_n359        :  bit;
-  signal abc_689_new_n360        :  bit;
-  signal abc_689_new_n362        :  bit;
-  signal abc_689_new_n363        :  bit;
-  signal abc_689_new_n364        :  bit;
-  signal abc_689_new_n365        :  bit;
-  signal abc_689_new_n366        :  bit;
-  signal abc_689_new_n368        :  bit;
-  signal abc_689_new_n369        :  bit;
-  signal abc_689_new_n370        :  bit;
-  signal abc_689_new_n371        :  bit;
-  signal abc_689_new_n372        :  bit;
+  signal abc_695_new_n128        :  bit;
+  signal abc_695_new_n130        :  bit;
+  signal abc_695_new_n132        :  bit;
+  signal abc_695_new_n133        :  bit;
+  signal abc_695_new_n135        :  bit;
+  signal abc_695_new_n137        :  bit;
+  signal abc_695_new_n138        :  bit;
+  signal abc_695_new_n140        :  bit;
+  signal abc_695_new_n141        :  bit;
+  signal abc_695_new_n143        :  bit;
+  signal abc_695_new_n144        :  bit;
+  signal abc_695_new_n145        :  bit;
+  signal abc_695_new_n147        :  bit;
+  signal abc_695_new_n149        :  bit;
+  signal abc_695_new_n150        :  bit;
+  signal abc_695_new_n152        :  bit;
+  signal abc_695_new_n153        :  bit;
+  signal abc_695_new_n154        :  bit;
+  signal abc_695_new_n156        :  bit;
+  signal abc_695_new_n157        :  bit;
+  signal abc_695_new_n158        :  bit;
+  signal abc_695_new_n160        :  bit;
+  signal abc_695_new_n161        :  bit;
+  signal abc_695_new_n162        :  bit;
+  signal abc_695_new_n164        :  bit;
+  signal abc_695_new_n165        :  bit;
+  signal abc_695_new_n166        :  bit;
+  signal abc_695_new_n168        :  bit;
+  signal abc_695_new_n169        :  bit;
+  signal abc_695_new_n170        :  bit;
+  signal abc_695_new_n171        :  bit;
+  signal abc_695_new_n173        :  bit;
+  signal abc_695_new_n174        :  bit;
+  signal abc_695_new_n175        :  bit;
+  signal abc_695_new_n177        :  bit;
+  signal abc_695_new_n179        :  bit;
+  signal abc_695_new_n180        :  bit;
+  signal abc_695_new_n182        :  bit;
+  signal abc_695_new_n183        :  bit;
+  signal abc_695_new_n185        :  bit;
+  signal abc_695_new_n186        :  bit;
+  signal abc_695_new_n188        :  bit;
+  signal abc_695_new_n189        :  bit;
+  signal abc_695_new_n190        :  bit;
+  signal abc_695_new_n192        :  bit;
+  signal abc_695_new_n193        :  bit;
+  signal abc_695_new_n194        :  bit;
+  signal abc_695_new_n195        :  bit;
+  signal abc_695_new_n197        :  bit;
+  signal abc_695_new_n198        :  bit;
+  signal abc_695_new_n199        :  bit;
+  signal abc_695_new_n200        :  bit;
+  signal abc_695_new_n202        :  bit;
+  signal abc_695_new_n203        :  bit;
+  signal abc_695_new_n204        :  bit;
+  signal abc_695_new_n206        :  bit;
+  signal abc_695_new_n207        :  bit;
+  signal abc_695_new_n208        :  bit;
+  signal abc_695_new_n210        :  bit;
+  signal abc_695_new_n211        :  bit;
+  signal abc_695_new_n212        :  bit;
+  signal abc_695_new_n214        :  bit;
+  signal abc_695_new_n215        :  bit;
+  signal abc_695_new_n216        :  bit;
+  signal abc_695_new_n218        :  bit;
+  signal abc_695_new_n219        :  bit;
+  signal abc_695_new_n220        :  bit;
+  signal abc_695_new_n221        :  bit;
+  signal abc_695_new_n223        :  bit;
+  signal abc_695_new_n224        :  bit;
+  signal abc_695_new_n225        :  bit;
+  signal abc_695_new_n226        :  bit;
+  signal abc_695_new_n228        :  bit;
+  signal abc_695_new_n229        :  bit;
+  signal abc_695_new_n230        :  bit;
+  signal abc_695_new_n232        :  bit;
+  signal abc_695_new_n233        :  bit;
+  signal abc_695_new_n234        :  bit;
+  signal abc_695_new_n236        :  bit;
+  signal abc_695_new_n237        :  bit;
+  signal abc_695_new_n238        :  bit;
+  signal abc_695_new_n239        :  bit;
+  signal abc_695_new_n241        :  bit;
+  signal abc_695_new_n243        :  bit;
+  signal abc_695_new_n245        :  bit;
+  signal abc_695_new_n246        :  bit;
+  signal abc_695_new_n248        :  bit;
+  signal abc_695_new_n249        :  bit;
+  signal abc_695_new_n251        :  bit;
+  signal abc_695_new_n252        :  bit;
+  signal abc_695_new_n254        :  bit;
+  signal abc_695_new_n255        :  bit;
+  signal abc_695_new_n257        :  bit;
+  signal abc_695_new_n258        :  bit;
+  signal abc_695_new_n260        :  bit;
+  signal abc_695_new_n261        :  bit;
+  signal abc_695_new_n262        :  bit;
+  signal abc_695_new_n264        :  bit;
+  signal abc_695_new_n265        :  bit;
+  signal abc_695_new_n267        :  bit;
+  signal abc_695_new_n268        :  bit;
+  signal abc_695_new_n269        :  bit;
+  signal abc_695_new_n271        :  bit;
+  signal abc_695_new_n272        :  bit;
+  signal abc_695_new_n273        :  bit;
+  signal abc_695_new_n275        :  bit;
+  signal abc_695_new_n276        :  bit;
+  signal abc_695_new_n277        :  bit;
+  signal abc_695_new_n278        :  bit;
+  signal abc_695_new_n280        :  bit;
+  signal abc_695_new_n281        :  bit;
+  signal abc_695_new_n282        :  bit;
+  signal abc_695_new_n284        :  bit;
+  signal abc_695_new_n285        :  bit;
+  signal abc_695_new_n286        :  bit;
+  signal abc_695_new_n287        :  bit;
+  signal abc_695_new_n289        :  bit;
+  signal abc_695_new_n290        :  bit;
+  signal abc_695_new_n291        :  bit;
+  signal abc_695_new_n292        :  bit;
+  signal abc_695_new_n294        :  bit;
+  signal abc_695_new_n295        :  bit;
+  signal abc_695_new_n296        :  bit;
+  signal abc_695_new_n297        :  bit;
+  signal abc_695_new_n299        :  bit;
+  signal abc_695_new_n300        :  bit;
+  signal abc_695_new_n302        :  bit;
+  signal abc_695_new_n303        :  bit;
+  signal abc_695_new_n304        :  bit;
+  signal abc_695_new_n306        :  bit;
+  signal abc_695_new_n307        :  bit;
+  signal abc_695_new_n308        :  bit;
+  signal abc_695_new_n310        :  bit;
+  signal abc_695_new_n311        :  bit;
+  signal abc_695_new_n312        :  bit;
+  signal abc_695_new_n313        :  bit;
+  signal abc_695_new_n315        :  bit;
+  signal abc_695_new_n316        :  bit;
+  signal abc_695_new_n317        :  bit;
+  signal abc_695_new_n319        :  bit;
+  signal abc_695_new_n320        :  bit;
+  signal abc_695_new_n321        :  bit;
+  signal abc_695_new_n323        :  bit;
+  signal abc_695_new_n324        :  bit;
+  signal abc_695_new_n325        :  bit;
+  signal abc_695_new_n327        :  bit;
+  signal abc_695_new_n328        :  bit;
+  signal abc_695_new_n329        :  bit;
+  signal abc_695_new_n330        :  bit;
+  signal abc_695_new_n332        :  bit;
+  signal abc_695_new_n333        :  bit;
+  signal abc_695_new_n334        :  bit;
+  signal abc_695_new_n336        :  bit;
+  signal abc_695_new_n337        :  bit;
+  signal abc_695_new_n338        :  bit;
+  signal abc_695_new_n339        :  bit;
+  signal abc_695_new_n341        :  bit;
+  signal abc_695_new_n342        :  bit;
+  signal abc_695_new_n343        :  bit;
+  signal abc_695_new_n344        :  bit;
+  signal abc_695_new_n346        :  bit;
+  signal abc_695_new_n347        :  bit;
+  signal abc_695_new_n348        :  bit;
+  signal abc_695_new_n349        :  bit;
+  signal abc_695_new_n351        :  bit;
+  signal abc_695_new_n352        :  bit;
+  signal abc_695_new_n353        :  bit;
+  signal abc_695_new_n355        :  bit;
+  signal abc_695_new_n356        :  bit;
+  signal abc_695_new_n357        :  bit;
+  signal abc_695_new_n358        :  bit;
+  signal abc_695_new_n359        :  bit;
+  signal abc_695_new_n360        :  bit;
+  signal abc_695_new_n362        :  bit;
+  signal abc_695_new_n363        :  bit;
+  signal abc_695_new_n364        :  bit;
+  signal abc_695_new_n365        :  bit;
+  signal abc_695_new_n366        :  bit;
+  signal abc_695_new_n368        :  bit;
+  signal abc_695_new_n369        :  bit;
+  signal abc_695_new_n370        :  bit;
+  signal abc_695_new_n371        :  bit;
+  signal abc_695_new_n372        :  bit;
   signal genblk1_1_si_inputs_33  :  bit;
   signal genblk1_1_si_inputs_34  :  bit;
   signal genblk1_1_si_inputs_35  :  bit;
@@ -360,17 +360,17 @@ architecture structural of expmob1 is
 begin
 
   subckt_228_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n355
-           , i1  => abc_689_new_n319
-           , nq  => abc_689_new_n356
+  port map ( i0  => abc_695_new_n355
+           , i1  => abc_695_new_n319
+           , nq  => abc_695_new_n356
            , vdd => vdd
            , vss => vss
            );
 
   subckt_219_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n346
-           , i1  => abc_689_new_n276
-           , nq  => abc_689_new_n347
+  port map ( i0  => abc_695_new_n346
+           , i1  => abc_695_new_n276
+           , nq  => abc_695_new_n347
            , vdd => vdd
            , vss => vss
            );
@@ -378,13 +378,13 @@ begin
   subckt_172_xor2_x0 : xor2_x0
   port map ( i0  => inputs(33)
            , i1  => inputs(1)
-           , q   => abc_689_new_n300
+           , q   => abc_695_new_n300
            , vdd => vdd
            , vss => vss
            );
 
   subckt_170_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n297
+  port map ( i0  => abc_695_new_n297
            , i1  => outputs(30)
            , nq  => outputs(31)
            , vdd => vdd
@@ -392,24 +392,24 @@ begin
            );
 
   subckt_168_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n295
-           , i1  => abc_689_new_n286
-           , nq  => abc_689_new_n296
+  port map ( i0  => abc_695_new_n295
+           , i1  => abc_695_new_n286
+           , nq  => abc_695_new_n296
            , vdd => vdd
            , vss => vss
            );
 
   subckt_73_inv_x0 : inv_x0
-  port map ( i   => abc_689_new_n200
+  port map ( i   => abc_695_new_n200
            , nq  => outputs(26)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_5_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n132
+  port map ( i0  => abc_695_new_n132
            , i1  => outputs(16)
-           , nq  => abc_689_new_n133
+           , nq  => abc_695_new_n133
            , vdd => vdd
            , vss => vss
            );
@@ -417,53 +417,53 @@ begin
   subckt_108_xor2_x0 : xor2_x0
   port map ( i0  => inputs(62)
            , i1  => inputs(46)
-           , q   => abc_689_new_n236
+           , q   => abc_695_new_n236
            , vdd => vdd
            , vss => vss
            );
 
   subckt_114_inv_x0 : inv_x0
-  port map ( i   => abc_689_new_n241
+  port map ( i   => abc_695_new_n241
            , nq  => outputs(1)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_122_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n249
-           , i1  => abc_689_new_n180
+  port map ( i0  => abc_695_new_n249
+           , i1  => abc_695_new_n180
            , nq  => outputs(7)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_159_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n285
-           , i1  => abc_689_new_n282
-           , nq  => abc_689_new_n287
+  port map ( i0  => abc_695_new_n285
+           , i1  => abc_695_new_n282
+           , nq  => abc_695_new_n287
            , vdd => vdd
            , vss => vss
            );
 
   subckt_230_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n356
-           , i1  => abc_689_new_n338
-           , nq  => abc_689_new_n358
+  port map ( i0  => abc_695_new_n356
+           , i1  => abc_695_new_n338
+           , nq  => abc_695_new_n358
            , vdd => vdd
            , vss => vss
            );
 
   subckt_221_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n348
-           , i1  => abc_689_new_n344
-           , nq  => abc_689_new_n349
+  port map ( i0  => abc_695_new_n348
+           , i1  => abc_695_new_n344
+           , nq  => abc_695_new_n349
            , vdd => vdd
            , vss => vss
            );
 
   subckt_198_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n325
-           , i1  => abc_689_new_n166
+  port map ( i0  => abc_695_new_n325
+           , i1  => abc_695_new_n166
            , nq  => outputs(45)
            , vdd => vdd
            , vss => vss
@@ -472,7 +472,7 @@ begin
   subckt_161_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(13)
            , i1  => inputs(29)
-           , nq  => abc_689_new_n289
+           , nq  => abc_695_new_n289
            , vdd => vdd
            , vss => vss
            );
@@ -480,7 +480,7 @@ begin
   subckt_79_xor2_x0 : xor2_x0
   port map ( i0  => inputs(34)
            , i1  => inputs(2)
-           , q   => abc_689_new_n207
+           , q   => abc_695_new_n207
            , vdd => vdd
            , vss => vss
            );
@@ -488,7 +488,7 @@ begin
   subckt_65_xor2_x0 : xor2_x0
   port map ( i0  => inputs(6)
            , i1  => inputs(22)
-           , q   => abc_689_new_n193
+           , q   => abc_695_new_n193
            , vdd => vdd
            , vss => vss
            );
@@ -496,23 +496,23 @@ begin
   subckt_51_xor2_x0 : xor2_x0
   port map ( i0  => inputs(6)
            , i1  => inputs(4)
-           , q   => abc_689_new_n179
+           , q   => abc_695_new_n179
            , vdd => vdd
            , vss => vss
            );
 
   subckt_83_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n210
-           , i1  => abc_689_new_n207
-           , nq  => abc_689_new_n211
+  port map ( i0  => abc_695_new_n210
+           , i1  => abc_695_new_n207
+           , nq  => abc_695_new_n211
            , vdd => vdd
            , vss => vss
            );
 
   subckt_92_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n219
-           , i1  => abc_689_new_n216
-           , nq  => abc_689_new_n220
+  port map ( i0  => abc_695_new_n219
+           , i1  => abc_695_new_n216
+           , nq  => abc_695_new_n220
            , vdd => vdd
            , vss => vss
            );
@@ -520,23 +520,23 @@ begin
   subckt_113_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(1)
            , i1  => inputs(0)
-           , nq  => abc_689_new_n241
+           , nq  => abc_695_new_n241
            , vdd => vdd
            , vss => vss
            );
 
   subckt_212_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n339
-           , i1  => abc_689_new_n226
+  port map ( i0  => abc_695_new_n339
+           , i1  => abc_695_new_n226
            , nq  => outputs(51)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_189_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n315
-           , i1  => abc_689_new_n300
-           , nq  => abc_689_new_n317
+  port map ( i0  => abc_695_new_n315
+           , i1  => abc_695_new_n300
+           , nq  => abc_695_new_n317
            , vdd => vdd
            , vss => vss
            );
@@ -544,15 +544,15 @@ begin
   subckt_74_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(14)
            , i1  => inputs(30)
-           , nq  => abc_689_new_n202
+           , nq  => abc_695_new_n202
            , vdd => vdd
            , vss => vss
            );
 
   subckt_26_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n152
-           , i1  => abc_689_new_n128
-           , nq  => abc_689_new_n154
+  port map ( i0  => abc_695_new_n152
+           , i1  => abc_695_new_n128
+           , nq  => abc_695_new_n154
            , vdd => vdd
            , vss => vss
            );
@@ -560,7 +560,7 @@ begin
   subckt_104_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(58)
            , i1  => inputs(26)
-           , nq  => abc_689_new_n232
+           , nq  => abc_695_new_n232
            , vdd => vdd
            , vss => vss
            );
@@ -568,7 +568,7 @@ begin
   subckt_115_xor2_x0 : xor2_x0
   port map ( i0  => inputs(3)
            , i1  => inputs(2)
-           , q   => abc_689_new_n243
+           , q   => abc_695_new_n243
            , vdd => vdd
            , vss => vss
            );
@@ -576,7 +576,7 @@ begin
   subckt_129_xor2_x0 : xor2_x0
   port map ( i0  => inputs(13)
            , i1  => inputs(9)
-           , q   => abc_689_new_n257
+           , q   => abc_695_new_n257
            , vdd => vdd
            , vss => vss
            );
@@ -584,14 +584,14 @@ begin
   subckt_140_xor2_x0 : xor2_x0
   port map ( i0  => inputs(3)
            , i1  => inputs(19)
-           , q   => abc_689_new_n268
+           , q   => abc_695_new_n268
            , vdd => vdd
            , vss => vss
            );
 
   subckt_203_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n330
-           , i1  => abc_689_new_n221
+  port map ( i0  => abc_695_new_n330
+           , i1  => abc_695_new_n221
            , nq  => outputs(47)
            , vdd => vdd
            , vss => vss
@@ -600,7 +600,7 @@ begin
   subckt_191_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(43)
            , i1  => inputs(11)
-           , nq  => abc_689_new_n319
+           , nq  => abc_695_new_n319
            , vdd => vdd
            , vss => vss
            );
@@ -608,15 +608,15 @@ begin
   subckt_175_xor2_x0 : xor2_x0
   port map ( i0  => inputs(35)
            , i1  => inputs(3)
-           , q   => abc_689_new_n303
+           , q   => abc_695_new_n303
            , vdd => vdd
            , vss => vss
            );
 
   subckt_17_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n144
-           , i1  => abc_689_new_n133
-           , nq  => abc_689_new_n145
+  port map ( i0  => abc_695_new_n144
+           , i1  => abc_695_new_n133
+           , nq  => abc_695_new_n145
            , vdd => vdd
            , vss => vss
            );
@@ -624,15 +624,15 @@ begin
   subckt_33_xor2_x0 : xor2_x0
   port map ( i0  => inputs(36)
            , i1  => inputs(4)
-           , q   => abc_689_new_n161
+           , q   => abc_695_new_n161
            , vdd => vdd
            , vss => vss
            );
 
   subckt_134_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n261
-           , i1  => abc_689_new_n258
-           , nq  => abc_689_new_n262
+  port map ( i0  => abc_695_new_n261
+           , i1  => abc_695_new_n258
+           , nq  => abc_695_new_n262
            , vdd => vdd
            , vss => vss
            );
@@ -640,21 +640,21 @@ begin
   subckt_143_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(5)
            , i1  => inputs(21)
-           , nq  => abc_689_new_n271
+           , nq  => abc_695_new_n271
            , vdd => vdd
            , vss => vss
            );
 
   subckt_242_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n369
-           , i1  => abc_689_new_n347
-           , nq  => abc_689_new_n370
+  port map ( i0  => abc_695_new_n369
+           , i1  => abc_695_new_n347
+           , nq  => abc_695_new_n370
            , vdd => vdd
            , vss => vss
            );
 
   subckt_233_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n359
+  port map ( i0  => abc_695_new_n359
            , i1  => outputs(58)
            , nq  => outputs(59)
            , vdd => vdd
@@ -664,13 +664,13 @@ begin
   subckt_182_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(39)
            , i1  => inputs(7)
-           , nq  => abc_689_new_n310
+           , nq  => abc_695_new_n310
            , vdd => vdd
            , vss => vss
            );
 
   subckt_173_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n299
+  port map ( i0  => abc_695_new_n299
            , i1  => outputs(32)
            , nq  => outputs(33)
            , vdd => vdd
@@ -678,23 +678,23 @@ begin
            );
 
   subckt_47_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n174
-           , i1  => abc_689_new_n170
-           , nq  => abc_689_new_n175
+  port map ( i0  => abc_695_new_n174
+           , i1  => abc_695_new_n170
+           , nq  => abc_695_new_n175
            , vdd => vdd
            , vss => vss
            );
 
   subckt_10_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n137
+  port map ( i0  => abc_695_new_n137
            , i1  => outputs(16)
-           , nq  => abc_689_new_n138
+           , nq  => abc_695_new_n138
            , vdd => vdd
            , vss => vss
            );
 
   subckt_125_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n251
+  port map ( i0  => abc_695_new_n251
            , i1  => outputs(8)
            , nq  => outputs(9)
            , vdd => vdd
@@ -702,25 +702,25 @@ begin
            );
 
   subckt_224_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n351
-           , i1  => abc_689_new_n315
-           , nq  => abc_689_new_n352
+  port map ( i0  => abc_695_new_n351
+           , i1  => abc_695_new_n315
+           , nq  => abc_695_new_n352
            , vdd => vdd
            , vss => vss
            );
 
   subckt_164_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n290
-           , i1  => abc_689_new_n282
-           , nq  => abc_689_new_n292
+  port map ( i0  => abc_695_new_n290
+           , i1  => abc_695_new_n282
+           , nq  => abc_695_new_n292
            , vdd => vdd
            , vss => vss
            );
 
   subckt_38_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n165
+  port map ( i0  => abc_695_new_n165
            , i1  => outputs(40)
-           , nq  => abc_689_new_n166
+           , nq  => abc_695_new_n166
            , vdd => vdd
            , vss => vss
            );
@@ -728,7 +728,7 @@ begin
   subckt_40_xor2_x0 : xor2_x0
   port map ( i0  => inputs(52)
            , i1  => inputs(36)
-           , q   => abc_689_new_n168
+           , q   => abc_695_new_n168
            , vdd => vdd
            , vss => vss
            );
@@ -736,37 +736,37 @@ begin
   subckt_86_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(42)
            , i1  => inputs(10)
-           , nq  => abc_689_new_n214
+           , nq  => abc_695_new_n214
            , vdd => vdd
            , vss => vss
            );
 
   subckt_107_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n234
-           , i1  => abc_689_new_n145
+  port map ( i0  => abc_695_new_n234
+           , i1  => abc_695_new_n145
            , nq  => outputs(58)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_116_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n243
-           , i1  => abc_689_new_n241
+  port map ( i0  => abc_695_new_n243
+           , i1  => abc_695_new_n241
            , nq  => outputs(3)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_215_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n341
-           , i1  => abc_689_new_n271
-           , nq  => abc_689_new_n343
+  port map ( i0  => abc_695_new_n341
+           , i1  => abc_695_new_n271
+           , nq  => abc_695_new_n343
            , vdd => vdd
            , vss => vss
            );
 
   subckt_77_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n204
+  port map ( i0  => abc_695_new_n204
            , i1  => outputs(28)
            , nq  => outputs(30)
            , vdd => vdd
@@ -774,15 +774,15 @@ begin
            );
 
   subckt_29_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n156
-           , i1  => abc_689_new_n152
-           , nq  => abc_689_new_n157
+  port map ( i0  => abc_695_new_n156
+           , i1  => abc_695_new_n152
+           , nq  => abc_695_new_n157
            , vdd => vdd
            , vss => vss
            );
 
   subckt_31_inv_x0 : inv_x0
-  port map ( i   => abc_689_new_n158
+  port map ( i   => abc_695_new_n158
            , nq  => outputs(28)
            , vdd => vdd
            , vss => vss
@@ -791,13 +791,13 @@ begin
   subckt_118_xor2_x0 : xor2_x0
   port map ( i0  => inputs(5)
            , i1  => inputs(1)
-           , q   => abc_689_new_n246
+           , q   => abc_695_new_n246
            , vdd => vdd
            , vss => vss
            );
 
   subckt_155_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n281
+  port map ( i0  => abc_695_new_n281
            , i1  => outputs(24)
            , nq  => outputs(25)
            , vdd => vdd
@@ -805,15 +805,15 @@ begin
            );
 
   subckt_206_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n332
-           , i1  => abc_689_new_n264
-           , nq  => abc_689_new_n334
+  port map ( i0  => abc_695_new_n332
+           , i1  => abc_695_new_n264
+           , nq  => abc_695_new_n334
            , vdd => vdd
            , vss => vss
            );
 
   subckt_194_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n321
+  port map ( i0  => abc_695_new_n321
            , i1  => outputs(42)
            , nq  => outputs(43)
            , vdd => vdd
@@ -823,35 +823,35 @@ begin
   subckt_61_xor2_x0 : xor2_x0
   port map ( i0  => inputs(2)
            , i1  => inputs(18)
-           , q   => abc_689_new_n189
+           , q   => abc_695_new_n189
            , vdd => vdd
            , vss => vss
            );
 
   subckt_22_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n149
+  port map ( i0  => abc_695_new_n149
            , i1  => outputs(4)
-           , nq  => abc_689_new_n150
+           , nq  => abc_695_new_n150
            , vdd => vdd
            , vss => vss
            );
 
   subckt_35_inv_x0 : inv_x0
-  port map ( i   => abc_689_new_n162
+  port map ( i   => abc_695_new_n162
            , nq  => outputs(36)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_39_inv_x0 : inv_x0
-  port map ( i   => abc_689_new_n166
+  port map ( i   => abc_695_new_n166
            , nq  => outputs(44)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_146_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n273
+  port map ( i0  => abc_695_new_n273
            , i1  => outputs(20)
            , nq  => outputs(21)
            , vdd => vdd
@@ -859,7 +859,7 @@ begin
            );
 
   subckt_245_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n372
+  port map ( i0  => abc_695_new_n372
            , i1  => outputs(62)
            , nq  => outputs(63)
            , vdd => vdd
@@ -867,40 +867,40 @@ begin
            );
 
   subckt_236_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n363
-           , i1  => abc_689_new_n343
-           , nq  => abc_689_new_n364
+  port map ( i0  => abc_695_new_n363
+           , i1  => abc_695_new_n343
+           , nq  => abc_695_new_n364
            , vdd => vdd
            , vss => vss
            );
 
   subckt_185_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n312
-           , i1  => abc_689_new_n212
-           , nq  => abc_689_new_n313
+  port map ( i0  => abc_695_new_n312
+           , i1  => abc_695_new_n212
+           , nq  => abc_695_new_n313
            , vdd => vdd
            , vss => vss
            );
 
   subckt_176_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n302
-           , i1  => abc_689_new_n300
-           , nq  => abc_689_new_n304
+  port map ( i0  => abc_695_new_n302
+           , i1  => abc_695_new_n300
+           , nq  => abc_695_new_n304
            , vdd => vdd
            , vss => vss
            );
 
   subckt_70_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n197
-           , i1  => abc_689_new_n189
-           , nq  => abc_689_new_n198
+  port map ( i0  => abc_695_new_n197
+           , i1  => abc_695_new_n189
+           , nq  => abc_695_new_n198
            , vdd => vdd
            , vss => vss
            );
 
   subckt_59_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n186
-           , i1  => abc_689_new_n150
+  port map ( i0  => abc_695_new_n186
+           , i1  => abc_695_new_n150
            , nq  => outputs(14)
            , vdd => vdd
            , vss => vss
@@ -909,15 +909,15 @@ begin
   subckt_57_xor2_x0 : xor2_x0
   port map ( i0  => inputs(14)
            , i1  => inputs(6)
-           , q   => abc_689_new_n185
+           , q   => abc_695_new_n185
            , vdd => vdd
            , vss => vss
            );
 
   subckt_13_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n140
-           , i1  => abc_689_new_n130
-           , nq  => abc_689_new_n141
+  port map ( i0  => abc_695_new_n140
+           , i1  => abc_695_new_n130
+           , nq  => abc_695_new_n141
            , vdd => vdd
            , vss => vss
            );
@@ -925,14 +925,14 @@ begin
   subckt_4_xor2_x0 : xor2_x0
   port map ( i0  => inputs(48)
            , i1  => inputs(32)
-           , q   => abc_689_new_n132
+           , q   => abc_695_new_n132
            , vdd => vdd
            , vss => vss
            );
 
   subckt_128_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n255
-           , i1  => abc_689_new_n183
+  port map ( i0  => abc_695_new_n255
+           , i1  => abc_695_new_n183
            , nq  => outputs(11)
            , vdd => vdd
            , vss => vss
@@ -941,45 +941,45 @@ begin
   subckt_227_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(59)
            , i1  => inputs(27)
-           , nq  => abc_689_new_n355
+           , nq  => abc_695_new_n355
            , vdd => vdd
            , vss => vss
            );
 
   subckt_167_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n294
-           , i1  => abc_689_new_n276
-           , nq  => abc_689_new_n295
+  port map ( i0  => abc_695_new_n294
+           , i1  => abc_695_new_n276
+           , nq  => abc_695_new_n295
            , vdd => vdd
            , vss => vss
            );
 
   subckt_52_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n179
+  port map ( i0  => abc_695_new_n179
            , i1  => outputs(2)
-           , nq  => abc_689_new_n180
+           , nq  => abc_695_new_n180
            , vdd => vdd
            , vss => vss
            );
 
   subckt_89_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n215
-           , i1  => abc_689_new_n141
+  port map ( i0  => abc_695_new_n215
+           , i1  => abc_695_new_n141
            , nq  => outputs(42)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_98_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n224
-           , i1  => abc_689_new_n133
-           , nq  => abc_689_new_n226
+  port map ( i0  => abc_695_new_n224
+           , i1  => abc_695_new_n133
+           , nq  => abc_695_new_n226
            , vdd => vdd
            , vss => vss
            );
 
   subckt_119_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n245
+  port map ( i0  => abc_695_new_n245
            , i1  => outputs(4)
            , nq  => outputs(5)
            , vdd => vdd
@@ -987,54 +987,54 @@ begin
            );
 
   subckt_121_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n248
-           , i1  => abc_689_new_n245
-           , nq  => abc_689_new_n249
+  port map ( i0  => abc_695_new_n248
+           , i1  => abc_695_new_n245
+           , nq  => abc_695_new_n249
            , vdd => vdd
            , vss => vss
            );
 
   subckt_130_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n257
-           , i1  => abc_689_new_n246
-           , nq  => abc_689_new_n258
+  port map ( i0  => abc_695_new_n257
+           , i1  => abc_695_new_n246
+           , nq  => abc_695_new_n258
            , vdd => vdd
            , vss => vss
            );
 
   subckt_63_inv_x0 : inv_x0
-  port map ( i   => abc_689_new_n190
+  port map ( i   => abc_695_new_n190
            , nq  => outputs(18)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_43_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n169
-           , i1  => abc_689_new_n133
-           , nq  => abc_689_new_n171
+  port map ( i0  => abc_695_new_n169
+           , i1  => abc_695_new_n133
+           , nq  => abc_695_new_n171
            , vdd => vdd
            , vss => vss
            );
 
   subckt_34_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n160
-           , i1  => abc_689_new_n130
-           , nq  => abc_689_new_n162
+  port map ( i0  => abc_695_new_n160
+           , i1  => abc_695_new_n130
+           , nq  => abc_695_new_n162
            , vdd => vdd
            , vss => vss
            );
 
   subckt_91_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n218
-           , i1  => abc_689_new_n210
-           , nq  => abc_689_new_n219
+  port map ( i0  => abc_695_new_n218
+           , i1  => abc_695_new_n210
+           , nq  => abc_695_new_n219
            , vdd => vdd
            , vss => vss
            );
 
   subckt_112_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n239
+  port map ( i0  => abc_695_new_n239
            , i1  => outputs(60)
            , nq  => outputs(62)
            , vdd => vdd
@@ -1042,55 +1042,55 @@ begin
            );
 
   subckt_149_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n275
-           , i1  => abc_689_new_n268
-           , nq  => abc_689_new_n277
+  port map ( i0  => abc_695_new_n275
+           , i1  => abc_695_new_n268
+           , nq  => abc_695_new_n277
            , vdd => vdd
            , vss => vss
            );
 
   subckt_158_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n284
-           , i1  => abc_689_new_n267
-           , nq  => abc_689_new_n286
+  port map ( i0  => abc_695_new_n284
+           , i1  => abc_695_new_n267
+           , nq  => abc_695_new_n286
            , vdd => vdd
            , vss => vss
            );
 
   subckt_220_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n347
-           , i1  => abc_689_new_n338
-           , nq  => abc_689_new_n348
+  port map ( i0  => abc_695_new_n347
+           , i1  => abc_695_new_n338
+           , nq  => abc_695_new_n348
            , vdd => vdd
            , vss => vss
            );
 
   subckt_211_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n337
-           , i1  => abc_689_new_n334
-           , nq  => abc_689_new_n339
+  port map ( i0  => abc_695_new_n337
+           , i1  => abc_695_new_n334
+           , nq  => abc_695_new_n339
            , vdd => vdd
            , vss => vss
            );
 
   subckt_209_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n336
-           , i1  => abc_689_new_n268
-           , nq  => abc_689_new_n337
+  port map ( i0  => abc_695_new_n336
+           , i1  => abc_695_new_n268
+           , nq  => abc_695_new_n337
            , vdd => vdd
            , vss => vss
            );
 
   subckt_197_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n324
-           , i1  => abc_689_new_n317
-           , nq  => abc_689_new_n325
+  port map ( i0  => abc_695_new_n324
+           , i1  => abc_695_new_n317
+           , nq  => abc_695_new_n325
            , vdd => vdd
            , vss => vss
            );
 
   subckt_68_inv_x0 : inv_x0
-  port map ( i   => abc_689_new_n195
+  port map ( i   => abc_695_new_n195
            , nq  => outputs(22)
            , vdd => vdd
            , vss => vss
@@ -1099,7 +1099,7 @@ begin
   subckt_25_xor2_x0 : xor2_x0
   port map ( i0  => inputs(4)
            , i1  => inputs(20)
-           , q   => abc_689_new_n153
+           , q   => abc_695_new_n153
            , vdd => vdd
            , vss => vss
            );
@@ -1107,37 +1107,37 @@ begin
   subckt_82_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(38)
            , i1  => inputs(6)
-           , nq  => abc_689_new_n210
+           , nq  => abc_695_new_n210
            , vdd => vdd
            , vss => vss
            );
 
   subckt_103_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n230
-           , i1  => abc_689_new_n171
+  port map ( i0  => abc_695_new_n230
+           , i1  => abc_695_new_n171
            , nq  => outputs(54)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_151_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n278
-           , i1  => abc_689_new_n195
+  port map ( i0  => abc_695_new_n278
+           , i1  => abc_695_new_n195
            , nq  => outputs(23)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_160_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n287
-           , i1  => abc_689_new_n200
+  port map ( i0  => abc_695_new_n287
+           , i1  => abc_695_new_n200
            , nq  => outputs(27)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_239_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n366
+  port map ( i0  => abc_695_new_n366
            , i1  => outputs(60)
            , nq  => outputs(61)
            , vdd => vdd
@@ -1147,21 +1147,21 @@ begin
   subckt_213_xor2_x0 : xor2_x0
   port map ( i0  => inputs(53)
            , i1  => inputs(37)
-           , q   => abc_689_new_n341
+           , q   => abc_695_new_n341
            , vdd => vdd
            , vss => vss
            );
 
   subckt_202_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n329
-           , i1  => abc_689_new_n325
-           , nq  => abc_689_new_n330
+  port map ( i0  => abc_695_new_n329
+           , i1  => abc_695_new_n325
+           , nq  => abc_695_new_n330
            , vdd => vdd
            , vss => vss
            );
 
   subckt_190_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n316
+  port map ( i0  => abc_695_new_n316
            , i1  => outputs(40)
            , nq  => outputs(41)
            , vdd => vdd
@@ -1169,17 +1169,17 @@ begin
            );
 
   subckt_188_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n315
-           , i1  => abc_689_new_n299
-           , nq  => abc_689_new_n316
+  port map ( i0  => abc_695_new_n315
+           , i1  => abc_695_new_n299
+           , nq  => abc_695_new_n316
            , vdd => vdd
            , vss => vss
            );
 
   subckt_179_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n306
-           , i1  => abc_689_new_n299
-           , nq  => abc_689_new_n307
+  port map ( i0  => abc_695_new_n306
+           , i1  => abc_695_new_n299
+           , nq  => abc_695_new_n307
            , vdd => vdd
            , vss => vss
            );
@@ -1187,15 +1187,15 @@ begin
   subckt_64_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(6)
            , i1  => inputs(22)
-           , nq  => abc_689_new_n192
+           , nq  => abc_695_new_n192
            , vdd => vdd
            , vss => vss
            );
 
   subckt_16_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n143
-           , i1  => abc_689_new_n140
-           , nq  => abc_689_new_n144
+  port map ( i0  => abc_695_new_n143
+           , i1  => abc_695_new_n140
+           , nq  => abc_695_new_n144
            , vdd => vdd
            , vss => vss
            );
@@ -1203,23 +1203,23 @@ begin
   subckt_100_xor2_x0 : xor2_x0
   port map ( i0  => inputs(54)
            , i1  => inputs(38)
-           , q   => abc_689_new_n228
+           , q   => abc_695_new_n228
            , vdd => vdd
            , vss => vss
            );
 
   subckt_142_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n269
-           , i1  => abc_689_new_n190
+  port map ( i0  => abc_695_new_n269
+           , i1  => abc_695_new_n190
            , nq  => outputs(19)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_241_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n368
-           , i1  => abc_689_new_n294
-           , nq  => abc_689_new_n369
+  port map ( i0  => abc_695_new_n368
+           , i1  => abc_695_new_n294
+           , nq  => abc_695_new_n369
            , vdd => vdd
            , vss => vss
            );
@@ -1227,47 +1227,47 @@ begin
   subckt_234_xor2_x0 : xor2_x0
   port map ( i0  => inputs(61)
            , i1  => inputs(45)
-           , q   => abc_689_new_n362
+           , q   => abc_695_new_n362
            , vdd => vdd
            , vss => vss
            );
 
   subckt_55_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n182
-           , i1  => abc_689_new_n135
-           , nq  => abc_689_new_n183
+  port map ( i0  => abc_695_new_n182
+           , i1  => abc_695_new_n135
+           , nq  => abc_695_new_n183
            , vdd => vdd
            , vss => vss
            );
 
   subckt_133_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n260
-           , i1  => abc_689_new_n254
-           , nq  => abc_689_new_n261
+  port map ( i0  => abc_695_new_n260
+           , i1  => abc_695_new_n254
+           , nq  => abc_695_new_n261
            , vdd => vdd
            , vss => vss
            );
 
   subckt_232_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n357
-           , i1  => abc_689_new_n353
-           , nq  => abc_689_new_n360
+  port map ( i0  => abc_695_new_n357
+           , i1  => abc_695_new_n353
+           , nq  => abc_695_new_n360
            , vdd => vdd
            , vss => vss
            );
 
   subckt_163_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n290
-           , i1  => abc_689_new_n281
-           , nq  => abc_689_new_n291
+  port map ( i0  => abc_695_new_n290
+           , i1  => abc_695_new_n281
+           , nq  => abc_695_new_n291
            , vdd => vdd
            , vss => vss
            );
 
   subckt_46_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n173
-           , i1  => abc_689_new_n164
-           , nq  => abc_689_new_n174
+  port map ( i0  => abc_695_new_n173
+           , i1  => abc_695_new_n164
+           , nq  => abc_695_new_n174
            , vdd => vdd
            , vss => vss
            );
@@ -1275,7 +1275,7 @@ begin
   subckt_7_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(8)
            , i1  => inputs(0)
-           , nq  => abc_689_new_n135
+           , nq  => abc_695_new_n135
            , vdd => vdd
            , vss => vss
            );
@@ -1283,28 +1283,28 @@ begin
   subckt_28_xor2_x0 : xor2_x0
   port map ( i0  => inputs(12)
            , i1  => inputs(28)
-           , q   => abc_689_new_n156
+           , q   => abc_695_new_n156
            , vdd => vdd
            , vss => vss
            );
 
   subckt_37_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n164
-           , i1  => abc_689_new_n161
-           , nq  => abc_689_new_n165
+  port map ( i0  => abc_695_new_n164
+           , i1  => abc_695_new_n161
+           , nq  => abc_695_new_n165
            , vdd => vdd
            , vss => vss
            );
 
   subckt_94_inv_x0 : inv_x0
-  port map ( i   => abc_689_new_n221
+  port map ( i   => abc_695_new_n221
            , nq  => outputs(46)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_99_inv_x0 : inv_x0
-  port map ( i   => abc_689_new_n226
+  port map ( i   => abc_695_new_n226
            , nq  => outputs(50)
            , vdd => vdd
            , vss => vss
@@ -1313,29 +1313,29 @@ begin
   subckt_223_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(57)
            , i1  => inputs(25)
-           , nq  => abc_689_new_n351
+           , nq  => abc_695_new_n351
            , vdd => vdd
            , vss => vss
            );
 
   subckt_214_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n341
-           , i1  => abc_689_new_n272
-           , nq  => abc_689_new_n342
+  port map ( i0  => abc_695_new_n341
+           , i1  => abc_695_new_n272
+           , nq  => abc_695_new_n342
            , vdd => vdd
            , vss => vss
            );
 
   subckt_76_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n203
-           , i1  => abc_689_new_n199
-           , nq  => abc_689_new_n204
+  port map ( i0  => abc_695_new_n203
+           , i1  => abc_695_new_n199
+           , nq  => abc_695_new_n204
            , vdd => vdd
            , vss => vss
            );
 
   subckt_20_inv_x0 : inv_x0
-  port map ( i   => abc_689_new_n147
+  port map ( i   => abc_695_new_n147
            , nq  => outputs(4)
            , vdd => vdd
            , vss => vss
@@ -1344,31 +1344,31 @@ begin
   subckt_0_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(0)
            , i1  => inputs(16)
-           , nq  => abc_689_new_n128
+           , nq  => abc_695_new_n128
            , vdd => vdd
            , vss => vss
            );
 
   subckt_85_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n211
-           , i1  => abc_689_new_n162
+  port map ( i0  => abc_695_new_n211
+           , i1  => abc_695_new_n162
            , nq  => outputs(38)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_106_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n233
-           , i1  => abc_689_new_n225
-           , nq  => abc_689_new_n234
+  port map ( i0  => abc_695_new_n233
+           , i1  => abc_695_new_n225
+           , nq  => abc_695_new_n234
            , vdd => vdd
            , vss => vss
            );
 
   subckt_154_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n280
-           , i1  => abc_689_new_n264
-           , nq  => abc_689_new_n282
+  port map ( i0  => abc_695_new_n280
+           , i1  => abc_695_new_n264
+           , nq  => abc_695_new_n282
            , vdd => vdd
            , vss => vss
            );
@@ -1376,31 +1376,31 @@ begin
   subckt_156_xor2_x0 : xor2_x0
   port map ( i0  => inputs(11)
            , i1  => inputs(27)
-           , q   => abc_689_new_n284
+           , q   => abc_695_new_n284
            , vdd => vdd
            , vss => vss
            );
 
   subckt_205_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n332
-           , i1  => abc_689_new_n265
-           , nq  => abc_689_new_n333
+  port map ( i0  => abc_695_new_n332
+           , i1  => abc_695_new_n265
+           , nq  => abc_695_new_n333
            , vdd => vdd
            , vss => vss
            );
 
   subckt_193_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n320
-           , i1  => abc_689_new_n317
-           , nq  => abc_689_new_n321
+  port map ( i0  => abc_695_new_n320
+           , i1  => abc_695_new_n317
+           , nq  => abc_695_new_n321
            , vdd => vdd
            , vss => vss
            );
 
   subckt_67_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n194
+  port map ( i0  => abc_695_new_n194
            , i1  => outputs(20)
-           , nq  => abc_689_new_n195
+           , nq  => abc_695_new_n195
            , vdd => vdd
            , vss => vss
            );
@@ -1408,54 +1408,54 @@ begin
   subckt_19_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(4)
            , i1  => inputs(0)
-           , nq  => abc_689_new_n147
+           , nq  => abc_695_new_n147
            , vdd => vdd
            , vss => vss
            );
 
   subckt_23_inv_x0 : inv_x0
-  port map ( i   => abc_689_new_n150
+  port map ( i   => abc_695_new_n150
            , nq  => outputs(12)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_30_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n157
+  port map ( i0  => abc_695_new_n157
            , i1  => outputs(24)
-           , nq  => abc_689_new_n158
+           , nq  => abc_695_new_n158
            , vdd => vdd
            , vss => vss
            );
 
   subckt_145_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n271
-           , i1  => abc_689_new_n264
-           , nq  => abc_689_new_n273
+  port map ( i0  => abc_695_new_n271
+           , i1  => abc_695_new_n264
+           , nq  => abc_695_new_n273
            , vdd => vdd
            , vss => vss
            );
 
   subckt_244_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n371
-           , i1  => abc_689_new_n360
-           , nq  => abc_689_new_n372
+  port map ( i0  => abc_695_new_n371
+           , i1  => abc_695_new_n360
+           , nq  => abc_695_new_n372
            , vdd => vdd
            , vss => vss
            );
 
   subckt_184_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n310
-           , i1  => abc_689_new_n303
-           , nq  => abc_689_new_n312
+  port map ( i0  => abc_695_new_n310
+           , i1  => abc_695_new_n303
+           , nq  => abc_695_new_n312
            , vdd => vdd
            , vss => vss
            );
 
   subckt_58_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n185
-           , i1  => abc_689_new_n182
-           , nq  => abc_689_new_n186
+  port map ( i0  => abc_695_new_n185
+           , i1  => abc_695_new_n182
+           , nq  => abc_695_new_n186
            , vdd => vdd
            , vss => vss
            );
@@ -1463,20 +1463,20 @@ begin
   subckt_12_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(40)
            , i1  => inputs(8)
-           , nq  => abc_689_new_n140
+           , nq  => abc_695_new_n140
            , vdd => vdd
            , vss => vss
            );
 
   subckt_1_inv_x0 : inv_x0
-  port map ( i   => abc_689_new_n128
+  port map ( i   => abc_695_new_n128
            , nq  => outputs(16)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_3_inv_x0 : inv_x0
-  port map ( i   => abc_689_new_n130
+  port map ( i   => abc_695_new_n130
            , nq  => outputs(32)
            , vdd => vdd
            , vss => vss
@@ -1485,13 +1485,13 @@ begin
   subckt_21_xor2_x0 : xor2_x0
   port map ( i0  => inputs(12)
            , i1  => inputs(8)
-           , q   => abc_689_new_n149
+           , q   => abc_695_new_n149
            , vdd => vdd
            , vss => vss
            );
 
   subckt_27_inv_x0 : inv_x0
-  port map ( i   => abc_689_new_n154
+  port map ( i   => abc_695_new_n154
            , nq  => outputs(20)
            , vdd => vdd
            , vss => vss
@@ -1500,15 +1500,15 @@ begin
   subckt_124_xor2_x0 : xor2_x0
   port map ( i0  => inputs(9)
            , i1  => inputs(1)
-           , q   => abc_689_new_n252
+           , q   => abc_695_new_n252
            , vdd => vdd
            , vss => vss
            );
 
   subckt_127_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n254
-           , i1  => abc_689_new_n252
-           , nq  => abc_689_new_n255
+  port map ( i0  => abc_695_new_n254
+           , i1  => abc_695_new_n252
+           , nq  => abc_695_new_n255
            , vdd => vdd
            , vss => vss
            );
@@ -1516,22 +1516,22 @@ begin
   subckt_136_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(1)
            , i1  => inputs(17)
-           , nq  => abc_689_new_n264
+           , nq  => abc_695_new_n264
            , vdd => vdd
            , vss => vss
            );
 
   subckt_235_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n362
-           , i1  => abc_689_new_n289
-           , nq  => abc_689_new_n363
+  port map ( i0  => abc_695_new_n362
+           , i1  => abc_695_new_n289
+           , nq  => abc_695_new_n363
            , vdd => vdd
            , vss => vss
            );
 
   subckt_226_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n353
-           , i1  => abc_689_new_n145
+  port map ( i0  => abc_695_new_n353
+           , i1  => abc_695_new_n145
            , nq  => outputs(57)
            , vdd => vdd
            , vss => vss
@@ -1540,7 +1540,7 @@ begin
   subckt_166_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(15)
            , i1  => inputs(31)
-           , nq  => abc_689_new_n294
+           , nq  => abc_695_new_n294
            , vdd => vdd
            , vss => vss
            );
@@ -1548,7 +1548,7 @@ begin
   subckt_60_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(2)
            , i1  => inputs(18)
-           , nq  => abc_689_new_n188
+           , nq  => abc_695_new_n188
            , vdd => vdd
            , vss => vss
            );
@@ -1556,20 +1556,20 @@ begin
   subckt_49_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(2)
            , i1  => inputs(0)
-           , nq  => abc_689_new_n177
+           , nq  => abc_695_new_n177
            , vdd => vdd
            , vss => vss
            );
 
   subckt_6_inv_x0 : inv_x0
-  port map ( i   => abc_689_new_n133
+  port map ( i   => abc_695_new_n133
            , nq  => outputs(48)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_8_inv_x0 : inv_x0
-  port map ( i   => abc_689_new_n135
+  port map ( i   => abc_695_new_n135
            , nq  => outputs(8)
            , vdd => vdd
            , vss => vss
@@ -1578,53 +1578,53 @@ begin
   subckt_95_xor2_x0 : xor2_x0
   port map ( i0  => inputs(50)
            , i1  => inputs(34)
-           , q   => abc_689_new_n223
+           , q   => abc_695_new_n223
            , vdd => vdd
            , vss => vss
            );
 
   subckt_97_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n223
-           , i1  => abc_689_new_n188
-           , nq  => abc_689_new_n225
+  port map ( i0  => abc_695_new_n223
+           , i1  => abc_695_new_n188
+           , nq  => abc_695_new_n225
            , vdd => vdd
            , vss => vss
            );
 
   subckt_217_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n344
-           , i1  => abc_689_new_n171
+  port map ( i0  => abc_695_new_n344
+           , i1  => abc_695_new_n171
            , nq  => outputs(53)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_53_inv_x0 : inv_x0
-  port map ( i   => abc_689_new_n180
+  port map ( i   => abc_695_new_n180
            , nq  => outputs(6)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_50_inv_x0 : inv_x0
-  port map ( i   => abc_689_new_n177
+  port map ( i   => abc_695_new_n177
            , nq  => outputs(2)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_42_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n168
-           , i1  => abc_689_new_n152
-           , nq  => abc_689_new_n170
+  port map ( i0  => abc_695_new_n168
+           , i1  => abc_695_new_n152
+           , nq  => abc_695_new_n170
            , vdd => vdd
            , vss => vss
            );
 
   subckt_88_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n214
-           , i1  => abc_689_new_n206
-           , nq  => abc_689_new_n216
+  port map ( i0  => abc_695_new_n214
+           , i1  => abc_695_new_n206
+           , nq  => abc_695_new_n216
            , vdd => vdd
            , vss => vss
            );
@@ -1632,70 +1632,70 @@ begin
   subckt_90_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(46)
            , i1  => inputs(14)
-           , nq  => abc_689_new_n218
+           , nq  => abc_695_new_n218
            , vdd => vdd
            , vss => vss
            );
 
   subckt_109_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n236
-           , i1  => abc_689_new_n202
-           , nq  => abc_689_new_n237
+  port map ( i0  => abc_695_new_n236
+           , i1  => abc_695_new_n202
+           , nq  => abc_695_new_n237
            , vdd => vdd
            , vss => vss
            );
 
   subckt_157_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n284
-           , i1  => abc_689_new_n268
-           , nq  => abc_689_new_n285
+  port map ( i0  => abc_695_new_n284
+           , i1  => abc_695_new_n268
+           , nq  => abc_695_new_n285
            , vdd => vdd
            , vss => vss
            );
 
   subckt_196_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n323
-           , i1  => abc_689_new_n306
-           , nq  => abc_689_new_n324
+  port map ( i0  => abc_695_new_n323
+           , i1  => abc_695_new_n306
+           , nq  => abc_695_new_n324
            , vdd => vdd
            , vss => vss
            );
 
   subckt_56_inv_x0 : inv_x0
-  port map ( i   => abc_689_new_n183
+  port map ( i   => abc_695_new_n183
            , nq  => outputs(10)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_102_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n229
-           , i1  => abc_689_new_n224
-           , nq  => abc_689_new_n230
+  port map ( i0  => abc_695_new_n229
+           , i1  => abc_695_new_n224
+           , nq  => abc_695_new_n230
            , vdd => vdd
            , vss => vss
            );
 
   subckt_111_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n238
-           , i1  => abc_689_new_n230
-           , nq  => abc_689_new_n239
+  port map ( i0  => abc_695_new_n238
+           , i1  => abc_695_new_n230
+           , nq  => abc_695_new_n239
            , vdd => vdd
            , vss => vss
            );
 
   subckt_210_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n336
-           , i1  => abc_689_new_n267
-           , nq  => abc_689_new_n338
+  port map ( i0  => abc_695_new_n336
+           , i1  => abc_695_new_n267
+           , nq  => abc_695_new_n338
            , vdd => vdd
            , vss => vss
            );
 
   subckt_201_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n328
-           , i1  => abc_689_new_n320
-           , nq  => abc_689_new_n329
+  port map ( i0  => abc_695_new_n328
+           , i1  => abc_695_new_n320
+           , nq  => abc_695_new_n329
            , vdd => vdd
            , vss => vss
            );
@@ -1703,15 +1703,15 @@ begin
   subckt_187_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(41)
            , i1  => inputs(9)
-           , nq  => abc_689_new_n315
+           , nq  => abc_695_new_n315
            , vdd => vdd
            , vss => vss
            );
 
   subckt_72_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n198
-           , i1  => abc_689_new_n138
-           , nq  => abc_689_new_n200
+  port map ( i0  => abc_695_new_n198
+           , i1  => abc_695_new_n138
+           , nq  => abc_695_new_n200
            , vdd => vdd
            , vss => vss
            );
@@ -1719,7 +1719,7 @@ begin
   subckt_15_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(56)
            , i1  => inputs(24)
-           , nq  => abc_689_new_n143
+           , nq  => abc_695_new_n143
            , vdd => vdd
            , vss => vss
            );
@@ -1727,7 +1727,7 @@ begin
   subckt_24_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(4)
            , i1  => inputs(20)
-           , nq  => abc_689_new_n152
+           , nq  => abc_695_new_n152
            , vdd => vdd
            , vss => vss
            );
@@ -1735,23 +1735,23 @@ begin
   subckt_139_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(3)
            , i1  => inputs(19)
-           , nq  => abc_689_new_n267
+           , nq  => abc_695_new_n267
            , vdd => vdd
            , vss => vss
            );
 
   subckt_141_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n267
-           , i1  => abc_689_new_n265
-           , nq  => abc_689_new_n269
+  port map ( i0  => abc_695_new_n267
+           , i1  => abc_695_new_n265
+           , nq  => abc_695_new_n269
            , vdd => vdd
            , vss => vss
            );
 
   subckt_150_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n277
-           , i1  => abc_689_new_n273
-           , nq  => abc_689_new_n278
+  port map ( i0  => abc_695_new_n277
+           , i1  => abc_695_new_n273
+           , nq  => abc_695_new_n278
            , vdd => vdd
            , vss => vss
            );
@@ -1759,31 +1759,31 @@ begin
   subckt_152_xor2_x0 : xor2_x0
   port map ( i0  => inputs(9)
            , i1  => inputs(25)
-           , q   => abc_689_new_n280
+           , q   => abc_695_new_n280
            , vdd => vdd
            , vss => vss
            );
 
   subckt_238_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n365
-           , i1  => abc_689_new_n353
-           , nq  => abc_689_new_n366
+  port map ( i0  => abc_695_new_n365
+           , i1  => abc_695_new_n353
+           , nq  => abc_695_new_n366
            , vdd => vdd
            , vss => vss
            );
 
   subckt_229_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n356
-           , i1  => abc_689_new_n337
-           , nq  => abc_689_new_n357
+  port map ( i0  => abc_695_new_n356
+           , i1  => abc_695_new_n337
+           , nq  => abc_695_new_n357
            , vdd => vdd
            , vss => vss
            );
 
   subckt_180_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n307
-           , i1  => abc_689_new_n162
-           , nq  => abc_689_new_n308
+  port map ( i0  => abc_695_new_n307
+           , i1  => abc_695_new_n162
+           , nq  => abc_695_new_n308
            , vdd => vdd
            , vss => vss
            );
@@ -1791,15 +1791,15 @@ begin
   subckt_178_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(37)
            , i1  => inputs(5)
-           , nq  => abc_689_new_n306
+           , nq  => abc_695_new_n306
            , vdd => vdd
            , vss => vss
            );
 
   subckt_169_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n296
-           , i1  => abc_689_new_n292
-           , nq  => abc_689_new_n297
+  port map ( i0  => abc_695_new_n296
+           , i1  => abc_695_new_n292
+           , nq  => abc_695_new_n297
            , vdd => vdd
            , vss => vss
            );
@@ -1807,7 +1807,7 @@ begin
   subckt_54_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(10)
            , i1  => inputs(2)
-           , nq  => abc_689_new_n182
+           , nq  => abc_695_new_n182
            , vdd => vdd
            , vss => vss
            );
@@ -1815,7 +1815,7 @@ begin
   subckt_132_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(15)
            , i1  => inputs(7)
-           , nq  => abc_689_new_n260
+           , nq  => abc_695_new_n260
            , vdd => vdd
            , vss => vss
            );
@@ -1823,15 +1823,15 @@ begin
   subckt_148_xor2_x0 : xor2_x0
   port map ( i0  => inputs(7)
            , i1  => inputs(23)
-           , q   => abc_689_new_n276
+           , q   => abc_695_new_n276
            , vdd => vdd
            , vss => vss
            );
 
   subckt_231_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n358
-           , i1  => abc_689_new_n353
-           , nq  => abc_689_new_n359
+  port map ( i0  => abc_695_new_n358
+           , i1  => abc_695_new_n353
+           , nq  => abc_695_new_n359
            , vdd => vdd
            , vss => vss
            );
@@ -1839,7 +1839,7 @@ begin
   subckt_208_xor2_x0 : xor2_x0
   port map ( i0  => inputs(51)
            , i1  => inputs(35)
-           , q   => abc_689_new_n336
+           , q   => abc_695_new_n336
            , vdd => vdd
            , vss => vss
            );
@@ -1847,7 +1847,7 @@ begin
   subckt_171_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(33)
            , i1  => inputs(1)
-           , nq  => abc_689_new_n299
+           , nq  => abc_695_new_n299
            , vdd => vdd
            , vss => vss
            );
@@ -1855,22 +1855,22 @@ begin
   subckt_45_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(60)
            , i1  => inputs(28)
-           , nq  => abc_689_new_n173
+           , nq  => abc_695_new_n173
            , vdd => vdd
            , vss => vss
            );
 
   subckt_81_inv_x0 : inv_x0
-  port map ( i   => abc_689_new_n208
+  port map ( i   => abc_695_new_n208
            , nq  => outputs(34)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_93_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n220
-           , i1  => abc_689_new_n166
-           , nq  => abc_689_new_n221
+  port map ( i0  => abc_695_new_n220
+           , i1  => abc_695_new_n166
+           , nq  => abc_695_new_n221
            , vdd => vdd
            , vss => vss
            );
@@ -1878,7 +1878,7 @@ begin
   subckt_120_xor2_x0 : xor2_x0
   port map ( i0  => inputs(7)
            , i1  => inputs(3)
-           , q   => abc_689_new_n248
+           , q   => abc_695_new_n248
            , vdd => vdd
            , vss => vss
            );
@@ -1886,13 +1886,13 @@ begin
   subckt_123_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(9)
            , i1  => inputs(1)
-           , nq  => abc_689_new_n251
+           , nq  => abc_695_new_n251
            , vdd => vdd
            , vss => vss
            );
 
   subckt_222_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n349
+  port map ( i0  => abc_695_new_n349
            , i1  => outputs(54)
            , nq  => outputs(55)
            , vdd => vdd
@@ -1902,15 +1902,15 @@ begin
   subckt_199_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(47)
            , i1  => inputs(15)
-           , nq  => abc_689_new_n327
+           , nq  => abc_695_new_n327
            , vdd => vdd
            , vss => vss
            );
 
   subckt_162_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n289
-           , i1  => abc_689_new_n272
-           , nq  => abc_689_new_n290
+  port map ( i0  => abc_695_new_n289
+           , i1  => abc_695_new_n272
+           , nq  => abc_695_new_n290
            , vdd => vdd
            , vss => vss
            );
@@ -1918,23 +1918,23 @@ begin
   subckt_36_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(44)
            , i1  => inputs(12)
-           , nq  => abc_689_new_n164
+           , nq  => abc_695_new_n164
            , vdd => vdd
            , vss => vss
            );
 
   subckt_84_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n210
-           , i1  => abc_689_new_n206
-           , nq  => abc_689_new_n212
+  port map ( i0  => abc_695_new_n210
+           , i1  => abc_695_new_n206
+           , nq  => abc_695_new_n212
            , vdd => vdd
            , vss => vss
            );
 
   subckt_105_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n232
-           , i1  => abc_689_new_n214
-           , nq  => abc_689_new_n233
+  port map ( i0  => abc_695_new_n232
+           , i1  => abc_695_new_n214
+           , nq  => abc_695_new_n233
            , vdd => vdd
            , vss => vss
            );
@@ -1942,28 +1942,28 @@ begin
   subckt_240_xor2_x0 : xor2_x0
   port map ( i0  => inputs(63)
            , i1  => inputs(47)
-           , q   => abc_689_new_n368
+           , q   => abc_695_new_n368
            , vdd => vdd
            , vss => vss
            );
 
   subckt_75_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n202
-           , i1  => abc_689_new_n193
-           , nq  => abc_689_new_n203
+  port map ( i0  => abc_695_new_n202
+           , i1  => abc_695_new_n193
+           , nq  => abc_695_new_n203
            , vdd => vdd
            , vss => vss
            );
 
   subckt_14_inv_x0 : inv_x0
-  port map ( i   => abc_689_new_n141
+  port map ( i   => abc_695_new_n141
            , nq  => outputs(40)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_11_inv_x0 : inv_x0
-  port map ( i   => abc_689_new_n138
+  port map ( i   => abc_695_new_n138
            , nq  => outputs(24)
            , vdd => vdd
            , vss => vss
@@ -1972,52 +1972,52 @@ begin
   subckt_9_xor2_x0 : xor2_x0
   port map ( i0  => inputs(8)
            , i1  => inputs(24)
-           , q   => abc_689_new_n137
+           , q   => abc_695_new_n137
            , vdd => vdd
            , vss => vss
            );
 
   subckt_153_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n280
-           , i1  => abc_689_new_n265
-           , nq  => abc_689_new_n281
+  port map ( i0  => abc_695_new_n280
+           , i1  => abc_695_new_n265
+           , nq  => abc_695_new_n281
            , vdd => vdd
            , vss => vss
            );
 
   subckt_243_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n370
-           , i1  => abc_689_new_n364
-           , nq  => abc_689_new_n371
+  port map ( i0  => abc_695_new_n370
+           , i1  => abc_695_new_n364
+           , nq  => abc_695_new_n371
            , vdd => vdd
            , vss => vss
            );
 
   subckt_192_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n319
-           , i1  => abc_689_new_n303
-           , nq  => abc_689_new_n320
+  port map ( i0  => abc_695_new_n319
+           , i1  => abc_695_new_n303
+           , nq  => abc_695_new_n320
            , vdd => vdd
            , vss => vss
            );
 
   subckt_66_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n192
-           , i1  => abc_689_new_n189
-           , nq  => abc_689_new_n194
+  port map ( i0  => abc_695_new_n192
+           , i1  => abc_695_new_n189
+           , nq  => abc_695_new_n194
            , vdd => vdd
            , vss => vss
            );
 
   subckt_18_inv_x0 : inv_x0
-  port map ( i   => abc_689_new_n145
+  port map ( i   => abc_695_new_n145
            , nq  => outputs(56)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_135_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n262
+  port map ( i0  => abc_695_new_n262
            , i1  => outputs(14)
            , nq  => outputs(15)
            , vdd => vdd
@@ -2027,7 +2027,7 @@ begin
   subckt_137_xor2_x0 : xor2_x0
   port map ( i0  => inputs(1)
            , i1  => inputs(17)
-           , q   => abc_689_new_n265
+           , q   => abc_695_new_n265
            , vdd => vdd
            , vss => vss
            );
@@ -2035,7 +2035,7 @@ begin
   subckt_174_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(35)
            , i1  => inputs(3)
-           , nq  => abc_689_new_n302
+           , nq  => abc_695_new_n302
            , vdd => vdd
            , vss => vss
            );
@@ -2043,23 +2043,23 @@ begin
   subckt_69_xor2_x0 : xor2_x0
   port map ( i0  => inputs(10)
            , i1  => inputs(26)
-           , q   => abc_689_new_n197
+           , q   => abc_695_new_n197
            , vdd => vdd
            , vss => vss
            );
 
   subckt_48_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n175
-           , i1  => abc_689_new_n145
+  port map ( i0  => abc_695_new_n175
+           , i1  => abc_695_new_n145
            , nq  => outputs(60)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_96_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n223
-           , i1  => abc_689_new_n189
-           , nq  => abc_689_new_n224
+  port map ( i0  => abc_695_new_n223
+           , i1  => abc_695_new_n189
+           , nq  => abc_695_new_n224
            , vdd => vdd
            , vss => vss
            );
@@ -2067,7 +2067,7 @@ begin
   subckt_117_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(5)
            , i1  => inputs(1)
-           , nq  => abc_689_new_n245
+           , nq  => abc_695_new_n245
            , vdd => vdd
            , vss => vss
            );
@@ -2075,15 +2075,15 @@ begin
   subckt_126_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(11)
            , i1  => inputs(3)
-           , nq  => abc_689_new_n254
+           , nq  => abc_695_new_n254
            , vdd => vdd
            , vss => vss
            );
 
   subckt_225_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n352
-           , i1  => abc_689_new_n334
-           , nq  => abc_689_new_n353
+  port map ( i0  => abc_695_new_n352
+           , i1  => abc_695_new_n334
+           , nq  => abc_695_new_n353
            , vdd => vdd
            , vss => vss
            );
@@ -2091,7 +2091,7 @@ begin
   subckt_218_xor2_x0 : xor2_x0
   port map ( i0  => inputs(55)
            , i1  => inputs(39)
-           , q   => abc_689_new_n346
+           , q   => abc_695_new_n346
            , vdd => vdd
            , vss => vss
            );
@@ -2099,23 +2099,23 @@ begin
   subckt_183_xor2_x0 : xor2_x0
   port map ( i0  => inputs(39)
            , i1  => inputs(7)
-           , q   => abc_689_new_n311
+           , q   => abc_695_new_n311
            , vdd => vdd
            , vss => vss
            );
 
   subckt_165_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n291
-           , i1  => abc_689_new_n158
+  port map ( i0  => abc_695_new_n291
+           , i1  => abc_695_new_n158
            , nq  => outputs(29)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_41_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n168
-           , i1  => abc_689_new_n153
-           , nq  => abc_689_new_n169
+  port map ( i0  => abc_695_new_n168
+           , i1  => abc_695_new_n153
+           , nq  => abc_695_new_n169
            , vdd => vdd
            , vss => vss
            );
@@ -2123,15 +2123,15 @@ begin
   subckt_2_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(32)
            , i1  => inputs(0)
-           , nq  => abc_689_new_n130
+           , nq  => abc_695_new_n130
            , vdd => vdd
            , vss => vss
            );
 
   subckt_87_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n214
-           , i1  => abc_689_new_n207
-           , nq  => abc_689_new_n215
+  port map ( i0  => abc_695_new_n214
+           , i1  => abc_695_new_n207
+           , nq  => abc_695_new_n215
            , vdd => vdd
            , vss => vss
            );
@@ -2139,21 +2139,21 @@ begin
   subckt_144_xor2_x0 : xor2_x0
   port map ( i0  => inputs(5)
            , i1  => inputs(21)
-           , q   => abc_689_new_n272
+           , q   => abc_695_new_n272
            , vdd => vdd
            , vss => vss
            );
 
   subckt_216_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n342
-           , i1  => abc_689_new_n334
-           , nq  => abc_689_new_n344
+  port map ( i0  => abc_695_new_n342
+           , i1  => abc_695_new_n334
+           , nq  => abc_695_new_n344
            , vdd => vdd
            , vss => vss
            );
 
   subckt_207_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n333
+  port map ( i0  => abc_695_new_n333
            , i1  => outputs(48)
            , nq  => outputs(49)
            , vdd => vdd
@@ -2163,13 +2163,13 @@ begin
   subckt_204_xor2_x0 : xor2_x0
   port map ( i0  => inputs(49)
            , i1  => inputs(33)
-           , q   => abc_689_new_n332
+           , q   => abc_695_new_n332
            , vdd => vdd
            , vss => vss
            );
 
   subckt_181_inv_x0 : inv_x0
-  port map ( i   => abc_689_new_n308
+  port map ( i   => abc_695_new_n308
            , nq  => outputs(37)
            , vdd => vdd
            , vss => vss
@@ -2178,13 +2178,13 @@ begin
   subckt_78_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(34)
            , i1  => inputs(2)
-           , nq  => abc_689_new_n206
+           , nq  => abc_695_new_n206
            , vdd => vdd
            , vss => vss
            );
 
   subckt_44_inv_x0 : inv_x0
-  port map ( i   => abc_689_new_n171
+  port map ( i   => abc_695_new_n171
            , nq  => outputs(52)
            , vdd => vdd
            , vss => vss
@@ -2193,15 +2193,15 @@ begin
   subckt_32_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(36)
            , i1  => inputs(4)
-           , nq  => abc_689_new_n160
+           , nq  => abc_695_new_n160
            , vdd => vdd
            , vss => vss
            );
 
   subckt_110_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n237
-           , i1  => abc_689_new_n233
-           , nq  => abc_689_new_n238
+  port map ( i0  => abc_695_new_n237
+           , i1  => abc_695_new_n233
+           , nq  => abc_695_new_n238
            , vdd => vdd
            , vss => vss
            );
@@ -2209,7 +2209,7 @@ begin
   subckt_147_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(7)
            , i1  => inputs(23)
-           , nq  => abc_689_new_n275
+           , nq  => abc_695_new_n275
            , vdd => vdd
            , vss => vss
            );
@@ -2217,45 +2217,45 @@ begin
   subckt_195_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(45)
            , i1  => inputs(13)
-           , nq  => abc_689_new_n323
+           , nq  => abc_695_new_n323
            , vdd => vdd
            , vss => vss
            );
 
   subckt_186_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n313
-           , i1  => abc_689_new_n308
+  port map ( i0  => abc_695_new_n313
+           , i1  => abc_695_new_n308
            , nq  => outputs(39)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_80_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n206
-           , i1  => abc_689_new_n130
-           , nq  => abc_689_new_n208
+  port map ( i0  => abc_695_new_n206
+           , i1  => abc_695_new_n130
+           , nq  => abc_695_new_n208
            , vdd => vdd
            , vss => vss
            );
 
   subckt_71_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n197
-           , i1  => abc_689_new_n188
-           , nq  => abc_689_new_n199
+  port map ( i0  => abc_695_new_n197
+           , i1  => abc_695_new_n188
+           , nq  => abc_695_new_n199
            , vdd => vdd
            , vss => vss
            );
 
   subckt_101_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n228
-           , i1  => abc_689_new_n192
-           , nq  => abc_689_new_n229
+  port map ( i0  => abc_695_new_n228
+           , i1  => abc_695_new_n192
+           , nq  => abc_695_new_n229
            , vdd => vdd
            , vss => vss
            );
 
   subckt_138_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n264
+  port map ( i0  => abc_695_new_n264
            , i1  => outputs(16)
            , nq  => outputs(17)
            , vdd => vdd
@@ -2263,39 +2263,39 @@ begin
            );
 
   subckt_237_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n363
-           , i1  => abc_689_new_n342
-           , nq  => abc_689_new_n365
+  port map ( i0  => abc_695_new_n363
+           , i1  => abc_695_new_n342
+           , nq  => abc_695_new_n365
            , vdd => vdd
            , vss => vss
            );
 
   subckt_200_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n327
-           , i1  => abc_689_new_n311
-           , nq  => abc_689_new_n328
+  port map ( i0  => abc_695_new_n327
+           , i1  => abc_695_new_n311
+           , nq  => abc_695_new_n328
            , vdd => vdd
            , vss => vss
            );
 
   subckt_177_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n304
-           , i1  => abc_689_new_n208
+  port map ( i0  => abc_695_new_n304
+           , i1  => abc_695_new_n208
            , nq  => outputs(35)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_62_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n188
-           , i1  => abc_689_new_n128
-           , nq  => abc_689_new_n190
+  port map ( i0  => abc_695_new_n188
+           , i1  => abc_695_new_n128
+           , nq  => abc_695_new_n190
            , vdd => vdd
            , vss => vss
            );
 
   subckt_131_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_689_new_n258
+  port map ( i0  => abc_695_new_n258
            , i1  => outputs(12)
            , nq  => outputs(13)
            , vdd => vdd

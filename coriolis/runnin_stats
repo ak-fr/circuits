@@ -1,21 +1,15 @@
 Expmob1:
 n=3
 GDS: took = 8.99s . Effective desnsity =  88.6, Wire length = 401
-
 n=4
 It took yosys = 7.97s
 GDS: took = 8.43s . Effective desnsity =  81.8, Wire length = 1221
-
 n=5
 It took yosys = 9.86s
 GDS: took = 8.48s . Effective desnsity =  79.6, Wire length = 4016
-
 n=6
 It took yosys = 8.86s
 GDS: took = 16.40s . Effective desnsity =  84.2, Wire length = 11970
-
-
-
 n=7
 It took yosys = 8.49s
 GDS: took = 19.05s . Effective desnsity =  98.4, Wire length = 34005
@@ -25,7 +19,6 @@ GDS: took = 22.75s . Effective desnsity =  90.8, Wire length = 98446
 n=9
 It took yosys = 12.18s
 GDS: took = 1m 7.17s . Effective desnsity =  93.9, Wire length = 296062
-
 n=10
 It took yosys = 21.75s
 GDS: took = 8m 22.56s . Effective desnsity =  91.7, Wire length = 1137948
@@ -77,6 +70,12 @@ GDS: took = 15m 16.93s . Effective desnsity =  72.6, Wire length = 2255829
 n=12
 It took yosys = 26.55s
 GDS: took = 36m 20.15s . Effective desnsity =  36.4, Wire length = 8130420
+n=13
+It took yosys = 38.86s
+GDS: took = 1h 44m 38.50s . Effective desnsity =  18.9, Wire length = 30914535
+n=14
+It took yosys = 4m 44.63s
+GDS: took = 19h 32m 37.53s . Effective desnsity =  8.94, Wire length = 139090214
 
 
 rot
