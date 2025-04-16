@@ -1,4 +1,18 @@
+import time
 
+def format_time(seconds):
+    hours = int(seconds // 3600)
+    minutes = int((seconds % 3600) // 60)
+    secs = seconds % 60
+    
+    parts = []
+    if hours > 0:
+        parts.append(f"{hours}h")
+    if minutes > 0 or hours > 0:
+        parts.append(f"{minutes}m")
+    parts.append(f"{secs:.2f}s")
+    
+    return " ".join(parts)
 
 
 cells_area = {
@@ -83,11 +97,14 @@ cells_area = {
 }
 
 
-def extract_cells(log: str):
+def extract_cells(log):
+    import re
+    
     cells = []
     capture = False
 
-    for line in log.splitlines():
+    print(f"log={log}")
+    for line in log:
         line = line.strip()
         if line.startswith("Number of cells:"):
             capture = True
