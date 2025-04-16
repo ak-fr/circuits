@@ -1,3 +1,6 @@
+
+
+
 cells_area = {
     "a21o_1": 12.7008, 
     "a21o_2": 14.5152, 
@@ -78,3 +81,75 @@ cells_area = {
     "xnor2_1": 14.5152, 
     "xor2_1": 14.5152, 
 }
+
+
+def extract_cells(log: str):
+    cells = []
+    capture = False
+
+    for line in log.splitlines():
+        line = line.strip()
+        if line.startswith("Number of cells:"):
+            capture = True
+            continue
+        if capture:
+            if not line or not re.match(r'\S+\s+\d+', line):
+                break
+            parts = line.split()
+            cell_name = parts[0]
+            count = int(parts[-1])
+            cells.append((cell_name, count))
+    return cells
+
+def get_area(cell_name):
+    if cell_name.endswith("_x0"):
+        cell_name = cell_name[:-2] + "1"
+
+    return cells_area[cell_name]
+    
+
+
+def run_yosys(verbose=True):
+    import subprocess 
+    import time
+    
+    command_base = "~/coriolis-2.x/src/alliance-check-toolkit/bin/crlenv.py"
+    command_yosys = "doit clean_flow b2v"
+    command = command_base + " " + command_yosys
+    
+    # Run the command and capture output
+    t0 = time.time()
+    process = subprocess.run(command, shell=True, capture_output=True, text=True)
+    t1 = time.time()
+
+    
+    print(f"It took yosys = {format_time(t1 - t0)}")
+
+    # Save the portion stats of the output to a file
+    stdout_list = process.stdout.split()
+    index_yosys_stat_start = process.stdout.find("9. Printing statistics.")
+    index_yosys_stat_end = process.stdout.find("10. Executing BLIF backend.")
+    yosys_stat =  process.stdout[index_yosys_stat_start : index_yosys_stat_end] 
+    if verbose:
+        print(yosys_stat)
+
+        
+    with open("yosys_stat.log", "w") as f:
+        f.write(yosys_stat)
+
+
+
+if __name__ == "__main__":
+    run_yosys()
+
+
+    with open("yosys_stat.log") as f:
+        log = f.readlines()
+
+    cells = extract_cells(log)
+
+    area = 0
+    for cell, n in cells:
+        area += n*get_area(cell)
+
+    print(f"netlist_area={area}")
