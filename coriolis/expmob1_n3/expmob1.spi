@@ -1,5 +1,5 @@
 * Coriolis Structural SPICE Driver
-* Generated on Apr 13, 2025, 01:57
+* Generated on Apr 17, 2025, 16:03
 * Cell/Subckt "expmob1".
 * 
 * INTERF vss
@@ -50,12 +50,12 @@
 * NET    19 = genblk1_1_si_inputs_7
 * NET    20 = genblk1_1_si_inputs_6
 * NET    21 = genblk1_1_si_inputs_5
-* NET    22 = abc_140_new_n27
-* NET    23 = abc_140_new_n26
-* NET    24 = abc_140_new_n24
-* NET    25 = abc_140_new_n22
-* NET    26 = abc_140_new_n19
-* NET    27 = abc_140_new_n16
+* NET    22 = abc_143_new_n27
+* NET    23 = abc_143_new_n26
+* NET    24 = abc_143_new_n24
+* NET    25 = abc_143_new_n22
+* NET    26 = abc_143_new_n19
+* NET    27 = abc_143_new_n16
 
 xsubckt_3_xor2_x0 1 0 10 12 26 xor2_x0
 xsubckt_4_nexor2_x0 1 0 26 27 3 nexor2_x0

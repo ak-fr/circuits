@@ -1,7 +1,7 @@
 
 -- =======================================================================
 -- Coriolis Structural VHDL Driver
--- Generated on Apr 13, 2025, 01:57
+-- Generated on Apr 17, 2025, 16:03
 -- 
 -- To be interoperable with Alliance, it uses it's special VHDL subset.
 -- ("man vhdl" under Alliance for more informations)
@@ -43,12 +43,12 @@ architecture structural of expmob1 is
          );
   end component;
 
-  signal abc_140_new_n16        :  bit;
-  signal abc_140_new_n19        :  bit;
-  signal abc_140_new_n22        :  bit;
-  signal abc_140_new_n24        :  bit;
-  signal abc_140_new_n26        :  bit;
-  signal abc_140_new_n27        :  bit;
+  signal abc_143_new_n16        :  bit;
+  signal abc_143_new_n19        :  bit;
+  signal abc_143_new_n22        :  bit;
+  signal abc_143_new_n24        :  bit;
+  signal abc_143_new_n26        :  bit;
+  signal abc_143_new_n27        :  bit;
   signal genblk1_1_si_inputs_5  :  bit;
   signal genblk1_1_si_inputs_6  :  bit;
   signal genblk1_1_si_inputs_7  :  bit;
@@ -61,22 +61,22 @@ begin
   subckt_3_xor2_x0 : xor2_x0
   port map ( i0  => inputs(6)
            , i1  => inputs(4)
-           , q   => abc_140_new_n19
+           , q   => abc_143_new_n19
            , vdd => vdd
            , vss => vss
            );
 
   subckt_4_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_140_new_n19
-           , i1  => abc_140_new_n16
+  port map ( i0  => abc_143_new_n19
+           , i1  => abc_143_new_n16
            , nq  => outputs(6)
            , vdd => vdd
            , vss => vss
            );
 
   subckt_7_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_140_new_n22
-           , i1  => abc_140_new_n16
+  port map ( i0  => abc_143_new_n22
+           , i1  => abc_143_new_n16
            , nq  => outputs(3)
            , vdd => vdd
            , vss => vss
@@ -85,7 +85,7 @@ begin
   subckt_8_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(5)
            , i1  => inputs(1)
-           , nq  => abc_140_new_n24
+           , nq  => abc_143_new_n24
            , vdd => vdd
            , vss => vss
            );
@@ -93,13 +93,13 @@ begin
   subckt_10_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(7)
            , i1  => inputs(3)
-           , nq  => abc_140_new_n26
+           , nq  => abc_143_new_n26
            , vdd => vdd
            , vss => vss
            );
 
   subckt_12_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_140_new_n27
+  port map ( i0  => abc_143_new_n27
            , i1  => outputs(6)
            , nq  => outputs(7)
            , vdd => vdd
@@ -107,9 +107,9 @@ begin
            );
 
   subckt_11_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_140_new_n26
-           , i1  => abc_140_new_n24
-           , nq  => abc_140_new_n27
+  port map ( i0  => abc_143_new_n26
+           , i1  => abc_143_new_n24
+           , nq  => abc_143_new_n27
            , vdd => vdd
            , vss => vss
            );
@@ -117,13 +117,13 @@ begin
   subckt_0_nexor2_x0 : nexor2_x0
   port map ( i0  => inputs(0)
            , i1  => inputs(2)
-           , nq  => abc_140_new_n16
+           , nq  => abc_143_new_n16
            , vdd => vdd
            , vss => vss
            );
 
   subckt_1_inv_x0 : inv_x0
-  port map ( i   => abc_140_new_n16
+  port map ( i   => abc_143_new_n16
            , nq  => outputs(2)
            , vdd => vdd
            , vss => vss
@@ -148,13 +148,13 @@ begin
   subckt_6_xor2_x0 : xor2_x0
   port map ( i0  => inputs(1)
            , i1  => inputs(3)
-           , q   => abc_140_new_n22
+           , q   => abc_143_new_n22
            , vdd => vdd
            , vss => vss
            );
 
   subckt_9_nexor2_x0 : nexor2_x0
-  port map ( i0  => abc_140_new_n24
+  port map ( i0  => abc_143_new_n24
            , i1  => outputs(4)
            , nq  => outputs(5)
            , vdd => vdd

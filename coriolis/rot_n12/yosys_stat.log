@@ -1,0 +1,20 @@
+9. Printing statistics.
+
+=== rot ===
+
+   Number of wires:              53322
+   Number of wire bits:         208943
+   Number of public wires:          51
+   Number of public wire bits:  155672
+   Number of ports:                  3
+   Number of port bits:           8204
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              49175
+     $scopeinfo                     12
+     inv_x0                         11
+     mux2_x1                     49152
+
+Removed 0 unused cells and 8237 unused wires.
+

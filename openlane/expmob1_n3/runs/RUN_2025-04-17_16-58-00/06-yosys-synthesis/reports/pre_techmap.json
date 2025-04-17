@@ -1,0 +1,41 @@
+{
+   "creator": "Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)",
+   "invocation": "stat -json -liberty /home/ahmed/circuits/openlane/expmob1_n3/runs/RUN_2025-04-17_16-58-00/tmp/7223b0ff80444cdea73499c8ad5e1ae1.lib ",
+   "modules": {
+      "\\expmob1": {
+         "num_wires":         8,
+         "num_wire_bits":     22,
+         "num_pub_wires":     2,
+         "num_pub_wire_bits": 16,
+         "num_ports":         2,
+         "num_port_bits":     16,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         13,
+         "num_cells_by_type": {
+            "$_NOT_": 1,
+            "$_XNOR_": 4,
+            "$_XOR_": 8
+         }
+      }
+   },
+      "design": {
+         "num_wires":         8,
+         "num_wire_bits":     22,
+         "num_pub_wires":     2,
+         "num_pub_wire_bits": 16,
+         "num_ports":         2,
+         "num_port_bits":     16,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         13,
+         "num_cells_by_type": {
+            "$_NOT_": 1,
+            "$_XNOR_": 4,
+            "$_XOR_": 8
+         }
+      }
+}
+

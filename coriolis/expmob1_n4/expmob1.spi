@@ -1,5 +1,5 @@
 * Coriolis Structural SPICE Driver
-* Generated on Apr 13, 2025, 01:23
+* Generated on Apr 17, 2025, 16:01
 * Cell/Subckt "expmob1".
 * 
 * INTERF vss
@@ -94,29 +94,29 @@
 * NET    47 = genblk1_1_si_inputs_12
 * NET    48 = genblk1_1_si_inputs_11
 * NET    49 = genblk1_1_si_inputs_10
-* NET    50 = abc_203_new_n68
-* NET    51 = abc_203_new_n67
-* NET    52 = abc_203_new_n66
-* NET    53 = abc_203_new_n64
-* NET    54 = abc_203_new_n63
-* NET    55 = abc_203_new_n61
-* NET    56 = abc_203_new_n60
-* NET    57 = abc_203_new_n58
-* NET    58 = abc_203_new_n56
-* NET    59 = abc_203_new_n55
-* NET    60 = abc_203_new_n53
-* NET    61 = abc_203_new_n52
-* NET    62 = abc_203_new_n50
-* NET    63 = abc_203_new_n48
-* NET    64 = abc_203_new_n46
-* NET    65 = abc_203_new_n45
-* NET    66 = abc_203_new_n44
-* NET    67 = abc_203_new_n42
-* NET    68 = abc_203_new_n40
-* NET    69 = abc_203_new_n39
-* NET    70 = abc_203_new_n36
-* NET    71 = abc_203_new_n35
-* NET    72 = abc_203_new_n32
+* NET    50 = abc_207_new_n68
+* NET    51 = abc_207_new_n67
+* NET    52 = abc_207_new_n66
+* NET    53 = abc_207_new_n64
+* NET    54 = abc_207_new_n63
+* NET    55 = abc_207_new_n61
+* NET    56 = abc_207_new_n60
+* NET    57 = abc_207_new_n58
+* NET    58 = abc_207_new_n56
+* NET    59 = abc_207_new_n55
+* NET    60 = abc_207_new_n53
+* NET    61 = abc_207_new_n52
+* NET    62 = abc_207_new_n50
+* NET    63 = abc_207_new_n48
+* NET    64 = abc_207_new_n46
+* NET    65 = abc_207_new_n45
+* NET    66 = abc_207_new_n44
+* NET    67 = abc_207_new_n42
+* NET    68 = abc_207_new_n40
+* NET    69 = abc_207_new_n39
+* NET    70 = abc_207_new_n36
+* NET    71 = abc_207_new_n35
+* NET    72 = abc_207_new_n32
 
 xsubckt_36_nexor2_x0 1 0 51 53 50 nexor2_x0
 xsubckt_33_nexor2_x0 1 0 53 13 12 nexor2_x0

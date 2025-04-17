@@ -1,0 +1,96 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+Startpoint: inputs[0] (input port clocked by clk)
+Endpoint: outputs[7] (output port clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                      0.000000    0.000000    0.000000   clock clk (rise edge)
+                                  0.000000    0.000000   clock network delay (ideal)
+                                  5.000000    5.000000 ^ input external delay
+     4    0.029052    0.138033    0.093726    5.093726 ^ inputs[0] (in)
+                                                         inputs[0] (net)
+                      0.138033    0.000000    5.093726 ^ _05_/B (sky130_fd_sc_hd__xor2_2)
+     3    0.051858    0.629035    0.523872    5.617598 ^ _05_/X (sky130_fd_sc_hd__xor2_2)
+                                                         outputs[4] (net)
+                      0.629035    0.000000    5.617598 ^ _10_/A (sky130_fd_sc_hd__xnor2_2)
+     2    0.041760    0.248875    0.316905    5.934503 v _10_/Y (sky130_fd_sc_hd__xnor2_2)
+                                                         outputs[5] (net)
+                      0.248875    0.000000    5.934503 v _13_/A (sky130_fd_sc_hd__xnor2_2)
+     1    0.033442    0.453251    0.466822    6.401325 ^ _13_/Y (sky130_fd_sc_hd__xnor2_2)
+                                                         outputs[7] (net)
+                      0.453251    0.000000    6.401325 ^ outputs[7] (out)
+                                              6.401325   data arrival time
+
+                      0.000000   25.000000   25.000000   clock clk (rise edge)
+                                  0.000000   25.000000   clock network delay (ideal)
+                                 -0.250000   24.750000   clock uncertainty
+                                  0.000000   24.750000   clock reconvergence pessimism
+                                 -5.000000   19.750000   output external delay
+                                             19.750000   data required time
+---------------------------------------------------------------------------------------------
+                                             19.750000   data required time
+                                             -6.401325   data arrival time
+---------------------------------------------------------------------------------------------
+                                             13.348675   slack (MET)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 21 unannotated drivers.
+ inputs[0]
+ inputs[1]
+ inputs[2]
+ inputs[3]
+ inputs[4]
+ inputs[5]
+ inputs[6]
+ inputs[7]
+ _05_/X
+ _06_/X
+ _07_/X
+ _08_/X
+ _09_/Y
+ _10_/Y
+ _11_/X
+ _12_/Y
+ _13_/Y
+ _14_/Y
+ _15_/Y
+ _16_/X
+ _17_/X
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 0
+max cap violation count 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
