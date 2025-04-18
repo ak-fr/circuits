@@ -1,0 +1,32 @@
+9. Printing statistics.
+
+=== expmob2 ===
+
+   Number of wires:               2277
+   Number of wire bits:           5430
+   Number of public wires:          14
+   Number of public wire bits:    2850
+   Number of ports:                  3
+   Number of port bits:            513
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1627
+     $scopeinfo                      3
+     and21nor_x0                   163
+     and2_x1                       247
+     and3_x1                        10
+     and4_x1                        81
+     dff_x1                        289
+     inv_x0                         28
+     mux2_x1                         2
+     nand2_x0                      349
+     nand3_x0                       30
+     nand4_x0                      191
+     nexor2_x0                      29
+     nor2_x0                        69
+     nor4_x0                         7
+     xor2_x0                       129
+
+Removed 0 unused cells and 1056 unused wires.
+

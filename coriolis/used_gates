@@ -1,0 +1,1035 @@
+It took yosys = 10.31s
+9. Printing statistics.
+
+=== rot ===
+
+   Number of wires:               2354
+   Number of wire bits:           8991
+   Number of public wires:          35
+   Number of public wire bits:    6672
+   Number of ports:                  3
+   Number of port bits:            520
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               2063
+     $scopeinfo                      8
+     inv_x0                          7
+     mux2_x1                      2048
+
+Removed 0 unused cells and 541 unused wires.
+
+
+Working in rot_n12
+It took yosys = 1m 1.09s
+9. Printing statistics.
+
+=== rot ===
+
+   Number of wires:              53322
+   Number of wire bits:         208943
+   Number of public wires:          51
+   Number of public wire bits:  155672
+   Number of ports:                  3
+   Number of port bits:           8204
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              49175
+     $scopeinfo                     12
+     inv_x0                         11
+     mux2_x1                     49152
+
+Removed 0 unused cells and 8237 unused wires.
+
+
+Working in expmob2_n10
+It took yosys = 8.56s
+9. Printing statistics.
+
+=== expmob2 ===
+
+   Number of wires:               5944
+   Number of wire bits:          18313
+   Number of public wires:          14
+   Number of public wire bits:   11298
+   Number of ports:                  3
+   Number of port bits:           2049
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               3758
+     $scopeinfo                      3
+     and21nor_x0                     4
+     and2_x1                        24
+     and3_x1                        12
+     and4_x1                        17
+     dff_x1                       1057
+     inv_x0                         27
+     mux2_x1                      2047
+     nand2_x0                        4
+     nand3_x0                        6
+     nand4_x0                        8
+     nexor2_x0                      26
+     nor2_x0                         1
+     nor3_x0                         1
+     nor4_x0                         6
+     or21nand_x0                     2
+     or2_x1                          1
+     xor2_x0                       512
+
+Removed 0 unused cells and 3744 unused wires.
+
+
+Working in expmob1_n7
+It took yosys = 7.00s
+9. Printing statistics.
+
+=== expmob1 ===
+
+   Number of wires:                724
+   Number of wire bits:           3645
+   Number of public wires:          23
+   Number of public wire bits:    2944
+   Number of ports:                  2
+   Number of port bits:            256
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                580
+     $scopeinfo                      7
+     inv_x0                         52
+     nexor2_x0                     441
+     xor2_x0                        80
+
+Removed 0 unused cells and 255 unused wires.
+
+
+Working in expmob1_n12
+It took yosys = 34.45s
+9. Printing statistics.
+
+=== expmob1 ===
+
+   Number of wires:              36390
+   Number of wire bits:         192000
+   Number of public wires:          38
+   Number of public wire bits:  155648
+   Number of ports:                  2
+   Number of port bits:           8192
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              32268
+     $scopeinfo                     12
+     inv_x0                       1484
+     nexor2_x0                   28000
+     xor2_x0                      2772
+
+Removed 0 unused cells and 8191 unused wires.
+
+
+Working in expmob2_n7
+It took yosys = 6.82s
+9. Printing statistics.
+
+=== expmob2 ===
+
+   Number of wires:               1250
+   Number of wire bits:           2867
+   Number of public wires:          14
+   Number of public wire bits:    1442
+   Number of ports:                  3
+   Number of port bits:            257
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                858
+     $scopeinfo                      3
+     and21nor_x0                     5
+     and2_x1                       138
+     and3_x1                       254
+     and4_x1                        16
+     dff_x1                        161
+     inv_x0                         28
+     mux2_x1                         1
+     nand2_x0                        5
+     nand3_x0                       20
+     nand4_x0                        4
+     nexor2_x0                      28
+     nor2_x0                         1
+     nor4_x0                         7
+     or21nand_x0                     1
+     or3_x1                        122
+     xor2_x0                        64
+
+Removed 0 unused cells and 606 unused wires.
+
+
+Working in rot_n5
+It took yosys = 6.83s
+9. Printing statistics.
+
+=== rot ===
+
+   Number of wires:                224
+   Number of wire bits:            755
+   Number of public wires:          23
+   Number of public wire bits:     554
+   Number of ports:                  3
+   Number of port bits:             69
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                169
+     $scopeinfo                      5
+     inv_x0                          4
+     mux2_x1                       160
+
+Removed 0 unused cells and 81 unused wires.
+
+
+Working in rot_n11
+It took yosys = 26.03s
+9. Printing statistics.
+
+=== rot ===
+
+   Number of wires:              24644
+   Number of wire bits:          96299
+   Number of public wires:          47
+   Number of public wire bits:   71702
+   Number of ports:                  3
+   Number of port bits:           4107
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              22549
+     $scopeinfo                     11
+     inv_x0                         10
+     mux2_x1                     22528
+
+Removed 0 unused cells and 4137 unused wires.
+
+
+Working in expmob2_n9
+It took yosys = 7.28s
+9. Printing statistics.
+
+=== expmob2 ===
+
+   Number of wires:               3115
+   Number of wire bits:           9340
+   Number of public wires:          14
+   Number of public wire bits:    5666
+   Number of ports:                  3
+   Number of port bits:           1025
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1951
+     $scopeinfo                      3
+     and21nor_x0                     1
+     and2_x1                        16
+     and3_x1                        15
+     and4_x1                        14
+     dff_x1                        545
+     inv_x0                         27
+     mux2_x1                      1025
+     nand2_x0                        1
+     nand3_x0                        5
+     nand4_x0                        3
+     nexor2_x0                      29
+     nor2_x0                         1
+     nor3_x0                         1
+     nor4_x0                         6
+     or21nand_x0                     1
+     xor2_x0                       258
+
+Removed 0 unused cells and 1954 unused wires.
+
+
+Working in expmob2_n3
+It took yosys = 6.70s
+9. Printing statistics.
+
+=== expmob2 ===
+
+   Number of wires:                371
+   Number of wire bits:            548
+   Number of public wires:          14
+   Number of public wire bits:     122
+   Number of ports:                  3
+   Number of port bits:             17
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                208
+     $scopeinfo                      3
+     and21nor_x0                     5
+     and2_x1                        16
+     and3_x1                        15
+     and4_x1                        17
+     dff_x1                         41
+     inv_x0                         31
+     mux2_x1                         1
+     nand2_x0                        8
+     nand3_x0                       11
+     nand4_x0                       19
+     nexor2_x0                      28
+     nor2_x0                         1
+     nor4_x0                         7
+     or21nand_x0                     1
+     xor2_x0                         4
+
+Removed 0 unused cells and 197 unused wires.
+
+
+Working in expmob2_n13
+It took yosys = 36.50s
+9. Printing statistics.
+
+=== expmob2 ===
+
+   Number of wires:              45364
+   Number of wire bits:         143749
+   Number of public wires:          14
+   Number of public wire bits:   90146
+   Number of ports:                  3
+   Number of port bits:          16385
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              28838
+     $scopeinfo                      3
+     and21nor_x0                     2
+     and2_x1                        18
+     and3_x1                        13
+     and4_x1                        18
+     dff_x1                       8225
+     inv_x0                         30
+     mux2_x1                     16383
+     nand3_x0                        7
+     nand4_x0                        5
+     nexor2_x0                      29
+     nor2_x0                         1
+     nor3_x0                         1
+     nor4_x0                         6
+     or21nand_x0                     1
+     xor2_x0                      4096
+
+Removed 0 unused cells and 28836 unused wires.
+
+
+Working in expmob1_n4
+It took yosys = 6.87s
+9. Printing statistics.
+
+=== expmob1 ===
+
+   Number of wires:                 68
+   Number of wire bits:            278
+   Number of public wires:          14
+   Number of public wire bits:     224
+   Number of ports:                  2
+   Number of port bits:             32
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 42
+     $scopeinfo                      4
+     inv_x0                          5
+     nexor2_x0                      25
+     xor2_x0                         8
+
+Removed 0 unused cells and 31 unused wires.
+
+
+Working in rot_n12_fast
+It took yosys = 58.73s
+9. Printing statistics.
+
+=== rot ===
+
+   Number of wires:              53322
+   Number of wire bits:         208943
+   Number of public wires:          51
+   Number of public wire bits:  155672
+   Number of ports:                  3
+   Number of port bits:           8204
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              49175
+     $scopeinfo                     12
+     inv_x0                         11
+     mux2_x1                     49152
+
+Removed 0 unused cells and 8237 unused wires.
+
+
+Working in expmob1_n11
+It took yosys = 17.16s
+9. Printing statistics.
+
+=== expmob1 ===
+
+   Number of wires:              16807
+   Number of wire bits:          88452
+   Number of public wires:          35
+   Number of public wire bits:   71680
+   Number of ports:                  2
+   Number of port bits:           4096
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              14735
+     $scopeinfo                     11
+     inv_x0                        772
+     nexor2_x0                   12580
+     xor2_x0                      1372
+
+Removed 0 unused cells and 4095 unused wires.
+
+
+Working in flow_template
+It took yosys = 6.44s
+
+Working in expmob1_n3
+It took yosys = 6.57s
+9. Printing statistics.
+
+=== expmob1 ===
+
+   Number of wires:                 32
+   Number of wire bits:            109
+   Number of public wires:          11
+   Number of public wire bits:      88
+   Number of ports:                  2
+   Number of port bits:             16
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 16
+     $scopeinfo                      3
+     inv_x0                          1
+     nexor2_x0                       8
+     xor2_x0                         4
+
+Removed 0 unused cells and 15 unused wires.
+
+
+Working in expmob1_n9
+It took yosys = 8.38s
+9. Printing statistics.
+
+=== expmob1 ===
+
+   Number of wires:               3539
+   Number of wire bits:          18358
+   Number of public wires:          29
+   Number of public wire bits:   14848
+   Number of ports:                  2
+   Number of port bits:           1024
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               3007
+     $scopeinfo                      9
+     inv_x0                        205
+     nexor2_x0                    2465
+     xor2_x0                       328
+
+Removed 0 unused cells and 1023 unused wires.
+
+
+Working in expmob2_n4
+It took yosys = 6.95s
+9. Printing statistics.
+
+=== expmob2 ===
+
+   Number of wires:                422
+   Number of wire bits:            695
+   Number of public wires:          14
+   Number of public wire bits:     210
+   Number of ports:                  3
+   Number of port bits:             33
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                251
+     $scopeinfo                      3
+     and21nor_x0                     4
+     and2_x1                        30
+     and3_x1                        43
+     and4_x1                        17
+     dff_x1                         49
+     inv_x0                         27
+     mux2_x1                         2
+     nand2_x0                        1
+     nand3_x0                        6
+     nand4_x0                        6
+     nexor2_x0                      28
+     nor2_x0                         1
+     nor4_x0                         8
+     or21nand_x0                     2
+     or3_x1                         15
+     xor2_x0                         9
+
+Removed 0 unused cells and 217 unused wires.
+
+
+Working in expmob2_n14
+It took yosys = 2m 25.09s
+9. Printing statistics.
+
+=== expmob2 ===
+
+   Number of wires:              90410
+   Number of wire bits:         287099
+   Number of public wires:          14
+   Number of public wire bits:  180258
+   Number of ports:                  3
+   Number of port bits:          32769
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              57503
+     $scopeinfo                      3
+     and21nor_x0                     1
+     and2_x1                        18
+     and3_x1                        12
+     and4_x1                        15
+     dff_x1                      16417
+     inv_x0                         28
+     mux2_x1                     32768
+     nand3_x0                        4
+     nand4_x0                        5
+     nexor2_x0                      29
+     nor2_x0                         1
+     nor3_x0                         1
+     nor4_x0                         6
+     or21nand_x0                     1
+     or3_x1                          1
+     xor2_x0                      8193
+
+Removed 0 unused cells and 57505 unused wires.
+
+
+Working in rot_n6
+It took yosys = 7.20s
+9. Printing statistics.
+
+=== rot ===
+
+   Number of wires:                486
+   Number of wire bits:           1751
+   Number of public wires:          27
+   Number of public wire bits:    1292
+   Number of ports:                  3
+   Number of port bits:            134
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                395
+     $scopeinfo                      6
+     inv_x0                          5
+     mux2_x1                       384
+
+Removed 0 unused cells and 149 unused wires.
+
+
+Working in .mypy_cache
+It took yosys = 0.21s
+
+Working in expmob2_n6
+It took yosys = 7.13s
+9. Printing statistics.
+
+=== expmob2 ===
+
+   Number of wires:                867
+   Number of wire bits:           1716
+   Number of public wires:          14
+   Number of public wire bits:     738
+   Number of ports:                  3
+   Number of port bits:            129
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                599
+     $scopeinfo                      3
+     and21nor_x0                     1
+     and2_x1                        35
+     and3_x1                        25
+     and4_x1                        18
+     dff_x1                         97
+     inv_x0                        114
+     mux2_x1                         1
+     nand2_x0                       49
+     nand3_x0                        6
+     nand4_x0                        5
+     nexor2_x0                      55
+     nor2_x0                         2
+     nor3_x0                        63
+     nor4_x0                         7
+     or21nand_x0                    48
+     or2_x1                         47
+     or3_x1                         16
+     xor2_x0                         7
+
+Removed 0 unused cells and 386 unused wires.
+
+
+Working in rot_n4
+It took yosys = 6.91s
+9. Printing statistics.
+
+=== rot ===
+
+   Number of wires:                106
+   Number of wire bits:            319
+   Number of public wires:          19
+   Number of public wire bits:     232
+   Number of ports:                  3
+   Number of port bits:             36
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 71
+     $scopeinfo                      4
+     inv_x0                          3
+     mux2_x1                        64
+
+Removed 0 unused cells and 45 unused wires.
+
+
+Working in rot_n14
+It took yosys = 17m 4.91s
+9. Printing statistics.
+
+=== rot ===
+
+   Number of wires:             245846
+   Number of wire bits:         966711
+   Number of public wires:          59
+   Number of public wire bits:  720924
+   Number of ports:                  3
+   Number of port bits:          32782
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:             229403
+     $scopeinfo                     14
+     inv_x0                         13
+     mux2_x1                    229376
+
+Removed 0 unused cells and 32821 unused wires.
+
+
+Working in expmob1_n14
+It took yosys = 5m 40.77s
+9. Printing statistics.
+
+=== expmob1 ===
+
+   Number of wires:             167791
+   Number of wire bits:         888643
+   Number of public wires:          44
+   Number of public wire bits:  720896
+   Number of ports:                  2
+   Number of port bits:          32768
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:             151377
+     $scopeinfo                     14
+     inv_x0                       5927
+     nexor2_x0                  134314
+     xor2_x0                     11122
+
+Removed 0 unused cells and 32767 unused wires.
+
+
+Working in expmob1_n6
+It took yosys = 6.75s
+9. Printing statistics.
+
+=== expmob1 ===
+
+   Number of wires:                330
+   Number of wire bits:           1590
+   Number of public wires:          20
+   Number of public wire bits:    1280
+   Number of ports:                  2
+   Number of port bits:            128
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                252
+     $scopeinfo                      6
+     inv_x0                         25
+     nexor2_x0                     185
+     xor2_x0                        36
+
+Removed 0 unused cells and 127 unused wires.
+
+
+Working in expmob1_n13
+It took yosys = 1m 31.57s
+9. Printing statistics.
+
+=== expmob1 ===
+
+   Number of wires:              78238
+   Number of wire bits:         414069
+   Number of public wires:          41
+   Number of public wire bits:  335872
+   Number of ports:                  2
+   Number of port bits:          16384
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              70018
+     $scopeinfo                     13
+     inv_x0                       2993
+     nexor2_x0                   61463
+     xor2_x0                      5549
+
+Removed 0 unused cells and 16383 unused wires.
+
+
+Working in rot_n3
+It took yosys = 6.67s
+9. Printing statistics.
+
+=== rot ===
+
+   Number of wires:                 52
+   Number of wire bits:            131
+   Number of public wires:          15
+   Number of public wire bits:      94
+   Number of ports:                  3
+   Number of port bits:             19
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 29
+     $scopeinfo                      3
+     inv_x0                          2
+     mux2_x1                        24
+
+Removed 0 unused cells and 25 unused wires.
+
+
+Working in rot_n13
+It took yosys = 3m 42.78s
+9. Printing statistics.
+
+=== rot ===
+
+   Number of wires:             114768
+   Number of wire bits:         450611
+   Number of public wires:          55
+   Number of public wire bits:  335898
+   Number of ports:                  3
+   Number of port bits:          16397
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:             106521
+     $scopeinfo                     13
+     inv_x0                         12
+     mux2_x1                    106496
+
+Removed 0 unused cells and 16433 unused wires.
+
+
+Working in rot_n9
+It took yosys = 9.61s
+9. Printing statistics.
+
+=== rot ===
+
+   Number of wires:               5176
+   Number of wire bits:          20003
+   Number of public wires:          39
+   Number of public wire bits:   14866
+   Number of ports:                  3
+   Number of port bits:           1033
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               4625
+     $scopeinfo                      9
+     inv_x0                          8
+     mux2_x1                      4608
+
+Removed 0 unused cells and 1057 unused wires.
+
+
+Working in expmob2_n11
+It took yosys = 10.47s
+9. Printing statistics.
+
+=== expmob2 ===
+
+   Number of wires:              11578
+   Number of wire bits:          36235
+   Number of public wires:          14
+   Number of public wire bits:   22562
+   Number of ports:                  3
+   Number of port bits:           4097
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               7342
+     $scopeinfo                      3
+     and21nor_x0                     3
+     and2_x1                        25
+     and3_x1                        14
+     and4_x1                        15
+     dff_x1                       2081
+     inv_x0                         31
+     mux2_x1                      4095
+     nand2_x0                        2
+     nand3_x0                        4
+     nand4_x0                        8
+     nexor2_x0                      26
+     nor3_x0                         2
+     nor4_x0                         6
+     or21nand_x0                     3
+     xor2_x0                      1024
+
+Removed 0 unused cells and 7330 unused wires.
+
+
+Working in expmob2_n5
+It took yosys = 6.88s
+9. Printing statistics.
+
+=== expmob2 ===
+
+   Number of wires:                541
+   Number of wire bits:           1006
+   Number of public wires:          14
+   Number of public wire bits:     386
+   Number of ports:                  3
+   Number of port bits:             65
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                336
+     $scopeinfo                      3
+     and21nor_x0                    15
+     and2_x1                        42
+     and3_x1                        48
+     and4_x1                        14
+     dff_x1                         65
+     inv_x0                         29
+     mux2_x1                         2
+     nand2_x0                       16
+     nand3_x0                       20
+     nand4_x0                        6
+     nexor2_x0                      29
+     nor2_x0                         6
+     nor4_x0                         7
+     or21nand_x0                     2
+     or3_x1                         15
+     xor2_x0                        17
+
+Removed 0 unused cells and 275 unused wires.
+
+
+Working in rot_n7
+It took yosys = 7.34s
+9. Printing statistics.
+
+=== rot ===
+
+   Number of wires:               1068
+   Number of wire bits:           3995
+   Number of public wires:          31
+   Number of public wire bits:    2958
+   Number of ports:                  3
+   Number of port bits:            263
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                909
+     $scopeinfo                      7
+     inv_x0                          6
+     mux2_x1                       896
+
+Removed 0 unused cells and 281 unused wires.
+
+
+Working in expmob1_n8
+It took yosys = 7.65s
+9. Printing statistics.
+
+=== expmob1 ===
+
+   Number of wires:               1600
+   Number of wire bits:           8230
+   Number of public wires:          26
+   Number of public wire bits:    6656
+   Number of ports:                  2
+   Number of port bits:            512
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1326
+     $scopeinfo                      8
+     inv_x0                        102
+     nexor2_x0                    1053
+     xor2_x0                       163
+
+Removed 0 unused cells and 511 unused wires.
+
+
+Working in expmob1_n5
+It took yosys = 6.89s
+9. Printing statistics.
+
+=== expmob1 ===
+
+   Number of wires:                150
+   Number of wire bits:            677
+   Number of public wires:          17
+   Number of public wire bits:     544
+   Number of ports:                  2
+   Number of port bits:             64
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                106
+     $scopeinfo                      5
+     inv_x0                         12
+     nexor2_x0                      71
+     xor2_x0                        18
+
+Removed 0 unused cells and 63 unused wires.
+
+
+Working in expmob1_n10
+It took yosys = 11.73s
+9. Printing statistics.
+
+=== expmob1 ===
+
+   Number of wires:               7745
+   Number of wire bits:          40481
+   Number of public wires:          32
+   Number of public wire bits:   32768
+   Number of ports:                  2
+   Number of port bits:           2048
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               6699
+     $scopeinfo                     10
+     inv_x0                        396
+     nexor2_x0                    5613
+     xor2_x0                       680
+
+Removed 0 unused cells and 2047 unused wires.
+
+
+Working in flow_template_automatic
+It took yosys = 6.63s
+
+Working in rot_n10
+It took yosys = 14.14s
+9. Printing statistics.
+
+=== rot ===
+
+   Number of wires:              11326
+   Number of wire bits:          44071
+   Number of public wires:          43
+   Number of public wire bits:   32788
+   Number of ports:                  3
+   Number of port bits:           2058
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              10259
+     $scopeinfo                     10
+     inv_x0                          9
+     mux2_x1                     10240
+
+Removed 0 unused cells and 2085 unused wires.
+
+
+Working in expmob2_n12
+It took yosys = 18.48s
+9. Printing statistics.
+
+=== expmob2 ===
+
+   Number of wires:              22831
+   Number of wire bits:          72064
+   Number of public wires:          14
+   Number of public wire bits:   45090
+   Number of ports:                  3
+   Number of port bits:           8193
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              14503
+     $scopeinfo                      3
+     and21nor_x0                     2
+     and2_x1                        18
+     and3_x1                        15
+     and4_x1                        16
+     dff_x1                       4129
+     inv_x0                         33
+     mux2_x1                      8191
+     nand2_x0                        4
+     nand3_x0                        1
+     nand4_x0                        5
+     nexor2_x0                      28
+     nor3_x0                         1
+     nor4_x0                         6
+     or21nand_x0                     2
+     or2_x1                          1
+     xor2_x0                      2048
+
+Removed 0 unused cells and 14494 unused wires.
+
+
+Working in expmob2_n8
+It took yosys = 7.10s
+9. Printing statistics.
+
+=== expmob2 ===
+
+   Number of wires:               2277
+   Number of wire bits:           5430
+   Number of public wires:          14
+   Number of public wire bits:    2850
+   Number of ports:                  3
+   Number of port bits:            513
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1627
+     $scopeinfo                      3
+     and21nor_x0                   163
+     and2_x1                       247
+     and3_x1                        10
+     and4_x1                        81
+     dff_x1                        289
+     inv_x0                         28
+     mux2_x1                         2
+     nand2_x0                      349
+     nand3_x0                       30
+     nand4_x0                      191
+     nexor2_x0                      29
+     nor2_x0                        69
+     nor4_x0                         7
+     xor2_x0                       129
+
+Removed 0 unused cells and 1056 unused wires.

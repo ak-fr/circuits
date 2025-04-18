@@ -1,6 +1,0 @@
-{
-  "DESIGN_NAME": "rot",
-  "VERILOG_FILES": ["dir::rot.v"],
-  "CLOCK_PERIOD": 25,
-  "CLOCK_PORT": "clk"
-}
