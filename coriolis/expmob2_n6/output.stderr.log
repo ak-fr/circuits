@@ -1,5 +1,5 @@
 PyInit_Cfg() (Python3+template)
-Cfg.so loaded 0x7038d42b6d48 (std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+Cfg.so loaded 0x7d6cdfa6cd48 (std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
 [ERROR] GdsStream::xyToComponent(): 56 offgrid points on layer "TopMetal2" (foundry grid: 0.005um).
         | <Point 0um -22.5um>
         | <Point -2.205um -22.392um> offgrid
@@ -375,7 +375,7 @@ Cfg.so loaded 0x7038d42b6d48 (std::__cxx11::basic_string<char, std::char_traits<
  (PAD)
  (PAD)
 [WARNING] LefParser::parse(): No CORE site found in library, unable to check the Cell gauge.
-[WARNING] In &<id:971137 Instance subckt_563_dff_x1 dff_x1>
+[WARNING] In &<id:971657 Instance subckt_629_dff_x1 dff_x1>
           Terminal i is connected to POWER/GROUND vdd through the alias $true.
 [WARNING] EtesianEngine::_postCreate() Unable to find "None" tie cell.
 [ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
@@ -405,25 +405,78 @@ Cfg.so loaded 0x7038d42b6d48 (std::__cxx11::basic_string<char, std::char_traits<
 [ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
 [ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
 [ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
+[ERROR] SubSlice::getAverageChunk(): No feed has been registered, ignoring.
 [WARNING] RawGCellsUnder::commonCtor(): Area is completly outside the GCells area (ignored).
-          * GCells area: <Box 0um 0um 148um 97.92um>
+          * GCells area: <Box 0um 0um 252um 259.2um>
           * Obstacle area: [0um 0um 0um 1.12um]
-  o  Global routing did not complete.
-  o  Routing did not complete, unrouted segments:
-      1| &<id:984351 Horizontal outputs(45) Metal4 [2um 2um] [9.1um 2um] 0.29um rpD:1 bl:1 ------CG----W---------bt-- [1.75um:9.425um] [1.75um:9.425um] 7.675um ------t>
-      2| &<id:984430 Horizontal outputs(47) Metal4 [3um 1.5um] [7.15um 1.5um] 0.29um rpD:1 bl:1 ------CG----W---------bt-- [2.75um:7.475um] [2.75um:7.475um] 4.725um ------t>
-      3| &<id:991575 Vertical inputs(42) Metal3 [0um 0.5um] [0um 4.5um] 0.29um rpD:1 bl:1 ------C-----W---------bt-- [0.25um:4.75um] [0.25um:4.75um] 4.5um ------t>
-      4| &<id:991581 Horizontal inputs(60) Metal2 [0um 9.5um] [3um 9.5um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.21um:3.25um] [-0.21um:3.25um] 3.46um ------->
-      5| &<id:991587 Horizontal inputs(61) Metal2 [0um 10um] [6um 10um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.21um:6.25um] [-0.21um:6.25um] 6.46um ------->
-      6| &<id:991984 Horizontal inputs(56) Metal2 [-0.105um 7.5um] [0.395um 7.5um] 0.29um rpD:0 bl:0 ---a-UC---T------------t-- [-0.25um:0.5um] [-0.25um:0.5um] 0.75um ------->
-      7| &<id:991998 Horizontal inputs(58) Metal2 [0um 8.5um] [8um 8.5um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.21um:8.25um] [-0.21um:8.25um] 8.46um ------->
-      8| &<id:992006 Horizontal inputs(59) Metal2 [-0.105um 9um] [0.395um 9um] 0.29um rpD:0 bl:0 ---a-UC---T------------t-- [-0.25um:0.5um] [-0.25um:0.5um] 0.75um ------->
-      9| &<id:992039 Horizontal inputs(49) Metal2 [0um 4um] [1.5um 4um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.21um:1.75um] [-0.21um:1.75um] 1.96um ------->
-     10| &<id:992062 Horizontal inputs(46) Metal2 [0um 2.5um] [5um 2.5um] 0.29um rpD:0 bl:0 -----UC---T------------t-- [-0.21um:5.25um] [-0.21um:5.25um] 5.46um ------->
-     11| &<id:993393 Vertical outputs(53) Metal3 [3.5um 0um] [3.5um 11um] 0.29um rpD:5 bl:2 ------CG------A-------tt-- [-0.25um:11.25um] [-0.25um:11.25um] 11.5um -----s->
-[WARNING] Track::repair(): Enlarging narrow gap in <HorizontalTrack [17] Metal2 @8.5um [-0.395um:148.395um] [40/64]> near (shift left):
-          <id:991228 Horizontal outputs(54) Metal2 [112.14um 8.5um] [112.645um 8.5um] 0.29um rpD:0 bl:0 ---a-UC---T------i----tb-- [112.25um:112.965um]>
-[ERROR] PortMap::_lookup() Unconnected "<id:971481 Plug UNCONNECTED spare_buffer_1.i>",
-        In <id:971477 Instance spare_buffer_1 buf_x4>.
-[ERROR] PortMap::_lookup() Unconnected "<id:971492 Plug UNCONNECTED spare_buffer_2.i>",
-        In <id:971488 Instance spare_buffer_2 buf_x4>.

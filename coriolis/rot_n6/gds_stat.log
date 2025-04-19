@@ -1930,3 +1930,47 @@ effective_density = 90.1
 wire_length = 22716
 dimensions = (75.2, 132.48)
 
+effective_density = 13.7
+wire_length = 45026
+dimensions = (252.0, 259.2)
+
+effective_density = 15.7
+wire_length = 45264
+dimensions = (241.6, 236.16)
+
+effective_density = 16.4
+wire_length = 43403
+dimensions = (231.2, 236.16)
+
+effective_density = 17.3
+wire_length = 44434
+dimensions = (231.2, 224.64)
+
+effective_density = 18.1
+wire_length = 43237
+dimensions = (220.8, 224.64)
+
+effective_density = 19.1
+wire_length = 41325
+dimensions = (220.8, 213.12)
+
+effective_density = 20.0
+wire_length = 37361
+dimensions = (210.4, 213.12)
+
+effective_density = 21.2
+wire_length = 36411
+dimensions = (210.4, 201.6)
+
+effective_density = 22.3
+wire_length = 35589
+dimensions = (200.0, 201.6)
+
+effective_density = 97.7
+wire_length = 21765
+dimensions = (106.4, 86.4)
+
+effective_density = 90.1
+wire_length = 22854
+dimensions = (75.2, 132.48)
+

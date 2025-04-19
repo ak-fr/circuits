@@ -21,8 +21,8 @@ from pdks.ihpsg13g2_c4m.designflow.filler   import Filler
 from pdks.ihpsg13g2_c4m.designflow.sealring import SealRing
 from pdks.ihpsg13g2_c4m.designflow.drc      import DRC
 from MydoDesign                               import scriptMain
-#from doDesign                               import scriptMain
-import doDesign
+from doDesign                               import scriptMain
+#import doDesign
 
 print(f"libName is located at: {os.path.abspath(doDesign.__file__)}")
 buildChip          = False

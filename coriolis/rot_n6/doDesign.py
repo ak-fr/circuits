@@ -19,7 +19,7 @@ af = CRL.AllianceFramework.get()
 
 
 CoreName = 'rot'
-scalar_a, scalar_b = -6055, -937  # updated values
+scalar_a, scalar_b = 146, 17  # updated values
 connectors_margin = 4  # updated value
 
 

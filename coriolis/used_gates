@@ -14,8 +14,8 @@ It took yosys = 10.31s
    Number of processes:              0
    Number of cells:               2063
      $scopeinfo                      8
-     inv_x0                          7
-     mux2_x1                      2048
+                               7
+                           2048
 
 Removed 0 unused cells and 541 unused wires.
 
@@ -37,8 +37,8 @@ It took yosys = 1m 1.09s
    Number of processes:              0
    Number of cells:              49175
      $scopeinfo                     12
-     inv_x0                         11
-     mux2_x1                     49152
+                              11
+                          49152
 
 Removed 0 unused cells and 8237 unused wires.
 
@@ -60,23 +60,23 @@ It took yosys = 8.56s
    Number of processes:              0
    Number of cells:               3758
      $scopeinfo                      3
-     and21nor_x0                     4
-     and2_x1                        24
-     and3_x1                        12
-     and4_x1                        17
-     dff_x1                       1057
-     inv_x0                         27
-     mux2_x1                      2047
-     nand2_x0                        4
-     nand3_x0                        6
-     nand4_x0                        8
-     nexor2_x0                      26
-     nor2_x0                         1
-     nor3_x0                         1
-     nor4_x0                         6
-     or21nand_x0                     2
-     or2_x1                          1
-     xor2_x0                       512
+                          4
+                             24
+                             12
+                             17
+                            1057
+                              27
+                           2047
+                             4
+                             6
+                             8
+                          26
+                              1
+                              1
+                              6
+                          2
+                               1
+                            512
 
 Removed 0 unused cells and 3744 unused wires.
 
@@ -98,9 +98,9 @@ It took yosys = 7.00s
    Number of processes:              0
    Number of cells:                580
      $scopeinfo                      7
-     inv_x0                         52
-     nexor2_x0                     441
-     xor2_x0                        80
+                              52
+                          441
+                             80
 
 Removed 0 unused cells and 255 unused wires.
 
@@ -122,9 +122,9 @@ It took yosys = 34.45s
    Number of processes:              0
    Number of cells:              32268
      $scopeinfo                     12
-     inv_x0                       1484
-     nexor2_x0                   28000
-     xor2_x0                      2772
+                            1484
+                        28000
+                           2772
 
 Removed 0 unused cells and 8191 unused wires.
 
@@ -146,22 +146,22 @@ It took yosys = 6.82s
    Number of processes:              0
    Number of cells:                858
      $scopeinfo                      3
-     and21nor_x0                     5
-     and2_x1                       138
-     and3_x1                       254
-     and4_x1                        16
-     dff_x1                        161
-     inv_x0                         28
-     mux2_x1                         1
-     nand2_x0                        5
-     nand3_x0                       20
-     nand4_x0                        4
-     nexor2_x0                      28
-     nor2_x0                         1
-     nor4_x0                         7
-     or21nand_x0                     1
-     or3_x1                        122
-     xor2_x0                        64
+                          5
+                            138
+                            254
+                             16
+                             161
+                              28
+                              1
+                             5
+                            20
+                             4
+                           28
+                              1
+                              7
+                          1
+                             122
+                             64
 
 Removed 0 unused cells and 606 unused wires.
 
@@ -183,8 +183,8 @@ It took yosys = 6.83s
    Number of processes:              0
    Number of cells:                169
      $scopeinfo                      5
-     inv_x0                          4
-     mux2_x1                       160
+                               4
+                            160
 
 Removed 0 unused cells and 81 unused wires.
 
@@ -206,8 +206,8 @@ It took yosys = 26.03s
    Number of processes:              0
    Number of cells:              22549
      $scopeinfo                     11
-     inv_x0                         10
-     mux2_x1                     22528
+                              10
+                          22528
 
 Removed 0 unused cells and 4137 unused wires.
 
@@ -229,22 +229,22 @@ It took yosys = 7.28s
    Number of processes:              0
    Number of cells:               1951
      $scopeinfo                      3
-     and21nor_x0                     1
-     and2_x1                        16
-     and3_x1                        15
-     and4_x1                        14
-     dff_x1                        545
-     inv_x0                         27
-     mux2_x1                      1025
-     nand2_x0                        1
-     nand3_x0                        5
-     nand4_x0                        3
-     nexor2_x0                      29
-     nor2_x0                         1
-     nor3_x0                         1
-     nor4_x0                         6
-     or21nand_x0                     1
-     xor2_x0                       258
+                          1
+                             16
+                             15
+                             14
+                             545
+                              27
+                           1025
+                             1
+                             5
+                             3
+                           29
+                              1
+                              1
+                              6
+                          1
+                            258
 
 Removed 0 unused cells and 1954 unused wires.
 
@@ -266,21 +266,21 @@ It took yosys = 6.70s
    Number of processes:              0
    Number of cells:                208
      $scopeinfo                      3
-     and21nor_x0                     5
-     and2_x1                        16
-     and3_x1                        15
-     and4_x1                        17
-     dff_x1                         41
-     inv_x0                         31
-     mux2_x1                         1
-     nand2_x0                        8
-     nand3_x0                       11
-     nand4_x0                       19
-     nexor2_x0                      28
-     nor2_x0                         1
-     nor4_x0                         7
-     or21nand_x0                     1
-     xor2_x0                         4
+                          5
+                             16
+                             15
+                             17
+                              41
+                              31
+                              1
+                             8
+                            11
+                            19
+                           28
+                              1
+                              7
+                          1
+                              4
 
 Removed 0 unused cells and 197 unused wires.
 
@@ -302,21 +302,21 @@ It took yosys = 36.50s
    Number of processes:              0
    Number of cells:              28838
      $scopeinfo                      3
-     and21nor_x0                     2
-     and2_x1                        18
-     and3_x1                        13
-     and4_x1                        18
-     dff_x1                       8225
-     inv_x0                         30
-     mux2_x1                     16383
-     nand3_x0                        7
-     nand4_x0                        5
-     nexor2_x0                      29
-     nor2_x0                         1
-     nor3_x0                         1
-     nor4_x0                         6
-     or21nand_x0                     1
-     xor2_x0                      4096
+                          2
+                             18
+                             13
+                             18
+                            8225
+                              30
+                          16383
+                             7
+                             5
+                           29
+                              1
+                              1
+                              6
+                          1
+                           4096
 
 Removed 0 unused cells and 28836 unused wires.
 
@@ -338,9 +338,9 @@ It took yosys = 6.87s
    Number of processes:              0
    Number of cells:                 42
      $scopeinfo                      4
-     inv_x0                          5
-     nexor2_x0                      25
-     xor2_x0                         8
+                               5
+                           25
+                              8
 
 Removed 0 unused cells and 31 unused wires.
 
@@ -362,8 +362,8 @@ It took yosys = 58.73s
    Number of processes:              0
    Number of cells:              49175
      $scopeinfo                     12
-     inv_x0                         11
-     mux2_x1                     49152
+                              11
+                          49152
 
 Removed 0 unused cells and 8237 unused wires.
 
@@ -385,9 +385,9 @@ It took yosys = 17.16s
    Number of processes:              0
    Number of cells:              14735
      $scopeinfo                     11
-     inv_x0                        772
-     nexor2_x0                   12580
-     xor2_x0                      1372
+                             772
+                        12580
+                           1372
 
 Removed 0 unused cells and 4095 unused wires.
 
@@ -412,9 +412,9 @@ It took yosys = 6.57s
    Number of processes:              0
    Number of cells:                 16
      $scopeinfo                      3
-     inv_x0                          1
-     nexor2_x0                       8
-     xor2_x0                         4
+                               1
+                            8
+                              4
 
 Removed 0 unused cells and 15 unused wires.
 
@@ -436,9 +436,9 @@ It took yosys = 8.38s
    Number of processes:              0
    Number of cells:               3007
      $scopeinfo                      9
-     inv_x0                        205
-     nexor2_x0                    2465
-     xor2_x0                       328
+                             205
+                         2465
+                            328
 
 Removed 0 unused cells and 1023 unused wires.
 
@@ -460,22 +460,22 @@ It took yosys = 6.95s
    Number of processes:              0
    Number of cells:                251
      $scopeinfo                      3
-     and21nor_x0                     4
-     and2_x1                        30
-     and3_x1                        43
-     and4_x1                        17
-     dff_x1                         49
-     inv_x0                         27
-     mux2_x1                         2
-     nand2_x0                        1
-     nand3_x0                        6
-     nand4_x0                        6
-     nexor2_x0                      28
-     nor2_x0                         1
-     nor4_x0                         8
-     or21nand_x0                     2
-     or3_x1                         15
-     xor2_x0                         9
+                          4
+                             30
+                             43
+                             17
+                              49
+                              27
+                              2
+                             1
+                             6
+                             6
+                           28
+                              1
+                              8
+                          2
+                              15
+                              9
 
 Removed 0 unused cells and 217 unused wires.
 
@@ -497,22 +497,22 @@ It took yosys = 2m 25.09s
    Number of processes:              0
    Number of cells:              57503
      $scopeinfo                      3
-     and21nor_x0                     1
-     and2_x1                        18
-     and3_x1                        12
-     and4_x1                        15
-     dff_x1                      16417
-     inv_x0                         28
-     mux2_x1                     32768
-     nand3_x0                        4
-     nand4_x0                        5
-     nexor2_x0                      29
-     nor2_x0                         1
-     nor3_x0                         1
-     nor4_x0                         6
-     or21nand_x0                     1
-     or3_x1                          1
-     xor2_x0                      8193
+                          1
+                             18
+                             12
+                             15
+                           16417
+                              28
+                          32768
+                             4
+                             5
+                           29
+                              1
+                              1
+                              6
+                          1
+                               1
+                           8193
 
 Removed 0 unused cells and 57505 unused wires.
 
@@ -534,8 +534,8 @@ It took yosys = 7.20s
    Number of processes:              0
    Number of cells:                395
      $scopeinfo                      6
-     inv_x0                          5
-     mux2_x1                       384
+                               5
+                            384
 
 Removed 0 unused cells and 149 unused wires.
 
@@ -560,24 +560,24 @@ It took yosys = 7.13s
    Number of processes:              0
    Number of cells:                599
      $scopeinfo                      3
-     and21nor_x0                     1
-     and2_x1                        35
-     and3_x1                        25
-     and4_x1                        18
-     dff_x1                         97
-     inv_x0                        114
-     mux2_x1                         1
-     nand2_x0                       49
-     nand3_x0                        6
-     nand4_x0                        5
-     nexor2_x0                      55
-     nor2_x0                         2
-     nor3_x0                        63
-     nor4_x0                         7
-     or21nand_x0                    48
-     or2_x1                         47
-     or3_x1                         16
-     xor2_x0                         7
+                          1
+                             35
+                             25
+                             18
+                              97
+                             114
+                              1
+                            49
+                             6
+                             5
+                           55
+                              2
+                             63
+                              7
+                         48
+                              47
+                              16
+                              7
 
 Removed 0 unused cells and 386 unused wires.
 
@@ -599,8 +599,8 @@ It took yosys = 6.91s
    Number of processes:              0
    Number of cells:                 71
      $scopeinfo                      4
-     inv_x0                          3
-     mux2_x1                        64
+                               3
+                             64
 
 Removed 0 unused cells and 45 unused wires.
 
@@ -622,8 +622,8 @@ It took yosys = 17m 4.91s
    Number of processes:              0
    Number of cells:             229403
      $scopeinfo                     14
-     inv_x0                         13
-     mux2_x1                    229376
+                              13
+                         229376
 
 Removed 0 unused cells and 32821 unused wires.
 
@@ -645,9 +645,9 @@ It took yosys = 5m 40.77s
    Number of processes:              0
    Number of cells:             151377
      $scopeinfo                     14
-     inv_x0                       5927
-     nexor2_x0                  134314
-     xor2_x0                     11122
+                            5927
+                       134314
+                          11122
 
 Removed 0 unused cells and 32767 unused wires.
 
@@ -669,9 +669,9 @@ It took yosys = 6.75s
    Number of processes:              0
    Number of cells:                252
      $scopeinfo                      6
-     inv_x0                         25
-     nexor2_x0                     185
-     xor2_x0                        36
+                              25
+                          185
+                             36
 
 Removed 0 unused cells and 127 unused wires.
 
@@ -693,9 +693,9 @@ It took yosys = 1m 31.57s
    Number of processes:              0
    Number of cells:              70018
      $scopeinfo                     13
-     inv_x0                       2993
-     nexor2_x0                   61463
-     xor2_x0                      5549
+                            2993
+                        61463
+                           5549
 
 Removed 0 unused cells and 16383 unused wires.
 
@@ -717,8 +717,8 @@ It took yosys = 6.67s
    Number of processes:              0
    Number of cells:                 29
      $scopeinfo                      3
-     inv_x0                          2
-     mux2_x1                        24
+                               2
+                             24
 
 Removed 0 unused cells and 25 unused wires.
 
@@ -740,8 +740,8 @@ It took yosys = 3m 42.78s
    Number of processes:              0
    Number of cells:             106521
      $scopeinfo                     13
-     inv_x0                         12
-     mux2_x1                    106496
+                              12
+                         106496
 
 Removed 0 unused cells and 16433 unused wires.
 
@@ -763,8 +763,8 @@ It took yosys = 9.61s
    Number of processes:              0
    Number of cells:               4625
      $scopeinfo                      9
-     inv_x0                          8
-     mux2_x1                      4608
+                               8
+                           4608
 
 Removed 0 unused cells and 1057 unused wires.
 
@@ -786,21 +786,21 @@ It took yosys = 10.47s
    Number of processes:              0
    Number of cells:               7342
      $scopeinfo                      3
-     and21nor_x0                     3
-     and2_x1                        25
-     and3_x1                        14
-     and4_x1                        15
-     dff_x1                       2081
-     inv_x0                         31
-     mux2_x1                      4095
-     nand2_x0                        2
-     nand3_x0                        4
-     nand4_x0                        8
-     nexor2_x0                      26
-     nor3_x0                         2
-     nor4_x0                         6
-     or21nand_x0                     3
-     xor2_x0                      1024
+                          3
+                             25
+                             14
+                             15
+                            2081
+                              31
+                           4095
+                             2
+                             4
+                             8
+                           26
+                              2
+                              6
+                          3
+                           1024
 
 Removed 0 unused cells and 7330 unused wires.
 
@@ -822,22 +822,22 @@ It took yosys = 6.88s
    Number of processes:              0
    Number of cells:                336
      $scopeinfo                      3
-     and21nor_x0                    15
-     and2_x1                        42
-     and3_x1                        48
-     and4_x1                        14
-     dff_x1                         65
-     inv_x0                         29
-     mux2_x1                         2
-     nand2_x0                       16
-     nand3_x0                       20
-     nand4_x0                        6
-     nexor2_x0                      29
-     nor2_x0                         6
-     nor4_x0                         7
-     or21nand_x0                     2
-     or3_x1                         15
-     xor2_x0                        17
+                         15
+                             42
+                             48
+                             14
+                              65
+                              29
+                              2
+                            16
+                            20
+                             6
+                           29
+                              6
+                              7
+                          2
+                              15
+                             17
 
 Removed 0 unused cells and 275 unused wires.
 
@@ -859,8 +859,8 @@ It took yosys = 7.34s
    Number of processes:              0
    Number of cells:                909
      $scopeinfo                      7
-     inv_x0                          6
-     mux2_x1                       896
+                               6
+                            896
 
 Removed 0 unused cells and 281 unused wires.
 
@@ -882,9 +882,9 @@ It took yosys = 7.65s
    Number of processes:              0
    Number of cells:               1326
      $scopeinfo                      8
-     inv_x0                        102
-     nexor2_x0                    1053
-     xor2_x0                       163
+                             102
+                         1053
+                            163
 
 Removed 0 unused cells and 511 unused wires.
 
@@ -906,9 +906,9 @@ It took yosys = 6.89s
    Number of processes:              0
    Number of cells:                106
      $scopeinfo                      5
-     inv_x0                         12
-     nexor2_x0                      71
-     xor2_x0                        18
+                              12
+                           71
+                             18
 
 Removed 0 unused cells and 63 unused wires.
 
@@ -930,9 +930,9 @@ It took yosys = 11.73s
    Number of processes:              0
    Number of cells:               6699
      $scopeinfo                     10
-     inv_x0                        396
-     nexor2_x0                    5613
-     xor2_x0                       680
+                             396
+                         5613
+                            680
 
 Removed 0 unused cells and 2047 unused wires.
 
@@ -957,8 +957,8 @@ It took yosys = 14.14s
    Number of processes:              0
    Number of cells:              10259
      $scopeinfo                     10
-     inv_x0                          9
-     mux2_x1                     10240
+                               9
+                          10240
 
 Removed 0 unused cells and 2085 unused wires.
 
@@ -980,22 +980,22 @@ It took yosys = 18.48s
    Number of processes:              0
    Number of cells:              14503
      $scopeinfo                      3
-     and21nor_x0                     2
-     and2_x1                        18
-     and3_x1                        15
-     and4_x1                        16
-     dff_x1                       4129
-     inv_x0                         33
-     mux2_x1                      8191
-     nand2_x0                        4
-     nand3_x0                        1
-     nand4_x0                        5
-     nexor2_x0                      28
-     nor3_x0                         1
-     nor4_x0                         6
-     or21nand_x0                     2
-     or2_x1                          1
-     xor2_x0                      2048
+                          2
+                             18
+                             15
+                             16
+                            4129
+                              33
+                           8191
+                             4
+                             1
+                             5
+                           28
+                              1
+                              6
+                          2
+                               1
+                           2048
 
 Removed 0 unused cells and 14494 unused wires.
 
@@ -1017,19 +1017,19 @@ It took yosys = 7.10s
    Number of processes:              0
    Number of cells:               1627
      $scopeinfo                      3
-     and21nor_x0                   163
-     and2_x1                       247
-     and3_x1                        10
-     and4_x1                        81
-     dff_x1                        289
-     inv_x0                         28
-     mux2_x1                         2
-     nand2_x0                      349
-     nand3_x0                       30
-     nand4_x0                      191
-     nexor2_x0                      29
-     nor2_x0                        69
-     nor4_x0                         7
-     xor2_x0                       129
+                        163
+                            247
+                             10
+                             81
+                             289
+                              28
+                              2
+                           349
+                            30
+                           191
+                           29
+                             69
+                              7
+                            129
 
 Removed 0 unused cells and 1056 unused wires.

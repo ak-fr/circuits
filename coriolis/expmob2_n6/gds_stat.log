@@ -342,3 +342,7 @@ effective_density = 81.6
 wire_length = 23805
 dimensions = (148.0, 97.92)
 
+effective_density = 19.6
+wire_length = 44584
+dimensions = (252.0, 259.2)
+

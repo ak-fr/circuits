@@ -1,5 +1,5 @@
 * Coriolis Structural SPICE Driver
-* Generated on Apr 13, 2025, 21:57
+* Generated on Apr 19, 2025, 18:58
 * Cell/Subckt "rot_r".
 * 
 * INTERF vss
@@ -142,8 +142,8 @@
 * Terminal models (aka standard cells) used througout all the hierarchy.
 .include mux2_x1.spi
 .include inv_x0.spi
-.include tie.spi
 .include decap_w0.spi
+.include tie.spi
 
 * Non-terminal models (part of the user's design hierarchy).
 
@@ -285,353 +285,353 @@
 * NET   134 = bits[10]
 * NET   135 = bits[1]
 * NET   136 = bits[0]
-* NET   137 = abc_1319_new_n521
-* NET   138 = abc_1319_new_n519
-* NET   139 = abc_1319_new_n517
-* NET   140 = abc_1319_new_n516
-* NET   141 = abc_1319_new_n514
-* NET   142 = abc_1319_new_n513
-* NET   143 = abc_1319_new_n511
-* NET   144 = abc_1319_new_n510
-* NET   145 = abc_1319_new_n508
-* NET   146 = abc_1319_new_n507
-* NET   147 = abc_1319_new_n505
-* NET   148 = abc_1319_new_n504
-* NET   149 = abc_1319_new_n503
-* NET   150 = abc_1319_new_n501
-* NET   151 = abc_1319_new_n500
-* NET   152 = abc_1319_new_n499
-* NET   153 = abc_1319_new_n497
-* NET   154 = abc_1319_new_n496
-* NET   155 = abc_1319_new_n495
-* NET   156 = abc_1319_new_n493
-* NET   157 = abc_1319_new_n492
-* NET   158 = abc_1319_new_n491
-* NET   159 = abc_1319_new_n489
-* NET   160 = abc_1319_new_n488
-* NET   161 = abc_1319_new_n487
-* NET   162 = abc_1319_new_n485
-* NET   163 = abc_1319_new_n484
-* NET   164 = abc_1319_new_n483
-* NET   165 = abc_1319_new_n481
-* NET   166 = abc_1319_new_n480
-* NET   167 = abc_1319_new_n479
-* NET   168 = abc_1319_new_n477
-* NET   169 = abc_1319_new_n476
-* NET   170 = abc_1319_new_n475
-* NET   171 = abc_1319_new_n473
-* NET   172 = abc_1319_new_n472
-* NET   173 = abc_1319_new_n471
-* NET   174 = abc_1319_new_n470
-* NET   175 = abc_1319_new_n468
-* NET   176 = abc_1319_new_n467
-* NET   177 = abc_1319_new_n466
-* NET   178 = abc_1319_new_n465
-* NET   179 = abc_1319_new_n463
-* NET   180 = abc_1319_new_n462
-* NET   181 = abc_1319_new_n461
-* NET   182 = abc_1319_new_n460
-* NET   183 = abc_1319_new_n458
-* NET   184 = abc_1319_new_n457
-* NET   185 = abc_1319_new_n456
-* NET   186 = abc_1319_new_n455
-* NET   187 = abc_1319_new_n453
-* NET   188 = abc_1319_new_n452
-* NET   189 = abc_1319_new_n451
-* NET   190 = abc_1319_new_n450
-* NET   191 = abc_1319_new_n448
-* NET   192 = abc_1319_new_n447
-* NET   193 = abc_1319_new_n446
-* NET   194 = abc_1319_new_n445
-* NET   195 = abc_1319_new_n443
-* NET   196 = abc_1319_new_n442
-* NET   197 = abc_1319_new_n441
-* NET   198 = abc_1319_new_n440
-* NET   199 = abc_1319_new_n438
-* NET   200 = abc_1319_new_n437
-* NET   201 = abc_1319_new_n436
-* NET   202 = abc_1319_new_n435
-* NET   203 = abc_1319_new_n433
-* NET   204 = abc_1319_new_n432
-* NET   205 = abc_1319_new_n431
-* NET   206 = abc_1319_new_n430
-* NET   207 = abc_1319_new_n428
-* NET   208 = abc_1319_new_n427
-* NET   209 = abc_1319_new_n426
-* NET   210 = abc_1319_new_n425
-* NET   211 = abc_1319_new_n423
-* NET   212 = abc_1319_new_n422
-* NET   213 = abc_1319_new_n421
-* NET   214 = abc_1319_new_n420
-* NET   215 = abc_1319_new_n418
-* NET   216 = abc_1319_new_n417
-* NET   217 = abc_1319_new_n416
-* NET   218 = abc_1319_new_n415
-* NET   219 = abc_1319_new_n413
-* NET   220 = abc_1319_new_n412
-* NET   221 = abc_1319_new_n411
-* NET   222 = abc_1319_new_n410
-* NET   223 = abc_1319_new_n408
-* NET   224 = abc_1319_new_n407
-* NET   225 = abc_1319_new_n406
-* NET   226 = abc_1319_new_n405
-* NET   227 = abc_1319_new_n403
-* NET   228 = abc_1319_new_n402
-* NET   229 = abc_1319_new_n401
-* NET   230 = abc_1319_new_n400
-* NET   231 = abc_1319_new_n398
-* NET   232 = abc_1319_new_n397
-* NET   233 = abc_1319_new_n396
-* NET   234 = abc_1319_new_n395
-* NET   235 = abc_1319_new_n393
-* NET   236 = abc_1319_new_n392
-* NET   237 = abc_1319_new_n391
-* NET   238 = abc_1319_new_n390
-* NET   239 = abc_1319_new_n389
-* NET   240 = abc_1319_new_n387
-* NET   241 = abc_1319_new_n386
-* NET   242 = abc_1319_new_n385
-* NET   243 = abc_1319_new_n384
-* NET   244 = abc_1319_new_n383
-* NET   245 = abc_1319_new_n381
-* NET   246 = abc_1319_new_n380
-* NET   247 = abc_1319_new_n379
-* NET   248 = abc_1319_new_n378
-* NET   249 = abc_1319_new_n377
-* NET   250 = abc_1319_new_n375
-* NET   251 = abc_1319_new_n374
-* NET   252 = abc_1319_new_n373
-* NET   253 = abc_1319_new_n372
-* NET   254 = abc_1319_new_n371
-* NET   255 = abc_1319_new_n369
-* NET   256 = abc_1319_new_n368
-* NET   257 = abc_1319_new_n367
-* NET   258 = abc_1319_new_n366
-* NET   259 = abc_1319_new_n365
-* NET   260 = abc_1319_new_n363
-* NET   261 = abc_1319_new_n362
-* NET   262 = abc_1319_new_n361
-* NET   263 = abc_1319_new_n360
-* NET   264 = abc_1319_new_n359
-* NET   265 = abc_1319_new_n357
-* NET   266 = abc_1319_new_n356
-* NET   267 = abc_1319_new_n355
-* NET   268 = abc_1319_new_n354
-* NET   269 = abc_1319_new_n353
-* NET   270 = abc_1319_new_n351
-* NET   271 = abc_1319_new_n350
-* NET   272 = abc_1319_new_n349
-* NET   273 = abc_1319_new_n348
-* NET   274 = abc_1319_new_n347
-* NET   275 = abc_1319_new_n345
-* NET   276 = abc_1319_new_n344
-* NET   277 = abc_1319_new_n343
-* NET   278 = abc_1319_new_n342
-* NET   279 = abc_1319_new_n341
-* NET   280 = abc_1319_new_n339
-* NET   281 = abc_1319_new_n338
-* NET   282 = abc_1319_new_n337
-* NET   283 = abc_1319_new_n336
-* NET   284 = abc_1319_new_n335
-* NET   285 = abc_1319_new_n333
-* NET   286 = abc_1319_new_n332
-* NET   287 = abc_1319_new_n331
-* NET   288 = abc_1319_new_n330
-* NET   289 = abc_1319_new_n329
-* NET   290 = abc_1319_new_n327
-* NET   291 = abc_1319_new_n326
-* NET   292 = abc_1319_new_n325
-* NET   293 = abc_1319_new_n324
-* NET   294 = abc_1319_new_n323
-* NET   295 = abc_1319_new_n321
-* NET   296 = abc_1319_new_n320
-* NET   297 = abc_1319_new_n319
-* NET   298 = abc_1319_new_n318
-* NET   299 = abc_1319_new_n317
-* NET   300 = abc_1319_new_n315
-* NET   301 = abc_1319_new_n314
-* NET   302 = abc_1319_new_n313
-* NET   303 = abc_1319_new_n312
-* NET   304 = abc_1319_new_n311
-* NET   305 = abc_1319_new_n309
-* NET   306 = abc_1319_new_n308
-* NET   307 = abc_1319_new_n307
-* NET   308 = abc_1319_new_n306
-* NET   309 = abc_1319_new_n305
-* NET   310 = abc_1319_new_n303
-* NET   311 = abc_1319_new_n302
-* NET   312 = abc_1319_new_n301
-* NET   313 = abc_1319_new_n300
-* NET   314 = abc_1319_new_n299
-* NET   315 = abc_1319_new_n297
-* NET   316 = abc_1319_new_n296
-* NET   317 = abc_1319_new_n295
-* NET   318 = abc_1319_new_n294
-* NET   319 = abc_1319_new_n293
-* NET   320 = abc_1319_new_n291
-* NET   321 = abc_1319_new_n290
-* NET   322 = abc_1319_new_n289
-* NET   323 = abc_1319_new_n288
-* NET   324 = abc_1319_new_n287
-* NET   325 = abc_1319_new_n285
-* NET   326 = abc_1319_new_n284
-* NET   327 = abc_1319_new_n283
-* NET   328 = abc_1319_new_n282
-* NET   329 = abc_1319_new_n281
-* NET   330 = abc_1319_new_n279
-* NET   331 = abc_1319_new_n278
-* NET   332 = abc_1319_new_n277
-* NET   333 = abc_1319_new_n276
-* NET   334 = abc_1319_new_n275
-* NET   335 = abc_1319_new_n273
-* NET   336 = abc_1319_new_n272
-* NET   337 = abc_1319_new_n271
-* NET   338 = abc_1319_new_n270
-* NET   339 = abc_1319_new_n269
-* NET   340 = abc_1319_new_n267
-* NET   341 = abc_1319_new_n266
-* NET   342 = abc_1319_new_n265
-* NET   343 = abc_1319_new_n264
-* NET   344 = abc_1319_new_n263
-* NET   345 = abc_1319_new_n261
-* NET   346 = abc_1319_new_n260
-* NET   347 = abc_1319_new_n259
-* NET   348 = abc_1319_new_n258
-* NET   349 = abc_1319_new_n257
-* NET   350 = abc_1319_new_n255
-* NET   351 = abc_1319_new_n254
-* NET   352 = abc_1319_new_n253
-* NET   353 = abc_1319_new_n252
-* NET   354 = abc_1319_new_n251
-* NET   355 = abc_1319_new_n249
-* NET   356 = abc_1319_new_n248
-* NET   357 = abc_1319_new_n247
-* NET   358 = abc_1319_new_n246
-* NET   359 = abc_1319_new_n245
-* NET   360 = abc_1319_new_n243
-* NET   361 = abc_1319_new_n242
-* NET   362 = abc_1319_new_n241
-* NET   363 = abc_1319_new_n240
-* NET   364 = abc_1319_new_n239
-* NET   365 = abc_1319_new_n237
-* NET   366 = abc_1319_new_n236
-* NET   367 = abc_1319_new_n235
-* NET   368 = abc_1319_new_n234
-* NET   369 = abc_1319_new_n233
-* NET   370 = abc_1319_new_n231
-* NET   371 = abc_1319_new_n230
-* NET   372 = abc_1319_new_n229
-* NET   373 = abc_1319_new_n228
-* NET   374 = abc_1319_new_n227
-* NET   375 = abc_1319_new_n225
-* NET   376 = abc_1319_new_n224
-* NET   377 = abc_1319_new_n223
-* NET   378 = abc_1319_new_n222
-* NET   379 = abc_1319_new_n221
-* NET   380 = abc_1319_new_n219
-* NET   381 = abc_1319_new_n218
-* NET   382 = abc_1319_new_n217
-* NET   383 = abc_1319_new_n216
-* NET   384 = abc_1319_new_n215
-* NET   385 = abc_1319_new_n213
-* NET   386 = abc_1319_new_n212
-* NET   387 = abc_1319_new_n211
-* NET   388 = abc_1319_new_n210
-* NET   389 = abc_1319_new_n209
-* NET   390 = abc_1319_new_n207
-* NET   391 = abc_1319_new_n206
-* NET   392 = abc_1319_new_n205
-* NET   393 = abc_1319_new_n204
-* NET   394 = abc_1319_new_n203
-* NET   395 = abc_1319_new_n201
-* NET   396 = abc_1319_new_n200
-* NET   397 = abc_1319_new_n199
-* NET   398 = abc_1319_new_n198
-* NET   399 = abc_1319_new_n197
-* NET   400 = abc_1319_new_n196
-* NET   401 = abc_1319_new_n195
-* NET   402 = abc_1319_new_n194
-* NET   403 = abc_1319_new_n193
-* NET   404 = abc_1319_new_n192
-* NET   405 = abc_1319_new_n191
-* NET   406 = abc_1319_new_n190
-* NET   407 = abc_1319_new_n189
-* NET   408 = abc_1319_new_n188
-* NET   409 = abc_1319_new_n187
-* NET   410 = abc_1319_new_n186
-* NET   411 = abc_1319_new_n185
-* NET   412 = abc_1319_new_n184
-* NET   413 = abc_1319_new_n183
-* NET   414 = abc_1319_new_n182
-* NET   415 = abc_1319_new_n181
-* NET   416 = abc_1319_new_n180
-* NET   417 = abc_1319_new_n179
-* NET   418 = abc_1319_new_n178
-* NET   419 = abc_1319_new_n177
-* NET   420 = abc_1319_new_n176
-* NET   421 = abc_1319_new_n175
-* NET   422 = abc_1319_new_n174
-* NET   423 = abc_1319_new_n173
-* NET   424 = abc_1319_new_n172
-* NET   425 = abc_1319_new_n171
-* NET   426 = abc_1319_new_n170
-* NET   427 = abc_1319_new_n169
-* NET   428 = abc_1319_new_n168
-* NET   429 = abc_1319_new_n167
-* NET   430 = abc_1319_new_n166
-* NET   431 = abc_1319_new_n165
-* NET   432 = abc_1319_new_n164
-* NET   433 = abc_1319_new_n163
-* NET   434 = abc_1319_new_n162
-* NET   435 = abc_1319_new_n161
-* NET   436 = abc_1319_new_n160
-* NET   437 = abc_1319_new_n159
-* NET   438 = abc_1319_new_n158
-* NET   439 = abc_1319_new_n157
-* NET   440 = abc_1319_new_n156
-* NET   441 = abc_1319_new_n155
-* NET   442 = abc_1319_new_n154
-* NET   443 = abc_1319_new_n153
-* NET   444 = abc_1319_new_n152
-* NET   445 = abc_1319_new_n151
-* NET   446 = abc_1319_new_n150
-* NET   447 = abc_1319_new_n149
-* NET   448 = abc_1319_new_n148
-* NET   449 = abc_1319_new_n147
-* NET   450 = abc_1319_new_n146
-* NET   451 = abc_1319_new_n145
-* NET   452 = abc_1319_new_n144
-* NET   453 = abc_1319_new_n143
-* NET   454 = abc_1319_new_n142
-* NET   455 = abc_1319_new_n141
-* NET   456 = abc_1319_new_n140
-* NET   457 = abc_1319_new_n139
-* NET   458 = abc_1319_new_n138
-* NET   459 = abc_1319_new_n137
-* NET   460 = abc_1319_new_n136
-* NET   461 = abc_1319_new_n135
+* NET   137 = abc_1977_new_n521
+* NET   138 = abc_1977_new_n519
+* NET   139 = abc_1977_new_n517
+* NET   140 = abc_1977_new_n516
+* NET   141 = abc_1977_new_n514
+* NET   142 = abc_1977_new_n513
+* NET   143 = abc_1977_new_n511
+* NET   144 = abc_1977_new_n510
+* NET   145 = abc_1977_new_n508
+* NET   146 = abc_1977_new_n507
+* NET   147 = abc_1977_new_n505
+* NET   148 = abc_1977_new_n504
+* NET   149 = abc_1977_new_n503
+* NET   150 = abc_1977_new_n501
+* NET   151 = abc_1977_new_n500
+* NET   152 = abc_1977_new_n499
+* NET   153 = abc_1977_new_n497
+* NET   154 = abc_1977_new_n496
+* NET   155 = abc_1977_new_n495
+* NET   156 = abc_1977_new_n493
+* NET   157 = abc_1977_new_n492
+* NET   158 = abc_1977_new_n491
+* NET   159 = abc_1977_new_n489
+* NET   160 = abc_1977_new_n488
+* NET   161 = abc_1977_new_n487
+* NET   162 = abc_1977_new_n485
+* NET   163 = abc_1977_new_n484
+* NET   164 = abc_1977_new_n483
+* NET   165 = abc_1977_new_n481
+* NET   166 = abc_1977_new_n480
+* NET   167 = abc_1977_new_n479
+* NET   168 = abc_1977_new_n477
+* NET   169 = abc_1977_new_n476
+* NET   170 = abc_1977_new_n475
+* NET   171 = abc_1977_new_n473
+* NET   172 = abc_1977_new_n472
+* NET   173 = abc_1977_new_n471
+* NET   174 = abc_1977_new_n470
+* NET   175 = abc_1977_new_n468
+* NET   176 = abc_1977_new_n467
+* NET   177 = abc_1977_new_n466
+* NET   178 = abc_1977_new_n465
+* NET   179 = abc_1977_new_n463
+* NET   180 = abc_1977_new_n462
+* NET   181 = abc_1977_new_n461
+* NET   182 = abc_1977_new_n460
+* NET   183 = abc_1977_new_n458
+* NET   184 = abc_1977_new_n457
+* NET   185 = abc_1977_new_n456
+* NET   186 = abc_1977_new_n455
+* NET   187 = abc_1977_new_n453
+* NET   188 = abc_1977_new_n452
+* NET   189 = abc_1977_new_n451
+* NET   190 = abc_1977_new_n450
+* NET   191 = abc_1977_new_n448
+* NET   192 = abc_1977_new_n447
+* NET   193 = abc_1977_new_n446
+* NET   194 = abc_1977_new_n445
+* NET   195 = abc_1977_new_n443
+* NET   196 = abc_1977_new_n442
+* NET   197 = abc_1977_new_n441
+* NET   198 = abc_1977_new_n440
+* NET   199 = abc_1977_new_n438
+* NET   200 = abc_1977_new_n437
+* NET   201 = abc_1977_new_n436
+* NET   202 = abc_1977_new_n435
+* NET   203 = abc_1977_new_n433
+* NET   204 = abc_1977_new_n432
+* NET   205 = abc_1977_new_n431
+* NET   206 = abc_1977_new_n430
+* NET   207 = abc_1977_new_n428
+* NET   208 = abc_1977_new_n427
+* NET   209 = abc_1977_new_n426
+* NET   210 = abc_1977_new_n425
+* NET   211 = abc_1977_new_n423
+* NET   212 = abc_1977_new_n422
+* NET   213 = abc_1977_new_n421
+* NET   214 = abc_1977_new_n420
+* NET   215 = abc_1977_new_n418
+* NET   216 = abc_1977_new_n417
+* NET   217 = abc_1977_new_n416
+* NET   218 = abc_1977_new_n415
+* NET   219 = abc_1977_new_n413
+* NET   220 = abc_1977_new_n412
+* NET   221 = abc_1977_new_n411
+* NET   222 = abc_1977_new_n410
+* NET   223 = abc_1977_new_n408
+* NET   224 = abc_1977_new_n407
+* NET   225 = abc_1977_new_n406
+* NET   226 = abc_1977_new_n405
+* NET   227 = abc_1977_new_n403
+* NET   228 = abc_1977_new_n402
+* NET   229 = abc_1977_new_n401
+* NET   230 = abc_1977_new_n400
+* NET   231 = abc_1977_new_n398
+* NET   232 = abc_1977_new_n397
+* NET   233 = abc_1977_new_n396
+* NET   234 = abc_1977_new_n395
+* NET   235 = abc_1977_new_n393
+* NET   236 = abc_1977_new_n392
+* NET   237 = abc_1977_new_n391
+* NET   238 = abc_1977_new_n390
+* NET   239 = abc_1977_new_n389
+* NET   240 = abc_1977_new_n387
+* NET   241 = abc_1977_new_n386
+* NET   242 = abc_1977_new_n385
+* NET   243 = abc_1977_new_n384
+* NET   244 = abc_1977_new_n383
+* NET   245 = abc_1977_new_n381
+* NET   246 = abc_1977_new_n380
+* NET   247 = abc_1977_new_n379
+* NET   248 = abc_1977_new_n378
+* NET   249 = abc_1977_new_n377
+* NET   250 = abc_1977_new_n375
+* NET   251 = abc_1977_new_n374
+* NET   252 = abc_1977_new_n373
+* NET   253 = abc_1977_new_n372
+* NET   254 = abc_1977_new_n371
+* NET   255 = abc_1977_new_n369
+* NET   256 = abc_1977_new_n368
+* NET   257 = abc_1977_new_n367
+* NET   258 = abc_1977_new_n366
+* NET   259 = abc_1977_new_n365
+* NET   260 = abc_1977_new_n363
+* NET   261 = abc_1977_new_n362
+* NET   262 = abc_1977_new_n361
+* NET   263 = abc_1977_new_n360
+* NET   264 = abc_1977_new_n359
+* NET   265 = abc_1977_new_n357
+* NET   266 = abc_1977_new_n356
+* NET   267 = abc_1977_new_n355
+* NET   268 = abc_1977_new_n354
+* NET   269 = abc_1977_new_n353
+* NET   270 = abc_1977_new_n351
+* NET   271 = abc_1977_new_n350
+* NET   272 = abc_1977_new_n349
+* NET   273 = abc_1977_new_n348
+* NET   274 = abc_1977_new_n347
+* NET   275 = abc_1977_new_n345
+* NET   276 = abc_1977_new_n344
+* NET   277 = abc_1977_new_n343
+* NET   278 = abc_1977_new_n342
+* NET   279 = abc_1977_new_n341
+* NET   280 = abc_1977_new_n339
+* NET   281 = abc_1977_new_n338
+* NET   282 = abc_1977_new_n337
+* NET   283 = abc_1977_new_n336
+* NET   284 = abc_1977_new_n335
+* NET   285 = abc_1977_new_n333
+* NET   286 = abc_1977_new_n332
+* NET   287 = abc_1977_new_n331
+* NET   288 = abc_1977_new_n330
+* NET   289 = abc_1977_new_n329
+* NET   290 = abc_1977_new_n327
+* NET   291 = abc_1977_new_n326
+* NET   292 = abc_1977_new_n325
+* NET   293 = abc_1977_new_n324
+* NET   294 = abc_1977_new_n323
+* NET   295 = abc_1977_new_n321
+* NET   296 = abc_1977_new_n320
+* NET   297 = abc_1977_new_n319
+* NET   298 = abc_1977_new_n318
+* NET   299 = abc_1977_new_n317
+* NET   300 = abc_1977_new_n315
+* NET   301 = abc_1977_new_n314
+* NET   302 = abc_1977_new_n313
+* NET   303 = abc_1977_new_n312
+* NET   304 = abc_1977_new_n311
+* NET   305 = abc_1977_new_n309
+* NET   306 = abc_1977_new_n308
+* NET   307 = abc_1977_new_n307
+* NET   308 = abc_1977_new_n306
+* NET   309 = abc_1977_new_n305
+* NET   310 = abc_1977_new_n303
+* NET   311 = abc_1977_new_n302
+* NET   312 = abc_1977_new_n301
+* NET   313 = abc_1977_new_n300
+* NET   314 = abc_1977_new_n299
+* NET   315 = abc_1977_new_n297
+* NET   316 = abc_1977_new_n296
+* NET   317 = abc_1977_new_n295
+* NET   318 = abc_1977_new_n294
+* NET   319 = abc_1977_new_n293
+* NET   320 = abc_1977_new_n291
+* NET   321 = abc_1977_new_n290
+* NET   322 = abc_1977_new_n289
+* NET   323 = abc_1977_new_n288
+* NET   324 = abc_1977_new_n287
+* NET   325 = abc_1977_new_n285
+* NET   326 = abc_1977_new_n284
+* NET   327 = abc_1977_new_n283
+* NET   328 = abc_1977_new_n282
+* NET   329 = abc_1977_new_n281
+* NET   330 = abc_1977_new_n279
+* NET   331 = abc_1977_new_n278
+* NET   332 = abc_1977_new_n277
+* NET   333 = abc_1977_new_n276
+* NET   334 = abc_1977_new_n275
+* NET   335 = abc_1977_new_n273
+* NET   336 = abc_1977_new_n272
+* NET   337 = abc_1977_new_n271
+* NET   338 = abc_1977_new_n270
+* NET   339 = abc_1977_new_n269
+* NET   340 = abc_1977_new_n267
+* NET   341 = abc_1977_new_n266
+* NET   342 = abc_1977_new_n265
+* NET   343 = abc_1977_new_n264
+* NET   344 = abc_1977_new_n263
+* NET   345 = abc_1977_new_n261
+* NET   346 = abc_1977_new_n260
+* NET   347 = abc_1977_new_n259
+* NET   348 = abc_1977_new_n258
+* NET   349 = abc_1977_new_n257
+* NET   350 = abc_1977_new_n255
+* NET   351 = abc_1977_new_n254
+* NET   352 = abc_1977_new_n253
+* NET   353 = abc_1977_new_n252
+* NET   354 = abc_1977_new_n251
+* NET   355 = abc_1977_new_n249
+* NET   356 = abc_1977_new_n248
+* NET   357 = abc_1977_new_n247
+* NET   358 = abc_1977_new_n246
+* NET   359 = abc_1977_new_n245
+* NET   360 = abc_1977_new_n243
+* NET   361 = abc_1977_new_n242
+* NET   362 = abc_1977_new_n241
+* NET   363 = abc_1977_new_n240
+* NET   364 = abc_1977_new_n239
+* NET   365 = abc_1977_new_n237
+* NET   366 = abc_1977_new_n236
+* NET   367 = abc_1977_new_n235
+* NET   368 = abc_1977_new_n234
+* NET   369 = abc_1977_new_n233
+* NET   370 = abc_1977_new_n231
+* NET   371 = abc_1977_new_n230
+* NET   372 = abc_1977_new_n229
+* NET   373 = abc_1977_new_n228
+* NET   374 = abc_1977_new_n227
+* NET   375 = abc_1977_new_n225
+* NET   376 = abc_1977_new_n224
+* NET   377 = abc_1977_new_n223
+* NET   378 = abc_1977_new_n222
+* NET   379 = abc_1977_new_n221
+* NET   380 = abc_1977_new_n218
+* NET   381 = abc_1977_new_n217
+* NET   382 = abc_1977_new_n216
+* NET   383 = abc_1977_new_n215
+* NET   384 = abc_1977_new_n214
+* NET   385 = abc_1977_new_n213
+* NET   386 = abc_1977_new_n212
+* NET   387 = abc_1977_new_n211
+* NET   388 = abc_1977_new_n210
+* NET   389 = abc_1977_new_n209
+* NET   390 = abc_1977_new_n207
+* NET   391 = abc_1977_new_n206
+* NET   392 = abc_1977_new_n205
+* NET   393 = abc_1977_new_n204
+* NET   394 = abc_1977_new_n203
+* NET   395 = abc_1977_new_n201
+* NET   396 = abc_1977_new_n200
+* NET   397 = abc_1977_new_n199
+* NET   398 = abc_1977_new_n198
+* NET   399 = abc_1977_new_n197
+* NET   400 = abc_1977_new_n196
+* NET   401 = abc_1977_new_n195
+* NET   402 = abc_1977_new_n194
+* NET   403 = abc_1977_new_n193
+* NET   404 = abc_1977_new_n192
+* NET   405 = abc_1977_new_n191
+* NET   406 = abc_1977_new_n190
+* NET   407 = abc_1977_new_n189
+* NET   408 = abc_1977_new_n188
+* NET   409 = abc_1977_new_n187
+* NET   410 = abc_1977_new_n186
+* NET   411 = abc_1977_new_n185
+* NET   412 = abc_1977_new_n184
+* NET   413 = abc_1977_new_n183
+* NET   414 = abc_1977_new_n182
+* NET   415 = abc_1977_new_n181
+* NET   416 = abc_1977_new_n180
+* NET   417 = abc_1977_new_n179
+* NET   418 = abc_1977_new_n178
+* NET   419 = abc_1977_new_n177
+* NET   420 = abc_1977_new_n176
+* NET   421 = abc_1977_new_n175
+* NET   422 = abc_1977_new_n174
+* NET   423 = abc_1977_new_n173
+* NET   424 = abc_1977_new_n172
+* NET   425 = abc_1977_new_n171
+* NET   426 = abc_1977_new_n170
+* NET   427 = abc_1977_new_n169
+* NET   428 = abc_1977_new_n168
+* NET   429 = abc_1977_new_n167
+* NET   430 = abc_1977_new_n166
+* NET   431 = abc_1977_new_n165
+* NET   432 = abc_1977_new_n164
+* NET   433 = abc_1977_new_n163
+* NET   434 = abc_1977_new_n162
+* NET   435 = abc_1977_new_n161
+* NET   436 = abc_1977_new_n160
+* NET   437 = abc_1977_new_n159
+* NET   438 = abc_1977_new_n158
+* NET   439 = abc_1977_new_n157
+* NET   440 = abc_1977_new_n156
+* NET   441 = abc_1977_new_n155
+* NET   442 = abc_1977_new_n154
+* NET   443 = abc_1977_new_n153
+* NET   444 = abc_1977_new_n152
+* NET   445 = abc_1977_new_n151
+* NET   446 = abc_1977_new_n150
+* NET   447 = abc_1977_new_n149
+* NET   448 = abc_1977_new_n148
+* NET   449 = abc_1977_new_n147
+* NET   450 = abc_1977_new_n146
+* NET   451 = abc_1977_new_n145
+* NET   452 = abc_1977_new_n144
+* NET   453 = abc_1977_new_n143
+* NET   454 = abc_1977_new_n142
+* NET   455 = abc_1977_new_n141
+* NET   456 = abc_1977_new_n140
+* NET   457 = abc_1977_new_n139
+* NET   458 = abc_1977_new_n138
+* NET   459 = abc_1977_new_n137
+* NET   460 = abc_1977_new_n136
+* NET   461 = abc_1977_new_n135
 
-xsubckt_112_mux2_x1 1 0 358 454 69 357 mux2_x1
+xsubckt_112_mux2_x1 1 0 358 439 69 357 mux2_x1
 xsubckt_97_mux2_x1 1 0 370 375 66 20 mux2_x1
-xsubckt_5_mux2_x1 1 0 136 110 71 456 mux2_x1
+xsubckt_5_mux2_x1 1 0 124 108 71 456 mux2_x1
 xsubckt_19_mux2_x1 1 0 443 450 459 442 mux2_x1
-xsubckt_58_mux2_x1 1 0 83 118 71 403 mux2_x1
+xsubckt_58_mux2_x1 1 0 81 116 71 403 mux2_x1
 xsubckt_211_mux2_x1 1 0 275 280 66 48 mux2_x1
 xsubckt_250_mux2_x1 1 0 243 283 69 242 mux2_x1
-xsubckt_310_mux2_x1 1 0 264 417 461 194 mux2_x1
-xsubckt_384_mux2_x1 1 0 142 396 458 138 mux2_x1
+xsubckt_310_mux2_x1 1 0 264 402 461 194 mux2_x1
+xsubckt_384_mux2_x1 1 0 142 381 458 138 mux2_x1
 xsubckt_345_mux2_x1 1 0 167 181 68 166 mux2_x1
-xsubckt_147_mux2_x1 1 0 329 441 70 328 mux2_x1
+xsubckt_147_mux2_x1 1 0 329 449 70 328 mux2_x1
 xsubckt_108_mux2_x1 1 0 361 371 67 360 mux2_x1
-xsubckt_30_mux2_x1 1 0 90 126 71 431 mux2_x1
+xsubckt_30_mux2_x1 1 0 88 123 71 431 mux2_x1
 xsubckt_186_mux2_x1 1 0 296 306 67 295 mux2_x1
 xsubckt_207_mux2_x1 1 0 279 359 70 278 mux2_x1
 xsubckt_246_mux2_x1 1 0 246 256 67 245 mux2_x1
-xsubckt_285_mux2_x1 1 0 289 437 461 214 mux2_x1
+xsubckt_285_mux2_x1 1 0 289 445 461 214 mux2_x1
 xsubckt_26_mux2_x1 1 0 436 439 460 435 mux2_x1
 xsubckt_65_mux2_x1 1 0 397 404 459 396 mux2_x1
 xsubckt_306_mux2_x1 1 0 198 230 69 197 mux2_x1
-xsubckt_352_mux2_x1 1 0 190 444 460 161 mux2_x1
+xsubckt_352_mux2_x1 1 0 190 429 460 161 mux2_x1
 xsubckt_154_mux2_x1 1 0 323 363 69 322 mux2_x1
 xsubckt_115_mux2_x1 1 0 355 360 66 3 mux2_x1
 xsubckt_193_mux2_x1 1 0 290 295 66 51 mux2_x1
@@ -640,32 +640,32 @@ xsubckt_253_mux2_x1 1 0 240 245 66 40 mux2_x1
 xsubckt_292_mux2_x1 1 0 209 225 68 208 mux2_x1
 xsubckt_387_mux2_x1 1 0 137 138 66 6 mux2_x1
 xsubckt_33_mux2_x1 1 0 429 432 460 428 mux2_x1
-xsubckt_8_mux2_x1 1 0 84 119 71 453 mux2_x1
+xsubckt_8_mux2_x1 1 0 82 117 71 453 mux2_x1
 xsubckt_72_mux2_x1 1 0 391 411 67 390 mux2_x1
 xsubckt_189_mux2_x1 1 0 294 374 70 293 mux2_x1
 xsubckt_288_mux2_x1 1 0 212 220 67 211 mux2_x1
 xsubckt_313_mux2_x1 1 0 192 200 67 191 mux2_x1
-xsubckt_348_mux2_x1 1 0 194 413 460 164 mux2_x1
+xsubckt_348_mux2_x1 1 0 194 398 460 164 mux2_x1
 xsubckt_122_mux2_x1 1 0 134 99 71 349 mux2_x1
 xsubckt_161_mux2_x1 1 0 317 337 68 316 mux2_x1
 xsubckt_221_mux2_x1 1 0 267 287 68 266 mux2_x1
 xsubckt_249_mux2_x1 1 0 244 324 70 243 mux2_x1
-xsubckt_260_mux2_x1 1 0 314 399 461 234 mux2_x1
+xsubckt_260_mux2_x1 1 0 314 384 461 234 mux2_x1
 xsubckt_309_mux2_x1 1 0 195 199 66 28 mux2_x1
 xsubckt_157_mux2_x1 1 0 320 325 66 58 mux2_x1
-xsubckt_40_mux2_x1 1 0 103 75 71 421 mux2_x1
+xsubckt_40_mux2_x1 1 0 100 73 71 421 mux2_x1
 xsubckt_29_mux2_x1 1 0 433 434 461 432 mux2_x1
-xsubckt_68_mux2_x1 1 0 135 109 71 394 mux2_x1
+xsubckt_68_mux2_x1 1 0 113 107 71 394 mux2_x1
 xsubckt_196_mux2_x1 1 0 288 328 69 287 mux2_x1
-xsubckt_295_mux2_x1 1 0 279 452 461 206 mux2_x1
-xsubckt_320_mux2_x1 1 0 254 409 461 186 mux2_x1
+xsubckt_295_mux2_x1 1 0 279 437 461 206 mux2_x1
+xsubckt_320_mux2_x1 1 0 254 417 461 186 mux2_x1
 xsubckt_355_mux2_x1 1 0 159 162 66 17 mux2_x1
-xsubckt_118_mux2_x1 1 0 353 393 69 352 mux2_x1
+xsubckt_118_mux2_x1 1 0 353 423 69 352 mux2_x1
 xsubckt_217_mux2_x1 1 0 270 275 66 47 mux2_x1
 xsubckt_256_mux2_x1 1 0 238 278 69 237 mux2_x1
 xsubckt_316_mux2_x1 1 0 190 222 69 189 mux2_x1
-xsubckt_36_mux2_x1 1 0 76 111 71 425 mux2_x1
-xsubckt_75_mux2_x1 1 0 389 431 70 388 mux2_x1
+xsubckt_36_mux2_x1 1 0 135 109 71 425 mux2_x1
+xsubckt_75_mux2_x1 1 0 389 455 461 388 mux2_x1
 xsubckt_164_mux2_x1 1 0 127 92 71 314 mux2_x1
 xsubckt_362_mux2_x1 1 0 154 160 67 153 mux2_x1
 xsubckt_323_mux2_x1 1 0 184 192 67 183 mux2_x1
@@ -673,18 +673,18 @@ xsubckt_125_mux2_x1 1 0 347 367 68 346 mux2_x1
 xsubckt_224_mux2_x1 1 0 116 81 71 264 mux2_x1
 xsubckt_263_mux2_x1 1 0 232 241 67 231 mux2_x1
 xsubckt_358_mux2_x1 1 0 157 163 67 156 mux2_x1
-xsubckt_82_mux2_x1 1 0 383 416 69 382 mux2_x1
-xsubckt_43_mux2_x1 1 0 81 116 71 418 mux2_x1
-xsubckt_171_mux2_x1 1 0 309 389 70 308 mux2_x1
+xsubckt_82_mux2_x1 1 0 382 412 459 381 mux2_x1
+xsubckt_43_mux2_x1 1 0 78 114 71 418 mux2_x1
+xsubckt_171_mux2_x1 1 0 309 456 70 308 mux2_x1
 xsubckt_199_mux2_x1 1 0 285 290 66 50 mux2_x1
 xsubckt_259_mux2_x1 1 0 235 240 66 39 mux2_x1
 xsubckt_298_mux2_x1 1 0 204 212 67 203 mux2_x1
-xsubckt_330_mux2_x1 1 0 244 424 461 178 mux2_x1
+xsubckt_330_mux2_x1 1 0 244 409 461 178 mux2_x1
 xsubckt_132_mux2_x1 1 0 341 351 67 340 mux2_x1
-xsubckt_39_mux2_x1 1 0 85 120 71 422 mux2_x1
-xsubckt_78_mux2_x1 1 0 386 442 67 385 mux2_x1
+xsubckt_39_mux2_x1 1 0 83 118 71 422 mux2_x1
+xsubckt_78_mux2_x1 1 0 386 427 458 385 mux2_x1
 xsubckt_231_mux2_x1 1 0 259 339 70 258 mux2_x1
-xsubckt_270_mux2_x1 1 0 304 414 461 226 mux2_x1
+xsubckt_270_mux2_x1 1 0 304 399 461 226 mux2_x1
 xsubckt_319_mux2_x1 1 0 187 191 66 26 mux2_x1
 xsubckt_365_mux2_x1 1 0 152 164 68 151 mux2_x1
 xsubckt_128_mux2_x1 1 0 133 98 71 344 mux2_x1
@@ -694,28 +694,28 @@ xsubckt_167_mux2_x1 1 0 312 332 68 311 mux2_x1
 xsubckt_227_mux2_x1 1 0 262 282 68 261 mux2_x1
 xsubckt_266_mux2_x1 1 0 230 268 69 229 mux2_x1
 xsubckt_326_mux2_x1 1 0 182 214 69 181 mux2_x1
-xsubckt_100_mux2_x1 1 0 368 439 69 367 mux2_x1
-xsubckt_85_mux2_x1 1 0 380 385 66 42 mux2_x1
-xsubckt_46_mux2_x1 1 0 89 125 71 415 mux2_x1
-xsubckt_372_mux2_x1 1 0 158 397 459 146 mux2_x1
-xsubckt_135_mux2_x1 1 0 339 449 70 338 mux2_x1
+xsubckt_100_mux2_x1 1 0 368 447 69 367 mux2_x1
+xsubckt_85_mux2_x1 1 0 385 395 457 64 mux2_x1
+xsubckt_46_mux2_x1 1 0 87 122 71 415 mux2_x1
+xsubckt_372_mux2_x1 1 0 158 382 459 146 mux2_x1
+xsubckt_135_mux2_x1 1 0 339 434 70 338 mux2_x1
 xsubckt_174_mux2_x1 1 0 306 316 67 305 mux2_x1
 xsubckt_234_mux2_x1 1 0 256 266 67 255 mux2_x1
 xsubckt_273_mux2_x1 1 0 224 232 67 223 mux2_x1
 xsubckt_333_mux2_x1 1 0 176 184 67 175 mux2_x1
 xsubckt_92_mux2_x1 1 0 91 105 71 374 mux2_x1
 xsubckt_53_mux2_x1 1 0 409 410 461 408 mux2_x1
-xsubckt_368_mux2_x1 1 0 174 451 460 149 mux2_x1
+xsubckt_368_mux2_x1 1 0 174 436 460 149 mux2_x1
 xsubckt_329_mux2_x1 1 0 179 183 66 24 mux2_x1
 xsubckt_142_mux2_x1 1 0 333 373 69 332 mux2_x1
 xsubckt_14_mux2_x1 1 0 448 449 461 447 mux2_x1
 xsubckt_181_mux2_x1 1 0 300 305 66 54 mux2_x1
 xsubckt_241_mux2_x1 1 0 250 255 66 43 mux2_x1
 xsubckt_269_mux2_x1 1 0 227 231 66 37 mux2_x1
-xsubckt_280_mux2_x1 1 0 294 406 461 218 mux2_x1
-xsubckt_340_mux2_x1 1 0 202 398 460 170 mux2_x1
+xsubckt_280_mux2_x1 1 0 294 414 461 218 mux2_x1
+xsubckt_340_mux2_x1 1 0 202 383 460 170 mux2_x1
 xsubckt_103_mux2_x1 1 0 365 370 66 9 mux2_x1
-xsubckt_88_mux2_x1 1 0 378 447 69 377 mux2_x1
+xsubckt_88_mux2_x1 1 0 378 432 69 377 mux2_x1
 xsubckt_4_inv_x0 1 0 66 457 inv_x0
 xsubckt_3_inv_x0 1 0 67 458 inv_x0
 xsubckt_2_inv_x0 1 0 68 459 inv_x0
@@ -725,31 +725,31 @@ xsubckt_49_mux2_x1 1 0 413 416 460 412 mux2_x1
 xsubckt_60_mux2_x1 1 0 402 403 461 401 mux2_x1
 xsubckt_202_mux2_x1 1 0 283 323 69 282 mux2_x1
 xsubckt_301_mux2_x1 1 0 202 234 69 201 mux2_x1
-xsubckt_375_mux2_x1 1 0 155 428 459 144 mux2_x1
+xsubckt_375_mux2_x1 1 0 155 387 459 144 mux2_x1
 xsubckt_336_mux2_x1 1 0 174 206 69 173 mux2_x1
 xsubckt_138_mux2_x1 1 0 336 346 67 335 mux2_x1
-xsubckt_21_mux2_x1 1 0 95 130 71 440 mux2_x1
-xsubckt_177_mux2_x1 1 0 304 384 70 303 mux2_x1
+xsubckt_21_mux2_x1 1 0 93 128 71 440 mux2_x1
+xsubckt_177_mux2_x1 1 0 304 394 70 303 mux2_x1
 xsubckt_237_mux2_x1 1 0 254 334 70 253 mux2_x1
 xsubckt_276_mux2_x1 1 0 222 258 69 221 mux2_x1
-xfeed_19 1 0 tie
-xfeed_18 1 0 tie
-xfeed_17 1 0 decap_w0
+xfeed_19 1 0 decap_w0
+xfeed_18 1 0 decap_w0
+xfeed_17 1 0 tie
 xfeed_16 1 0 decap_w0
-xfeed_15 1 0 tie
+xfeed_15 1 0 decap_w0
 xfeed_14 1 0 decap_w0
-xfeed_13 1 0 tie
-xfeed_12 1 0 decap_w0
+xfeed_13 1 0 decap_w0
+xfeed_12 1 0 tie
 xfeed_11 1 0 decap_w0
-xfeed_10 1 0 decap_w0
+xfeed_10 1 0 tie
 xsubckt_110_mux2_x1 1 0 74 101 71 359 mux2_x1
-xsubckt_95_mux2_x1 1 0 372 392 68 371 mux2_x1
+xsubckt_95_mux2_x1 1 0 372 419 68 371 mux2_x1
 xsubckt_17_mux2_x1 1 0 445 446 461 444 mux2_x1
 xsubckt_56_mux2_x1 1 0 406 407 461 405 mux2_x1
 xsubckt_382_mux2_x1 1 0 140 144 67 139 mux2_x1
 xsubckt_343_mux2_x1 1 0 168 171 66 21 mux2_x1
 xsubckt_145_mux2_x1 1 0 330 335 66 60 mux2_x1
-xsubckt_106_mux2_x1 1 0 363 423 69 362 mux2_x1
+xsubckt_106_mux2_x1 1 0 363 408 69 362 mux2_x1
 xsubckt_184_mux2_x1 1 0 298 338 69 297 mux2_x1
 xsubckt_205_mux2_x1 1 0 280 285 66 49 mux2_x1
 xsubckt_244_mux2_x1 1 0 248 288 69 247 mux2_x1
@@ -757,16 +757,16 @@ xsubckt_283_mux2_x1 1 0 216 224 67 215 mux2_x1
 xsubckt_304_mux2_x1 1 0 199 203 66 29 mux2_x1
 xfeed_29 1 0 decap_w0
 xfeed_28 1 0 decap_w0
-xfeed_27 1 0 decap_w0
-xfeed_26 1 0 tie
+xfeed_27 1 0 tie
+xfeed_26 1 0 decap_w0
 xfeed_25 1 0 tie
 xfeed_24 1 0 decap_w0
 xfeed_23 1 0 decap_w0
 xfeed_22 1 0 decap_w0
 xfeed_21 1 0 decap_w0
 xfeed_20 1 0 decap_w0
-xsubckt_378_mux2_x1 1 0 152 412 459 142 mux2_x1
-xsubckt_24_mux2_x1 1 0 104 80 71 437 mux2_x1
+xsubckt_378_mux2_x1 1 0 152 397 459 142 mux2_x1
+xsubckt_24_mux2_x1 1 0 101 74 71 437 mux2_x1
 xsubckt_63_mux2_x1 1 0 399 400 461 398 mux2_x1
 xsubckt_279_mux2_x1 1 0 219 223 66 35 mux2_x1
 xsubckt_350_mux2_x1 1 0 163 169 67 162 mux2_x1
@@ -774,26 +774,26 @@ xsubckt_339_mux2_x1 1 0 171 175 66 22 mux2_x1
 xsubckt_152_mux2_x1 1 0 129 94 71 324 mux2_x1
 xsubckt_113_mux2_x1 1 0 357 377 68 356 mux2_x1
 xsubckt_98_mux2_x1 1 0 80 104 71 369 mux2_x1
-xsubckt_6_mux2_x1 1 0 93 128 71 455 mux2_x1
+xsubckt_6_mux2_x1 1 0 90 126 71 455 mux2_x1
 xsubckt_191_mux2_x1 1 0 292 312 68 291 mux2_x1
 xsubckt_212_mux2_x1 1 0 118 83 71 274 mux2_x1
 xsubckt_251_mux2_x1 1 0 242 262 68 241 mux2_x1
-xsubckt_290_mux2_x1 1 0 284 421 461 210 mux2_x1
+xsubckt_290_mux2_x1 1 0 284 406 461 210 mux2_x1
 xsubckt_311_mux2_x1 1 0 194 226 69 193 mux2_x1
-xfeed_39 1 0 tie
-xfeed_38 1 0 decap_w0
+xfeed_39 1 0 decap_w0
+xfeed_38 1 0 tie
 xfeed_37 1 0 decap_w0
-xfeed_36 1 0 decap_w0
-xfeed_35 1 0 tie
+xfeed_36 1 0 tie
+xfeed_35 1 0 decap_w0
 xfeed_34 1 0 decap_w0
 xfeed_33 1 0 decap_w0
-xfeed_32 1 0 decap_w0
+xfeed_32 1 0 tie
 xfeed_31 1 0 decap_w0
 xfeed_30 1 0 decap_w0
 xsubckt_385_mux2_x1 1 0 138 139 66 7 mux2_x1
 xsubckt_148_mux2_x1 1 0 328 368 69 327 mux2_x1
-xsubckt_31_mux2_x1 1 0 108 124 71 430 mux2_x1
-xsubckt_59_mux2_x1 1 0 100 73 71 402 mux2_x1
+xsubckt_31_mux2_x1 1 0 106 102 71 430 mux2_x1
+xsubckt_59_mux2_x1 1 0 98 133 71 402 mux2_x1
 xsubckt_70_mux2_x1 1 0 393 401 69 392 mux2_x1
 xsubckt_187_mux2_x1 1 0 295 300 66 52 mux2_x1
 xsubckt_286_mux2_x1 1 0 214 248 69 213 mux2_x1
@@ -803,72 +803,71 @@ xsubckt_109_mux2_x1 1 0 360 365 66 4 mux2_x1
 xsubckt_208_mux2_x1 1 0 278 318 69 277 mux2_x1
 xsubckt_247_mux2_x1 1 0 245 250 66 41 mux2_x1
 xsubckt_307_mux2_x1 1 0 197 213 68 196 mux2_x1
-xfeed_46 1 0 tie
-xfeed_45 1 0 decap_w0
-xfeed_44 1 0 decap_w0
+xfeed_46 1 0 decap_w0
+xfeed_45 1 0 tie
+xfeed_44 1 0 tie
 xfeed_43 1 0 tie
-xfeed_42 1 0 tie
+xfeed_42 1 0 decap_w0
 xfeed_41 1 0 decap_w0
-xfeed_40 1 0 tie
+xfeed_40 1 0 decap_w0
 xsubckt_155_mux2_x1 1 0 322 342 68 321 mux2_x1
-xsubckt_27_mux2_x1 1 0 82 117 71 434 mux2_x1
+xsubckt_27_mux2_x1 1 0 79 115 71 434 mux2_x1
 xsubckt_66_mux2_x1 1 0 396 411 458 395 mux2_x1
 xsubckt_194_mux2_x1 1 0 121 86 71 289 mux2_x1
 xsubckt_293_mux2_x1 1 0 208 216 67 207 mux2_x1
 xfeed_49 1 0 decap_w0
-xfeed_48 1 0 decap_w0
+xfeed_48 1 0 tie
 xfeed_47 1 0 decap_w0
 xsubckt_353_mux2_x1 1 0 161 173 68 160 mux2_x1
 xsubckt_116_mux2_x1 1 0 73 100 71 354 mux2_x1
-xsubckt_9_mux2_x1 1 0 101 74 71 452 mux2_x1
+xsubckt_9_mux2_x1 1 0 99 134 71 452 mux2_x1
 xsubckt_215_mux2_x1 1 0 272 292 68 271 mux2_x1
 xsubckt_254_mux2_x1 1 0 110 136 71 239 mux2_x1
 xsubckt_314_mux2_x1 1 0 191 195 66 27 mux2_x1
 xfeed_53 1 0 decap_w0
 xfeed_52 1 0 decap_w0
-xfeed_51 1 0 tie
+xfeed_51 1 0 decap_w0
 xfeed_50 1 0 decap_w0
-xsubckt_388_mux2_x1 1 0 137 395 457 5 mux2_x1
+xsubckt_388_mux2_x1 1 0 137 380 457 5 mux2_x1
 xsubckt_349_mux2_x1 1 0 164 177 68 163 mux2_x1
 xsubckt_34_mux2_x1 1 0 428 435 459 427 mux2_x1
-xsubckt_73_mux2_x1 1 0 390 426 66 64 mux2_x1
+xsubckt_73_mux2_x1 1 0 390 426 66 42 mux2_x1
 xsubckt_162_mux2_x1 1 0 316 326 67 315 mux2_x1
 xsubckt_289_mux2_x1 1 0 211 215 66 33 mux2_x1
-xfeed_109 1 0 tie
+xfeed_109 1 0 decap_w0
 xfeed_108 1 0 decap_w0
-xfeed_107 1 0 tie
+xfeed_107 1 0 decap_w0
 xfeed_106 1 0 decap_w0
-xfeed_105 1 0 tie
+xfeed_105 1 0 decap_w0
 xfeed_104 1 0 decap_w0
 xfeed_103 1 0 decap_w0
 xfeed_102 1 0 decap_w0
-xfeed_101 1 0 tie
-xfeed_100 1 0 decap_w0
+xfeed_101 1 0 decap_w0
+xfeed_100 1 0 tie
 xfeed_59 1 0 decap_w0
-xfeed_58 1 0 tie
+xfeed_58 1 0 decap_w0
 xfeed_57 1 0 decap_w0
 xfeed_56 1 0 tie
 xfeed_55 1 0 decap_w0
-xfeed_54 1 0 decap_w0
-xsubckt_360_mux2_x1 1 0 182 436 460 155 mux2_x1
+xfeed_54 1 0 tie
+xsubckt_360_mux2_x1 1 0 182 444 460 155 mux2_x1
 xsubckt_321_mux2_x1 1 0 186 218 69 185 mux2_x1
-xsubckt_123_mux2_x1 1 0 349 434 70 348 mux2_x1
+xsubckt_123_mux2_x1 1 0 349 453 70 348 mux2_x1
 xsubckt_69_mux2_x1 1 0 394 400 70 393 mux2_x1
 xsubckt_222_mux2_x1 1 0 266 276 67 265 mux2_x1
 xsubckt_261_mux2_x1 1 0 234 273 69 233 mux2_x1
 xfeed_60 1 0 decap_w0
-xsubckt_356_mux2_x1 1 0 186 405 460 158 mux2_x1
+xsubckt_356_mux2_x1 1 0 186 413 460 158 mux2_x1
 xsubckt_158_mux2_x1 1 0 128 93 71 319 mux2_x1
 xsubckt_119_mux2_x1 1 0 352 372 68 351 mux2_x1
 xsubckt_41_mux2_x1 1 0 421 422 461 420 mux2_x1
-xsubckt_80_mux2_x1 1 0 113 107 71 384 mux2_x1
+xsubckt_80_mux2_x1 1 0 384 424 461 383 mux2_x1
 xsubckt_197_mux2_x1 1 0 287 307 68 286 mux2_x1
 xsubckt_218_mux2_x1 1 0 117 82 71 269 mux2_x1
 xsubckt_257_mux2_x1 1 0 237 257 68 236 mux2_x1
 xsubckt_296_mux2_x1 1 0 206 238 69 205 mux2_x1
-xfeed_119 1 0 decap_w0
-xfeed_118 1 0 decap_w0
-xfeed_117 1 0 decap_w0
+xfeed_118 1 0 tie
+xfeed_117 1 0 tie
 xfeed_116 1 0 decap_w0
 xfeed_115 1 0 decap_w0
 xfeed_114 1 0 decap_w0
@@ -877,37 +876,36 @@ xfeed_112 1 0 decap_w0
 xfeed_111 1 0 decap_w0
 xfeed_110 1 0 decap_w0
 xfeed_69 1 0 decap_w0
-xfeed_68 1 0 decap_w0
+xfeed_68 1 0 tie
 xfeed_67 1 0 decap_w0
-xfeed_66 1 0 tie
+xfeed_66 1 0 decap_w0
 xfeed_65 1 0 decap_w0
 xfeed_64 1 0 decap_w0
 xfeed_63 1 0 decap_w0
 xfeed_62 1 0 tie
-xfeed_61 1 0 tie
-xsubckt_130_mux2_x1 1 0 343 383 69 342 mux2_x1
-xsubckt_37_mux2_x1 1 0 94 129 71 424 mux2_x1
-xsubckt_76_mux2_x1 1 0 388 432 69 387 mux2_x1
+xfeed_61 1 0 decap_w0
+xsubckt_130_mux2_x1 1 0 343 393 69 342 mux2_x1
+xsubckt_37_mux2_x1 1 0 92 127 71 424 mux2_x1
+xsubckt_76_mux2_x1 1 0 388 451 460 387 mux2_x1
 xsubckt_317_mux2_x1 1 0 189 205 68 188 mux2_x1
 xsubckt_363_mux2_x1 1 0 153 156 66 15 mux2_x1
 xsubckt_126_mux2_x1 1 0 346 356 67 345 mux2_x1
-xsubckt_165_mux2_x1 1 0 314 394 70 313 mux2_x1
+xsubckt_165_mux2_x1 1 0 314 425 70 313 mux2_x1
 xsubckt_225_mux2_x1 1 0 264 344 70 263 mux2_x1
 xsubckt_264_mux2_x1 1 0 231 235 66 38 mux2_x1
-xfeed_120 1 0 tie
-xfeed_79 1 0 decap_w0
+xfeed_79 1 0 tie
 xfeed_78 1 0 tie
 xfeed_77 1 0 decap_w0
 xfeed_76 1 0 decap_w0
 xfeed_75 1 0 decap_w0
-xfeed_74 1 0 tie
-xfeed_73 1 0 tie
-xfeed_72 1 0 tie
+xfeed_74 1 0 decap_w0
+xfeed_73 1 0 decap_w0
+xfeed_72 1 0 decap_w0
 xfeed_71 1 0 decap_w0
 xfeed_70 1 0 tie
 xsubckt_324_mux2_x1 1 0 183 187 66 25 mux2_x1
-xsubckt_83_mux2_x1 1 0 382 419 68 381 mux2_x1
-xsubckt_44_mux2_x1 1 0 98 133 71 417 mux2_x1
+xsubckt_83_mux2_x1 1 0 381 396 458 380 mux2_x1
+xsubckt_44_mux2_x1 1 0 96 131 71 417 mux2_x1
 xsubckt_299_mux2_x1 1 0 203 207 66 30 mux2_x1
 xsubckt_370_mux2_x1 1 0 148 154 67 147 mux2_x1
 xsubckt_359_mux2_x1 1 0 156 159 66 16 mux2_x1
@@ -920,36 +918,36 @@ xfeed_88 1 0 decap_w0
 xfeed_87 1 0 decap_w0
 xfeed_86 1 0 decap_w0
 xfeed_85 1 0 decap_w0
-xfeed_84 1 0 tie
+xfeed_84 1 0 decap_w0
 xfeed_83 1 0 decap_w0
 xfeed_82 1 0 decap_w0
 xfeed_81 1 0 decap_w0
 xfeed_80 1 0 decap_w0
 xsubckt_331_mux2_x1 1 0 178 210 69 177 mux2_x1
-xsubckt_90_mux2_x1 1 0 376 386 67 375 mux2_x1
-xsubckt_51_mux2_x1 1 0 78 114 71 410 mux2_x1
-xsubckt_79_mux2_x1 1 0 385 390 66 53 mux2_x1
+xsubckt_90_mux2_x1 1 0 376 442 67 375 mux2_x1
+xsubckt_51_mux2_x1 1 0 76 111 71 410 mux2_x1
+xsubckt_79_mux2_x1 1 0 109 135 71 384 mux2_x1
 xsubckt_366_mux2_x1 1 0 151 157 67 150 mux2_x1
 xsubckt_327_mux2_x1 1 0 181 197 68 180 mux2_x1
 xsubckt_140_mux2_x1 1 0 131 96 71 334 mux2_x1
-xsubckt_129_mux2_x1 1 0 344 418 70 343 mux2_x1
-xsubckt_12_mux2_x1 1 0 79 115 71 449 mux2_x1
+xsubckt_129_mux2_x1 1 0 344 403 70 343 mux2_x1
+xsubckt_12_mux2_x1 1 0 77 112 71 449 mux2_x1
 xsubckt_168_mux2_x1 1 0 311 321 67 310 mux2_x1
 xsubckt_228_mux2_x1 1 0 261 271 67 260 mux2_x1
 xsubckt_267_mux2_x1 1 0 229 247 68 228 mux2_x1
 xfeed_99 1 0 decap_w0
-xfeed_98 1 0 decap_w0
+xfeed_98 1 0 tie
 xfeed_97 1 0 decap_w0
 xfeed_96 1 0 decap_w0
 xfeed_95 1 0 decap_w0
-xfeed_94 1 0 decap_w0
+xfeed_94 1 0 tie
 xfeed_93 1 0 tie
 xfeed_92 1 0 decap_w0
 xfeed_91 1 0 decap_w0
 xfeed_90 1 0 decap_w0
-xsubckt_101_mux2_x1 1 0 367 387 68 366 mux2_x1
+xsubckt_101_mux2_x1 1 0 367 450 68 366 mux2_x1
 xsubckt_86_mux2_x1 1 0 102 106 71 379 mux2_x1
-xsubckt_47_mux2_x1 1 0 107 113 71 414 mux2_x1
+xsubckt_47_mux2_x1 1 0 105 91 71 414 mux2_x1
 xsubckt_200_mux2_x1 1 0 120 85 71 284 mux2_x1
 xsubckt_373_mux2_x1 1 0 146 151 67 145 mux2_x1
 xsubckt_334_mux2_x1 1 0 175 179 66 23 mux2_x1
@@ -958,14 +956,14 @@ xsubckt_175_mux2_x1 1 0 305 310 66 55 mux2_x1
 xsubckt_235_mux2_x1 1 0 255 260 66 44 mux2_x1
 xsubckt_274_mux2_x1 1 0 223 227 66 36 mux2_x1
 xsubckt_369_mux2_x1 1 0 149 161 68 148 mux2_x1
-xsubckt_93_mux2_x1 1 0 374 407 70 373 mux2_x1
-xsubckt_15_mux2_x1 1 0 88 123 71 446 mux2_x1
-xsubckt_54_mux2_x1 1 0 87 122 71 407 mux2_x1
+xsubckt_93_mux2_x1 1 0 374 415 70 373 mux2_x1
+xsubckt_15_mux2_x1 1 0 86 121 71 446 mux2_x1
+xsubckt_54_mux2_x1 1 0 85 120 71 407 mux2_x1
 xsubckt_380_mux2_x1 1 0 141 143 66 10 mux2_x1
 xsubckt_341_mux2_x1 1 0 170 185 68 169 mux2_x1
 xsubckt_143_mux2_x1 1 0 332 352 68 331 mux2_x1
 xsubckt_104_mux2_x1 1 0 75 103 71 364 mux2_x1
-xsubckt_89_mux2_x1 1 0 377 450 68 376 mux2_x1
+xsubckt_89_mux2_x1 1 0 377 435 68 376 mux2_x1
 xsubckt_182_mux2_x1 1 0 123 88 71 299 mux2_x1
 xsubckt_203_mux2_x1 1 0 282 302 68 281 mux2_x1
 xsubckt_242_mux2_x1 1 0 112 77 71 249 mux2_x1
@@ -974,13 +972,13 @@ xsubckt_302_mux2_x1 1 0 201 217 68 200 mux2_x1
 xsubckt_376_mux2_x1 1 0 144 148 67 143 mux2_x1
 xsubckt_139_mux2_x1 1 0 335 340 66 61 mux2_x1
 xsubckt_22_mux2_x1 1 0 440 441 461 439 mux2_x1
-xsubckt_61_mux2_x1 1 0 92 127 71 400 mux2_x1
+xsubckt_61_mux2_x1 1 0 89 125 71 400 mux2_x1
 xsubckt_178_mux2_x1 1 0 303 343 69 302 mux2_x1
 xsubckt_277_mux2_x1 1 0 221 237 68 220 mux2_x1
 xsubckt_337_mux2_x1 1 0 173 189 68 172 mux2_x1
 xsubckt_150_mux2_x1 1 0 326 336 67 325 mux2_x1
-xsubckt_111_mux2_x1 1 0 359 453 70 358 mux2_x1
-xsubckt_96_mux2_x1 1 0 371 381 67 370 mux2_x1
+xsubckt_111_mux2_x1 1 0 359 438 70 358 mux2_x1
+xsubckt_96_mux2_x1 1 0 371 391 67 370 mux2_x1
 xsubckt_210_mux2_x1 1 0 276 286 67 275 mux2_x1
 xsubckt_238_mux2_x1 1 0 253 293 69 252 mux2_x1
 xsubckt_383_mux2_x1 1 0 139 141 66 8 mux2_x1
@@ -989,25 +987,25 @@ xsubckt_18_mux2_x1 1 0 444 447 460 443 mux2_x1
 xsubckt_57_mux2_x1 1 0 405 408 460 404 mux2_x1
 xsubckt_185_mux2_x1 1 0 297 317 68 296 mux2_x1
 xsubckt_284_mux2_x1 1 0 215 219 66 34 mux2_x1
-xsubckt_344_mux2_x1 1 0 198 429 460 167 mux2_x1
-xsubckt_107_mux2_x1 1 0 362 382 68 361 mux2_x1
+xsubckt_344_mux2_x1 1 0 198 388 460 167 mux2_x1
+xsubckt_107_mux2_x1 1 0 362 392 68 361 mux2_x1
 xsubckt_206_mux2_x1 1 0 119 84 71 279 mux2_x1
 xsubckt_245_mux2_x1 1 0 247 267 68 246 mux2_x1
-xsubckt_305_mux2_x1 1 0 269 433 461 198 mux2_x1
+xsubckt_305_mux2_x1 1 0 269 452 461 198 mux2_x1
 xsubckt_379_mux2_x1 1 0 142 146 67 141 mux2_x1
-xsubckt_153_mux2_x1 1 0 324 425 70 323 mux2_x1
+xsubckt_153_mux2_x1 1 0 324 410 70 323 mux2_x1
 xsubckt_25_mux2_x1 1 0 437 438 461 436 mux2_x1
 xsubckt_64_mux2_x1 1 0 398 401 460 397 mux2_x1
 xsubckt_192_mux2_x1 1 0 291 301 67 290 mux2_x1
 xsubckt_291_mux2_x1 1 0 210 243 69 209 mux2_x1
 xsubckt_351_mux2_x1 1 0 162 165 66 18 mux2_x1
 xsubckt_114_mux2_x1 1 0 356 366 67 355 mux2_x1
-xsubckt_99_mux2_x1 1 0 369 438 70 368 mux2_x1
+xsubckt_99_mux2_x1 1 0 369 446 70 368 mux2_x1
 xsubckt_7_mux2_x1 1 0 455 456 461 454 mux2_x1
 xsubckt_213_mux2_x1 1 0 274 354 70 273 mux2_x1
 xsubckt_252_mux2_x1 1 0 241 251 67 240 mux2_x1
 xsubckt_312_mux2_x1 1 0 193 209 68 192 mux2_x1
-xsubckt_386_mux2_x1 1 0 140 427 458 137 mux2_x1
+xsubckt_386_mux2_x1 1 0 140 386 458 137 mux2_x1
 xsubckt_347_mux2_x1 1 0 165 168 66 19 mux2_x1
 xsubckt_160_mux2_x1 1 0 318 358 69 317 mux2_x1
 xsubckt_149_mux2_x1 1 0 327 347 68 326 mux2_x1
@@ -1018,19 +1016,19 @@ xsubckt_209_mux2_x1 1 0 277 297 68 276 mux2_x1
 xsubckt_248_mux2_x1 1 0 111 76 71 244 mux2_x1
 xsubckt_287_mux2_x1 1 0 213 229 68 212 mux2_x1
 xsubckt_121_mux2_x1 1 0 350 355 66 2 mux2_x1
-xsubckt_28_mux2_x1 1 0 99 134 71 433 mux2_x1
-xsubckt_67_mux2_x1 1 0 395 426 457 65 mux2_x1
+xsubckt_28_mux2_x1 1 0 97 132 71 433 mux2_x1
+xsubckt_67_mux2_x1 1 0 395 426 457 53 mux2_x1
 xsubckt_220_mux2_x1 1 0 268 308 69 267 mux2_x1
 xsubckt_308_mux2_x1 1 0 196 204 67 195 mux2_x1
 xfeed_0 1 0 decap_w0
 xsubckt_354_mux2_x1 1 0 160 166 67 159 mux2_x1
 xsubckt_156_mux2_x1 1 0 321 331 67 320 mux2_x1
-xsubckt_117_mux2_x1 1 0 354 403 70 353 mux2_x1
+xsubckt_117_mux2_x1 1 0 354 422 70 353 mux2_x1
 xsubckt_195_mux2_x1 1 0 289 369 70 288 mux2_x1
 xsubckt_216_mux2_x1 1 0 271 281 67 270 mux2_x1
 xsubckt_255_mux2_x1 1 0 239 319 70 238 mux2_x1
 xsubckt_294_mux2_x1 1 0 207 211 66 32 mux2_x1
-xfeed_9 1 0 decap_w0
+xfeed_9 1 0 tie
 xfeed_8 1 0 decap_w0
 xfeed_7 1 0 decap_w0
 xfeed_6 1 0 decap_w0
@@ -1040,20 +1038,20 @@ xfeed_3 1 0 decap_w0
 xfeed_2 1 0 decap_w0
 xfeed_1 1 0 decap_w0
 xsubckt_35_mux2_x1 1 0 427 442 458 426 mux2_x1
-xsubckt_74_mux2_x1 1 0 124 108 71 389 mux2_x1
-xsubckt_315_mux2_x1 1 0 259 448 461 190 mux2_x1
+xsubckt_74_mux2_x1 1 0 108 124 71 389 mux2_x1
+xsubckt_315_mux2_x1 1 0 259 433 461 190 mux2_x1
 xsubckt_361_mux2_x1 1 0 155 167 68 154 mux2_x1
-xsubckt_124_mux2_x1 1 0 348 388 69 347 mux2_x1
+xsubckt_124_mux2_x1 1 0 348 454 69 347 mux2_x1
 xsubckt_163_mux2_x1 1 0 315 320 66 57 mux2_x1
 xsubckt_223_mux2_x1 1 0 265 270 66 46 mux2_x1
 xsubckt_262_mux2_x1 1 0 233 252 68 232 mux2_x1
 xsubckt_322_mux2_x1 1 0 185 201 68 184 mux2_x1
-xsubckt_81_mux2_x1 1 0 384 415 70 383 mux2_x1
+xsubckt_81_mux2_x1 1 0 383 420 460 382 mux2_x1
 xsubckt_42_mux2_x1 1 0 420 423 460 419 mux2_x1
 xsubckt_198_mux2_x1 1 0 286 296 67 285 mux2_x1
 xsubckt_297_mux2_x1 1 0 205 221 68 204 mux2_x1
 xsubckt_357_mux2_x1 1 0 158 170 68 157 mux2_x1
-xsubckt_159_mux2_x1 1 0 319 456 70 318 mux2_x1
+xsubckt_159_mux2_x1 1 0 319 441 70 318 mux2_x1
 xsubckt_131_mux2_x1 1 0 342 362 68 341 mux2_x1
 xsubckt_170_mux2_x1 1 0 126 90 71 309 mux2_x1
 xsubckt_219_mux2_x1 1 0 269 349 70 268 mux2_x1
@@ -1061,21 +1059,21 @@ xsubckt_230_mux2_x1 1 0 115 79 71 259 mux2_x1
 xsubckt_258_mux2_x1 1 0 236 246 67 235 mux2_x1
 xsubckt_318_mux2_x1 1 0 188 196 67 187 mux2_x1
 xsubckt_38_mux2_x1 1 0 424 425 461 423 mux2_x1
-xsubckt_77_mux2_x1 1 0 387 435 68 386 mux2_x1
+xsubckt_77_mux2_x1 1 0 387 443 459 386 mux2_x1
 xspare_feed_13 1 0 decap_w0
 xspare_feed_12 1 0 tie
 xspare_feed_11 1 0 tie
 xspare_feed_10 1 0 decap_w0
-xsubckt_364_mux2_x1 1 0 178 420 460 152 mux2_x1
-xsubckt_325_mux2_x1 1 0 249 440 461 182 mux2_x1
+xsubckt_364_mux2_x1 1 0 178 405 460 152 mux2_x1
+xsubckt_325_mux2_x1 1 0 249 448 461 182 mux2_x1
 xsubckt_127_mux2_x1 1 0 345 350 66 63 mux2_x1
 xsubckt_10_mux2_x1 1 0 452 453 461 451 mux2_x1
 xsubckt_166_mux2_x1 1 0 313 353 69 312 mux2_x1
 xsubckt_226_mux2_x1 1 0 263 303 69 262 mux2_x1
-xsubckt_265_mux2_x1 1 0 309 430 461 230 mux2_x1
+xsubckt_265_mux2_x1 1 0 309 389 461 230 mux2_x1
 xspare_feed_15 1 0 tie
 xspare_feed_14 1 0 tie
-xsubckt_84_mux2_x1 1 0 381 391 67 380 mux2_x1
+xsubckt_84_mux2_x1 1 0 380 385 457 65 mux2_x1
 xsubckt_45_mux2_x1 1 0 417 418 461 416 mux2_x1
 xsubckt_371_mux2_x1 1 0 147 150 66 13 mux2_x1
 xsubckt_332_mux2_x1 1 0 177 193 68 176 mux2_x1
@@ -1084,9 +1082,9 @@ xsubckt_173_mux2_x1 1 0 307 327 68 306 mux2_x1
 xsubckt_233_mux2_x1 1 0 257 277 68 256 mux2_x1
 xsubckt_272_mux2_x1 1 0 225 242 68 224 mux2_x1
 xsubckt_367_mux2_x1 1 0 150 153 66 14 mux2_x1
-xsubckt_91_mux2_x1 1 0 375 380 66 31 mux2_x1
-xsubckt_13_mux2_x1 1 0 97 132 71 448 mux2_x1
-xsubckt_52_mux2_x1 1 0 96 131 71 409 mux2_x1
+xsubckt_91_mux2_x1 1 0 375 390 66 31 mux2_x1
+xsubckt_13_mux2_x1 1 0 95 130 71 448 mux2_x1
+xsubckt_52_mux2_x1 1 0 94 129 71 409 mux2_x1
 xsubckt_169_mux2_x1 1 0 310 315 66 56 mux2_x1
 xsubckt_268_mux2_x1 1 0 228 236 67 227 mux2_x1
 xspare_feed_9 1 0 tie
@@ -1100,39 +1098,39 @@ xspare_feed_2 1 0 tie
 xspare_feed_1 1 0 tie
 xspare_feed_0 1 0 tie
 xsubckt_328_mux2_x1 1 0 180 188 67 179 mux2_x1
-xsubckt_141_mux2_x1 1 0 334 410 70 333 mux2_x1
+xsubckt_141_mux2_x1 1 0 334 418 70 333 mux2_x1
 xsubckt_102_mux2_x1 1 0 366 376 67 365 mux2_x1
-xsubckt_87_mux2_x1 1 0 379 446 70 378 mux2_x1
+xsubckt_87_mux2_x1 1 0 379 431 70 378 mux2_x1
 xsubckt_48_mux2_x1 1 0 414 415 461 413 mux2_x1
 xsubckt_180_mux2_x1 1 0 301 311 67 300 mux2_x1
 xsubckt_201_mux2_x1 1 0 284 364 70 283 mux2_x1
 xsubckt_229_mux2_x1 1 0 260 265 66 45 mux2_x1
 xsubckt_240_mux2_x1 1 0 251 261 67 250 mux2_x1
-xsubckt_300_mux2_x1 1 0 274 402 461 202 mux2_x1
+xsubckt_300_mux2_x1 1 0 274 421 461 202 mux2_x1
 xsubckt_374_mux2_x1 1 0 145 147 66 12 mux2_x1
 xsubckt_137_mux2_x1 1 0 337 357 68 336 mux2_x1
-xsubckt_20_mux2_x1 1 0 77 112 71 441 mux2_x1
+xsubckt_20_mux2_x1 1 0 136 110 71 441 mux2_x1
 xsubckt_176_mux2_x1 1 0 125 89 71 304 mux2_x1
-xsubckt_275_mux2_x1 1 0 299 445 461 222 mux2_x1
-xsubckt_335_mux2_x1 1 0 239 455 461 174 mux2_x1
-xsubckt_94_mux2_x1 1 0 373 408 69 372 mux2_x1
-xsubckt_55_mux2_x1 1 0 105 91 71 406 mux2_x1
+xsubckt_275_mux2_x1 1 0 299 430 461 222 mux2_x1
+xsubckt_335_mux2_x1 1 0 239 440 461 174 mux2_x1
+xsubckt_94_mux2_x1 1 0 373 416 69 372 mux2_x1
+xsubckt_55_mux2_x1 1 0 103 75 71 406 mux2_x1
 xsubckt_236_mux2_x1 1 0 114 78 71 254 mux2_x1
-xsubckt_381_mux2_x1 1 0 149 443 459 140 mux2_x1
+xsubckt_381_mux2_x1 1 0 149 428 459 140 mux2_x1
 xsubckt_144_mux2_x1 1 0 331 341 67 330 mux2_x1
-xsubckt_16_mux2_x1 1 0 106 102 71 445 mux2_x1
+xsubckt_16_mux2_x1 1 0 104 80 71 445 mux2_x1
 xsubckt_183_mux2_x1 1 0 299 379 70 298 mux2_x1
 xsubckt_282_mux2_x1 1 0 217 233 68 216 mux2_x1
 xsubckt_342_mux2_x1 1 0 169 176 67 168 mux2_x1
-xsubckt_105_mux2_x1 1 0 364 422 70 363 mux2_x1
-xsubckt_62_mux2_x1 1 0 109 135 71 399 mux2_x1
+xsubckt_105_mux2_x1 1 0 364 407 70 363 mux2_x1
+xsubckt_62_mux2_x1 1 0 107 113 71 399 mux2_x1
 xsubckt_204_mux2_x1 1 0 281 291 67 280 mux2_x1
 xsubckt_243_mux2_x1 1 0 249 329 70 248 mux2_x1
 xsubckt_303_mux2_x1 1 0 200 208 67 199 mux2_x1
 xsubckt_377_mux2_x1 1 0 143 145 66 11 mux2_x1
 xsubckt_338_mux2_x1 1 0 172 180 67 171 mux2_x1
 xsubckt_151_mux2_x1 1 0 325 330 66 59 mux2_x1
-xsubckt_23_mux2_x1 1 0 86 121 71 438 mux2_x1
+xsubckt_23_mux2_x1 1 0 84 119 71 438 mux2_x1
 xsubckt_179_mux2_x1 1 0 302 322 68 301 mux2_x1
 xsubckt_190_mux2_x1 1 0 293 333 69 292 mux2_x1
 xsubckt_239_mux2_x1 1 0 252 272 68 251 mux2_x1

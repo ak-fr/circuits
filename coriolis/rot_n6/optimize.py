@@ -132,7 +132,7 @@ def run_gds():
 
 
 def update_doDesign(scalar_a, scalar_b, connectors_margin):
-    filename="doDesign.py"
+    filename="MydoDesign.py"
     
     with open(filename, "r") as file:
         lines = file.readlines()

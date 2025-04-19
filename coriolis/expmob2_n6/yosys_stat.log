@@ -2,35 +2,30 @@
 
 === expmob2 ===
 
-   Number of wires:                867
-   Number of wire bits:           1716
+   Number of wires:                928
+   Number of wire bits:           1746
    Number of public wires:          14
    Number of public wire bits:     738
-   Number of ports:                  3
-   Number of port bits:            129
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:                599
-     $scopeinfo                      3
-     and21nor_x0                     1
-     and2_x1                        35
-     and3_x1                        25
-     and4_x1                        18
+   Number of cells:                630
+     and21nor_x0                    46
+     and2_x1                        86
+     and3_x1                        60
+     and4_x1                        19
      dff_x1                         97
-     inv_x0                        114
+     inv_x0                         75
      mux2_x1                         1
-     nand2_x0                       49
-     nand3_x0                        6
-     nand4_x0                        5
-     nexor2_x0                      55
-     nor2_x0                         2
-     nor3_x0                        63
-     nor4_x0                         7
-     or21nand_x0                    48
-     or2_x1                         47
-     or3_x1                         16
-     xor2_x0                         7
+     nand2_x0                       66
+     nand3_x0                       41
+     nand4_x0                        4
+     nexor2_x0                      62
+     nor2_x0                         1
+     nor3_x0                         1
+     nor4_x0                         6
+     or21nand_x0                    64
+     or2_x1                          1
 
-Removed 0 unused cells and 386 unused wires.
+Removed 0 unused cells and 507 unused wires.
 
